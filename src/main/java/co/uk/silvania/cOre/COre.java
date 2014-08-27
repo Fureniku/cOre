@@ -13,7 +13,7 @@ import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.registry.GameRegistry;
 
-@Mod(modid=COre.modid, name="cOre", version="1.1.0")
+@Mod(modid=COre.modid, name="cOre", version="1.1.0") 
 public class COre {
 	
 	public static final String modid = "core";
