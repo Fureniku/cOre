@@ -1,0 +1,16 @@
+[
+{
+  "modid": "core",
+  "name": "cOre",
+  "description": "Simple ore control mod.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Flenix"],
+  "credits": "Flenix (Code), Nizzuul (Textures)",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
