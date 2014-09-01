@@ -74,7 +74,7 @@ public class CommonProxy {
     	OreDictionary.registerOre("oreScandium", new ItemStack(COreItems.itemOre, 0, 24));
     	OreDictionary.registerOre("oreAluminium", new ItemStack(COreItems.itemOre, 0, 25));
     	OreDictionary.registerOre("oreGallium", new ItemStack(COreItems.itemOre, 0, 26));
-    	OreDictionary.registerOre("oreIndium", new ItemStack(COreItems.itemOre, 0, 27));
+    	OreDictionary.registerOre("oreSilicon", new ItemStack(COreItems.itemOre, 0, 27));
     	OreDictionary.registerOre("oreThallium", new ItemStack(COreItems.itemOre, 0, 28));
     	OreDictionary.registerOre("oreTecmonium", new ItemStack(COreItems.itemOre, 0, 29));
     	OreDictionary.registerOre("oreSilvanite", new ItemStack(COreItems.itemOre, 0, 30));
@@ -112,7 +112,7 @@ public class CommonProxy {
     	OreDictionary.registerOre("dustScandium", new ItemStack(COreItems.itemDust, 0, 24));
     	OreDictionary.registerOre("dustAluminium", new ItemStack(COreItems.itemDust, 0, 25));
     	OreDictionary.registerOre("dustGallium", new ItemStack(COreItems.itemDust, 0, 26));
-    	OreDictionary.registerOre("dustIndium", new ItemStack(COreItems.itemDust, 0, 27));
+    	OreDictionary.registerOre("dustSilicon", new ItemStack(COreItems.itemDust, 0, 27));
     	OreDictionary.registerOre("dustThallium", new ItemStack(COreItems.itemDust, 0, 28));
     	OreDictionary.registerOre("dustTecmonium", new ItemStack(COreItems.itemDust, 0, 29));
     	OreDictionary.registerOre("dustSilvanite", new ItemStack(COreItems.itemDust, 0, 30));
@@ -163,7 +163,7 @@ public class CommonProxy {
     	OreDictionary.registerOre("ingotScandium", new ItemStack(COreItems.itemIngot, 0, 24));
     	OreDictionary.registerOre("ingotAluminium", new ItemStack(COreItems.itemIngot, 0, 25));
     	OreDictionary.registerOre("ingotGallium", new ItemStack(COreItems.itemIngot, 0, 26));
-    	OreDictionary.registerOre("ingotIndium", new ItemStack(COreItems.itemIngot, 0, 27));
+    	OreDictionary.registerOre("ingotSilicon", new ItemStack(COreItems.itemIngot, 0, 27));
     	OreDictionary.registerOre("ingotThallium", new ItemStack(COreItems.itemIngot, 0, 28));
     	OreDictionary.registerOre("ingotTecmonium", new ItemStack(COreItems.itemIngot, 0, 29));
     	OreDictionary.registerOre("ingotSilvanite", new ItemStack(COreItems.itemIngot, 0, 30));
