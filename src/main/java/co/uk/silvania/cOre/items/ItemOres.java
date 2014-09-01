@@ -48,7 +48,7 @@ public class ItemOres extends Item {
 		"Scandium",
 		"Aluminium",
 		"Gallium",
-		"Indium",
+		"Silicon",
 		"Thallium",
 		"Tecmonium",
 		"Silvanite",

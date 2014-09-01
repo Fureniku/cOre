@@ -18,7 +18,7 @@ public class ItemOre2 extends ItemBlock {
 		"Scandium",
 		"Aluminium",
 		"Gallium",
-		"Indium",
+		"Silicon",
 		"Thallium",
 		"Tecmonium",
 		"Silvanite",

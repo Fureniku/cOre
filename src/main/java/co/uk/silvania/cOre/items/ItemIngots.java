@@ -48,7 +48,7 @@ public class ItemIngots extends Item {
 		"Scandium",
 		"Aluminium",
 		"Gallium",
-		"Indium",
+		"Silicon",
 		"Thallium",
 		"Tecmonium",
 		"Silvanite",

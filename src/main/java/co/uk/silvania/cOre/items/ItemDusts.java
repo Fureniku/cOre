@@ -48,7 +48,7 @@ public class ItemDusts extends Item {
 		/*24*/ "Scandium",
 		/*25*/ "Aluminium",
 		/*26*/ "Gallium",
-		/*27*/ "Indium",
+		/*27*/ "Silicon",
 		/*28*/ "Thallium",
 		/*29*/ "Tecmonium",
 		/*30*/ "Silvanite",
