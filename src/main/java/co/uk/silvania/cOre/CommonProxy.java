@@ -47,6 +47,7 @@ public class CommonProxy {
     }
 
     public void oreDictionary() {
+    	System.out.println("TEST! If this shows up, ore dict IS enabled. VqrcTTya67f");
     	OreDictionary.registerOre("oreCopper", new ItemStack(COreItems.itemOre, 0, 0));
     	OreDictionary.registerOre("oreTin", new ItemStack(COreItems.itemOre, 0, 1));
     	OreDictionary.registerOre("oreZinc", new ItemStack(COreItems.itemOre, 0, 2));
