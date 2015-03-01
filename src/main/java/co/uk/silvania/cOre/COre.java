@@ -40,13 +40,13 @@ public class COre {
     	
     	COreBlocks.init();
     	COreItems.init();
+    	proxy.init();
     }
     
 	public static WorldGen worldGen = new WorldGen();
     
     @EventHandler
     public void load(FMLInitializationEvent event) {
-            proxy.init();
             GameRegistry.registerWorldGenerator(new WorldGen(), 1);
     }
 
