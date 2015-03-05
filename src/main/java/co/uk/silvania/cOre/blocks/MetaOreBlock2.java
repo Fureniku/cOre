@@ -20,7 +20,7 @@ public class MetaOreBlock2 extends MetaOre {
 		this.setHarvestLevel("pickaxe", 3, 6); //Technetium
 		this.setHarvestLevel("pickaxe", 2, 7); //Tantalum
 		this.setHarvestLevel("pickaxe", 2, 8); //Scandium
-		this.setHarvestLevel("pickaxe", 2, 9); //Aluminium
+		this.setHarvestLevel("pickaxe", 1, 9); //Aluminium
 		this.setHarvestLevel("pickaxe", 3, 10); //Gallium
 		this.setHarvestLevel("pickaxe", 3, 11); //Indium
 		this.setHarvestLevel("pickaxe", 3, 12); //Thallium
