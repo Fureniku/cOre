@@ -11,7 +11,7 @@ public class MetaOreBlock1 extends MetaOre {
 	public MetaOreBlock1() {
 		this.setHardness(3.0F);
 		this.setBlockName("metaOres1");
-		this.setHarvestLevel("pickaxe", 2, 0); //Copper
+		this.setHarvestLevel("pickaxe", 1, 0); //Copper
 		this.setHarvestLevel("pickaxe", 2, 1); //Tin
 		this.setHarvestLevel("pickaxe", 2, 2); //Zinc
 		this.setHarvestLevel("pickaxe", 2, 3); //Nickel
