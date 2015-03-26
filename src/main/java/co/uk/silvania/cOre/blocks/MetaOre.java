@@ -38,7 +38,7 @@ public class MetaOre extends BlockOre {
 	}
 	
 	@Override
-	public int quantityDropped(int meta) {
+	public int quantityDropped(int metadata, int fortune, Random rand) {
 		return 1;
 	}
 	
