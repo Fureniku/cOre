@@ -37,6 +37,11 @@ public class MetaOre extends BlockOre {
 		return meta;
 	}
 	
+	@Override
+	public int quantityDropped(int meta) {
+		return 1;
+	}
+	
 	@SideOnly(Side.CLIENT)
 	private IIcon[] icons;
 	
