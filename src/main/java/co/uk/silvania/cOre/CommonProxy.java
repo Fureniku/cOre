@@ -1,6 +1,9 @@
 package co.uk.silvania.cOre;
 
+import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
+import net.minecraftforge.common.MinecraftForge;
+import net.minecraftforge.fluids.FluidContainerRegistry;
 import net.minecraftforge.oredict.OreDictionary;
 import co.uk.silvania.cOre.blocks.*;
 import cpw.mods.fml.common.registry.GameRegistry;
@@ -11,6 +14,7 @@ public class CommonProxy {
 		registerBlocks();
 		registerHarvestLevels();
 		registerMineralItems();
+		registerBuckets();
 		oreDictionary();
 	}
 	
@@ -33,7 +37,19 @@ public class CommonProxy {
     }
     
     public void registerHarvestLevels() {
-
+    	GameRegistry.registerItem(COreItems.mercuryBucket, "mercuryBucket");
+    	GameRegistry.registerItem(COreItems.oilBucket, "oilBucket");
+    	GameRegistry.registerItem(COreItems.tarBucket, "tarBucket");
+    	
+    	FluidContainerRegistry.registerFluidContainer(COreBlocks.mercuryFluid, new ItemStack(COreItems.mercuryBucket), new ItemStack(Items.bucket));
+    	FluidContainerRegistry.registerFluidContainer(COreBlocks.oilFluid, new ItemStack(COreItems.oilBucket), new ItemStack(Items.bucket));
+    	FluidContainerRegistry.registerFluidContainer(COreBlocks.tarFluid, new ItemStack(COreItems.tarBucket), new ItemStack(Items.bucket));
+    	
+    	BucketHandler.INSTANCE.buckets.put(COreBlocks.mercuryBlock, COreItems.mercuryBucket);
+    	BucketHandler.INSTANCE.buckets.put(COreBlocks.oilBlock, COreItems.oilBucket);
+    	BucketHandler.INSTANCE.buckets.put(COreBlocks.tarBlock, COreItems.tarBucket);
+    	
+    	MinecraftForge.EVENT_BUS.register(BucketHandler.INSTANCE);
     }
 
     public void registerMineralItems() {
@@ -45,9 +61,12 @@ public class CommonProxy {
     	GameRegistry.registerItem(COreItems.itemCrushed, "itemCrushed");
     	GameRegistry.registerItem(COreItems.itemWashed, "itemWashed");
     }
+    
+    public void registerBuckets() {
+    	
+    }
 
     public void oreDictionary() {
-    	System.out.println("TEST! If this shows up, ore dict IS enabled. VqrcTTya67f");
     	OreDictionary.registerOre("oreCopper", new ItemStack(COreItems.itemOre, 0, 0));
     	OreDictionary.registerOre("oreTin", new ItemStack(COreItems.itemOre, 0, 1));
     	OreDictionary.registerOre("oreZinc", new ItemStack(COreItems.itemOre, 0, 2));

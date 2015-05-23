@@ -1,7 +1,17 @@
 package co.uk.silvania.cOre;
 
-import co.uk.silvania.cOre.items.*;
 import net.minecraft.item.Item;
+import net.minecraftforge.fluids.FluidContainerRegistry;
+import co.uk.silvania.cOre.fluids.MercuryBucket;
+import co.uk.silvania.cOre.fluids.OilBucket;
+import co.uk.silvania.cOre.fluids.TarBucket;
+import co.uk.silvania.cOre.items.ItemCrushed;
+import co.uk.silvania.cOre.items.ItemDusts;
+import co.uk.silvania.cOre.items.ItemGems;
+import co.uk.silvania.cOre.items.ItemIngots;
+import co.uk.silvania.cOre.items.ItemNuggets;
+import co.uk.silvania.cOre.items.ItemOres;
+import co.uk.silvania.cOre.items.ItemWashed;
 
 public class COreItems {
 	
@@ -13,8 +23,13 @@ public class COreItems {
 	public static Item itemCrushed;
 	public static Item itemWashed;
 	
+	public static Item mercuryBucket;
+	public static Item oilBucket;
+	public static Item tarBucket;
+	
 	public static void init() {
 		initMinerals();
+		initBuckets();
 	}
 	
 	public static void initMinerals() {
@@ -25,5 +40,11 @@ public class COreItems {
 		itemNugget = new ItemNuggets().setUnlocalizedName("itemNuggets");
 		itemCrushed = new ItemCrushed().setUnlocalizedName("itemCrushed");
 		itemWashed = new ItemWashed().setUnlocalizedName("itemWashed");
+	}
+	
+	public static void initBuckets() {
+		mercuryBucket = new MercuryBucket(COreBlocks.mercuryBlock).setUnlocalizedName("mercuryBucket");
+		oilBucket = new OilBucket(COreBlocks.oilBlock).setUnlocalizedName("oilBucket");
+		tarBucket = new TarBucket(COreBlocks.tarBlock).setUnlocalizedName("tarBucket");
 	}
 }

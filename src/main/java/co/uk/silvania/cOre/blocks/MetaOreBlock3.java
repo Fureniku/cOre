@@ -2,6 +2,7 @@ package co.uk.silvania.cOre.blocks;
 
 import java.util.Random;
 
+import net.minecraft.init.Blocks;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.world.World;
@@ -33,6 +34,23 @@ public class MetaOreBlock3 extends MetaOre {
 	@Override
 	public boolean canSilkHarvest() {
 		return false;
+	}
+	
+	@Override
+	public int quantityDropped(int meta, int fortune, Random rand) {
+		if (meta >= 4) {
+			return quantityDroppedWithBonus(fortune, rand);
+		}
+		if (meta == 10) {
+			return 4;
+		}
+		if (meta == 11) {
+			return 4;
+		}
+		if (meta == 12) {
+			return 4;
+		}
+		return 1;
 	}
 	
 	@Override
