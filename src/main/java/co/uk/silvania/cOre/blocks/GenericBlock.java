@@ -9,6 +9,7 @@ import cpw.mods.fml.relauncher.SideOnly;
 public class GenericBlock extends BlockOre {
 
 	public GenericBlock() {
+		this.setHardness(3.0F);
 		this.setCreativeTab(COre.tabMinerals);
 	}
 
