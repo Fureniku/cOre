@@ -424,7 +424,7 @@ public class COreOverWorldConfig {
 		silverMaxY = config.get(CATEGORY_SILVER, "Silver Max Height", 40).getInt();
 		
 		cobaltMin = config.get(CATEGORY_COBALT, "Cobalt Min OPV", 0).getInt();
-		cobaltMax = config.get(CATEGORY_COBALT, "Cobalt Max OPV", 0).getInt();
+		cobaltMax = config.get(CATEGORY_COBALT, "Cobalt Max OPV", 1).getInt();
 		cobaltRarity = config.get(CATEGORY_COBALT, "Cobalt Vein Spawnrate", 0).getInt();
 		cobaltMinY = config.get(CATEGORY_COBALT, "Cobalt Min Height", 0).getInt();
 		cobaltMaxY = config.get(CATEGORY_COBALT, "Cobalt Max Height", 54).getInt();
@@ -674,7 +674,7 @@ public class COreOverWorldConfig {
 		iridiumMaxY = config.get(CATEGORY_IRIDIUM, "Iridium Max Height", 255).getInt();
 		
 		arditeMin = config.get(CATEGORY_ARDITE, "Ardite Min OPV", 0).getInt();
-		arditeMax = config.get(CATEGORY_ARDITE, "Ardite Max OPV", 0).getInt();
+		arditeMax = config.get(CATEGORY_ARDITE, "Ardite Max OPV", 1).getInt();
 		arditeRarity = config.get(CATEGORY_ARDITE, "Ardite Vein Spawnrate", 0).getInt();
 		arditeMinY = config.get(CATEGORY_ARDITE, "Ardite Min Height", 1).getInt();
 		arditeMaxY = config.get(CATEGORY_ARDITE, "Ardite Max Height", 50).getInt();
