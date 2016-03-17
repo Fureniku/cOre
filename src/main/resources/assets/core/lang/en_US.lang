@@ -1,0 +1,9 @@
+tile.mercuryBlock.name=Mercury
+tile.tarBlock.name=Tar
+tile.oilBlock.name=Oil
+        
+tile.limestoneBlock.name=Limestone
+tile.calciteBlock.name=Calcite
+tile.graphiteBlock.name=Graphite
+
+itemGroup.tabMinerals=cOre
