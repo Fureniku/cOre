@@ -1,0 +1,31 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"transform": "forge:default-block",
+		"textures": { "all": "core:blocks/ore_block" },
+		"model": "cube_all"
+	},
+	"variants": {
+		"inventory": [{
+			"transform": "forge:default-block"
+		}],
+		"refined_block_2": {
+			"0": { "textures": { "all": "core:blocks/block_bronze" }},
+			"1": { "textures": { "all": "core:blocks/block_cupronickel" }},
+			"2": { "textures": { "all": "core:blocks/block_brass" }},
+			"3": { "textures": { "all": "core:blocks/block_rosegold" }},
+			"4": { "textures": { "all": "core:blocks/block_steel" }},
+			"5": { "textures": { "all": "core:blocks/block_stainlesssteel" }},
+			"6": { "textures": { "all": "core:blocks/block_nichrome" }},
+			"7": { "textures": { "all": "core:blocks/block_electrum" }},
+			"8": { "textures": { "all": "core:blocks/block_stellite" }},
+			"9": { "textures": { "all": "core:blocks/block_silvamer" }},
+			"10": { "textures": { "all": "core:blocks/block_unium" }},
+			"11": { "textures": { "all": "core:blocks/block_fenikisite" }},
+			"12": { "textures": { "all": "core:blocks/block_ultimite" }},
+			"13": { "textures": { "all": "core:blocks/block_strootite" }},
+			"14": { "textures": { "all": "core:blocks/block_speedoi" }},
+			"15": { "textures": { "all": "core:blocks/block_legenite" }}
+		}
+	}
+}

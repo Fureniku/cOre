@@ -1,0 +1,987 @@
+[00:43:36] [main/DEBUG] [FML/]: Injecting tracing printstreams for STDOUT/STDERR.
+[00:43:36] [main/INFO] [FML/]: Forge Mod Loader version 14.23.2.2611 for Minecraft 1.12.2 loading
+[00:43:36] [main/INFO] [FML/]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_161, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jre1.8.0_161
+[00:43:36] [main/DEBUG] [FML/]: Java classpath at launch is:
+[00:43:36] [main/DEBUG] [FML/]:     C:\Program Files\Java\jre1.8.0_161\lib\resources.jar
+[00:43:36] [main/DEBUG] [FML/]:     C:\Program Files\Java\jre1.8.0_161\lib\rt.jar
+[00:43:36] [main/DEBUG] [FML/]:     C:\Program Files\Java\jre1.8.0_161\lib\jsse.jar
+[00:43:36] [main/DEBUG] [FML/]:     C:\Program Files\Java\jre1.8.0_161\lib\jce.jar
+[00:43:36] [main/DEBUG] [FML/]:     C:\Program Files\Java\jre1.8.0_161\lib\charsets.jar
+[00:43:36] [main/DEBUG] [FML/]:     C:\Program Files\Java\jre1.8.0_161\lib\jfr.jar
+[00:43:36] [main/DEBUG] [FML/]:     C:\Program Files\Java\jre1.8.0_161\lib\ext\access-bridge-64.jar
+[00:43:36] [main/DEBUG] [FML/]:     C:\Program Files\Java\jre1.8.0_161\lib\ext\cldrdata.jar
+[00:43:36] [main/DEBUG] [FML/]:     C:\Program Files\Java\jre1.8.0_161\lib\ext\dnsns.jar
+[00:43:36] [main/DEBUG] [FML/]:     C:\Program Files\Java\jre1.8.0_161\lib\ext\dns_sd.jar
+[00:43:36] [main/DEBUG] [FML/]:     C:\Program Files\Java\jre1.8.0_161\lib\ext\jaccess.jar
+[00:43:36] [main/DEBUG] [FML/]:     C:\Program Files\Java\jre1.8.0_161\lib\ext\jfxrt.jar
+[00:43:36] [main/DEBUG] [FML/]:     C:\Program Files\Java\jre1.8.0_161\lib\ext\localedata.jar
+[00:43:36] [main/DEBUG] [FML/]:     C:\Program Files\Java\jre1.8.0_161\lib\ext\nashorn.jar
+[00:43:36] [main/DEBUG] [FML/]:     C:\Program Files\Java\jre1.8.0_161\lib\ext\sunec.jar
+[00:43:36] [main/DEBUG] [FML/]:     C:\Program Files\Java\jre1.8.0_161\lib\ext\sunjce_provider.jar
+[00:43:36] [main/DEBUG] [FML/]:     C:\Program Files\Java\jre1.8.0_161\lib\ext\sunmscapi.jar
+[00:43:36] [main/DEBUG] [FML/]:     C:\Program Files\Java\jre1.8.0_161\lib\ext\sunpkcs11.jar
+[00:43:36] [main/DEBUG] [FML/]:     C:\Program Files\Java\jre1.8.0_161\lib\ext\zipfs.jar
+[00:43:36] [main/DEBUG] [FML/]:     L:\Minecraft\1.12\cOre\bin
+[00:43:36] [main/DEBUG] [FML/]:     C:\Users\Fureniku\.gradle\caches\minecraft\deobfedDeps\deobf\slimeknights\mantle\Mantle\1.12-1.3.1.21\Mantle-1.12-1.3.1.21.jar
+[00:43:36] [main/DEBUG] [FML/]:     C:\Users\Fureniku\.gradle\caches\minecraft\net\minecraftforge\forge\1.12.2-14.23.2.2611\snapshot\20171003\forgeSrc-1.12.2-14.23.2.2611.jar
+[00:43:36] [main/DEBUG] [FML/]:     C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.1\f7be08ec23c21485b9b5a1cf1654c2ec8c58168d\jsr305-3.0.1.jar
+[00:43:36] [main/DEBUG] [FML/]:     C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\com.mojang\patchy\1.1\aef610b34a1be37fa851825f12372b78424d8903\patchy-1.1.jar
+[00:43:36] [main/DEBUG] [FML/]:     C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\oshi-project\oshi-core\1.1\9ddf7b048a8d701be231c0f4f95fd986198fd2d8\oshi-core-1.1.jar
+[00:43:36] [main/DEBUG] [FML/]:     C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\net.java.dev.jna\jna\4.4.0\cb208278274bf12ebdb56c61bd7407e6f774d65a\jna-4.4.0.jar
+[00:43:36] [main/DEBUG] [FML/]:     C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\net.java.dev.jna\platform\3.4.0\e3f70017be8100d3d6923f50b3d2ee17714e9c13\platform-3.4.0.jar
+[00:43:36] [main/DEBUG] [FML/]:     C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\com.ibm.icu\icu4j-core-mojang\51.2\63d216a9311cca6be337c1e458e587f99d382b84\icu4j-core-mojang-51.2.jar
+[00:43:36] [main/DEBUG] [FML/]:     C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\net.sf.jopt-simple\jopt-simple\5.0.3\cdd846cfc4e0f7eefafc02c0f5dce32b9303aa2a\jopt-simple-5.0.3.jar
+[00:43:36] [main/DEBUG] [FML/]:     C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\io.netty\netty-all\4.1.9.Final\97860965d6a0a6b98e7f569f3f966727b8db75\netty-all-4.1.9.Final.jar
+[00:43:36] [main/DEBUG] [FML/]:     C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\com.google.guava\guava\21.0\3a3d111be1be1b745edfa7d91678a12d7ed38709\guava-21.0.jar
+[00:43:36] [main/DEBUG] [FML/]:     C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-lang3\3.5\6c6c702c89bfff3cd9e80b04d668c5e190d588c6\commons-lang3-3.5.jar
+[00:43:36] [main/DEBUG] [FML/]:     C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\commons-io\commons-io\2.5\2852e6e05fbb95076fc091f6d1780f1f8fe35e0f\commons-io-2.5.jar
+[00:43:36] [main/DEBUG] [FML/]:     C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\commons-codec\commons-codec\1.10\4b95f4897fa13f2cd904aee711aeafc0c5295cd8\commons-codec-1.10.jar
+[00:43:36] [main/DEBUG] [FML/]:     C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\net.java.jutils\jutils\1.0.0\e12fe1fda814bd348c1579329c86943d2cd3c6a6\jutils-1.0.0.jar
+[00:43:36] [main/DEBUG] [FML/]:     C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.8.0\c4ba5371a29ac9b2ad6129b1d39ea38750043eff\gson-2.8.0.jar
+[00:43:36] [main/DEBUG] [FML/]:     C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\com.mojang\authlib\1.5.25\9834cdf236c22e84b946bba989e2f94ef5897c3c\authlib-1.5.25.jar
+[00:43:36] [main/DEBUG] [FML/]:     C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\com.mojang\realms\1.10.19\c0e1cddb173faa8bf69a4236211cfd0af6c6150d\realms-1.10.19.jar
+[00:43:36] [main/DEBUG] [FML/]:     C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-compress\1.8.1\a698750c16740fd5b3871425f4cb3bbaa87f529d\commons-compress-1.8.1.jar
+[00:43:36] [main/DEBUG] [FML/]:     C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpclient\4.3.3\18f4247ff4572a074444572cee34647c43e7c9c7\httpclient-4.3.3.jar
+[00:43:36] [main/DEBUG] [FML/]:     C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\commons-logging\commons-logging\1.1.3\f6f66e966c70a83ffbdb6f17a0919eaf7c8aca7f\commons-logging-1.1.3.jar
+[00:43:36] [main/DEBUG] [FML/]:     C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpcore\4.3.2\31fbbff1ddbf98f3aa7377c94d33b0447c646b6e\httpcore-4.3.2.jar
+[00:43:36] [main/DEBUG] [FML/]:     C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\it.unimi.dsi\fastutil\7.1.0\9835253257524c1be7ab50c057aa2d418fb72082\fastutil-7.1.0.jar
+[00:43:36] [main/DEBUG] [FML/]:     C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-api\2.8.1\e801d13612e22cad62a3f4f3fe7fdbe6334a8e72\log4j-api-2.8.1.jar
+[00:43:36] [main/DEBUG] [FML/]:     C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-core\2.8.1\4ac28ff2f1ddf05dae3043a190451e8c46b73c31\log4j-core-2.8.1.jar
+[00:43:36] [main/DEBUG] [FML/]:     C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\com.mojang\text2speech\1.10.3\48fd510879dff266c3815947de66e3d4809f8668\text2speech-1.10.3.jar
+[00:43:36] [main/DEBUG] [FML/]:     C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\net.minecraft\launchwrapper\1.12\111e7bea9c968cdb3d06ef4632bf7ff0824d0f36\launchwrapper-1.12.jar
+[00:43:36] [main/DEBUG] [FML/]:     C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\jline\jline\2.13\2d9530d0a25daffaffda7c35037b046b627bb171\jline-2.13.jar
+[00:43:36] [main/DEBUG] [FML/]:     C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-debug-all\5.2\3354e11e2b34215f06dab629ab88e06aca477c19\asm-debug-all-5.2.jar
+[00:43:36] [main/DEBUG] [FML/]:     C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\com.typesafe.akka\akka-actor_2.11\2.3.3\ed62e9fc709ca0f2ff1a3220daa8b70a2870078e\akka-actor_2.11-2.3.3.jar
+[00:43:36] [main/DEBUG] [FML/]:     C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\com.typesafe\config\1.2.1\f771f71fdae3df231bcd54d5ca2d57f0bf93f467\config-1.2.1.jar
+[00:43:36] [main/DEBUG] [FML/]:     C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-actors-migration_2.11\1.1.0\dfa8bc42b181d5b9f1a5dd147f8ae308b893eb6f\scala-actors-migration_2.11-1.1.0.jar
+[00:43:36] [main/DEBUG] [FML/]:     C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-compiler\2.11.1\56ea2e6c025e0821f28d73ca271218b8dd04926a\scala-compiler-2.11.1.jar
+[00:43:36] [main/DEBUG] [FML/]:     C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\org.scala-lang.plugins\scala-continuations-library_2.11\1.0.2\e517c53a7e9acd6b1668c5a35eccbaa3bab9aac\scala-continuations-library_2.11-1.0.2.jar
+[00:43:36] [main/DEBUG] [FML/]:     C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\org.scala-lang.plugins\scala-continuations-plugin_2.11.1\1.0.2\f361a3283452c57fa30c1ee69448995de23c60f7\scala-continuations-plugin_2.11.1-1.0.2.jar
+[00:43:36] [main/DEBUG] [FML/]:     C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-library\2.11.1\e11da23da3eabab9f4777b9220e60d44c1aab6a\scala-library-2.11.1.jar
+[00:43:36] [main/DEBUG] [FML/]:     C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\org.scala-lang.modules\scala-parser-combinators_2.11\1.0.1\f05d7345bf5a58924f2837c6c1f4d73a938e1ff0\scala-parser-combinators_2.11-1.0.1.jar
+[00:43:36] [main/DEBUG] [FML/]:     C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-reflect\2.11.1\6580347e61cc7f8e802941e7fde40fa83b8badeb\scala-reflect-2.11.1.jar
+[00:43:36] [main/DEBUG] [FML/]:     C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\org.scala-lang.modules\scala-swing_2.11\1.0.1\b1cdd92bd47b1e1837139c1c53020e86bb9112ae\scala-swing_2.11-1.0.1.jar
+[00:43:36] [main/DEBUG] [FML/]:     C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\org.scala-lang.modules\scala-xml_2.11\1.0.2\820fbca7e524b530fdadc594c39d49a21ea0337e\scala-xml_2.11-1.0.2.jar
+[00:43:36] [main/DEBUG] [FML/]:     C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\lzma\lzma\0.0.1\521616dc7487b42bef0e803bd2fa3faf668101d7\lzma-0.0.1.jar
+[00:43:36] [main/DEBUG] [FML/]:     C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\net.sf.trove4j\trove4j\3.0.3\42ccaf4761f0dfdfa805c9e340d99a755907e2dd\trove4j-3.0.3.jar
+[00:43:36] [main/DEBUG] [FML/]:     C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\com.paulscode\codecjorbis\20101023\c73b5636faf089d9f00e8732a829577de25237ee\codecjorbis-20101023.jar
+[00:43:36] [main/DEBUG] [FML/]:     C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\com.paulscode\codecwav\20101023\12f031cfe88fef5c1dd36c563c0a3a69bd7261da\codecwav-20101023.jar
+[00:43:36] [main/DEBUG] [FML/]:     C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\com.paulscode\libraryjavasound\20101123\5c5e304366f75f9eaa2e8cca546a1fb6109348b3\libraryjavasound-20101123.jar
+[00:43:36] [main/DEBUG] [FML/]:     C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\com.paulscode\librarylwjglopenal\20100824\73e80d0794c39665aec3f62eee88ca91676674ef\librarylwjglopenal-20100824.jar
+[00:43:36] [main/DEBUG] [FML/]:     C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\com.paulscode\soundsystem\20120107\419c05fe9be71f792b2d76cfc9b67f1ed0fec7f6\soundsystem-20120107.jar
+[00:43:36] [main/DEBUG] [FML/]:     C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\net.java.jinput\jinput\2.0.5\39c7796b469a600f72380316f6b1f11db6c2c7c4\jinput-2.0.5.jar
+[00:43:36] [main/DEBUG] [FML/]:     C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.4-nightly-20150209\697517568c68e78ae0b4544145af031c81082dfe\lwjgl-2.9.4-nightly-20150209.jar
+[00:43:36] [main/DEBUG] [FML/]:     C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl_util\2.9.4-nightly-20150209\d51a7c040a721d13efdfbd34f8b257b2df882ad0\lwjgl_util-2.9.4-nightly-20150209.jar
+[00:43:36] [main/DEBUG] [FML/]:     C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\java3d\vecmath\1.5.2\79846ba34cbd89e2422d74d53752f993dcc2ccaf\vecmath-1.5.2.jar
+[00:43:36] [main/DEBUG] [FML/]:     C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\ca.weblite\java-objc-bridge\1.0.0\6ef160c3133a78de015830860197602ca1c855d3\java-objc-bridge-1.0.0.jar
+[00:43:36] [main/DEBUG] [FML/]:     C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\org.fusesource.jansi\jansi\1.11\655c643309c2f45a56a747fda70e3fadf57e9f11\jansi-1.11.jar
+[00:43:36] [main/DEBUG] [FML/]:     C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-actors\2.11.0\8ccfb6541de179bb1c4d45cf414acee069b7f78b\scala-actors-2.11.0.jar
+[00:43:36] [main/DEBUG] [FML/]:     C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\net.java.jinput\jinput-platform\2.0.5\7ff832a6eb9ab6a767f1ade2b548092d0fa64795\jinput-platform-2.0.5-natives-linux.jar
+[00:43:36] [main/DEBUG] [FML/]:     C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\net.java.jinput\jinput-platform\2.0.5\385ee093e01f587f30ee1c8a2ee7d408fd732e16\jinput-platform-2.0.5-natives-windows.jar
+[00:43:36] [main/DEBUG] [FML/]:     C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\net.java.jinput\jinput-platform\2.0.5\53f9c919f34d2ca9de8c51fc4e1e8282029a9232\jinput-platform-2.0.5-natives-osx.jar
+[00:43:36] [main/DEBUG] [FML/]:     C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl-platform\2.9.4-nightly-20150209\b84d5102b9dbfabfeb5e43c7e2828d98a7fc80e0\lwjgl-platform-2.9.4-nightly-20150209-natives-windows.jar
+[00:43:36] [main/DEBUG] [FML/]:     C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl-platform\2.9.4-nightly-20150209\931074f46c795d2f7b30ed6395df5715cfd7675b\lwjgl-platform-2.9.4-nightly-20150209-natives-linux.jar
+[00:43:36] [main/DEBUG] [FML/]:     C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl-platform\2.9.4-nightly-20150209\bcab850f8f487c3f4c4dbabde778bb82bd1a40ed\lwjgl-platform-2.9.4-nightly-20150209-natives-osx.jar
+[00:43:36] [main/DEBUG] [FML/]:     L:\Minecraft\1.12\cOre\libs\CoFHCore-1.12.2-4.3.10.5-universal.jar
+[00:43:36] [main/DEBUG] [FML/]:     L:\Minecraft\1.12\cOre\libs\CoFHWorld-1.12.2-1.1.1.12-universal (1).jar
+[00:43:36] [main/DEBUG] [FML/]:     L:\Minecraft\1.12\cOre\libs\TConstruct-1.12.2-2.9.1.DEV.GITBORK-deobf.jar
+[00:43:36] [main/DEBUG] [FML/]:     C:\Users\Fureniku\.gradle\caches\minecraft\deobfedDeps\compileDummy.jar
+[00:43:36] [main/DEBUG] [FML/]:     C:\Users\Fureniku\.gradle\caches\minecraft\deobfedDeps\providedDummy.jar
+[00:43:36] [main/DEBUG] [FML/]:     C:\Users\Fureniku\.gradle\caches\minecraft\net\minecraftforge\forge\1.12.2-14.23.2.2611\start
+[00:43:36] [main/DEBUG] [FML/]: Java library path at launch is:
+[00:43:36] [main/DEBUG] [FML/]:     C:\Program Files\Java\jre1.8.0_161\bin
+[00:43:36] [main/DEBUG] [FML/]:     C:\WINDOWS\Sun\Java\bin
+[00:43:36] [main/DEBUG] [FML/]:     C:\WINDOWS\system32
+[00:43:36] [main/DEBUG] [FML/]:     C:\WINDOWS
+[00:43:36] [main/DEBUG] [FML/]:     C:/Program Files/Java/jre1.8.0_161/bin/server
+[00:43:36] [main/DEBUG] [FML/]:     C:/Program Files/Java/jre1.8.0_161/bin
+[00:43:36] [main/DEBUG] [FML/]:     C:/Program Files/Java/jre1.8.0_161/lib/amd64
+[00:43:36] [main/DEBUG] [FML/]:     C:\Program Files (x86)\Razer Chroma SDK\bin
+[00:43:36] [main/DEBUG] [FML/]:     C:\Program Files\Razer Chroma SDK\bin
+[00:43:36] [main/DEBUG] [FML/]:     C:\ProgramData\Oracle\Java\javapath
+[00:43:36] [main/DEBUG] [FML/]:     C:\WINDOWS\system32
+[00:43:36] [main/DEBUG] [FML/]:     C:\WINDOWS
+[00:43:36] [main/DEBUG] [FML/]:     C:\WINDOWS\System32\Wbem
+[00:43:36] [main/DEBUG] [FML/]:     C:\WINDOWS\System32\WindowsPowerShell\v1.0\
+[00:43:36] [main/DEBUG] [FML/]:     C:\Program Files\PuTTY\
+[00:43:36] [main/DEBUG] [FML/]:     C:\WINDOWS\System32\OpenSSH\
+[00:43:36] [main/DEBUG] [FML/]:     C:\Program Files (x86)\GtkSharp\2.12\bin
+[00:43:36] [main/DEBUG] [FML/]:     C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps
+[00:43:36] [main/DEBUG] [FML/]:     C:\MinGW\bin
+[00:43:36] [main/DEBUG] [FML/]:     
+[00:43:36] [main/DEBUG] [FML/]:     C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common
+[00:43:36] [main/DEBUG] [FML/]:     C:\Users\Fureniku\AppData\Local\Microsoft\WindowsApps
+[00:43:36] [main/DEBUG] [FML/]:     C:\Users\Fureniku\AppData\Local\GitHubDesktop\bin
+[00:43:36] [main/DEBUG] [FML/]:     C:\Users\Fureniku\AppData\Local\Microsoft\WindowsApps
+[00:43:36] [main/DEBUG] [FML/]:     C:\MinGW\bin
+[00:43:36] [main/DEBUG] [FML/]:     
+[00:43:36] [main/DEBUG] [FML/]:     C:\WINDOWS\system32
+[00:43:36] [main/DEBUG] [FML/]:     
+[00:43:36] [main/DEBUG] [FML/]:     .
+[00:43:36] [main/DEBUG] [FML/]:     C:/Users/Fureniku/.gradle/caches/minecraft/net/minecraft/natives/1.12.2
+[00:43:36] [main/INFO] [FML/]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[00:43:36] [main/DEBUG] [FML/]: Instantiating coremod class FMLCorePlugin
+[00:43:36] [main/INFO] [FML/]: Ignoring missing certificate for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin), we are in deobf and it's a forge core plugin
+[00:43:36] [main/DEBUG] [FML/]: Added access transformer class net.minecraftforge.fml.common.asm.transformers.AccessTransformer to enqueued access transformers
+[00:43:36] [main/DEBUG] [FML/]: Enqueued coremod FMLCorePlugin
+[00:43:36] [main/DEBUG] [FML/]: Instantiating coremod class FMLForgePlugin
+[00:43:36] [main/INFO] [FML/]: Ignoring missing certificate for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin), we are in deobf and it's a forge core plugin
+[00:43:36] [main/DEBUG] [FML/]: Enqueued coremod FMLForgePlugin
+[00:43:36] [main/DEBUG] [FML/]: All fundamental core mods are successfully located
+[00:43:36] [main/DEBUG] [FML/]: Attempting to load commandline specified mods, relative to L:\Minecraft\1.12\cOre\run\.
+[00:43:36] [main/DEBUG] [FML/]: Discovering coremods
+[00:43:36] [main/DEBUG] [FML/]: Examining for coremod candidacy RedstoneFlux-1.12-2.0.1.2-universal (1).jar
+[00:43:36] [main/DEBUG] [FML/]: Not found coremod data in RedstoneFlux-1.12-2.0.1.2-universal (1).jar
+[00:43:36] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
+[00:43:36] [main/INFO] [GradleStart/]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
+[00:43:36] [main/INFO] [GradleStart/]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
+[00:43:36] [main/INFO] [LaunchWrapper/]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[00:43:36] [main/INFO] [LaunchWrapper/]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[00:43:36] [main/INFO] [LaunchWrapper/]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[00:43:36] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[00:43:36] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[00:43:36] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[00:43:36] [main/DEBUG] [FML/]: Injecting coremod FMLCorePlugin \{net.minecraftforge.fml.relauncher.FMLCorePlugin\} class transformers
+[00:43:36] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.fml.common.asm.transformers.BlamingTransformer
+[00:43:36] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.fml.common.asm.transformers.SideTransformer
+[00:43:36] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.fml.common.asm.transformers.EventSubscriptionTransformer
+[00:43:36] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.fml.common.asm.transformers.EventSubscriberTransformer
+[00:43:36] [main/DEBUG] [FML/]: Injection complete
+[00:43:36] [main/DEBUG] [FML/]: Running coremod plugin for FMLCorePlugin \{net.minecraftforge.fml.relauncher.FMLCorePlugin\}
+[00:43:36] [main/DEBUG] [FML/]: Running coremod plugin FMLCorePlugin
+[00:43:37] [main/DEBUG] [FML/]: Injecting tracing printstreams for STDOUT/STDERR.
+[00:43:37] [main/DEBUG] [FML/]: Loading deobfuscation resource C:\Users\Fureniku\.gradle\caches\minecraft\de\oceanlabs\mcp\mcp_snapshot\20171003\1.12.2\srgs\srg-mcp.srg with 36076 records
+[00:43:39] [main/ERROR] [FML/]: FML appears to be missing any signature data. This is not a good thing
+[00:43:39] [main/DEBUG] [FML/]: Coremod plugin class FMLCorePlugin run successfully
+[00:43:39] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[00:43:39] [main/DEBUG] [FML/]: Injecting coremod FMLForgePlugin \{net.minecraftforge.classloading.FMLForgePlugin\} class transformers
+[00:43:39] [main/DEBUG] [FML/]: Injection complete
+[00:43:39] [main/DEBUG] [FML/]: Running coremod plugin for FMLForgePlugin \{net.minecraftforge.classloading.FMLForgePlugin\}
+[00:43:39] [main/DEBUG] [FML/]: Running coremod plugin FMLForgePlugin
+[00:43:39] [main/DEBUG] [FML/]: Coremod plugin class FMLForgePlugin run successfully
+[00:43:39] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[00:43:39] [main/DEBUG] [FML/]: Loaded 209 rules from AccessTransformer config file forge_at.cfg
+[00:43:39] [main/DEBUG] [FML/]: Loaded 8 rules from AccessTransformer mod jar file C:\Users\Fureniku\.gradle\caches\minecraft\deobfedDeps\deobf\slimeknights\mantle\Mantle\1.12-1.3.1.21\Mantle-1.12-1.3.1.21.jar!META-INF/mantle_at.cfg
+
+[00:43:39] [main/DEBUG] [FML/]: Loaded 45 rules from AccessTransformer mod jar file L:\Minecraft\1.12\cOre\libs\CoFHCore-1.12.2-4.3.10.5-universal.jar!META-INF/cofh_at.cfg
+
+[00:43:39] [main/DEBUG] [FML/]: Loaded 33 rules from AccessTransformer mod jar file L:\Minecraft\1.12\cOre\libs\TConstruct-1.12.2-2.9.1.DEV.GITBORK-deobf.jar!META-INF/tconstruct_at.cfg
+
+[00:43:39] [main/DEBUG] [FML/]: Validating minecraft
+[00:43:39] [main/DEBUG] [FML/]: Minecraft validated, launching...
+[00:43:39] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[00:43:39] [main/DEBUG] [GradleStart/]: Reading CSV file: C:\Users\Fureniku\.gradle\caches\minecraft\de\oceanlabs\mcp\mcp_snapshot\20171003\fields.csv
+[00:43:39] [main/DEBUG] [GradleStart/]: Reading CSV file: C:\Users\Fureniku\.gradle\caches\minecraft\de\oceanlabs\mcp\mcp_snapshot\20171003\methods.csv
+[00:43:39] [main/INFO] [GradleStart/]: Remapping AccessTransformer rules...
+[00:43:39] [main/INFO] [LaunchWrapper/]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[00:43:39] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[00:43:39] [main/INFO] [LaunchWrapper/]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[00:43:46] [main/DEBUG] [FML/]: Creating vanilla freeze snapshot
+[00:43:46] [main/DEBUG] [FML/]: Vanilla freeze snapshot created
+[00:43:48] [main/DEBUG] [FML/]: Bar Finished: Loading Resource - LanguageManager took 0.001s
+[00:43:48] [main/INFO] [FML/]: -- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_161, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 859739176 bytes (819 MB) / 1191182336 bytes (1136 MB) up to 7611613184 bytes (7259 MB)
+	JVM Flags: 0 total; 
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: 
+	Loaded coremods (and transformers): 
+	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 398.11' Renderer: 'GeForce GTX 1080/PCIe/SSE2'
+[00:43:48] [main/INFO] [FML/]: MinecraftForge v14.23.2.2611 Initialized
+[00:43:48] [main/INFO] [FML/]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[00:43:48] [main/INFO] [FML/]: Replaced 1036 ore ingredients
+[00:43:48] [main/DEBUG] [FML/]: File L:\Minecraft\1.12\cOre\run\config\injectedDependencies.json not found. No dependencies injected
+[00:43:48] [main/DEBUG] [FML/]: Building injected Mod Containers [net.minecraftforge.fml.common.FMLContainer, net.minecraftforge.common.ForgeModContainer]
+[00:43:49] [main/DEBUG] [FML/]: Attempting to load mods contained in the minecraft jar file and associated classes
+[00:43:49] [main/TRACE] [FML/]: Skipping known library file C:\Program Files\Java\jre1.8.0_161\lib\resources.jar
+[00:43:49] [main/TRACE] [FML/]: Skipping known library file C:\Program Files\Java\jre1.8.0_161\lib\rt.jar
+[00:43:49] [main/TRACE] [FML/]: Skipping known library file C:\Program Files\Java\jre1.8.0_161\lib\jsse.jar
+[00:43:49] [main/TRACE] [FML/]: Skipping known library file C:\Program Files\Java\jre1.8.0_161\lib\jce.jar
+[00:43:49] [main/TRACE] [FML/]: Skipping known library file C:\Program Files\Java\jre1.8.0_161\lib\charsets.jar
+[00:43:49] [main/TRACE] [FML/]: Skipping known library file C:\Program Files\Java\jre1.8.0_161\lib\jfr.jar
+[00:43:49] [main/TRACE] [FML/]: Skipping known library file C:\Program Files\Java\jre1.8.0_161\lib\ext\access-bridge-64.jar
+[00:43:49] [main/TRACE] [FML/]: Skipping known library file C:\Program Files\Java\jre1.8.0_161\lib\ext\cldrdata.jar
+[00:43:49] [main/TRACE] [FML/]: Skipping known library file C:\Program Files\Java\jre1.8.0_161\lib\ext\dnsns.jar
+[00:43:49] [main/TRACE] [FML/]: Skipping known library file C:\Program Files\Java\jre1.8.0_161\lib\ext\dns_sd.jar
+[00:43:49] [main/TRACE] [FML/]: Skipping known library file C:\Program Files\Java\jre1.8.0_161\lib\ext\jaccess.jar
+[00:43:49] [main/TRACE] [FML/]: Skipping known library file C:\Program Files\Java\jre1.8.0_161\lib\ext\jfxrt.jar
+[00:43:49] [main/TRACE] [FML/]: Skipping known library file C:\Program Files\Java\jre1.8.0_161\lib\ext\localedata.jar
+[00:43:49] [main/TRACE] [FML/]: Skipping known library file C:\Program Files\Java\jre1.8.0_161\lib\ext\nashorn.jar
+[00:43:49] [main/TRACE] [FML/]: Skipping known library file C:\Program Files\Java\jre1.8.0_161\lib\ext\sunec.jar
+[00:43:49] [main/TRACE] [FML/]: Skipping known library file C:\Program Files\Java\jre1.8.0_161\lib\ext\sunjce_provider.jar
+[00:43:49] [main/TRACE] [FML/]: Skipping known library file C:\Program Files\Java\jre1.8.0_161\lib\ext\sunmscapi.jar
+[00:43:49] [main/TRACE] [FML/]: Skipping known library file C:\Program Files\Java\jre1.8.0_161\lib\ext\sunpkcs11.jar
+[00:43:49] [main/TRACE] [FML/]: Skipping known library file C:\Program Files\Java\jre1.8.0_161\lib\ext\zipfs.jar
+[00:43:49] [main/DEBUG] [FML/]: Found a minecraft related directory at L:\Minecraft\1.12\cOre\bin, examining for mod candidates
+[00:43:49] [main/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Fureniku\.gradle\caches\minecraft\deobfedDeps\deobf\slimeknights\mantle\Mantle\1.12-1.3.1.21\Mantle-1.12-1.3.1.21.jar, examining for mod candidates
+[00:43:49] [main/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Fureniku\.gradle\caches\minecraft\net\minecraftforge\forge\1.12.2-14.23.2.2611\snapshot\20171003\forgeSrc-1.12.2-14.23.2.2611.jar, examining for mod candidates
+[00:43:49] [main/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.1\f7be08ec23c21485b9b5a1cf1654c2ec8c58168d\jsr305-3.0.1.jar, examining for mod candidates
+[00:43:49] [main/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\com.mojang\patchy\1.1\aef610b34a1be37fa851825f12372b78424d8903\patchy-1.1.jar, examining for mod candidates
+[00:43:49] [main/TRACE] [FML/]: Skipping known library file C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\oshi-project\oshi-core\1.1\9ddf7b048a8d701be231c0f4f95fd986198fd2d8\oshi-core-1.1.jar
+[00:43:49] [main/TRACE] [FML/]: Skipping known library file C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\net.java.dev.jna\jna\4.4.0\cb208278274bf12ebdb56c61bd7407e6f774d65a\jna-4.4.0.jar
+[00:43:49] [main/TRACE] [FML/]: Skipping known library file C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\net.java.dev.jna\platform\3.4.0\e3f70017be8100d3d6923f50b3d2ee17714e9c13\platform-3.4.0.jar
+[00:43:49] [main/TRACE] [FML/]: Skipping known library file C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\com.ibm.icu\icu4j-core-mojang\51.2\63d216a9311cca6be337c1e458e587f99d382b84\icu4j-core-mojang-51.2.jar
+[00:43:49] [main/TRACE] [FML/]: Skipping known library file C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\net.sf.jopt-simple\jopt-simple\5.0.3\cdd846cfc4e0f7eefafc02c0f5dce32b9303aa2a\jopt-simple-5.0.3.jar
+[00:43:49] [main/TRACE] [FML/]: Skipping known library file C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\io.netty\netty-all\4.1.9.Final\97860965d6a0a6b98e7f569f3f966727b8db75\netty-all-4.1.9.Final.jar
+[00:43:49] [main/TRACE] [FML/]: Skipping known library file C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\com.google.guava\guava\21.0\3a3d111be1be1b745edfa7d91678a12d7ed38709\guava-21.0.jar
+[00:43:49] [main/TRACE] [FML/]: Skipping known library file C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-lang3\3.5\6c6c702c89bfff3cd9e80b04d668c5e190d588c6\commons-lang3-3.5.jar
+[00:43:49] [main/TRACE] [FML/]: Skipping known library file C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\commons-io\commons-io\2.5\2852e6e05fbb95076fc091f6d1780f1f8fe35e0f\commons-io-2.5.jar
+[00:43:49] [main/TRACE] [FML/]: Skipping known library file C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\commons-codec\commons-codec\1.10\4b95f4897fa13f2cd904aee711aeafc0c5295cd8\commons-codec-1.10.jar
+[00:43:49] [main/TRACE] [FML/]: Skipping known library file C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\net.java.jutils\jutils\1.0.0\e12fe1fda814bd348c1579329c86943d2cd3c6a6\jutils-1.0.0.jar
+[00:43:49] [main/TRACE] [FML/]: Skipping known library file C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.8.0\c4ba5371a29ac9b2ad6129b1d39ea38750043eff\gson-2.8.0.jar
+[00:43:49] [main/TRACE] [FML/]: Skipping known library file C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\com.mojang\authlib\1.5.25\9834cdf236c22e84b946bba989e2f94ef5897c3c\authlib-1.5.25.jar
+[00:43:49] [main/TRACE] [FML/]: Skipping known library file C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\com.mojang\realms\1.10.19\c0e1cddb173faa8bf69a4236211cfd0af6c6150d\realms-1.10.19.jar
+[00:43:49] [main/TRACE] [FML/]: Skipping known library file C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-compress\1.8.1\a698750c16740fd5b3871425f4cb3bbaa87f529d\commons-compress-1.8.1.jar
+[00:43:49] [main/TRACE] [FML/]: Skipping known library file C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpclient\4.3.3\18f4247ff4572a074444572cee34647c43e7c9c7\httpclient-4.3.3.jar
+[00:43:49] [main/TRACE] [FML/]: Skipping known library file C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\commons-logging\commons-logging\1.1.3\f6f66e966c70a83ffbdb6f17a0919eaf7c8aca7f\commons-logging-1.1.3.jar
+[00:43:49] [main/TRACE] [FML/]: Skipping known library file C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpcore\4.3.2\31fbbff1ddbf98f3aa7377c94d33b0447c646b6e\httpcore-4.3.2.jar
+[00:43:49] [main/TRACE] [FML/]: Skipping known library file C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\it.unimi.dsi\fastutil\7.1.0\9835253257524c1be7ab50c057aa2d418fb72082\fastutil-7.1.0.jar
+[00:43:49] [main/TRACE] [FML/]: Skipping known library file C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-api\2.8.1\e801d13612e22cad62a3f4f3fe7fdbe6334a8e72\log4j-api-2.8.1.jar
+[00:43:49] [main/TRACE] [FML/]: Skipping known library file C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-core\2.8.1\4ac28ff2f1ddf05dae3043a190451e8c46b73c31\log4j-core-2.8.1.jar
+[00:43:49] [main/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\com.mojang\text2speech\1.10.3\48fd510879dff266c3815947de66e3d4809f8668\text2speech-1.10.3.jar, examining for mod candidates
+[00:43:49] [main/TRACE] [FML/]: Skipping known library file C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\net.minecraft\launchwrapper\1.12\111e7bea9c968cdb3d06ef4632bf7ff0824d0f36\launchwrapper-1.12.jar
+[00:43:49] [main/TRACE] [FML/]: Skipping known library file C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\jline\jline\2.13\2d9530d0a25daffaffda7c35037b046b627bb171\jline-2.13.jar
+[00:43:49] [main/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-debug-all\5.2\3354e11e2b34215f06dab629ab88e06aca477c19\asm-debug-all-5.2.jar, examining for mod candidates
+[00:43:49] [main/TRACE] [FML/]: Skipping known library file C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\com.typesafe.akka\akka-actor_2.11\2.3.3\ed62e9fc709ca0f2ff1a3220daa8b70a2870078e\akka-actor_2.11-2.3.3.jar
+[00:43:49] [main/TRACE] [FML/]: Skipping known library file C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\com.typesafe\config\1.2.1\f771f71fdae3df231bcd54d5ca2d57f0bf93f467\config-1.2.1.jar
+[00:43:49] [main/TRACE] [FML/]: Skipping known library file C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-actors-migration_2.11\1.1.0\dfa8bc42b181d5b9f1a5dd147f8ae308b893eb6f\scala-actors-migration_2.11-1.1.0.jar
+[00:43:49] [main/TRACE] [FML/]: Skipping known library file C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-compiler\2.11.1\56ea2e6c025e0821f28d73ca271218b8dd04926a\scala-compiler-2.11.1.jar
+[00:43:49] [main/TRACE] [FML/]: Skipping known library file C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\org.scala-lang.plugins\scala-continuations-library_2.11\1.0.2\e517c53a7e9acd6b1668c5a35eccbaa3bab9aac\scala-continuations-library_2.11-1.0.2.jar
+[00:43:49] [main/TRACE] [FML/]: Skipping known library file C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\org.scala-lang.plugins\scala-continuations-plugin_2.11.1\1.0.2\f361a3283452c57fa30c1ee69448995de23c60f7\scala-continuations-plugin_2.11.1-1.0.2.jar
+[00:43:49] [main/TRACE] [FML/]: Skipping known library file C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-library\2.11.1\e11da23da3eabab9f4777b9220e60d44c1aab6a\scala-library-2.11.1.jar
+[00:43:49] [main/TRACE] [FML/]: Skipping known library file C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\org.scala-lang.modules\scala-parser-combinators_2.11\1.0.1\f05d7345bf5a58924f2837c6c1f4d73a938e1ff0\scala-parser-combinators_2.11-1.0.1.jar
+[00:43:49] [main/TRACE] [FML/]: Skipping known library file C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-reflect\2.11.1\6580347e61cc7f8e802941e7fde40fa83b8badeb\scala-reflect-2.11.1.jar
+[00:43:49] [main/TRACE] [FML/]: Skipping known library file C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\org.scala-lang.modules\scala-swing_2.11\1.0.1\b1cdd92bd47b1e1837139c1c53020e86bb9112ae\scala-swing_2.11-1.0.1.jar
+[00:43:49] [main/TRACE] [FML/]: Skipping known library file C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\org.scala-lang.modules\scala-xml_2.11\1.0.2\820fbca7e524b530fdadc594c39d49a21ea0337e\scala-xml_2.11-1.0.2.jar
+[00:43:49] [main/TRACE] [FML/]: Skipping known library file C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\lzma\lzma\0.0.1\521616dc7487b42bef0e803bd2fa3faf668101d7\lzma-0.0.1.jar
+[00:43:49] [main/TRACE] [FML/]: Skipping known library file C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\net.sf.trove4j\trove4j\3.0.3\42ccaf4761f0dfdfa805c9e340d99a755907e2dd\trove4j-3.0.3.jar
+[00:43:49] [main/TRACE] [FML/]: Skipping known library file C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\com.paulscode\codecjorbis\20101023\c73b5636faf089d9f00e8732a829577de25237ee\codecjorbis-20101023.jar
+[00:43:49] [main/TRACE] [FML/]: Skipping known library file C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\com.paulscode\codecwav\20101023\12f031cfe88fef5c1dd36c563c0a3a69bd7261da\codecwav-20101023.jar
+[00:43:49] [main/TRACE] [FML/]: Skipping known library file C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\com.paulscode\libraryjavasound\20101123\5c5e304366f75f9eaa2e8cca546a1fb6109348b3\libraryjavasound-20101123.jar
+[00:43:49] [main/TRACE] [FML/]: Skipping known library file C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\com.paulscode\librarylwjglopenal\20100824\73e80d0794c39665aec3f62eee88ca91676674ef\librarylwjglopenal-20100824.jar
+[00:43:49] [main/TRACE] [FML/]: Skipping known library file C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\com.paulscode\soundsystem\20120107\419c05fe9be71f792b2d76cfc9b67f1ed0fec7f6\soundsystem-20120107.jar
+[00:43:49] [main/TRACE] [FML/]: Skipping known library file C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\net.java.jinput\jinput\2.0.5\39c7796b469a600f72380316f6b1f11db6c2c7c4\jinput-2.0.5.jar
+[00:43:49] [main/TRACE] [FML/]: Skipping known library file C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.4-nightly-20150209\697517568c68e78ae0b4544145af031c81082dfe\lwjgl-2.9.4-nightly-20150209.jar
+[00:43:49] [main/TRACE] [FML/]: Skipping known library file C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl_util\2.9.4-nightly-20150209\d51a7c040a721d13efdfbd34f8b257b2df882ad0\lwjgl_util-2.9.4-nightly-20150209.jar
+[00:43:49] [main/TRACE] [FML/]: Skipping known library file C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\java3d\vecmath\1.5.2\79846ba34cbd89e2422d74d53752f993dcc2ccaf\vecmath-1.5.2.jar
+[00:43:49] [main/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\ca.weblite\java-objc-bridge\1.0.0\6ef160c3133a78de015830860197602ca1c855d3\java-objc-bridge-1.0.0.jar, examining for mod candidates
+[00:43:49] [main/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\org.fusesource.jansi\jansi\1.11\655c643309c2f45a56a747fda70e3fadf57e9f11\jansi-1.11.jar, examining for mod candidates
+[00:43:49] [main/TRACE] [FML/]: Skipping known library file C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-actors\2.11.0\8ccfb6541de179bb1c4d45cf414acee069b7f78b\scala-actors-2.11.0.jar
+[00:43:49] [main/TRACE] [FML/]: Skipping known library file C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\net.java.jinput\jinput-platform\2.0.5\7ff832a6eb9ab6a767f1ade2b548092d0fa64795\jinput-platform-2.0.5-natives-linux.jar
+[00:43:49] [main/TRACE] [FML/]: Skipping known library file C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\net.java.jinput\jinput-platform\2.0.5\385ee093e01f587f30ee1c8a2ee7d408fd732e16\jinput-platform-2.0.5-natives-windows.jar
+[00:43:49] [main/TRACE] [FML/]: Skipping known library file C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\net.java.jinput\jinput-platform\2.0.5\53f9c919f34d2ca9de8c51fc4e1e8282029a9232\jinput-platform-2.0.5-natives-osx.jar
+[00:43:49] [main/TRACE] [FML/]: Skipping known library file C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl-platform\2.9.4-nightly-20150209\b84d5102b9dbfabfeb5e43c7e2828d98a7fc80e0\lwjgl-platform-2.9.4-nightly-20150209-natives-windows.jar
+[00:43:49] [main/TRACE] [FML/]: Skipping known library file C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl-platform\2.9.4-nightly-20150209\931074f46c795d2f7b30ed6395df5715cfd7675b\lwjgl-platform-2.9.4-nightly-20150209-natives-linux.jar
+[00:43:49] [main/TRACE] [FML/]: Skipping known library file C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl-platform\2.9.4-nightly-20150209\bcab850f8f487c3f4c4dbabde778bb82bd1a40ed\lwjgl-platform-2.9.4-nightly-20150209-natives-osx.jar
+[00:43:49] [main/DEBUG] [FML/]: Found a minecraft related file at L:\Minecraft\1.12\cOre\libs\CoFHCore-1.12.2-4.3.10.5-universal.jar, examining for mod candidates
+[00:43:49] [main/DEBUG] [FML/]: Found a minecraft related file at L:\Minecraft\1.12\cOre\libs\CoFHWorld-1.12.2-1.1.1.12-universal (1).jar, examining for mod candidates
+[00:43:49] [main/DEBUG] [FML/]: Found a minecraft related file at L:\Minecraft\1.12\cOre\libs\TConstruct-1.12.2-2.9.1.DEV.GITBORK-deobf.jar, examining for mod candidates
+[00:43:49] [main/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Fureniku\.gradle\caches\minecraft\deobfedDeps\compileDummy.jar, examining for mod candidates
+[00:43:49] [main/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Fureniku\.gradle\caches\minecraft\deobfedDeps\providedDummy.jar, examining for mod candidates
+[00:43:49] [main/DEBUG] [FML/]: Found a minecraft related directory at C:\Users\Fureniku\.gradle\caches\minecraft\net\minecraftforge\forge\1.12.2-14.23.2.2611\start, examining for mod candidates
+[00:43:49] [main/DEBUG] [FML/]: Minecraft jar mods loaded successfully
+[00:43:49] [main/INFO] [FML/]: Found 0 mods from the command line. Injecting into mod discoverer
+[00:43:49] [main/INFO] [FML/]: Searching L:\Minecraft\1.12\cOre\run\mods for mods
+[00:43:49] [main/DEBUG] [FML/]: Found a candidate zip or jar file RedstoneFlux-1.12-2.0.1.2-universal (1).jar
+[00:43:49] [main/DEBUG] [FML/]: Examining directory bin for potential mods
+[00:43:49] [main/DEBUG] [FML/]: Found an mcmod.info file in directory bin
+[00:43:49] [main/TRACE] [FML/]: Recursing into package assets
+[00:43:49] [main/TRACE] [FML/]: Recursing into package assets/core
+[00:43:49] [main/TRACE] [FML/]: Recursing into package assets/core/blockstates
+[00:43:49] [main/TRACE] [FML/]: Recursing into package assets/core/lang
+[00:43:49] [main/TRACE] [FML/]: Recursing into package assets/core/models
+[00:43:49] [main/TRACE] [FML/]: Recursing into package assets/core/models/block
+[00:43:49] [main/TRACE] [FML/]: Recursing into package assets/core/models/item
+[00:43:49] [main/TRACE] [FML/]: Recursing into package assets/core/recipes
+[00:43:49] [main/TRACE] [FML/]: Recursing into package assets/core/textures
+[00:43:49] [main/TRACE] [FML/]: Recursing into package assets/core/textures/blocks
+[00:43:49] [main/TRACE] [FML/]: Recursing into package assets/core/textures/blocks/fluids
+[00:43:49] [main/TRACE] [FML/]: Recursing into package assets/core/textures/items
+[00:43:49] [main/TRACE] [FML/]: Recursing into package com
+[00:43:49] [main/TRACE] [FML/]: Recursing into package com/silvaniastudios
+[00:43:49] [main/TRACE] [FML/]: Recursing into package com/silvaniastudios/core
+[00:43:49] [main/TRACE] [FML/]: Recursing into package com/silvaniastudios/core/blocks
+[00:43:49] [main/TRACE] [FML/]: Recursing into package com/silvaniastudios/core/client
+[00:43:49] [main/TRACE] [FML/]: Recursing into package com/silvaniastudios/core/config
+[00:43:49] [main/DEBUG] [FML/]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (com.silvaniastudios.core.COre) - loading
+[00:43:49] [main/TRACE] [core/]: Parsed dependency info : Requirements: [] After:[cofhcore, cofhworld, tconstruct] Before:[]
+[00:43:49] [main/TRACE] [FML/]: Recursing into package com/silvaniastudios/core/items
+[00:43:49] [main/DEBUG] [FML/]: Examining file Mantle-1.12-1.3.1.21.jar for potential mods
+[00:43:49] [main/TRACE] [FML/]: Located mcmod.info file in file Mantle-1.12-1.3.1.21.jar
+[00:43:49] [main/DEBUG] [FML/]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (slimeknights.mantle.Mantle) - loading
+[00:43:49] [main/TRACE] [mantle/]: Parsed dependency info : Requirements: [forge@[14.21.1.2387,)] After:[forge@[14.21.1.2387,)] Before:[]
+[00:43:49] [main/DEBUG] [FML/]: Examining file forgeSrc-1.12.2-14.23.2.2611.jar for potential mods
+[00:43:49] [main/DEBUG] [FML/]: The mod container forgeSrc-1.12.2-14.23.2.2611.jar appears to be missing an mcmod.info file
+[00:43:50] [main/DEBUG] [FML/]: Examining file jsr305-3.0.1.jar for potential mods
+[00:43:50] [main/DEBUG] [FML/]: The mod container jsr305-3.0.1.jar appears to be missing an mcmod.info file
+[00:43:50] [main/DEBUG] [FML/]: Examining file patchy-1.1.jar for potential mods
+[00:43:50] [main/DEBUG] [FML/]: The mod container patchy-1.1.jar appears to be missing an mcmod.info file
+[00:43:50] [main/DEBUG] [FML/]: Examining file text2speech-1.10.3.jar for potential mods
+[00:43:50] [main/DEBUG] [FML/]: The mod container text2speech-1.10.3.jar appears to be missing an mcmod.info file
+[00:43:50] [main/DEBUG] [FML/]: Examining file asm-debug-all-5.2.jar for potential mods
+[00:43:50] [main/DEBUG] [FML/]: The mod container asm-debug-all-5.2.jar appears to be missing an mcmod.info file
+[00:43:50] [main/DEBUG] [FML/]: Examining file java-objc-bridge-1.0.0.jar for potential mods
+[00:43:50] [main/DEBUG] [FML/]: The mod container java-objc-bridge-1.0.0.jar appears to be missing an mcmod.info file
+[00:43:50] [main/DEBUG] [FML/]: Examining file jansi-1.11.jar for potential mods
+[00:43:50] [main/DEBUG] [FML/]: The mod container jansi-1.11.jar appears to be missing an mcmod.info file
+[00:43:50] [main/DEBUG] [FML/]: Examining file CoFHCore-1.12.2-4.3.10.5-universal.jar for potential mods
+[00:43:50] [main/TRACE] [FML/]: Located mcmod.info file in file CoFHCore-1.12.2-4.3.10.5-universal.jar
+[00:43:50] [main/DEBUG] [FML/]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (cofh.CoFHCore) - loading
+[00:43:50] [main/TRACE] [cofhcore/]: Parsed dependency info : Requirements: [redstoneflux@[2.0.1,2.1.0), forge@[14.23.1.2555,15.0.0.0)] After:[forge@[14.23.1.2555,15.0.0.0), redstoneflux@[2.0.1,2.1.0)] Before:[]
+[00:43:50] [main/DEBUG] [FML/]: Examining file CoFHWorld-1.12.2-1.1.1.12-universal (1).jar for potential mods
+[00:43:50] [main/TRACE] [FML/]: Located mcmod.info file in file CoFHWorld-1.12.2-1.1.1.12-universal (1).jar
+[00:43:50] [main/DEBUG] [FML/]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (cofh.cofhworld.CoFHWorld) - loading
+[00:43:50] [main/TRACE] [cofhworld/]: Parsed dependency info : Requirements: [forge@[14.23.1.2555,15.0.0.0)] After:[forge@[14.23.1.2555,15.0.0.0)] Before:[]
+[00:43:50] [main/DEBUG] [FML/]: Examining file TConstruct-1.12.2-2.9.1.DEV.GITBORK-deobf.jar for potential mods
+[00:43:50] [main/TRACE] [FML/]: Located mcmod.info file in file TConstruct-1.12.2-2.9.1.DEV.GITBORK-deobf.jar
+[00:43:50] [main/DEBUG] [FML/]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (slimeknights.tconstruct.TConstruct) - loading
+[00:43:50] [main/TRACE] [tconstruct/]: Parsed dependency info : Requirements: [forge@[14.23.1.2577,), mantle@[1.12-1.3.1,)] After:[forge@[14.23.1.2577,), mantle@[1.12-1.3.1,), jei@[4.8,), chisel] Before:[]
+[00:43:50] [main/DEBUG] [FML/]: Examining file compileDummy.jar for potential mods
+[00:43:50] [main/DEBUG] [FML/]: The mod container compileDummy.jar appears to be missing an mcmod.info file
+[00:43:50] [main/DEBUG] [FML/]: Examining file providedDummy.jar for potential mods
+[00:43:50] [main/DEBUG] [FML/]: The mod container providedDummy.jar appears to be missing an mcmod.info file
+[00:43:50] [main/DEBUG] [FML/]: Examining directory start for potential mods
+[00:43:50] [main/DEBUG] [FML/]: No mcmod.info file found in directory start
+[00:43:50] [main/TRACE] [FML/]: Recursing into package net
+[00:43:50] [main/TRACE] [FML/]: Recursing into package net/minecraftforge
+[00:43:50] [main/TRACE] [FML/]: Recursing into package net/minecraftforge/gradle
+[00:43:50] [main/TRACE] [FML/]: Recursing into package net/minecraftforge/gradle/tweakers
+[00:43:50] [main/DEBUG] [FML/]: Examining file RedstoneFlux-1.12-2.0.1.2-universal (1).jar for potential mods
+[00:43:50] [main/TRACE] [FML/]: Located mcmod.info file in file RedstoneFlux-1.12-2.0.1.2-universal (1).jar
+[00:43:50] [main/DEBUG] [FML/]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (cofh.redstoneflux.RedstoneFlux) - loading
+[00:43:50] [main/TRACE] [redstoneflux/]: Parsed dependency info : Requirements: [] After:[] Before:[]
+[00:43:50] [main/INFO] [FML/]: Forge Mod Loader has identified 10 mods to load
+[00:43:50] [main/DEBUG] [FML/]: Found API cofh.api.core (owned by cofhapi providing cofhapi|core) embedded in cofhcore
+[00:43:50] [main/DEBUG] [FML/]: Found API cofh.api.util (owned by cofhapi providing cofhapi|util) embedded in cofhcore
+[00:43:50] [main/DEBUG] [FML/]: Found API cofh.api.block (owned by cofhapi providing cofhapi|block) embedded in cofhcore
+[00:43:50] [main/DEBUG] [FML/]: Found API cofh.api.tileentity (owned by cofhapi providing cofhapi|tileentity) embedded in cofhcore
+[00:43:50] [main/DEBUG] [FML/]: Found API cofh.api.item (owned by cofhapi providing cofhapi|item) embedded in cofhcore
+[00:43:50] [main/DEBUG] [FML/]: Found API cofh.api (owned by cofhcore providing cofhapi) embedded in cofhcore
+[00:43:50] [main/TRACE] [FML/]: Removing upstream parent cofhcore from APIContainer{cofhapi|block:2.2.0}
+[00:43:50] [main/DEBUG] [FML/]: Creating API container dummy for API cofhapi|block: owner: cofhapi, dependents: []
+[00:43:50] [main/TRACE] [FML/]: Removing upstream parent cofhcore from APIContainer{cofhapi|core:2.2.0}
+[00:43:50] [main/DEBUG] [FML/]: Creating API container dummy for API cofhapi|core: owner: cofhapi, dependents: []
+[00:43:50] [main/TRACE] [FML/]: Removing upstream parent cofhcore from APIContainer{cofhapi|item:2.2.0}
+[00:43:50] [main/DEBUG] [FML/]: Creating API container dummy for API cofhapi|item: owner: cofhapi, dependents: []
+[00:43:50] [main/TRACE] [FML/]: Removing upstream parent cofhcore from APIContainer{cofhapi|tileentity:2.2.0}
+[00:43:50] [main/DEBUG] [FML/]: Creating API container dummy for API cofhapi|tileentity: owner: cofhapi, dependents: []
+[00:43:50] [main/DEBUG] [FML/]: Creating API container dummy for API cofhapi: owner: cofhcore, dependents: []
+[00:43:50] [main/TRACE] [FML/]: Removing upstream parent cofhcore from APIContainer{cofhapi|util:2.2.0}
+[00:43:50] [main/DEBUG] [FML/]: Creating API container dummy for API cofhapi|util: owner: cofhapi, dependents: []
+[00:43:50] [main/TRACE] [FML/]: Received a system property request ''
+[00:43:50] [main/TRACE] [FML/]: System property request managing the state of 0 mods
+[00:43:50] [main/DEBUG] [FML/]: After merging, found state information for 0 mods
+[00:43:50] [main/DEBUG] [Forge Mod Loader/]: Mod Forge Mod Loader is missing a pack.mcmeta file, substituting a dummy one
+[00:43:50] [main/DEBUG] [Minecraft Forge/]: Mod Minecraft Forge is missing a pack.mcmeta file, substituting a dummy one
+[00:43:50] [main/DEBUG] [core/]: Enabling mod core
+[00:43:50] [main/DEBUG] [mantle/]: Enabling mod mantle
+[00:43:50] [main/DEBUG] [Mantle/]: Mod Mantle is missing a pack.mcmeta file, substituting a dummy one
+[00:43:50] [main/DEBUG] [cofhcore/]: Enabling mod cofhcore
+[00:43:50] [main/DEBUG] [CoFH Core/]: Mod CoFH Core is missing a pack.mcmeta file, substituting a dummy one
+[00:43:50] [main/DEBUG] [cofhworld/]: Enabling mod cofhworld
+[00:43:50] [main/DEBUG] [CoFH World/]: Mod CoFH World is missing a pack.mcmeta file, substituting a dummy one
+[00:43:50] [main/DEBUG] [tconstruct/]: Enabling mod tconstruct
+[00:43:50] [main/DEBUG] [redstoneflux/]: Enabling mod redstoneflux
+[00:43:50] [main/DEBUG] [Redstone Flux/]: Mod Redstone Flux is missing a pack.mcmeta file, substituting a dummy one
+[00:43:50] [main/TRACE] [FML/]: Verifying mod requirements are satisfied
+[00:43:50] [main/TRACE] [FML/]: All mod requirements are satisfied
+[00:43:50] [main/TRACE] [FML/]: Sorting mods into an ordered list
+[00:43:50] [main/TRACE] [FML/]: Mod sorting completed successfully
+[00:43:50] [main/DEBUG] [FML/]: Mod sorting data
+[00:43:50] [main/DEBUG] [FML/]: 	redstoneflux(Redstone Flux:2.0.1): RedstoneFlux-1.12-2.0.1.2-universal (1).jar ()
+[00:43:50] [main/DEBUG] [FML/]: 	cofhcore(CoFH Core:4.3.10): CoFHCore-1.12.2-4.3.10.5-universal.jar (required-after:forge@[14.23.1.2555,15.0.0.0);required-after:redstoneflux@[2.0.1,2.1.0);)
+[00:43:50] [main/DEBUG] [FML/]: 	cofhworld(CoFH World:1.1.1): CoFHWorld-1.12.2-1.1.1.12-universal (1).jar (required-after:forge@[14.23.1.2555,15.0.0.0);)
+[00:43:50] [main/DEBUG] [FML/]: 	mantle(Mantle:1.12-1.3.1.21): Mantle-1.12-1.3.1.21.jar (required-after:forge@[14.21.1.2387,))
+[00:43:50] [main/DEBUG] [FML/]: 	tconstruct(Tinkers' Construct:1.12.2-2.9.1.DEV.GITBORK): TConstruct-1.12.2-2.9.1.DEV.GITBORK-deobf.jar (required-after:forge@[14.23.1.2577,);required-after:mantle@[1.12-1.3.1,);after:jei@[4.8,);after:chisel)
+[00:43:50] [main/DEBUG] [FML/]: 	core(cOre:1.0.2): bin (after:cofhcore;after:cofhworld;after:tconstruct)
+[00:43:50] [main/DEBUG] [FML/]: 	cofhapi(API: cofhapi:2.2.0): CoFHCore-1.12.2-4.3.10.5-universal.jar ()
+[00:43:50] [main/DEBUG] [FML/]: 	cofhapi|block(API: cofhapi|block:2.2.0): CoFHCore-1.12.2-4.3.10.5-universal.jar ()
+[00:43:50] [main/DEBUG] [FML/]: 	cofhapi|core(API: cofhapi|core:2.2.0): CoFHCore-1.12.2-4.3.10.5-universal.jar ()
+[00:43:50] [main/DEBUG] [FML/]: 	cofhapi|item(API: cofhapi|item:2.2.0): CoFHCore-1.12.2-4.3.10.5-universal.jar ()
+[00:43:50] [main/DEBUG] [FML/]: 	cofhapi|tileentity(API: cofhapi|tileentity:2.2.0): CoFHCore-1.12.2-4.3.10.5-universal.jar ()
+[00:43:50] [main/DEBUG] [FML/]: 	cofhapi|util(API: cofhapi|util:2.2.0): CoFHCore-1.12.2-4.3.10.5-universal.jar ()
+[00:43:50] [main/DEBUG] [FML/]: Loading @Config anotation data
+[00:43:50] [main/TRACE] [minecraft/minecraft]: Sending event FMLConstructionEvent to mod minecraft
+[00:43:50] [main/TRACE] [minecraft/minecraft]: Sent event FMLConstructionEvent to mod minecraft
+[00:43:50] [main/DEBUG] [FML/]: Bar Step: Construction - Minecraft took 0.006s
+[00:43:50] [main/TRACE] [mcp/mcp]: Sending event FMLConstructionEvent to mod mcp
+[00:43:50] [main/TRACE] [mcp/mcp]: Sent event FMLConstructionEvent to mod mcp
+[00:43:50] [main/DEBUG] [FML/]: Bar Step: Construction - Minecraft Coder Pack took 0.001s
+[00:43:50] [main/TRACE] [FML/FML]: Sending event FMLConstructionEvent to mod FML
+[00:43:51] [main/TRACE] [FML/FML]: Mod FML is using network checker : Invoking method checkModLists
+[00:43:51] [main/TRACE] [FML/FML]: Testing mod FML to verify it accepts its own version in a remote connection
+[00:43:51] [main/TRACE] [FML/FML]: The mod FML accepts its own version (8.0.99.99)
+[00:43:51] [main/INFO] [FML/FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, core, mantle, cofhcore, cofhworld, tconstruct, redstoneflux] at CLIENT
+[00:43:51] [main/INFO] [FML/FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, core, mantle, cofhcore, cofhworld, tconstruct, redstoneflux] at SERVER
+[00:43:51] [main/TRACE] [FML/FML]: Sent event FMLConstructionEvent to mod FML
+[00:43:51] [main/DEBUG] [FML/]: Bar Step: Construction - Forge Mod Loader took 0.806s
+[00:43:51] [main/TRACE] [forge/forge]: Sending event FMLConstructionEvent to mod forge
+[00:43:51] [main/DEBUG] [forge/forge]: Preloading CrashReport Classes
+[00:43:51] [main/DEBUG] [forge/forge]: 	net/minecraft/client/Minecraft$10
+[00:43:51] [main/DEBUG] [forge/forge]: 	net/minecraft/client/Minecraft$11
+[00:43:51] [main/DEBUG] [forge/forge]: 	net/minecraft/client/Minecraft$12
+[00:43:51] [main/DEBUG] [forge/forge]: 	net/minecraft/client/Minecraft$13
+[00:43:51] [main/DEBUG] [forge/forge]: 	net/minecraft/client/Minecraft$14
+[00:43:51] [main/DEBUG] [forge/forge]: 	net/minecraft/client/Minecraft$2
+[00:43:51] [main/DEBUG] [forge/forge]: 	net/minecraft/client/Minecraft$3
+[00:43:51] [main/DEBUG] [forge/forge]: 	net/minecraft/client/Minecraft$4
+[00:43:51] [main/DEBUG] [forge/forge]: 	net/minecraft/client/Minecraft$5
+[00:43:51] [main/DEBUG] [forge/forge]: 	net/minecraft/client/Minecraft$6
+[00:43:51] [main/DEBUG] [forge/forge]: 	net/minecraft/client/Minecraft$7
+[00:43:51] [main/DEBUG] [forge/forge]: 	net/minecraft/client/Minecraft$8
+[00:43:51] [main/DEBUG] [forge/forge]: 	net/minecraft/client/Minecraft$9
+[00:43:51] [main/DEBUG] [forge/forge]: 	net/minecraft/client/multiplayer/WorldClient$1
+[00:43:51] [main/DEBUG] [forge/forge]: 	net/minecraft/client/multiplayer/WorldClient$2
+[00:43:51] [main/DEBUG] [forge/forge]: 	net/minecraft/client/multiplayer/WorldClient$3
+[00:43:51] [main/DEBUG] [forge/forge]: 	net/minecraft/client/multiplayer/WorldClient$4
+[00:43:51] [main/DEBUG] [forge/forge]: 	net/minecraft/client/particle/ParticleManager$1
+[00:43:51] [main/DEBUG] [forge/forge]: 	net/minecraft/client/particle/ParticleManager$2
+[00:43:51] [main/DEBUG] [forge/forge]: 	net/minecraft/client/particle/ParticleManager$3
+[00:43:51] [main/DEBUG] [forge/forge]: 	net/minecraft/client/particle/ParticleManager$4
+[00:43:51] [main/DEBUG] [forge/forge]: 	net/minecraft/client/renderer/EntityRenderer$2
+[00:43:51] [main/DEBUG] [forge/forge]: 	net/minecraft/client/renderer/EntityRenderer$3
+[00:43:51] [main/DEBUG] [forge/forge]: 	net/minecraft/client/renderer/EntityRenderer$4
+[00:43:51] [main/DEBUG] [forge/forge]: 	net/minecraft/client/renderer/RenderGlobal$1
+[00:43:51] [main/DEBUG] [forge/forge]: 	net/minecraft/client/renderer/RenderItem$1
+[00:43:51] [main/DEBUG] [forge/forge]: 	net/minecraft/client/renderer/RenderItem$2
+[00:43:51] [main/DEBUG] [forge/forge]: 	net/minecraft/client/renderer/RenderItem$3
+[00:43:51] [main/DEBUG] [forge/forge]: 	net/minecraft/client/renderer/RenderItem$4
+[00:43:51] [main/DEBUG] [forge/forge]: 	net/minecraft/client/renderer/texture/TextureAtlasSprite$1
+[00:43:51] [main/DEBUG] [forge/forge]: 	net/minecraft/client/renderer/texture/TextureManager$1
+[00:43:51] [main/DEBUG] [forge/forge]: 	net/minecraft/client/renderer/texture/TextureMap$1
+[00:43:51] [main/DEBUG] [forge/forge]: 	net/minecraft/client/renderer/texture/TextureMap$2
+[00:43:51] [main/DEBUG] [forge/forge]: 	net/minecraft/client/renderer/texture/TextureMap$3
+[00:43:51] [main/DEBUG] [forge/forge]: 	net/minecraft/crash/CrashReport$1
+[00:43:51] [main/DEBUG] [forge/forge]: 	net/minecraft/crash/CrashReport$2
+[00:43:51] [main/DEBUG] [forge/forge]: 	net/minecraft/crash/CrashReport$3
+[00:43:51] [main/DEBUG] [forge/forge]: 	net/minecraft/crash/CrashReport$4
+[00:43:51] [main/DEBUG] [forge/forge]: 	net/minecraft/crash/CrashReport$5
+[00:43:51] [main/DEBUG] [forge/forge]: 	net/minecraft/crash/CrashReport$6
+[00:43:51] [main/DEBUG] [forge/forge]: 	net/minecraft/crash/CrashReport$7
+[00:43:51] [main/DEBUG] [forge/forge]: 	net/minecraft/crash/CrashReportCategory$1
+[00:43:51] [main/DEBUG] [forge/forge]: 	net/minecraft/crash/CrashReportCategory$2
+[00:43:51] [main/DEBUG] [forge/forge]: 	net/minecraft/crash/CrashReportCategory$3
+[00:43:51] [main/DEBUG] [forge/forge]: 	net/minecraft/crash/CrashReportCategory$4
+[00:43:51] [main/DEBUG] [forge/forge]: 	net/minecraft/crash/CrashReportCategory$5
+[00:43:51] [main/DEBUG] [forge/forge]: 	net/minecraft/entity/Entity$2
+[00:43:51] [main/DEBUG] [forge/forge]: 	net/minecraft/entity/Entity$3
+[00:43:51] [main/DEBUG] [forge/forge]: 	net/minecraft/entity/Entity$4
+[00:43:51] [main/DEBUG] [forge/forge]: 	net/minecraft/entity/Entity$5
+[00:43:51] [main/DEBUG] [forge/forge]: 	net/minecraft/entity/EntityTracker$1
+[00:43:51] [main/DEBUG] [forge/forge]: 	net/minecraft/entity/player/InventoryPlayer$1
+[00:43:51] [main/DEBUG] [forge/forge]: 	net/minecraft/nbt/NBTTagCompound$1
+[00:43:51] [main/DEBUG] [forge/forge]: 	net/minecraft/nbt/NBTTagCompound$2
+[00:43:51] [main/DEBUG] [forge/forge]: 	net/minecraft/network/NetHandlerPlayServer$3
+[00:43:51] [main/DEBUG] [forge/forge]: 	net/minecraft/network/NetworkSystem$6
+[00:43:51] [main/DEBUG] [forge/forge]: 	net/minecraft/server/MinecraftServer$2
+[00:43:51] [main/DEBUG] [forge/forge]: 	net/minecraft/server/MinecraftServer$3
+[00:43:51] [main/DEBUG] [forge/forge]: 	net/minecraft/server/dedicated/DedicatedServer$3
+[00:43:51] [main/DEBUG] [forge/forge]: 	net/minecraft/server/dedicated/DedicatedServer$4
+[00:43:51] [main/DEBUG] [forge/forge]: 	net/minecraft/server/integrated/IntegratedServer$1
+[00:43:51] [main/DEBUG] [forge/forge]: 	net/minecraft/server/integrated/IntegratedServer$2
+[00:43:51] [main/DEBUG] [forge/forge]: 	net/minecraft/tileentity/CommandBlockBaseLogic$1
+[00:43:51] [main/DEBUG] [forge/forge]: 	net/minecraft/tileentity/CommandBlockBaseLogic$2
+[00:43:51] [main/DEBUG] [forge/forge]: 	net/minecraft/tileentity/TileEntity$1
+[00:43:51] [main/DEBUG] [forge/forge]: 	net/minecraft/tileentity/TileEntity$2
+[00:43:51] [main/DEBUG] [forge/forge]: 	net/minecraft/tileentity/TileEntity$3
+[00:43:51] [main/DEBUG] [forge/forge]: 	net/minecraft/world/World$1
+[00:43:51] [main/DEBUG] [forge/forge]: 	net/minecraft/world/World$2
+[00:43:51] [main/DEBUG] [forge/forge]: 	net/minecraft/world/World$3
+[00:43:51] [main/DEBUG] [forge/forge]: 	net/minecraft/world/World$4
+[00:43:51] [main/DEBUG] [forge/forge]: 	net/minecraft/world/World$5
+[00:43:51] [main/DEBUG] [forge/forge]: 	net/minecraft/world/chunk/Chunk$1
+[00:43:51] [main/DEBUG] [forge/forge]: 	net/minecraft/world/gen/structure/MapGenStructure$1
+[00:43:51] [main/DEBUG] [forge/forge]: 	net/minecraft/world/gen/structure/MapGenStructure$2
+[00:43:51] [main/DEBUG] [forge/forge]: 	net/minecraft/world/gen/structure/MapGenStructure$3
+[00:43:51] [main/DEBUG] [forge/forge]: 	net/minecraft/world/storage/WorldInfo$10
+[00:43:51] [main/DEBUG] [forge/forge]: 	net/minecraft/world/storage/WorldInfo$2
+[00:43:51] [main/DEBUG] [forge/forge]: 	net/minecraft/world/storage/WorldInfo$3
+[00:43:51] [main/DEBUG] [forge/forge]: 	net/minecraft/world/storage/WorldInfo$4
+[00:43:51] [main/DEBUG] [forge/forge]: 	net/minecraft/world/storage/WorldInfo$5
+[00:43:51] [main/DEBUG] [forge/forge]: 	net/minecraft/world/storage/WorldInfo$6
+[00:43:51] [main/DEBUG] [forge/forge]: 	net/minecraft/world/storage/WorldInfo$7
+[00:43:51] [main/DEBUG] [forge/forge]: 	net/minecraft/world/storage/WorldInfo$8
+[00:43:51] [main/DEBUG] [forge/forge]: 	net/minecraft/world/storage/WorldInfo$9
+[00:43:51] [main/DEBUG] [forge/forge]: 	net/minecraftforge/common/util/TextTable
+[00:43:51] [main/DEBUG] [forge/forge]: 	net/minecraftforge/common/util/TextTable$Alignment
+[00:43:51] [main/DEBUG] [forge/forge]: 	net/minecraftforge/common/util/TextTable$Column
+[00:43:51] [main/DEBUG] [forge/forge]: 	net/minecraftforge/common/util/TextTable$Row
+[00:43:51] [main/DEBUG] [forge/forge]: 	net/minecraftforge/fml/client/SplashProgress$1
+[00:43:51] [main/DEBUG] [forge/forge]: 	net/minecraftforge/fml/common/FMLCommonHandler$1
+[00:43:51] [main/DEBUG] [forge/forge]: 	net/minecraftforge/fml/common/ICrashCallable
+[00:43:51] [main/DEBUG] [forge/forge]: 	net/minecraftforge/fml/common/Loader$1
+[00:43:51] [main/TRACE] [FML/forge]: Mod forge is using network checker : No network checking performed
+[00:43:51] [main/TRACE] [FML/forge]: Testing mod forge to verify it accepts its own version in a remote connection
+[00:43:51] [main/TRACE] [FML/forge]: The mod forge accepts its own version (14.23.2.2611)
+[00:43:51] [main/DEBUG] [FML/forge]: Attempting to inject @Config classes into forge for type INSTANCE
+[00:43:51] [main/TRACE] [forge/forge]: Sent event FMLConstructionEvent to mod forge
+[00:43:51] [main/DEBUG] [FML/]: Bar Step: Construction - Minecraft Forge took 0.123s
+[00:43:51] [main/TRACE] [redstoneflux/redstoneflux]: Sending event FMLConstructionEvent to mod redstoneflux
+[00:43:51] [main/TRACE] [FML/redstoneflux]: Mod redstoneflux is using network checker : Accepting version 2.0.1
+[00:43:51] [main/TRACE] [FML/redstoneflux]: Testing mod redstoneflux to verify it accepts its own version in a remote connection
+[00:43:51] [main/TRACE] [FML/redstoneflux]: The mod redstoneflux accepts its own version (2.0.1)
+[00:43:51] [main/DEBUG] [FML/redstoneflux]: Attempting to inject @SidedProxy classes into redstoneflux
+[00:43:51] [main/DEBUG] [FML/redstoneflux]: Attempting to inject @EventBusSubscriber classes into the eventbus for redstoneflux
+[00:43:51] [main/DEBUG] [FML/redstoneflux]: Attempting to inject @Config classes into redstoneflux for type INSTANCE
+[00:43:51] [main/TRACE] [redstoneflux/redstoneflux]: Sent event FMLConstructionEvent to mod redstoneflux
+[00:43:51] [main/DEBUG] [FML/]: Bar Step: Construction - Redstone Flux took 0.023s
+[00:43:51] [main/TRACE] [cofhcore/cofhcore]: Sending event FMLConstructionEvent to mod cofhcore
+[00:43:51] [main/TRACE] [FML/cofhcore]: Mod cofhcore is using network checker : Accepting version 4.3.10
+[00:43:51] [main/TRACE] [FML/cofhcore]: Testing mod cofhcore to verify it accepts its own version in a remote connection
+[00:43:51] [main/TRACE] [FML/cofhcore]: The mod cofhcore accepts its own version (4.3.10)
+[00:43:51] [main/DEBUG] [FML/cofhcore]: Attempting to inject @SidedProxy classes into cofhcore
+[00:43:51] [main/DEBUG] [FML/cofhcore]: Attempting to inject @EventBusSubscriber classes into the eventbus for cofhcore
+[00:43:51] [main/DEBUG] [FML/cofhcore]: Attempting to inject @Config classes into cofhcore for type INSTANCE
+[00:43:51] [main/TRACE] [cofhcore/cofhcore]: Sent event FMLConstructionEvent to mod cofhcore
+[00:43:51] [main/DEBUG] [FML/]: Bar Step: Construction - CoFH Core took 0.082s
+[00:43:51] [main/TRACE] [cofhworld/cofhworld]: Sending event FMLConstructionEvent to mod cofhworld
+[00:43:52] [main/TRACE] [FML/cofhworld]: Mod cofhworld is using network checker : Accepting version 1.1.1
+[00:43:52] [main/TRACE] [FML/cofhworld]: Testing mod cofhworld to verify it accepts its own version in a remote connection
+[00:43:52] [main/TRACE] [FML/cofhworld]: The mod cofhworld accepts its own version (1.1.1)
+[00:43:52] [main/DEBUG] [FML/cofhworld]: Attempting to inject @SidedProxy classes into cofhworld
+[00:43:52] [main/DEBUG] [FML/cofhworld]: Attempting to inject @EventBusSubscriber classes into the eventbus for cofhworld
+[00:43:52] [main/DEBUG] [FML/cofhworld]: Attempting to inject @Config classes into cofhworld for type INSTANCE
+[00:43:52] [main/TRACE] [cofhworld/cofhworld]: Sent event FMLConstructionEvent to mod cofhworld
+[00:43:52] [main/DEBUG] [FML/]: Bar Step: Construction - CoFH World took 0.078s
+[00:43:52] [main/TRACE] [mantle/mantle]: Sending event FMLConstructionEvent to mod mantle
+[00:43:52] [main/DEBUG] [forge/mantle]: Preloading CrashReport Classes
+[00:43:52] [main/DEBUG] [forge/mantle]: 	slimeknights/mantle/pulsar/internal/CrashHandler
+[00:43:52] [main/TRACE] [FML/mantle]: Mod mantle is using network checker : Accepting version 1.12-1.3.1.21
+[00:43:52] [main/TRACE] [FML/mantle]: Testing mod mantle to verify it accepts its own version in a remote connection
+[00:43:52] [main/TRACE] [FML/mantle]: The mod mantle accepts its own version (1.12-1.3.1.21)
+[00:43:52] [main/DEBUG] [FML/mantle]: Attempting to inject @SidedProxy classes into mantle
+[00:43:52] [main/DEBUG] [FML/mantle]: Attempting to inject @EventBusSubscriber classes into the eventbus for mantle
+[00:43:52] [main/DEBUG] [FML/mantle]: Attempting to inject @Config classes into mantle for type INSTANCE
+[00:43:52] [main/TRACE] [mantle/mantle]: Sent event FMLConstructionEvent to mod mantle
+[00:43:52] [main/DEBUG] [FML/]: Bar Step: Construction - Mantle took 0.010s
+[00:43:52] [main/TRACE] [tconstruct/tconstruct]: Sending event FMLConstructionEvent to mod tconstruct
+[00:43:52] [main/DEBUG] [Pulsar-tconstruct/tconstruct]: Attaching [PulseManager[tconstruct]] to event bus for container [FMLMod:tconstruct{1.12.2-2.9.1.DEV.GITBORK}]
+[00:43:52] [main/INFO] [Pulsar-tconstruct/tconstruct]: Skipping Pulse chiselIntegration; missing dependency: chisel
+[00:43:52] [main/INFO] [Pulsar-tconstruct/tconstruct]: Skipping Pulse chiselsandbitsIntegration; missing dependency: chiselsandbits
+[00:43:52] [main/INFO] [Pulsar-tconstruct/tconstruct]: Skipping Pulse craftingtweaksIntegration; missing dependency: craftingtweaks
+[00:43:52] [main/INFO] [Pulsar-tconstruct/tconstruct]: Skipping Pulse wailaIntegration; missing dependency: waila
+[00:43:52] [main/INFO] [Pulsar-tconstruct/tconstruct]: Skipping Pulse theoneprobeIntegration; missing dependency: theoneprobe
+[00:43:52] [main/INFO] [tconstruct/tconstruct]: Preparing to take over the world
+[00:43:52] [main/TRACE] [FML/tconstruct]: Mod tconstruct is using network checker : Invoking method matchModVersions
+[00:43:52] [main/TRACE] [FML/tconstruct]: Testing mod tconstruct to verify it accepts its own version in a remote connection
+[00:43:52] [main/TRACE] [FML/tconstruct]: The mod tconstruct accepts its own version (1.12.2-2.9.1.DEV.GITBORK)
+[00:43:52] [main/DEBUG] [FML/tconstruct]: Attempting to inject @SidedProxy classes into tconstruct
+[00:43:52] [main/DEBUG] [FML/tconstruct]: Attempting to inject @EventBusSubscriber classes into the eventbus for tconstruct
+[00:43:52] [main/DEBUG] [FML/tconstruct]: Registering @EventBusSubscriber for slimeknights.tconstruct.common.Sounds for mod tconstruct
+[00:43:52] [main/DEBUG] [FML/tconstruct]: Injected @EventBusSubscriber class slimeknights.tconstruct.common.Sounds
+[00:43:52] [main/DEBUG] [FML/tconstruct]: Registering @EventBusSubscriber for slimeknights.tconstruct.tools.ranged.RangedRenderEvents for mod tconstruct
+[00:43:52] [main/DEBUG] [FML/tconstruct]: Injected @EventBusSubscriber class slimeknights.tconstruct.tools.ranged.RangedRenderEvents
+[00:43:52] [main/DEBUG] [FML/tconstruct]: Registering @EventBusSubscriber for slimeknights.tconstruct.tools.ranged.RangedEvents for mod tconstruct
+[00:43:52] [main/DEBUG] [FML/tconstruct]: Injected @EventBusSubscriber class slimeknights.tconstruct.tools.ranged.RangedEvents
+[00:43:52] [main/DEBUG] [FML/tconstruct]: Attempting to inject @Config classes into tconstruct for type INSTANCE
+[00:43:52] [main/TRACE] [tconstruct/tconstruct]: Sent event FMLConstructionEvent to mod tconstruct
+[00:43:52] [main/DEBUG] [FML/]: Bar Step: Construction - Tinkers' Construct took 0.910s
+[00:43:52] [main/TRACE] [core/core]: Sending event FMLConstructionEvent to mod core
+[00:43:52] [main/TRACE] [FML/core]: Mod core is using network checker : Accepting version 1.0.2
+[00:43:52] [main/TRACE] [FML/core]: Testing mod core to verify it accepts its own version in a remote connection
+[00:43:52] [main/TRACE] [FML/core]: The mod core accepts its own version (1.0.2)
+[00:43:52] [main/DEBUG] [FML/core]: Attempting to inject @SidedProxy classes into core
+[00:43:52] [main/DEBUG] [FML/core]: Attempting to inject @EventBusSubscriber classes into the eventbus for core
+[00:43:52] [main/DEBUG] [FML/core]: Registering @EventBusSubscriber for com.silvaniastudios.core.config.TitaniumConfig$EventHandler for mod core
+[00:43:52] [main/DEBUG] [FML/core]: Injected @EventBusSubscriber class com.silvaniastudios.core.config.TitaniumConfig$EventHandler
+[00:43:52] [main/DEBUG] [FML/core]: Registering @EventBusSubscriber for com.silvaniastudios.core.config.FlariteConfig$EventHandler for mod core
+[00:43:52] [main/DEBUG] [FML/core]: Injected @EventBusSubscriber class com.silvaniastudios.core.config.FlariteConfig$EventHandler
+[00:43:52] [main/DEBUG] [FML/core]: Registering @EventBusSubscriber for com.silvaniastudios.core.config.SapphireConfig$EventHandler for mod core
+[00:43:53] [main/DEBUG] [FML/core]: Injected @EventBusSubscriber class com.silvaniastudios.core.config.SapphireConfig$EventHandler
+[00:43:53] [main/DEBUG] [FML/core]: Registering @EventBusSubscriber for com.silvaniastudios.core.config.AlloyRoseGoldConfig$EventHandler for mod core
+[00:43:53] [main/DEBUG] [FML/core]: Injected @EventBusSubscriber class com.silvaniastudios.core.config.AlloyRoseGoldConfig$EventHandler
+[00:43:53] [main/DEBUG] [FML/core]: Registering @EventBusSubscriber for com.silvaniastudios.core.config.VanillaEmeraldConfig$EventHandler for mod core
+[00:43:53] [main/DEBUG] [FML/core]: Injected @EventBusSubscriber class com.silvaniastudios.core.config.VanillaEmeraldConfig$EventHandler
+[00:43:53] [main/DEBUG] [FML/core]: Registering @EventBusSubscriber for com.silvaniastudios.core.config.CobaltConfig$EventHandler for mod core
+[00:43:53] [main/DEBUG] [FML/core]: Injected @EventBusSubscriber class com.silvaniastudios.core.config.CobaltConfig$EventHandler
+[00:43:53] [main/DEBUG] [FML/core]: Registering @EventBusSubscriber for com.silvaniastudios.core.config.PhosphorusConfig$EventHandler for mod core
+[00:43:53] [main/DEBUG] [FML/core]: Injected @EventBusSubscriber class com.silvaniastudios.core.config.PhosphorusConfig$EventHandler
+[00:43:53] [main/DEBUG] [FML/core]: Registering @EventBusSubscriber for com.silvaniastudios.core.config.SulfurConfig$EventHandler for mod core
+[00:43:53] [main/DEBUG] [FML/core]: Injected @EventBusSubscriber class com.silvaniastudios.core.config.SulfurConfig$EventHandler
+[00:43:53] [main/DEBUG] [FML/core]: Registering @EventBusSubscriber for com.silvaniastudios.core.config.CrystalConfig$EventHandler for mod core
+[00:43:53] [main/DEBUG] [FML/core]: Injected @EventBusSubscriber class com.silvaniastudios.core.config.CrystalConfig$EventHandler
+[00:43:53] [main/DEBUG] [FML/core]: Registering @EventBusSubscriber for com.silvaniastudios.core.config.AmethystConfig$EventHandler for mod core
+[00:43:53] [main/DEBUG] [FML/core]: Injected @EventBusSubscriber class com.silvaniastudios.core.config.AmethystConfig$EventHandler
+[00:43:53] [main/DEBUG] [FML/core]: Registering @EventBusSubscriber for com.silvaniastudios.core.config.MerciliteConfig$EventHandler for mod core
+[00:43:53] [main/DEBUG] [FML/core]: Injected @EventBusSubscriber class com.silvaniastudios.core.config.MerciliteConfig$EventHandler
+[00:43:53] [main/DEBUG] [FML/core]: Registering @EventBusSubscriber for com.silvaniastudios.core.config.SilverConfig$EventHandler for mod core
+[00:43:53] [main/DEBUG] [FML/core]: Injected @EventBusSubscriber class com.silvaniastudios.core.config.SilverConfig$EventHandler
+[00:43:53] [main/DEBUG] [FML/core]: Registering @EventBusSubscriber for com.silvaniastudios.core.config.TinConfig$EventHandler for mod core
+[00:43:53] [main/DEBUG] [FML/core]: Injected @EventBusSubscriber class com.silvaniastudios.core.config.TinConfig$EventHandler
+[00:43:53] [main/DEBUG] [FML/core]: Registering @EventBusSubscriber for com.silvaniastudios.core.config.AlloyUltimiteConfig$EventHandler for mod core
+[00:43:53] [main/DEBUG] [FML/core]: Injected @EventBusSubscriber class com.silvaniastudios.core.config.AlloyUltimiteConfig$EventHandler
+[00:43:53] [main/DEBUG] [FML/core]: Registering @EventBusSubscriber for com.silvaniastudios.core.config.ChromiumConfig$EventHandler for mod core
+[00:43:53] [main/DEBUG] [FML/core]: Injected @EventBusSubscriber class com.silvaniastudios.core.config.ChromiumConfig$EventHandler
+[00:43:53] [main/DEBUG] [FML/core]: Registering @EventBusSubscriber for com.silvaniastudios.core.config.CopperConfig$EventHandler for mod core
+[00:43:53] [main/DEBUG] [FML/core]: Injected @EventBusSubscriber class com.silvaniastudios.core.config.CopperConfig$EventHandler
+[00:43:53] [main/DEBUG] [FML/core]: Registering @EventBusSubscriber for com.silvaniastudios.core.config.RubyConfig$EventHandler for mod core
+[00:43:53] [main/DEBUG] [FML/core]: Injected @EventBusSubscriber class com.silvaniastudios.core.config.RubyConfig$EventHandler
+[00:43:53] [main/DEBUG] [FML/core]: Registering @EventBusSubscriber for com.silvaniastudios.core.config.CalciteConfig$EventHandler for mod core
+[00:43:53] [main/DEBUG] [FML/core]: Injected @EventBusSubscriber class com.silvaniastudios.core.config.CalciteConfig$EventHandler
+[00:43:53] [main/DEBUG] [FML/core]: Registering @EventBusSubscriber for com.silvaniastudios.core.config.MythianConfig$EventHandler for mod core
+[00:43:53] [main/DEBUG] [FML/core]: Injected @EventBusSubscriber class com.silvaniastudios.core.config.MythianConfig$EventHandler
+[00:43:53] [main/DEBUG] [FML/core]: Registering @EventBusSubscriber for com.silvaniastudios.core.config.NickelConfig$EventHandler for mod core
+[00:43:53] [main/DEBUG] [FML/core]: Injected @EventBusSubscriber class com.silvaniastudios.core.config.NickelConfig$EventHandler
+[00:43:53] [main/DEBUG] [FML/core]: Registering @EventBusSubscriber for com.silvaniastudios.core.config.VanillaRedstoneConfig$EventHandler for mod core
+[00:43:53] [main/DEBUG] [FML/core]: Injected @EventBusSubscriber class com.silvaniastudios.core.config.VanillaRedstoneConfig$EventHandler
+[00:43:53] [main/DEBUG] [FML/core]: Registering @EventBusSubscriber for com.silvaniastudios.core.config.AlloyStelliteConfig$EventHandler for mod core
+[00:43:53] [main/DEBUG] [FML/core]: Injected @EventBusSubscriber class com.silvaniastudios.core.config.AlloyStelliteConfig$EventHandler
+[00:43:53] [main/DEBUG] [FML/core]: Registering @EventBusSubscriber for com.silvaniastudios.core.config.SilvaniteConfig$EventHandler for mod core
+[00:43:53] [main/DEBUG] [FML/core]: Injected @EventBusSubscriber class com.silvaniastudios.core.config.SilvaniteConfig$EventHandler
+[00:43:53] [main/DEBUG] [FML/core]: Registering @EventBusSubscriber for com.silvaniastudios.core.config.TungstenConfig$EventHandler for mod core
+[00:43:53] [main/DEBUG] [FML/core]: Injected @EventBusSubscriber class com.silvaniastudios.core.config.TungstenConfig$EventHandler
+[00:43:53] [main/DEBUG] [FML/core]: Registering @EventBusSubscriber for com.silvaniastudios.core.CommonProxy for mod core
+[00:43:53] [main/DEBUG] [FML/core]: Injected @EventBusSubscriber class com.silvaniastudios.core.CommonProxy
+[00:43:53] [main/DEBUG] [FML/core]: Registering @EventBusSubscriber for com.silvaniastudios.core.config.AlloySpeedoiConfig$EventHandler for mod core
+[00:43:53] [main/DEBUG] [FML/core]: Injected @EventBusSubscriber class com.silvaniastudios.core.config.AlloySpeedoiConfig$EventHandler
+[00:43:53] [main/DEBUG] [FML/core]: Registering @EventBusSubscriber for com.silvaniastudios.core.config.AlloyStainlessSteelConfig$EventHandler for mod core
+[00:43:53] [main/DEBUG] [FML/core]: Injected @EventBusSubscriber class com.silvaniastudios.core.config.AlloyStainlessSteelConfig$EventHandler
+[00:43:53] [main/DEBUG] [FML/core]: Registering @EventBusSubscriber for com.silvaniastudios.core.config.AlloyBronzeConfig$EventHandler for mod core
+[00:43:53] [main/DEBUG] [FML/core]: Injected @EventBusSubscriber class com.silvaniastudios.core.config.AlloyBronzeConfig$EventHandler
+[00:43:53] [main/DEBUG] [FML/core]: Registering @EventBusSubscriber for com.silvaniastudios.core.config.AlloyCupronickelConfig$EventHandler for mod core
+[00:43:53] [main/DEBUG] [FML/core]: Injected @EventBusSubscriber class com.silvaniastudios.core.config.AlloyCupronickelConfig$EventHandler
+[00:43:53] [main/DEBUG] [FML/core]: Registering @EventBusSubscriber for com.silvaniastudios.core.config.PlatinumConfig$EventHandler for mod core
+[00:43:53] [main/DEBUG] [FML/core]: Injected @EventBusSubscriber class com.silvaniastudios.core.config.PlatinumConfig$EventHandler
+[00:43:53] [main/DEBUG] [FML/core]: Registering @EventBusSubscriber for com.silvaniastudios.core.config.ZincConfig$EventHandler for mod core
+[00:43:53] [main/DEBUG] [FML/core]: Injected @EventBusSubscriber class com.silvaniastudios.core.config.ZincConfig$EventHandler
+[00:43:53] [main/DEBUG] [FML/core]: Registering @EventBusSubscriber for com.silvaniastudios.core.config.VanillaCoalConfig$EventHandler for mod core
+[00:43:53] [main/DEBUG] [FML/core]: Injected @EventBusSubscriber class com.silvaniastudios.core.config.VanillaCoalConfig$EventHandler
+[00:43:53] [main/DEBUG] [FML/core]: Registering @EventBusSubscriber for com.silvaniastudios.core.COre$RegistrationHandler for mod core
+[00:43:53] [main/DEBUG] [FML/core]: Injected @EventBusSubscriber class com.silvaniastudios.core.COre$RegistrationHandler
+[00:43:53] [main/DEBUG] [FML/core]: Registering @EventBusSubscriber for com.silvaniastudios.core.config.AlloyNichromeConfig$EventHandler for mod core
+[00:43:53] [main/DEBUG] [FML/core]: Injected @EventBusSubscriber class com.silvaniastudios.core.config.AlloyNichromeConfig$EventHandler
+[00:43:53] [main/DEBUG] [FML/core]: Registering @EventBusSubscriber for com.silvaniastudios.core.config.LithiumConfig$EventHandler for mod core
+[00:43:53] [main/DEBUG] [FML/core]: Injected @EventBusSubscriber class com.silvaniastudios.core.config.LithiumConfig$EventHandler
+[00:43:53] [main/DEBUG] [FML/core]: Registering @EventBusSubscriber for com.silvaniastudios.core.config.PlutoniumConfig$EventHandler for mod core
+[00:43:53] [main/DEBUG] [FML/core]: Injected @EventBusSubscriber class com.silvaniastudios.core.config.PlutoniumConfig$EventHandler
+[00:43:53] [main/DEBUG] [FML/core]: Registering @EventBusSubscriber for com.silvaniastudios.core.config.LeadConfig$EventHandler for mod core
+[00:43:53] [main/DEBUG] [FML/core]: Injected @EventBusSubscriber class com.silvaniastudios.core.config.LeadConfig$EventHandler
+[00:43:53] [main/DEBUG] [FML/core]: Registering @EventBusSubscriber for com.silvaniastudios.core.config.SiliconConfig$EventHandler for mod core
+[00:43:53] [main/DEBUG] [FML/core]: Injected @EventBusSubscriber class com.silvaniastudios.core.config.SiliconConfig$EventHandler
+[00:43:53] [main/DEBUG] [FML/core]: Registering @EventBusSubscriber for com.silvaniastudios.core.config.VanillaNetherQuartzConfig$EventHandler for mod core
+[00:43:53] [main/DEBUG] [FML/core]: Injected @EventBusSubscriber class com.silvaniastudios.core.config.VanillaNetherQuartzConfig$EventHandler
+[00:43:53] [main/DEBUG] [FML/core]: Registering @EventBusSubscriber for com.silvaniastudios.core.config.AlloyStrootiteConfig$EventHandler for mod core
+[00:43:53] [main/DEBUG] [FML/core]: Injected @EventBusSubscriber class com.silvaniastudios.core.config.AlloyStrootiteConfig$EventHandler
+[00:43:53] [main/DEBUG] [FML/core]: Registering @EventBusSubscriber for com.silvaniastudios.core.config.AluminiumConfig$EventHandler for mod core
+[00:43:53] [main/DEBUG] [FML/core]: Injected @EventBusSubscriber class com.silvaniastudios.core.config.AluminiumConfig$EventHandler
+[00:43:53] [main/DEBUG] [FML/core]: Registering @EventBusSubscriber for com.silvaniastudios.core.config.MagnesiumConfig$EventHandler for mod core
+[00:43:53] [main/DEBUG] [FML/core]: Injected @EventBusSubscriber class com.silvaniastudios.core.config.MagnesiumConfig$EventHandler
+[00:43:53] [main/DEBUG] [FML/core]: Registering @EventBusSubscriber for com.silvaniastudios.core.config.AlloySilvamerConfig$EventHandler for mod core
+[00:43:53] [main/DEBUG] [FML/core]: Injected @EventBusSubscriber class com.silvaniastudios.core.config.AlloySilvamerConfig$EventHandler
+[00:43:53] [main/DEBUG] [FML/core]: Registering @EventBusSubscriber for com.silvaniastudios.core.config.BluestoneConfig$EventHandler for mod core
+[00:43:53] [main/DEBUG] [FML/core]: Injected @EventBusSubscriber class com.silvaniastudios.core.config.BluestoneConfig$EventHandler
+[00:43:53] [main/DEBUG] [FML/core]: Registering @EventBusSubscriber for com.silvaniastudios.core.config.VanillaLapisLazuliConfig$EventHandler for mod core
+[00:43:53] [main/DEBUG] [FML/core]: Injected @EventBusSubscriber class com.silvaniastudios.core.config.VanillaLapisLazuliConfig$EventHandler
+[00:43:53] [main/DEBUG] [FML/core]: Registering @EventBusSubscriber for com.silvaniastudios.core.config.VanillaGoldConfig$EventHandler for mod core
+[00:43:53] [main/DEBUG] [FML/core]: Injected @EventBusSubscriber class com.silvaniastudios.core.config.VanillaGoldConfig$EventHandler
+[00:43:53] [main/DEBUG] [FML/core]: Registering @EventBusSubscriber for com.silvaniastudios.core.config.PurplestoneConfig$EventHandler for mod core
+[00:43:53] [main/DEBUG] [FML/core]: Injected @EventBusSubscriber class com.silvaniastudios.core.config.PurplestoneConfig$EventHandler
+[00:43:53] [main/DEBUG] [FML/core]: Registering @EventBusSubscriber for com.silvaniastudios.core.config.AlloyBrassConfig$EventHandler for mod core
+[00:43:53] [main/DEBUG] [FML/core]: Injected @EventBusSubscriber class com.silvaniastudios.core.config.AlloyBrassConfig$EventHandler
+[00:43:53] [main/DEBUG] [FML/core]: Registering @EventBusSubscriber for com.silvaniastudios.core.config.AlloyUniumConfig$EventHandler for mod core
+[00:43:53] [main/DEBUG] [FML/core]: Injected @EventBusSubscriber class com.silvaniastudios.core.config.AlloyUniumConfig$EventHandler
+[00:43:53] [main/DEBUG] [FML/core]: Registering @EventBusSubscriber for com.silvaniastudios.core.config.BlackstoneConfig$EventHandler for mod core
+[00:43:53] [main/DEBUG] [FML/core]: Injected @EventBusSubscriber class com.silvaniastudios.core.config.BlackstoneConfig$EventHandler
+[00:43:53] [main/DEBUG] [FML/core]: Registering @EventBusSubscriber for com.silvaniastudios.core.config.LimestoneConfig$EventHandler for mod core
+[00:43:53] [main/DEBUG] [FML/core]: Injected @EventBusSubscriber class com.silvaniastudios.core.config.LimestoneConfig$EventHandler
+[00:43:53] [main/DEBUG] [FML/core]: Registering @EventBusSubscriber for com.silvaniastudios.core.config.GraphiteConfig$EventHandler for mod core
+[00:43:53] [main/DEBUG] [FML/core]: Injected @EventBusSubscriber class com.silvaniastudios.core.config.GraphiteConfig$EventHandler
+[00:43:53] [main/DEBUG] [FML/core]: Registering @EventBusSubscriber for com.silvaniastudios.core.config.VanillaDiamondConfig$EventHandler for mod core
+[00:43:53] [main/DEBUG] [FML/core]: Injected @EventBusSubscriber class com.silvaniastudios.core.config.VanillaDiamondConfig$EventHandler
+[00:43:53] [main/DEBUG] [FML/core]: Registering @EventBusSubscriber for com.silvaniastudios.core.config.AlloyFenikisiteConfig$EventHandler for mod core
+[00:43:53] [main/DEBUG] [FML/core]: Injected @EventBusSubscriber class com.silvaniastudios.core.config.AlloyFenikisiteConfig$EventHandler
+[00:43:53] [main/DEBUG] [FML/core]: Registering @EventBusSubscriber for com.silvaniastudios.core.config.AlloyLegeniteConfig$EventHandler for mod core
+[00:43:53] [main/DEBUG] [FML/core]: Injected @EventBusSubscriber class com.silvaniastudios.core.config.AlloyLegeniteConfig$EventHandler
+[00:43:53] [main/DEBUG] [FML/core]: Registering @EventBusSubscriber for com.silvaniastudios.core.config.DragiteConfig$EventHandler for mod core
+[00:43:53] [main/DEBUG] [FML/core]: Injected @EventBusSubscriber class com.silvaniastudios.core.config.DragiteConfig$EventHandler
+[00:43:53] [main/DEBUG] [FML/core]: Registering @EventBusSubscriber for com.silvaniastudios.core.config.AlloySteelConfig$EventHandler for mod core
+[00:43:53] [main/DEBUG] [FML/core]: Injected @EventBusSubscriber class com.silvaniastudios.core.config.AlloySteelConfig$EventHandler
+[00:43:53] [main/DEBUG] [FML/core]: Registering @EventBusSubscriber for com.silvaniastudios.core.config.AlloyElectrumConfig$EventHandler for mod core
+[00:43:53] [main/DEBUG] [FML/core]: Injected @EventBusSubscriber class com.silvaniastudios.core.config.AlloyElectrumConfig$EventHandler
+[00:43:53] [main/DEBUG] [FML/core]: Registering @EventBusSubscriber for com.silvaniastudios.core.config.VanillaIronConfig$EventHandler for mod core
+[00:43:53] [main/DEBUG] [FML/core]: Injected @EventBusSubscriber class com.silvaniastudios.core.config.VanillaIronConfig$EventHandler
+[00:43:53] [main/DEBUG] [FML/core]: Registering @EventBusSubscriber for com.silvaniastudios.core.config.FureniumConfig$EventHandler for mod core
+[00:43:53] [main/DEBUG] [FML/core]: Injected @EventBusSubscriber class com.silvaniastudios.core.config.FureniumConfig$EventHandler
+[00:43:53] [main/DEBUG] [FML/core]: Registering @EventBusSubscriber for com.silvaniastudios.core.config.UraniumConfig$EventHandler for mod core
+[00:43:53] [main/DEBUG] [FML/core]: Injected @EventBusSubscriber class com.silvaniastudios.core.config.UraniumConfig$EventHandler
+[00:43:53] [main/DEBUG] [FML/core]: Attempting to inject @Config classes into core for type INSTANCE
+[00:43:55] [main/TRACE] [core/core]: Sent event FMLConstructionEvent to mod core
+[00:43:55] [main/DEBUG] [FML/]: Bar Step: Construction - cOre took 2.104s
+[00:43:55] [main/DEBUG] [FML/]: Bar Finished: Construction took 4.143s
+[00:43:55] [main/DEBUG] [FML/]: Mod signature data
+[00:43:55] [main/DEBUG] [FML/]:  	Valid Signatures:
+[00:43:55] [main/DEBUG] [FML/]: 		(d4f1503fbacd9b9fb767720420c5395104239ec9) redstoneflux	(Redstone Flux	2.0.1)	RedstoneFlux-1.12-2.0.1.2-universal (1).jar
+[00:43:55] [main/DEBUG] [FML/]:  	Missing Signatures:
+[00:43:55] [main/DEBUG] [FML/]: 		minecraft	(Minecraft	1.12.2)	minecraft.jar
+[00:43:55] [main/DEBUG] [FML/]: 		mcp	(Minecraft Coder Pack	9.42)	minecraft.jar
+[00:43:55] [main/DEBUG] [FML/]: 		FML	(Forge Mod Loader	8.0.99.99)	forgeSrc-1.12.2-14.23.2.2611.jar
+[00:43:55] [main/DEBUG] [FML/]: 		forge	(Minecraft Forge	14.23.2.2611)	forgeSrc-1.12.2-14.23.2.2611.jar
+[00:43:55] [main/DEBUG] [FML/]: 		cofhcore	(CoFH Core	4.3.10)	CoFHCore-1.12.2-4.3.10.5-universal.jar
+[00:43:55] [main/DEBUG] [FML/]: 		cofhworld	(CoFH World	1.1.1)	CoFHWorld-1.12.2-1.1.1.12-universal (1).jar
+[00:43:55] [main/DEBUG] [FML/]: 		mantle	(Mantle	1.12-1.3.1.21)	Mantle-1.12-1.3.1.21.jar
+[00:43:55] [main/DEBUG] [FML/]: 		tconstruct	(Tinkers' Construct	1.12.2-2.9.1.DEV.GITBORK)	TConstruct-1.12.2-2.9.1.DEV.GITBORK-deobf.jar
+[00:43:55] [main/DEBUG] [FML/]: 		core	(cOre	1.0.2)	bin
+[00:43:55] [main/DEBUG] [FML/]: Bar Step: Loading Resources - Default took 0.007s
+[00:43:55] [main/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Forge Mod Loader took 0.016s
+[00:43:55] [main/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Minecraft Forge took 0.015s
+[00:43:55] [main/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:cOre took 0.003s
+[00:43:55] [main/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Mantle took 0.001s
+[00:43:55] [main/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:CoFH Core took 0.001s
+[00:43:55] [main/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:CoFH World took 0.001s
+[00:43:55] [main/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Tinkers' Construct took 0.006s
+[00:43:55] [main/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Redstone Flux took 0.000s
+[00:43:55] [main/DEBUG] [FML/]: Bar Finished: Reloading - LanguageManager took 0.047s
+[00:43:55] [main/DEBUG] [FML/]: Bar Step: Loading Resources - Reloading listeners took 0.048s
+[00:43:55] [main/DEBUG] [FML/]: Bar Finished: Loading Resources took 0.098s
+[00:43:55] [main/DEBUG] [Forge Mod Loader/]: Mod Forge Mod Loader is missing a pack.mcmeta file, substituting a dummy one
+[00:43:55] [main/DEBUG] [Minecraft Forge/]: Mod Minecraft Forge is missing a pack.mcmeta file, substituting a dummy one
+[00:43:55] [main/DEBUG] [Mantle/]: Mod Mantle is missing a pack.mcmeta file, substituting a dummy one
+[00:43:55] [main/DEBUG] [CoFH Core/]: Mod CoFH Core is missing a pack.mcmeta file, substituting a dummy one
+[00:43:55] [main/DEBUG] [CoFH World/]: Mod CoFH World is missing a pack.mcmeta file, substituting a dummy one
+[00:43:55] [main/DEBUG] [Redstone Flux/]: Mod Redstone Flux is missing a pack.mcmeta file, substituting a dummy one
+[00:43:55] [main/INFO] [FML/]: Processing ObjectHolder annotations
+[00:43:55] [main/INFO] [FML/]: Found 1168 ObjectHolder annotations
+[00:43:55] [main/INFO] [FML/]: Identifying ItemStackHolder annotations
+[00:43:55] [main/INFO] [FML/]: Found 0 ItemStackHolder annotations
+[00:43:55] [main/TRACE] [minecraft/minecraft]: Sending event FMLPreInitializationEvent to mod minecraft
+[00:43:55] [main/TRACE] [minecraft/minecraft]: Sent event FMLPreInitializationEvent to mod minecraft
+[00:43:55] [main/DEBUG] [FML/]: Bar Step: PreInitialization - Minecraft took 0.001s
+[00:43:55] [main/TRACE] [mcp/mcp]: Sending event FMLPreInitializationEvent to mod mcp
+[00:43:55] [main/TRACE] [mcp/mcp]: Sent event FMLPreInitializationEvent to mod mcp
+[00:43:55] [main/DEBUG] [FML/]: Bar Step: PreInitialization - Minecraft Coder Pack took 0.001s
+[00:43:55] [main/TRACE] [FML/FML]: Sending event FMLPreInitializationEvent to mod FML
+[00:43:55] [main/TRACE] [FML/FML]: Sent event FMLPreInitializationEvent to mod FML
+[00:43:55] [main/DEBUG] [FML/]: Bar Step: PreInitialization - Forge Mod Loader took 0.001s
+[00:43:55] [main/TRACE] [forge/forge]: Sending event FMLPreInitializationEvent to mod forge
+[00:43:55] [main/INFO] [FML/forge]: Configured a dormant chunk cache size of 0
+[00:43:55] [main/TRACE] [forge/forge]: Sent event FMLPreInitializationEvent to mod forge
+[00:43:55] [main/DEBUG] [FML/]: Bar Step: PreInitialization - Minecraft Forge took 0.135s
+[00:43:55] [main/TRACE] [redstoneflux/redstoneflux]: Sending event FMLPreInitializationEvent to mod redstoneflux
+[00:43:55] [main/TRACE] [redstoneflux/redstoneflux]: Sent event FMLPreInitializationEvent to mod redstoneflux
+[00:43:55] [main/DEBUG] [FML/]: Bar Step: PreInitialization - Redstone Flux took 0.037s
+[00:43:55] [main/TRACE] [cofhcore/cofhcore]: Sending event FMLPreInitializationEvent to mod cofhcore
+[00:43:55] [main/TRACE] [cofhcore/cofhcore]: Sent event FMLPreInitializationEvent to mod cofhcore
+[00:43:55] [main/DEBUG] [FML/]: Bar Step: PreInitialization - CoFH Core took 0.429s
+[00:43:55] [main/TRACE] [cofhworld/cofhworld]: Sending event FMLPreInitializationEvent to mod cofhworld
+[00:43:55] [main/INFO] [cofhworld/cofhworld]: Registering default Feature Templates...
+[00:43:55] [main/INFO] [cofhworld/cofhworld]: Registering default World Generators...
+[00:43:56] [main/INFO] [cofhworld/cofhworld]: Verifying or creating base world generation directory...
+[00:43:56] [main/INFO] [cofhworld/cofhworld]: Created standard generation json.
+[00:43:56] [main/INFO] [cofhworld/cofhworld]: Complete.
+[00:43:56] [main/TRACE] [cofhworld/cofhworld]: Sent event FMLPreInitializationEvent to mod cofhworld
+[00:43:56] [main/DEBUG] [FML/]: Bar Step: PreInitialization - CoFH World took 0.213s
+[00:43:56] [main/TRACE] [mantle/mantle]: Sending event FMLPreInitializationEvent to mod mantle
+[00:43:56] [main/TRACE] [mantle/mantle]: Sent event FMLPreInitializationEvent to mod mantle
+[00:43:56] [main/DEBUG] [FML/]: Bar Step: PreInitialization - Mantle took 0.045s
+[00:43:56] [main/TRACE] [tconstruct/tconstruct]: Sending event FMLPreInitializationEvent to mod tconstruct
+[00:43:56] [main/DEBUG] [FML/tconstruct]: Bar Finished: Loading Resource - B3DLoader took 0.000s
+[00:43:56] [main/DEBUG] [FML/tconstruct]: Bar Finished: Loading Resource - OBJLoader took 0.000s
+[00:43:56] [main/DEBUG] [FML/tconstruct]: Bar Finished: Loading Resource - ModelFluid$FluidLoader took 0.000s
+[00:43:56] [main/DEBUG] [FML/tconstruct]: Bar Finished: Loading Resource - ItemLayerModel$Loader took 0.000s
+[00:43:56] [main/DEBUG] [FML/tconstruct]: Bar Finished: Loading Resource - MultiLayerModel$Loader took 0.000s
+[00:43:56] [main/DEBUG] [FML/tconstruct]: Bar Finished: Loading Resource - ModelDynBucket$LoaderDynBucket took 0.001s
+[00:43:56] [main/DEBUG] [FML/tconstruct]: Bar Finished: Loading Resource - ToolModelLoader took 0.000s
+[00:43:56] [main/DEBUG] [FML/tconstruct]: Bar Finished: Loading Resource - MaterialModelLoader took 0.000s
+[00:43:56] [main/DEBUG] [FML/tconstruct]: Bar Finished: Loading Resource - ModifierModelLoader took 0.000s
+[00:43:56] [main/DEBUG] [FML/tconstruct]: Bar Finished: Loading Resource - SlimeColorizer took 0.081s
+[00:43:56] [main/TRACE] [tconstruct/tconstruct]: Sent event FMLPreInitializationEvent to mod tconstruct
+[00:43:56] [main/DEBUG] [FML/]: Bar Step: PreInitialization - Tinkers' Construct took 0.459s
+[00:43:56] [main/TRACE] [core/core]: Sending event FMLPreInitializationEvent to mod core
+[00:43:56] [main/TRACE] [core/core]: Sent event FMLPreInitializationEvent to mod core
+[00:43:56] [main/DEBUG] [FML/]: Bar Step: PreInitialization - cOre took 0.076s
+[00:43:56] [main/DEBUG] [FML/]: Bar Finished: PreInitialization took 1.395s
+[00:43:56] [main/ERROR] [FML/]: Exception caught during firing event net.minecraftforge.event.RegistryEvent$Register@413b0b08:
+java.lang.NoSuchFieldError: isBlockContainer
+	at slimeknights.tconstruct.smeltery.block.BlockEnumSmeltery.<init>(BlockEnumSmeltery.java:38) ~[BlockEnumSmeltery.class:?]
+	at slimeknights.tconstruct.smeltery.block.BlockSeared.<init>(BlockSeared.java:18) ~[BlockSeared.class:?]
+	at slimeknights.tconstruct.smeltery.TinkerSmeltery.registerBlocks(TinkerSmeltery.java:157) ~[TinkerSmeltery.class:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_32_TinkerSmeltery_registerBlocks_Register.invoke(.dynamic) ~[?:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) ~[ASMEventHandler.class:?]
+	at net.minecraftforge.fml.common.eventhandler.EventBus$1.invoke(EventBus.java:143) ~[EventBus$1.class:?]
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:179) [EventBus.class:?]
+	at net.minecraftforge.registries.GameData.fireRegistryEvents(GameData.java:736) [GameData.class:?]
+	at net.minecraftforge.fml.common.Loader.preinitializeMods(Loader.java:604) [Loader.class:?]
+	at net.minecraftforge.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:270) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:513) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:421) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_161]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_161]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_161]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_161]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_161]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_161]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_161]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_161]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
+	at GradleStart.main(GradleStart.java:26) [start/:?]
+[00:43:56] [main/ERROR] [FML/]: Index: 18 Listeners:
+[00:43:56] [main/ERROR] [FML/]: 0: NORMAL
+[00:43:56] [main/ERROR] [FML/]: 1: net.minecraftforge.fml.common.eventhandler.EventBus$1@1e2200ee
+[00:43:56] [main/ERROR] [FML/]: 2: net.minecraftforge.fml.common.eventhandler.EventBus$1@104f223d
+[00:43:56] [main/ERROR] [FML/]: 3: net.minecraftforge.fml.common.eventhandler.EventBus$1@4f5af4bd
+[00:43:56] [main/ERROR] [FML/]: 4: net.minecraftforge.fml.common.eventhandler.EventBus$1@56a0c515
+[00:43:56] [main/ERROR] [FML/]: 5: net.minecraftforge.fml.common.eventhandler.EventBus$1@588b9a5f
+[00:43:56] [main/ERROR] [FML/]: 6: net.minecraftforge.fml.common.eventhandler.EventBus$1@313c05b9
+[00:43:56] [main/ERROR] [FML/]: 7: net.minecraftforge.fml.common.eventhandler.EventBus$1@29dbf03f
+[00:43:56] [main/ERROR] [FML/]: 8: net.minecraftforge.fml.common.eventhandler.EventBus$1@7903007c
+[00:43:56] [main/ERROR] [FML/]: 9: net.minecraftforge.fml.common.eventhandler.EventBus$1@7d5e2461
+[00:43:56] [main/ERROR] [FML/]: 10: net.minecraftforge.fml.common.eventhandler.EventBus$1@2c1ee7be
+[00:43:56] [main/ERROR] [FML/]: 11: net.minecraftforge.fml.common.eventhandler.EventBus$1@5a32a00a
+[00:43:56] [main/ERROR] [FML/]: 12: net.minecraftforge.fml.common.eventhandler.EventBus$1@3bd35bd0
+[00:43:56] [main/ERROR] [FML/]: 13: net.minecraftforge.fml.common.eventhandler.EventBus$1@37a20de7
+[00:43:56] [main/ERROR] [FML/]: 14: net.minecraftforge.fml.common.eventhandler.EventBus$1@6cda3fba
+[00:43:56] [main/ERROR] [FML/]: 15: net.minecraftforge.fml.common.eventhandler.EventBus$1@23a7f0db
+[00:43:56] [main/ERROR] [FML/]: 16: net.minecraftforge.fml.common.eventhandler.EventBus$1@20b22a4
+[00:43:56] [main/ERROR] [FML/]: 17: net.minecraftforge.fml.common.eventhandler.EventBus$1@25e1ca37
+[00:43:56] [main/ERROR] [FML/]: 18: net.minecraftforge.fml.common.eventhandler.EventBus$1@187b16de
+[00:43:56] [main/ERROR] [FML/]: 19: net.minecraftforge.fml.common.eventhandler.EventBus$1@4461c22
+[00:43:56] [main/ERROR] [FML/]: 20: net.minecraftforge.fml.common.eventhandler.EventBus$1@5f83000c
+[00:43:56] [main/ERROR] [FML/]: 21: net.minecraftforge.fml.common.eventhandler.EventBus$1@7498d9b9
+[00:43:56] [main/ERROR] [FML/]: 22: net.minecraftforge.fml.common.eventhandler.EventBus$1@3495fc12
+[00:43:56] [main/ERROR] [FML/]: 23: net.minecraftforge.fml.common.eventhandler.EventBus$1@641ae
+[00:43:56] [main/ERROR] [FML/]: 24: net.minecraftforge.fml.common.eventhandler.EventBus$1@4742b2c2
+[00:43:56] [main/ERROR] [FML/]: 25: net.minecraftforge.fml.common.eventhandler.EventBus$1@75a5fe82
+[00:43:56] [main/ERROR] [FML/]: 26: net.minecraftforge.fml.common.eventhandler.EventBus$1@6ecbf948
+[00:43:56] [main/ERROR] [FML/]: 27: net.minecraftforge.fml.common.eventhandler.EventBus$1@5c72de0e
+[00:43:56] [main/ERROR] [FML/]: 28: net.minecraftforge.fml.common.eventhandler.EventBus$1@ef4a3e0
+[00:43:56] [main/ERROR] [FML/]: 29: net.minecraftforge.fml.common.eventhandler.EventBus$1@547f1d52
+[00:43:56] [main/ERROR] [FML/]: 30: net.minecraftforge.fml.common.eventhandler.EventBus$1@65cfbf2c
+[00:43:56] [main/ERROR] [FML/]: 31: net.minecraftforge.fml.common.eventhandler.EventBus$1@2f879f35
+[00:43:56] [main/ERROR] [FML/]: 32: net.minecraftforge.fml.common.eventhandler.EventBus$1@4c7c286
+[00:43:56] [main/INFO] [STDOUT/]: [net.minecraft.init.Bootstrap:printToSYSOUT:629]: ---- Minecraft Crash Report ----
+// Oh - I know what I did wrong!
+
+Time: 7/6/18 12:43 AM
+Description: Initializing game
+
+java.lang.NoSuchFieldError: isBlockContainer
+	at slimeknights.tconstruct.smeltery.block.BlockEnumSmeltery.<init>(BlockEnumSmeltery.java:38)
+	at slimeknights.tconstruct.smeltery.block.BlockSeared.<init>(BlockSeared.java:18)
+	at slimeknights.tconstruct.smeltery.TinkerSmeltery.registerBlocks(TinkerSmeltery.java:157)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_32_TinkerSmeltery_registerBlocks_Register.invoke(.dynamic)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90)
+	at net.minecraftforge.fml.common.eventhandler.EventBus$1.invoke(EventBus.java:143)
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:179)
+	at net.minecraftforge.registries.GameData.fireRegistryEvents(GameData.java:736)
+	at net.minecraftforge.fml.common.Loader.preinitializeMods(Loader.java:604)
+	at net.minecraftforge.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:270)
+	at net.minecraft.client.Minecraft.init(Minecraft.java:513)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:421)
+	at net.minecraft.client.main.Main.main(Main.java:118)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97)
+	at GradleStart.main(GradleStart.java:26)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Client thread
+Stacktrace:
+	at slimeknights.tconstruct.smeltery.block.BlockEnumSmeltery.<init>(BlockEnumSmeltery.java:38)
+	at slimeknights.tconstruct.smeltery.block.BlockSeared.<init>(BlockSeared.java:18)
+	at slimeknights.tconstruct.smeltery.TinkerSmeltery.registerBlocks(TinkerSmeltery.java:157)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_32_TinkerSmeltery_registerBlocks_Register.invoke(.dynamic)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90)
+	at net.minecraftforge.fml.common.eventhandler.EventBus$1.invoke(EventBus.java:143)
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:179)
+	at net.minecraftforge.registries.GameData.fireRegistryEvents(GameData.java:736)
+	at net.minecraftforge.fml.common.Loader.preinitializeMods(Loader.java:604)
+	at net.minecraftforge.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:270)
+	at net.minecraft.client.Minecraft.init(Minecraft.java:513)
+
+-- Initialization --
+Details:
+Stacktrace:
+	at net.minecraft.client.Minecraft.run(Minecraft.java:421)
+	at net.minecraft.client.main.Main.main(Main.java:118)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97)
+	at GradleStart.main(GradleStart.java:26)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_161, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 1292070560 bytes (1232 MB) / 1661992960 bytes (1585 MB) up to 7611613184 bytes (7259 MB)
+	JVM Flags: 0 total; 
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP 9.42 Powered by Forge 14.23.2.2611 10 mods loaded, 10 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+
+	| State | ID           | Version                  | Source                                        | Signature                                |
+	|:----- |:------------ |:------------------------ |:--------------------------------------------- |:---------------------------------------- |
+	| UCH   | minecraft    | 1.12.2                   | minecraft.jar                                 | None                                     |
+	| UCH   | mcp          | 9.42                     | minecraft.jar                                 | None                                     |
+	| UCH   | FML          | 8.0.99.99                | forgeSrc-1.12.2-14.23.2.2611.jar              | None                                     |
+	| UCH   | forge        | 14.23.2.2611             | forgeSrc-1.12.2-14.23.2.2611.jar              | None                                     |
+	| UCH   | redstoneflux | 2.0.1                    | RedstoneFlux-1.12-2.0.1.2-universal (1).jar   | d4f1503fbacd9b9fb767720420c5395104239ec9 |
+	| UCH   | cofhcore     | 4.3.10                   | CoFHCore-1.12.2-4.3.10.5-universal.jar        | None                                     |
+	| UCH   | cofhworld    | 1.1.1                    | CoFHWorld-1.12.2-1.1.1.12-universal (1).jar   | None                                     |
+	| UCH   | mantle       | 1.12-1.3.1.21            | Mantle-1.12-1.3.1.21.jar                      | None                                     |
+	| UCH   | tconstruct   | 1.12.2-2.9.1.DEV.GITBORK | TConstruct-1.12.2-2.9.1.DEV.GITBORK-deobf.jar | None                                     |
+	| UCH   | core         | 1.0.2                    | bin                                           | None                                     |
+
+	Loaded coremods (and transformers): 
+	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 398.11' Renderer: 'GeForce GTX 1080/PCIe/SSE2'
+	Pulsar/tconstruct loaded Pulses: 
+		- TinkerCommons (Enabled/Forced)
+		- TinkerWorld (Enabled/Not Forced)
+		- TinkerTools (Enabled/Not Forced)
+		- TinkerHarvestTools (Enabled/Forced)
+		- TinkerMeleeWeapons (Enabled/Forced)
+		- TinkerRangedWeapons (Enabled/Forced)
+		- TinkerModifiers (Enabled/Forced)
+		- TinkerSmeltery (Enabled/Not Forced)
+		- TinkerGadgets (Enabled/Not Forced)
+		- TinkerOredict (Enabled/Forced)
+		- TinkerIntegration (Enabled/Forced)
+		- TinkerFluids (Enabled/Forced)
+		- TinkerMaterials (Enabled/Forced)
+		- TinkerModelRegister (Enabled/Forced)
+
+	Launched Version: 1.12.2
+	LWJGL: 2.9.4
+	OpenGL: GeForce GTX 1080/PCIe/SSE2 GL version 4.6.0 NVIDIA 398.11, NVIDIA Corporation
+	GL Caps: Using GL 1.3 multitexturing.
+Using GL 1.3 texture combiners.
+Using framebuffer objects because OpenGL 3.0 is supported and separate blending is supported.
+Shaders are available because OpenGL 2.1 is supported.
+VBOs are available because OpenGL 1.5 is supported.
+
+	Using VBOs: Yes
+	Is Modded: Definitely; Client brand changed to 'fml,forge'
+	Type: Client (map_client.txt)
+	Resource Packs: 
+	Current Language: English (US)
+	Profiler Position: N/A (disabled)
+	CPU: 12x Intel(R) Core(TM) i7-5820K CPU @ 3.30GHz
+[00:43:56] [main/INFO] [STDOUT/]: [net.minecraft.init.Bootstrap:printToSYSOUT:629]: #@!@# Game crashed! Crash report saved to: #@!@# L:\Minecraft\1.12\cOre\run\.\crash-reports\crash-2018-07-06_00.43.56-client.txt

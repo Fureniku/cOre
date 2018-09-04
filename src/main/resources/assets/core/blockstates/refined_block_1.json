@@ -1,0 +1,31 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"transform": "forge:default-block",
+		"textures": { "all": "core:blocks/ore_block" },
+		"model": "cube_all"
+	},
+	"variants": {
+		"inventory": [{
+			"transform": "forge:default-block"
+		}],
+		"refined_block_1": {
+			"0": { "textures": { "all": "core:blocks/block_copper" }},
+			"1": { "textures": { "all": "core:blocks/block_tin" }},
+			"2": { "textures": { "all": "core:blocks/block_zinc" }},
+			"3": { "textures": { "all": "core:blocks/block_nickel" }},
+			"4": { "textures": { "all": "core:blocks/block_silver" }},
+			"5": { "textures": { "all": "core:blocks/block_aluminium" }},
+			"6": { "textures": { "all": "core:blocks/block_titanium" }},
+			"7": { "textures": { "all": "core:blocks/block_chromium" }},
+			"8": { "textures": { "all": "core:blocks/block_silicon" }},
+			"9": { "textures": { "all": "core:blocks/block_cobalt" }},
+			"10": { "textures": { "all": "core:blocks/block_tungsten" }},
+			"11": { "textures": { "all": "core:blocks/block_lead" }},
+			"12": { "textures": { "all": "core:blocks/block_platinum" }},
+			"13": { "textures": { "all": "core:blocks/block_lithium" }},
+			"14": { "textures": { "all": "core:blocks/block_uranium" }},
+			"15": { "textures": { "all": "core:blocks/block_plutonium" }}
+		}
+	}
+}

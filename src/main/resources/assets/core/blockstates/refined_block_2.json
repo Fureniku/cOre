@@ -1,0 +1,31 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"transform": "forge:default-block",
+		"textures": { "all": "core:blocks/ore_block" },
+		"model": "cube_all"
+	},
+	"variants": {
+		"inventory": [{
+			"transform": "forge:default-block"
+		}],
+		"refined_block_2": {
+			"0": { "textures": { "all": "core:blocks/block_ruby" }},
+			"1": { "textures": { "all": "core:blocks/block_sapphire" }},
+			"2": { "textures": { "all": "core:blocks/block_amethyst" }},
+			"3": { "textures": { "all": "core:blocks/block_crystal" }},
+			"4": { "textures": { "all": "core:blocks/block_magnesium" }},
+			"5": { "textures": { "all": "core:blocks/block_phosphorus" }},
+			"6": { "textures": { "all": "core:blocks/block_sulfur" }},
+			"7": { "textures": { "all": "core:blocks/block_silvanite" }},
+			"8": { "textures": { "all": "core:blocks/block_mercilite" }},
+			"9": { "textures": { "all": "core:blocks/block_mythian" }},
+			"10": { "textures": { "all": "core:blocks/block_dragite" }},
+			"11": { "textures": { "all": "core:blocks/block_flarite" }},
+			"12": { "textures": { "all": "core:blocks/block_furenium" }},
+			"13": { "textures": { "all": "core:blocks/block_calcite" }},
+			"14": { "textures": { "all": "core:blocks/block_graphite" }},
+			"15": { "textures": { "all": "core:blocks/block_limestone" }}
+		}
+	}
+}

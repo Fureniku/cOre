@@ -2,13 +2,13 @@
 {
   "modid": "core",
   "name": "cOre",
-  "description": "Simple ore control mod.",
+  "description": "Simple Ore distribution & control mod.",
   "version": "${version}",
   "mcversion": "${mcversion}",
-  "url": "",
-  "updateUrl": "",
+  "url": "http://www.silvaniastudios.com/mods/",
+  "updateUrl": "http://www.silvaniastudios.com/mods/update/cOre.json",
   "authorList": ["Flenix"],
-  "credits": "Flenix (Code), Nizzuul (Textures)",
+  "credits": "",
   "logoFile": "",
   "screenshots": [],
   "dependencies": []
