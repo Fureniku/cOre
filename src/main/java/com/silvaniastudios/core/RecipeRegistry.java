@@ -77,185 +77,144 @@ public class RecipeRegistry {
 	
 	public static void furnaceRecipes() {
 		if (_COreConfig.general.smeltDustToIngot) {
-			if (CopperConfig.recipes.dustSmeltingEnabled) { 	addOreDictFurnaceRecipe(CopperConfig.oredict.dustOreDict, ModItems.ingotCopper); }
-			if (TinConfig.recipes.dustSmeltingEnabled) { 		addOreDictFurnaceRecipe(TinConfig.oredict.dustOreDict, ModItems.ingotTin); }
-			if (ZincConfig.recipes.dustSmeltingEnabled) { 		addOreDictFurnaceRecipe(ZincConfig.oredict.dustOreDict, ModItems.ingotZinc); }
-			if (NickelConfig.recipes.dustSmeltingEnabled) { 	addOreDictFurnaceRecipe(NickelConfig.oredict.dustOreDict, ModItems.ingotNickel); }
-			if (SilverConfig.recipes.dustSmeltingEnabled) {		addOreDictFurnaceRecipe(SilverConfig.oredict.dustOreDict, ModItems.ingotSilver); }
-			if (AluminiumConfig.recipes.dustSmeltingEnabled) { 	addOreDictFurnaceRecipe(AluminiumConfig.oredict.dustOreDict, ModItems.ingotAluminium); }
-			if (TitaniumConfig.recipes.dustSmeltingEnabled) { 	addOreDictFurnaceRecipe(TitaniumConfig.oredict.dustOreDict, ModItems.ingotTitanium); }
-			if (ChromiumConfig.recipes.dustSmeltingEnabled) { 	addOreDictFurnaceRecipe(ChromiumConfig.oredict.dustOreDict, ModItems.ingotChromium); }
-			if (SiliconConfig.recipes.dustSmeltingEnabled) { 	addOreDictFurnaceRecipe(SiliconConfig.oredict.dustOreDict, ModItems.ingotSilicon); }
-			if (CobaltConfig.recipes.dustSmeltingEnabled) { 	addOreDictFurnaceRecipe(CobaltConfig.oredict.dustOreDict, ModItems.ingotCobalt); }
-			if (TungstenConfig.recipes.dustSmeltingEnabled) {	addOreDictFurnaceRecipe(TungstenConfig.oredict.dustOreDict, ModItems.ingotTungsten); }
-			if (LeadConfig.recipes.dustSmeltingEnabled) { 		addOreDictFurnaceRecipe(LeadConfig.oredict.dustOreDict, ModItems.ingotLead); }
-			if (PlatinumConfig.recipes.dustSmeltingEnabled) { 	addOreDictFurnaceRecipe(PlatinumConfig.oredict.dustOreDict, ModItems.ingotPlatinum); }
-			if (LithiumConfig.recipes.dustSmeltingEnabled) { 	addOreDictFurnaceRecipe(LithiumConfig.oredict.dustOreDict, ModItems.ingotLithium); }
-			if (UraniumConfig.recipes.dustSmeltingEnabled) { 	addOreDictFurnaceRecipe(UraniumConfig.oredict.dustOreDict, ModItems.ingotUranium); }
-			if (PlutoniumConfig.recipes.dustSmeltingEnabled) { 	addOreDictFurnaceRecipe(PlutoniumConfig.oredict.dustOreDict, ModItems.ingotPlutonium); }
+			GameRegistry.addSmelting(ModItems.dustCopper, new ItemStack(ModItems.ingotCopper, 1), 0.2f);
+			GameRegistry.addSmelting(ModItems.dustTin, new ItemStack(ModItems.ingotTin, 1), 0.2f);
+			GameRegistry.addSmelting(ModItems.dustZinc, new ItemStack(ModItems.ingotZinc, 1), 0.2f);
+			GameRegistry.addSmelting(ModItems.dustNickel, new ItemStack(ModItems.ingotNickel, 1), 0.2f);
+			GameRegistry.addSmelting(ModItems.dustSilver, new ItemStack(ModItems.ingotSilver, 1), 0.2f);
+			GameRegistry.addSmelting(ModItems.dustAluminium, new ItemStack(ModItems.ingotAluminium, 1), 0.2f);
+			GameRegistry.addSmelting(ModItems.dustTitanium, new ItemStack(ModItems.ingotTitanium, 1), 0.2f);
+			GameRegistry.addSmelting(ModItems.dustChromium, new ItemStack(ModItems.ingotChromium, 1), 0.2f);
+			GameRegistry.addSmelting(ModItems.dustSilicon, new ItemStack(ModItems.ingotSilicon, 1), 0.2f);
+			GameRegistry.addSmelting(ModItems.dustCobalt, new ItemStack(ModItems.ingotCobalt, 1), 0.2f);
+			GameRegistry.addSmelting(ModItems.dustTungsten, new ItemStack(ModItems.ingotTungsten, 1), 0.2f);
+			GameRegistry.addSmelting(ModItems.dustLead, new ItemStack(ModItems.ingotLead, 1), 0.2f);
+			GameRegistry.addSmelting(ModItems.dustPlatinum, new ItemStack(ModItems.ingotPlatinum, 1), 0.2f);
+			GameRegistry.addSmelting(ModItems.dustLithium, new ItemStack(ModItems.ingotLithium, 1), 0.2f);
+			GameRegistry.addSmelting(ModItems.dustUranium, new ItemStack(ModItems.ingotUranium, 1), 0.2f);
+			GameRegistry.addSmelting(ModItems.dustPlutonium, new ItemStack(ModItems.ingotPlutonium, 1), 0.2f);
 			
-			//if (RubyConfig.recipes.dustSmeltingEnabled) { 		addOreDictFurnaceRecipe(RubyConfig.oredict.dustOreDict, ModItems.gemRuby); }
-			//if (SapphireConfig.recipes.dustSmeltingEnabled) { 	addOreDictFurnaceRecipe(SapphireConfig.oredict.dustOreDict, ModItems.gemSapphire); }
-			//if (AmethystConfig.recipes.dustSmeltingEnabled) { 	addOreDictFurnaceRecipe(AmethystConfig.oredict.dustOreDict, ModItems.gemAmethyst); }
-			//if (CrystalConfig.recipes.dustSmeltingEnabled) { 		addOreDictFurnaceRecipe(CrystalConfig.oredict.dustOreDict, ModItems.gemCrystal); }
-			if (MagnesiumConfig.recipes.dustSmeltingEnabled) { 		addOreDictFurnaceRecipe(MagnesiumConfig.oredict.dustOreDict, ModItems.ingotMagnesium); }
-			//if (PhosphorusConfig.recipes.dustSmeltingEnabled) { 	addOreDictFurnaceRecipe(PhosphorusConfig.oredict.dustOreDict, ModItems.ingotPhosphorus); }
-			//if (SulfurConfig.recipes.dustSmeltingEnabled) { 		addOreDictFurnaceRecipe(SulfurConfig.oredict.dustOreDict, ModItems.ingotSulfur); }
-			if (SilvaniteConfig.recipes.dustSmeltingEnabled) { 		addOreDictFurnaceRecipe(SilvaniteConfig.oredict.dustOreDict, ModItems.ingotSilvanite); }
-			if (MerciliteConfig.recipes.dustSmeltingEnabled) {		addOreDictFurnaceRecipe(MerciliteConfig.oredict.dustOreDict, ModItems.ingotMercilite); }
-			if (MythianConfig.recipes.dustSmeltingEnabled) { 		addOreDictFurnaceRecipe(MythianConfig.oredict.dustOreDict, ModItems.ingotMythian); }
-			if (DragiteConfig.recipes.dustSmeltingEnabled) { 		addOreDictFurnaceRecipe(DragiteConfig.oredict.dustOreDict, ModItems.ingotDragite); }
-			if (FlariteConfig.recipes.dustSmeltingEnabled) { 		addOreDictFurnaceRecipe(FlariteConfig.oredict.dustOreDict, ModItems.ingotFlarite); }
-			if (FureniumConfig.recipes.dustSmeltingEnabled) { 		addOreDictFurnaceRecipe(FureniumConfig.oredict.dustOreDict, ModItems.ingotFurenium); }
-			//if (BlackstoneConfig.recipes.dustSmeltingEnabled) { 	addOreDictFurnaceRecipe(BlackstoneConfig.oredict.dustOreDict, ModItems.ingotBlackstone); }
-			//if (BluestoneConfig.recipes.dustSmeltingEnabled) { 	addOreDictFurnaceRecipe(BluestoneConfig.oredict.dustOreDict, ModItems.ingotBluestone); }
-			//if (PurplestoneConfig.recipes.dustSmeltingEnabled) { 	addOreDictFurnaceRecipe(PurplestoneConfig.oredict.dustOreDict, ModItems.ingotPurplestone); }
+			GameRegistry.addSmelting(ModItems.dustMagnesium, new ItemStack(ModItems.ingotMagnesium, 1), 0.2f);
+			GameRegistry.addSmelting(ModItems.dustSilvanite, new ItemStack(ModItems.ingotSilvanite, 1), 0.2f);
+			GameRegistry.addSmelting(ModItems.dustMercilite, new ItemStack(ModItems.ingotMercilite, 1), 0.2f);
+			GameRegistry.addSmelting(ModItems.dustMythian, new ItemStack(ModItems.ingotMythian, 1), 0.2f);
+			GameRegistry.addSmelting(ModItems.dustDragite, new ItemStack(ModItems.ingotDragite, 1), 0.2f);
+			GameRegistry.addSmelting(ModItems.dustFlarite, new ItemStack(ModItems.ingotFlarite, 1), 0.2f);
+			GameRegistry.addSmelting(ModItems.dustFurenium, new ItemStack(ModItems.ingotFurenium, 1), 0.2f);
 			
-			if (AlloyBronzeConfig.recipes.dustSmeltingEnabled) { 			addOreDictFurnaceRecipe(AlloyBronzeConfig.oredict.dustOreDict, ModItems.ingotBronze); }
-			if (AlloyCupronickelConfig.recipes.dustSmeltingEnabled) { 		addOreDictFurnaceRecipe(AlloyCupronickelConfig.oredict.dustOreDict, ModItems.ingotCupronickel); }
-			if (AlloyBrassConfig.recipes.dustSmeltingEnabled) { 			addOreDictFurnaceRecipe(AlloyBrassConfig.oredict.dustOreDict, ModItems.ingotBrass); }
-			if (AlloyRoseGoldConfig.recipes.dustSmeltingEnabled) { 			addOreDictFurnaceRecipe(AlloyRoseGoldConfig.oredict.dustOreDict, ModItems.ingotRosegold); }
-			if (AlloySteelConfig.recipes.dustSmeltingEnabled) { 			addOreDictFurnaceRecipe(AlloySteelConfig.oredict.dustOreDict, ModItems.ingotSteel); }
-			if (AlloyStainlessSteelConfig.recipes.dustSmeltingEnabled) { 	addOreDictFurnaceRecipe(AlloyStainlessSteelConfig.oredict.dustOreDict, ModItems.ingotStainlesssteel); }
-			if (AlloyNichromeConfig.recipes.dustSmeltingEnabled) { 			addOreDictFurnaceRecipe(AlloyNichromeConfig.oredict.dustOreDict, ModItems.ingotNichrome); }
-			if (AlloyElectrumConfig.recipes.dustSmeltingEnabled) { 			addOreDictFurnaceRecipe(AlloyElectrumConfig.oredict.dustOreDict, ModItems.ingotElectrum); }
-			if (AlloyStelliteConfig.recipes.dustSmeltingEnabled) { 			addOreDictFurnaceRecipe(AlloyStelliteConfig.oredict.dustOreDict, ModItems.ingotStellite); }
-			if (AlloySilvamerConfig.recipes.dustSmeltingEnabled) { 			addOreDictFurnaceRecipe(AlloySilvamerConfig.oredict.dustOreDict, ModItems.ingotSilvamer); }
-			if (AlloyUniumConfig.recipes.dustSmeltingEnabled) { 			addOreDictFurnaceRecipe(AlloyUniumConfig.oredict.dustOreDict, ModItems.ingotUnium); }
-			if (AlloyFenikisiteConfig.recipes.dustSmeltingEnabled) { 		addOreDictFurnaceRecipe(AlloyFenikisiteConfig.oredict.dustOreDict, ModItems.ingotFenikisite); }
-			if (AlloyUltimiteConfig.recipes.dustSmeltingEnabled) { 			addOreDictFurnaceRecipe(AlloyUltimiteConfig.oredict.dustOreDict, ModItems.ingotUltimite); }
-			if (AlloyStrootiteConfig.recipes.dustSmeltingEnabled) { 		addOreDictFurnaceRecipe(AlloyStrootiteConfig.oredict.dustOreDict, ModItems.ingotStrootite); }
-			if (AlloySpeedoiConfig.recipes.dustSmeltingEnabled) { 			addOreDictFurnaceRecipe(AlloySpeedoiConfig.oredict.dustOreDict, ModItems.ingotSpeedoi); }
-			if (AlloyLegeniteConfig.recipes.dustSmeltingEnabled) { 			addOreDictFurnaceRecipe(AlloyLegeniteConfig.oredict.dustOreDict, ModItems.ingotLegenite); }
+			GameRegistry.addSmelting(ModItems.dustBronze, new ItemStack(ModItems.ingotBronze, 1), 0.2f);
+			GameRegistry.addSmelting(ModItems.dustCupronickel, new ItemStack(ModItems.ingotCupronickel, 1), 0.2f);
+			GameRegistry.addSmelting(ModItems.dustBrass, new ItemStack(ModItems.ingotBrass, 1), 0.2f);
+			GameRegistry.addSmelting(ModItems.dustRosegold, new ItemStack(ModItems.ingotRosegold, 1), 0.2f);
+			GameRegistry.addSmelting(ModItems.dustSteel, new ItemStack(ModItems.ingotSteel, 1), 0.2f);
+			GameRegistry.addSmelting(ModItems.dustStainlesssteel, new ItemStack(ModItems.ingotStainlesssteel, 1), 0.2f);
+			GameRegistry.addSmelting(ModItems.dustNichrome, new ItemStack(ModItems.ingotNichrome, 1), 0.2f);
+			GameRegistry.addSmelting(ModItems.dustElectrum, new ItemStack(ModItems.ingotElectrum, 1), 0.2f);
+			GameRegistry.addSmelting(ModItems.dustStellite, new ItemStack(ModItems.ingotStellite, 1), 0.2f);
+			GameRegistry.addSmelting(ModItems.dustSilvamer, new ItemStack(ModItems.ingotSilvamer, 1), 0.2f);
+			GameRegistry.addSmelting(ModItems.dustUnium, new ItemStack(ModItems.ingotUnium, 1), 0.2f);
+			GameRegistry.addSmelting(ModItems.dustFenikisite, new ItemStack(ModItems.ingotFenikisite, 1), 0.2f);
+			GameRegistry.addSmelting(ModItems.dustUltimite, new ItemStack(ModItems.ingotUltimite, 1), 0.2f);
+			GameRegistry.addSmelting(ModItems.dustStrootite, new ItemStack(ModItems.ingotStrootite, 1), 0.2f);
+			GameRegistry.addSmelting(ModItems.dustSpeedoi, new ItemStack(ModItems.ingotSpeedoi, 1), 0.2f);
+			GameRegistry.addSmelting(ModItems.dustLegenite, new ItemStack(ModItems.ingotLegenite, 1), 0.2f);
 		}
 		
 		if (_COreConfig.general.smeltOreToIngot) {
-			if (CopperConfig.recipes.oreSmeltingEnabled) { 		addOreDictFurnaceRecipe(CopperConfig.oredict.oreOreDict, ModItems.ingotCopper); }
-			if (TinConfig.recipes.oreSmeltingEnabled) { 		addOreDictFurnaceRecipe(TinConfig.oredict.oreOreDict, ModItems.ingotTin); }
-			if (ZincConfig.recipes.oreSmeltingEnabled) { 		addOreDictFurnaceRecipe(ZincConfig.oredict.oreOreDict, ModItems.ingotZinc); }
-			if (NickelConfig.recipes.oreSmeltingEnabled) { 		addOreDictFurnaceRecipe(NickelConfig.oredict.oreOreDict, ModItems.ingotNickel); }
-			if (SilverConfig.recipes.oreSmeltingEnabled) { 		addOreDictFurnaceRecipe(SilverConfig.oredict.oreOreDict, ModItems.ingotSilver); }
-			if (AluminiumConfig.recipes.oreSmeltingEnabled) {	addOreDictFurnaceRecipe(AluminiumConfig.oredict.oreOreDict, ModItems.ingotAluminium); }
-			if (TitaniumConfig.recipes.oreSmeltingEnabled) { 	addOreDictFurnaceRecipe(TitaniumConfig.oredict.oreOreDict, ModItems.ingotTitanium); }
-			if (ChromiumConfig.recipes.oreSmeltingEnabled) { 	addOreDictFurnaceRecipe(ChromiumConfig.oredict.oreOreDict, ModItems.ingotChromium); }
-			if (SiliconConfig.recipes.oreSmeltingEnabled) { 	addOreDictFurnaceRecipe(SiliconConfig.oredict.oreOreDict, ModItems.ingotSilicon); }
-			if (CobaltConfig.recipes.oreSmeltingEnabled) { 		addOreDictFurnaceRecipe(CobaltConfig.oredict.oreOreDict, ModItems.ingotCobalt); }
-			if (TungstenConfig.recipes.oreSmeltingEnabled) { 	addOreDictFurnaceRecipe(TungstenConfig.oredict.oreOreDict, ModItems.ingotTungsten); }
-			if (LeadConfig.recipes.oreSmeltingEnabled) { 		addOreDictFurnaceRecipe(LeadConfig.oredict.oreOreDict, ModItems.ingotLead); }
-			if (PlatinumConfig.recipes.oreSmeltingEnabled) { 	addOreDictFurnaceRecipe(PlatinumConfig.oredict.oreOreDict, ModItems.ingotPlatinum); }
-			if (LithiumConfig.recipes.oreSmeltingEnabled) { 	addOreDictFurnaceRecipe(LithiumConfig.oredict.oreOreDict, ModItems.ingotLithium); }
-			if (UraniumConfig.recipes.oreSmeltingEnabled) { 	addOreDictFurnaceRecipe(UraniumConfig.oredict.oreOreDict, ModItems.ingotUranium); }
-			if (PlutoniumConfig.recipes.oreSmeltingEnabled) { 	addOreDictFurnaceRecipe(PlutoniumConfig.oredict.oreOreDict, ModItems.ingotPlutonium); }
+			GameRegistry.addSmelting(ModItems.oreCopper, new ItemStack(ModItems.ingotCopper, 1), 0.2f);
+			GameRegistry.addSmelting(ModItems.oreTin, new ItemStack(ModItems.ingotTin, 1), 0.2f);
+			GameRegistry.addSmelting(ModItems.oreZinc, new ItemStack(ModItems.ingotZinc, 1), 0.2f);
+			GameRegistry.addSmelting(ModItems.oreNickel, new ItemStack(ModItems.ingotNickel, 1), 0.2f);
+			GameRegistry.addSmelting(ModItems.oreSilver, new ItemStack(ModItems.ingotSilver, 1), 0.2f);
+			GameRegistry.addSmelting(ModItems.oreAluminium, new ItemStack(ModItems.ingotAluminium, 1), 0.2f);
+			GameRegistry.addSmelting(ModItems.oreTitanium, new ItemStack(ModItems.ingotTitanium, 1), 0.2f);
+			GameRegistry.addSmelting(ModItems.oreChromium, new ItemStack(ModItems.ingotChromium, 1), 0.2f);
+			GameRegistry.addSmelting(ModItems.oreSilicon, new ItemStack(ModItems.ingotSilicon, 1), 0.2f);
+			GameRegistry.addSmelting(ModItems.oreCobalt, new ItemStack(ModItems.ingotCobalt, 1), 0.2f);
+			GameRegistry.addSmelting(ModItems.oreTungsten, new ItemStack(ModItems.ingotTungsten, 1), 0.2f);
+			GameRegistry.addSmelting(ModItems.oreLead, new ItemStack(ModItems.ingotLead, 1), 0.2f);
+			GameRegistry.addSmelting(ModItems.orePlatinum, new ItemStack(ModItems.ingotPlatinum, 1), 0.2f);
+			GameRegistry.addSmelting(ModItems.oreLithium, new ItemStack(ModItems.ingotLithium, 1), 0.2f);
+			GameRegistry.addSmelting(ModItems.oreUranium, new ItemStack(ModItems.ingotUranium, 1), 0.2f);
+			GameRegistry.addSmelting(ModItems.orePlutonium, new ItemStack(ModItems.ingotPlutonium, 1), 0.2f);
 			
-			//if (RubyConfig.recipes.oreSmeltingEnabled) { 			addOreDictFurnaceRecipe(RubyConfig.oredict.oreOreDict, ModItems.gemRuby); }
-			//if (SapphireConfig.recipes.oreSmeltingEnabled) { 		addOreDictFurnaceRecipe(SapphireConfig.oredict.oreOreDict, ModItems.gemSapphire); }
-			//if (AmethystConfig.recipes.oreSmeltingEnabled) { 		addOreDictFurnaceRecipe(AmethystConfig.oredict.oreOreDict, ModItems.gemAmethyst); }
-			//if (CrystalConfig.recipes.oreSmeltingEnabled) { 		addOreDictFurnaceRecipe(CrystalConfig.oredict.oreOreDict, ModItems.gemCrystal); }
-			if (MagnesiumConfig.recipes.oreSmeltingEnabled) { 		addOreDictFurnaceRecipe(MagnesiumConfig.oredict.oreOreDict, ModItems.ingotMagnesium); }
-			//if (PhosphorusConfig.recipes.oreSmeltingEnabled) { 	addOreDictFurnaceRecipe(PhosphorusConfig.oredict.oreOreDict, ModItems.ingotPhosphorus); }
-			//if (SulfurConfig.recipes.oreSmeltingEnabled) { 		addOreDictFurnaceRecipe(SulfurConfig.oredict.oreOreDict, ModItems.ingotSulfur); }
-			if (SilvaniteConfig.recipes.oreSmeltingEnabled) { 		addOreDictFurnaceRecipe(SilvaniteConfig.oredict.oreOreDict, ModItems.ingotSilvanite); }
-			if (MerciliteConfig.recipes.oreSmeltingEnabled) { 		addOreDictFurnaceRecipe(MerciliteConfig.oredict.oreOreDict, ModItems.ingotMercilite); }
-			if (MythianConfig.recipes.oreSmeltingEnabled) { 		addOreDictFurnaceRecipe(MythianConfig.oredict.oreOreDict, ModItems.ingotMythian); }
-			if (DragiteConfig.recipes.oreSmeltingEnabled) { 		addOreDictFurnaceRecipe(DragiteConfig.oredict.oreOreDict, ModItems.ingotDragite); }
-			if (FlariteConfig.recipes.oreSmeltingEnabled) { 		addOreDictFurnaceRecipe(FlariteConfig.oredict.oreOreDict, ModItems.ingotFlarite); }
-			if (FureniumConfig.recipes.oreSmeltingEnabled) { 		addOreDictFurnaceRecipe(FureniumConfig.oredict.oreOreDict, ModItems.ingotFurenium); }
-			//if (BlackstoneConfig.recipes.oreSmeltingEnabled) { 	addOreDictFurnaceRecipe(BlackstoneConfig.oredict.oreOreDict, ModItems.ingotBlackstone); }
-			//if (BluestoneConfig.recipes.oreSmeltingEnabled) { 	addOreDictFurnaceRecipe(BluestoneConfig.oredict.oreOreDict, ModItems.ingotBluestone); }
-			//if (PurplestoneConfig.recipes.oreSmeltingEnabled) { 	addOreDictFurnaceRecipe(PurplestoneConfig.oredict.oreOreDict, ModItems.ingotPurplestone); }
-			
-			//No such thing as alloy ore. Skip!
+			GameRegistry.addSmelting(ModItems.oreMagnesium, new ItemStack(ModItems.ingotMagnesium, 1), 0.2f);
+			GameRegistry.addSmelting(ModItems.oreSilvanite, new ItemStack(ModItems.ingotSilvanite, 1), 0.2f);
+			GameRegistry.addSmelting(ModItems.oreMercilite, new ItemStack(ModItems.ingotMercilite, 1), 0.2f);
+			GameRegistry.addSmelting(ModItems.oreMythian, new ItemStack(ModItems.ingotMythian, 1), 0.2f);
+			GameRegistry.addSmelting(ModItems.oreDragite, new ItemStack(ModItems.ingotDragite, 1), 0.2f);
+			GameRegistry.addSmelting(ModItems.oreFlarite, new ItemStack(ModItems.ingotFlarite, 1), 0.2f);
+			GameRegistry.addSmelting(ModItems.oreFurenium, new ItemStack(ModItems.ingotFurenium, 1), 0.2f);
 		}
 		
 		if (_COreConfig.general.smeltImpureToIngot) {
-			if (CopperConfig.recipes.dustImpureSmeltingEnabled) {		addOreDictFurnaceRecipe(CopperConfig.oredict.dustImpureOreDict, ModItems.ingotCopper); }
-			if (TinConfig.recipes.dustImpureSmeltingEnabled) {			addOreDictFurnaceRecipe(TinConfig.oredict.dustImpureOreDict, ModItems.ingotTin); }
-			if (ZincConfig.recipes.dustImpureSmeltingEnabled) {			addOreDictFurnaceRecipe(ZincConfig.oredict.dustImpureOreDict, ModItems.ingotZinc); }
-			if (NickelConfig.recipes.dustImpureSmeltingEnabled) {		addOreDictFurnaceRecipe(NickelConfig.oredict.dustImpureOreDict, ModItems.ingotNickel); }
-			if (SilverConfig.recipes.dustImpureSmeltingEnabled) {		addOreDictFurnaceRecipe(SilverConfig.oredict.dustImpureOreDict, ModItems.ingotSilver); }
-			if (AluminiumConfig.recipes.dustImpureSmeltingEnabled) {	addOreDictFurnaceRecipe(AluminiumConfig.oredict.dustImpureOreDict, ModItems.ingotAluminium); }
-			if (TitaniumConfig.recipes.dustImpureSmeltingEnabled) {		addOreDictFurnaceRecipe(TitaniumConfig.oredict.dustImpureOreDict, ModItems.ingotTitanium); }
-			if (ChromiumConfig.recipes.dustImpureSmeltingEnabled) {		addOreDictFurnaceRecipe(ChromiumConfig.oredict.dustImpureOreDict, ModItems.ingotChromium); }
-			if (SiliconConfig.recipes.dustImpureSmeltingEnabled) {		addOreDictFurnaceRecipe(SiliconConfig.oredict.dustImpureOreDict, ModItems.ingotSilicon); }
-			if (CobaltConfig.recipes.dustImpureSmeltingEnabled) {		addOreDictFurnaceRecipe(CobaltConfig.oredict.dustImpureOreDict, ModItems.ingotCobalt); }
-			if (TungstenConfig.recipes.dustImpureSmeltingEnabled) {		addOreDictFurnaceRecipe(TungstenConfig.oredict.dustImpureOreDict, ModItems.ingotTungsten); }
-			if (LeadConfig.recipes.dustImpureSmeltingEnabled) {			addOreDictFurnaceRecipe(LeadConfig.oredict.dustImpureOreDict, ModItems.ingotLead); }
-			if (PlatinumConfig.recipes.dustImpureSmeltingEnabled) {		addOreDictFurnaceRecipe(PlatinumConfig.oredict.dustImpureOreDict, ModItems.ingotPlatinum); }
-			if (LithiumConfig.recipes.dustImpureSmeltingEnabled) {		addOreDictFurnaceRecipe(LithiumConfig.oredict.dustImpureOreDict, ModItems.ingotLithium); }
-			if (UraniumConfig.recipes.dustImpureSmeltingEnabled) {		addOreDictFurnaceRecipe(UraniumConfig.oredict.dustImpureOreDict, ModItems.ingotUranium); }
-			if (PlutoniumConfig.recipes.dustImpureSmeltingEnabled) {	addOreDictFurnaceRecipe(PlutoniumConfig.oredict.dustImpureOreDict, ModItems.ingotPlutonium); }
+			GameRegistry.addSmelting(ModItems.dustImpureCopper, new ItemStack(ModItems.ingotCopper, 1), 0.2f);
+			GameRegistry.addSmelting(ModItems.dustImpureTin, new ItemStack(ModItems.ingotTin, 1), 0.2f);
+			GameRegistry.addSmelting(ModItems.dustImpureZinc, new ItemStack(ModItems.ingotZinc, 1), 0.2f);
+			GameRegistry.addSmelting(ModItems.dustImpureNickel, new ItemStack(ModItems.ingotNickel, 1), 0.2f);
+			GameRegistry.addSmelting(ModItems.dustImpureSilver, new ItemStack(ModItems.ingotSilver, 1), 0.2f);
+			GameRegistry.addSmelting(ModItems.dustImpureAluminium, new ItemStack(ModItems.ingotAluminium, 1), 0.2f);
+			GameRegistry.addSmelting(ModItems.dustImpureTitanium, new ItemStack(ModItems.ingotTitanium, 1), 0.2f);
+			GameRegistry.addSmelting(ModItems.dustImpureChromium, new ItemStack(ModItems.ingotChromium, 1), 0.2f);
+			GameRegistry.addSmelting(ModItems.dustImpureSilicon, new ItemStack(ModItems.ingotSilicon, 1), 0.2f);
+			GameRegistry.addSmelting(ModItems.dustImpureCobalt, new ItemStack(ModItems.ingotCobalt, 1), 0.2f);
+			GameRegistry.addSmelting(ModItems.dustImpureTungsten, new ItemStack(ModItems.ingotTungsten, 1), 0.2f);
+			GameRegistry.addSmelting(ModItems.dustImpureLead, new ItemStack(ModItems.ingotLead, 1), 0.2f);
+			GameRegistry.addSmelting(ModItems.dustImpurePlatinum, new ItemStack(ModItems.ingotPlatinum, 1), 0.2f);
+			GameRegistry.addSmelting(ModItems.dustImpureLithium, new ItemStack(ModItems.ingotLithium, 1), 0.2f);
+			GameRegistry.addSmelting(ModItems.dustImpureUranium, new ItemStack(ModItems.ingotUranium, 1), 0.2f);
+			GameRegistry.addSmelting(ModItems.dustImpurePlutonium, new ItemStack(ModItems.ingotPlutonium, 1), 0.2f);
 			
-			//if (RubyConfig.recipes.dustImpureSmeltingEnabled) {		addOreDictFurnaceRecipe(RubyConfig.oredict.dustImpureOreDict, ModItems.gemRuby); }
-			//if (SapphireConfig.recipes.dustImpureSmeltingEnabled) {	addOreDictFurnaceRecipe(SapphireConfig.oredict.dustImpureOreDict, ModItems.gemSapphire); }
-			//if (AmethystConfig.recipes.dustImpureSmeltingEnabled) {	addOreDictFurnaceRecipe(AmethystConfig.oredict.dustImpureOreDict, ModItems.gemAmethyst); }
-			//if (CrystalConfig.recipes.dustImpureSmeltingEnabled) {	addOreDictFurnaceRecipe(CrystalConfig.oredict.dustImpureOreDict, ModItems.gemCrystal); }
-			if (MagnesiumConfig.recipes.dustImpureSmeltingEnabled) {	addOreDictFurnaceRecipe(MagnesiumConfig.oredict.dustImpureOreDict, ModItems.ingotMagnesium); }
-			//if (PhosphorusConfig.recipes.dustImpureSmeltingEnabled) {	addOreDictFurnaceRecipe(PhosphorusConfig.oredict.dustImpureOreDict, ModItems.ingotPhosphorus); }
-			//if (SulfurConfig.recipes.dustImpureSmeltingEnabled) {		addOreDictFurnaceRecipe(SulfurConfig.oredict.dustImpureOreDict, ModItems.ingotSulfur); }
-			if (SilvaniteConfig.recipes.dustImpureSmeltingEnabled) {	addOreDictFurnaceRecipe(SilvaniteConfig.oredict.dustImpureOreDict, ModItems.ingotSilvanite); }
-			if (MerciliteConfig.recipes.dustImpureSmeltingEnabled) {	addOreDictFurnaceRecipe(MerciliteConfig.oredict.dustImpureOreDict, ModItems.ingotMercilite); }
-			if (MythianConfig.recipes.dustImpureSmeltingEnabled) {		addOreDictFurnaceRecipe(MythianConfig.oredict.dustImpureOreDict, ModItems.ingotMythian); }
-			if (DragiteConfig.recipes.dustImpureSmeltingEnabled) {		addOreDictFurnaceRecipe(DragiteConfig.oredict.dustImpureOreDict, ModItems.ingotDragite); }
-			if (FlariteConfig.recipes.dustImpureSmeltingEnabled) {		addOreDictFurnaceRecipe(FlariteConfig.oredict.dustImpureOreDict, ModItems.ingotFlarite); }
-			if (FureniumConfig.recipes.dustImpureSmeltingEnabled) {		addOreDictFurnaceRecipe(FureniumConfig.oredict.dustImpureOreDict, ModItems.ingotFurenium); }
-			//if (BlackstoneConfig.recipes.dustImpureSmeltingEnabled) {	addOreDictFurnaceRecipe(BlackstoneConfig.oredict.dustImpureOreDict, ModItems.ingotBlackstone); }
-			//if (BluestoneConfig.recipes.dustImpureSmeltingEnabled) {	addOreDictFurnaceRecipe(BluestoneConfig.oredict.dustImpureOreDict, ModItems.ingotBluestone); }
-			//if (PurplestoneConfig.recipes.dustImpureSmeltingEnabled) {addOreDictFurnaceRecipe(PurplestoneConfig.oredict.dustImpureOreDict, ModItems.ingotPurplestone); }
-			
-			//No such thing as alloy impure dust. Skip!
+			GameRegistry.addSmelting(ModItems.dustImpureMagnesium, new ItemStack(ModItems.ingotMagnesium, 1), 0.2f);
+			GameRegistry.addSmelting(ModItems.dustImpureSilvanite, new ItemStack(ModItems.ingotSilvanite, 1), 0.2f);
+			GameRegistry.addSmelting(ModItems.dustImpureMercilite, new ItemStack(ModItems.ingotMercilite, 1), 0.2f);
+			GameRegistry.addSmelting(ModItems.dustImpureMythian, new ItemStack(ModItems.ingotMythian, 1), 0.2f);
+			GameRegistry.addSmelting(ModItems.dustImpureDragite, new ItemStack(ModItems.ingotDragite, 1), 0.2f);
+			GameRegistry.addSmelting(ModItems.dustImpureFlarite, new ItemStack(ModItems.ingotFlarite, 1), 0.2f);
+			GameRegistry.addSmelting(ModItems.dustImpureFurenium, new ItemStack(ModItems.ingotFurenium, 1), 0.2f);
 		}
 		
 		if (_COreConfig.general.smeltTinyDustToNugget) {
-			if (CopperConfig.recipes.dustTinySmeltingEnabled) { 	addOreDictFurnaceRecipe(CopperConfig.oredict.dustTinyOreDict, ModItems.nuggetCopper); }
-			if (TinConfig.recipes.dustTinySmeltingEnabled) { 		addOreDictFurnaceRecipe(TinConfig.oredict.dustTinyOreDict, ModItems.nuggetTin); }
-			if (ZincConfig.recipes.dustTinySmeltingEnabled) {		addOreDictFurnaceRecipe(ZincConfig.oredict.dustTinyOreDict, ModItems.nuggetZinc); }
-			if (NickelConfig.recipes.dustTinySmeltingEnabled) { 	addOreDictFurnaceRecipe(NickelConfig.oredict.dustTinyOreDict, ModItems.nuggetNickel); }
-			if (SilverConfig.recipes.dustTinySmeltingEnabled) { 	addOreDictFurnaceRecipe(SilverConfig.oredict.dustTinyOreDict, ModItems.nuggetSilver); }
-			if (AluminiumConfig.recipes.dustTinySmeltingEnabled) { 	addOreDictFurnaceRecipe(AluminiumConfig.oredict.dustTinyOreDict, ModItems.nuggetAluminium); }
-			if (TitaniumConfig.recipes.dustTinySmeltingEnabled) { 	addOreDictFurnaceRecipe(TitaniumConfig.oredict.dustTinyOreDict, ModItems.nuggetTitanium); }
-			if (ChromiumConfig.recipes.dustTinySmeltingEnabled) { 	addOreDictFurnaceRecipe(ChromiumConfig.oredict.dustTinyOreDict, ModItems.nuggetChromium); }
-			//if (SiliconConfig.recipes.dustTinySmeltingEnabled) { 	addOreDictFurnaceRecipe(SiliconConfig.oredict.dustTinyOreDict, ModItems.nuggetSilicon); }
-			if (CobaltConfig.recipes.dustTinySmeltingEnabled) { 	addOreDictFurnaceRecipe(CobaltConfig.oredict.dustTinyOreDict, ModItems.nuggetCobalt); }
-			if (TungstenConfig.recipes.dustTinySmeltingEnabled) { 	addOreDictFurnaceRecipe(TungstenConfig.oredict.dustTinyOreDict, ModItems.nuggetTungsten); }
-			if (LeadConfig.recipes.dustTinySmeltingEnabled) { 		addOreDictFurnaceRecipe(LeadConfig.oredict.dustTinyOreDict, ModItems.nuggetLead); }
-			if (PlatinumConfig.recipes.dustTinySmeltingEnabled) { 	addOreDictFurnaceRecipe(PlatinumConfig.oredict.dustTinyOreDict, ModItems.nuggetPlatinum); }
-			if (LithiumConfig.recipes.dustTinySmeltingEnabled) { 	addOreDictFurnaceRecipe(LithiumConfig.oredict.dustTinyOreDict, ModItems.nuggetLithium); }
-			if (UraniumConfig.recipes.dustTinySmeltingEnabled) { 	addOreDictFurnaceRecipe(UraniumConfig.oredict.dustTinyOreDict, ModItems.nuggetUranium); }
-			if (PlutoniumConfig.recipes.dustTinySmeltingEnabled) { 	addOreDictFurnaceRecipe(PlutoniumConfig.oredict.dustTinyOreDict, ModItems.nuggetPlutonium); }
+			GameRegistry.addSmelting(ModItems.dustTinyCopper, new ItemStack(ModItems.nuggetCopper, 1), 0.2f);
+			GameRegistry.addSmelting(ModItems.dustTinyTin, new ItemStack(ModItems.nuggetTin, 1), 0.2f);
+			GameRegistry.addSmelting(ModItems.dustTinyZinc, new ItemStack(ModItems.nuggetZinc, 1), 0.2f);
+			GameRegistry.addSmelting(ModItems.dustTinyNickel, new ItemStack(ModItems.nuggetNickel, 1), 0.2f);
+			GameRegistry.addSmelting(ModItems.dustTinySilver, new ItemStack(ModItems.nuggetSilver, 1), 0.2f);
+			GameRegistry.addSmelting(ModItems.dustTinyAluminium, new ItemStack(ModItems.nuggetAluminium, 1), 0.2f);
+			GameRegistry.addSmelting(ModItems.dustTinyTitanium, new ItemStack(ModItems.nuggetTitanium, 1), 0.2f);
+			GameRegistry.addSmelting(ModItems.dustTinyChromium, new ItemStack(ModItems.nuggetChromium, 1), 0.2f);
+			GameRegistry.addSmelting(ModItems.dustTinyCobalt, new ItemStack(ModItems.nuggetCobalt, 1), 0.2f);
+			GameRegistry.addSmelting(ModItems.dustTinyTungsten, new ItemStack(ModItems.nuggetTungsten, 1), 0.2f);
+			GameRegistry.addSmelting(ModItems.dustTinyLead, new ItemStack(ModItems.nuggetLead, 1), 0.2f);
+			GameRegistry.addSmelting(ModItems.dustTinyPlatinum, new ItemStack(ModItems.nuggetPlatinum, 1), 0.2f);
+			GameRegistry.addSmelting(ModItems.dustTinyLithium, new ItemStack(ModItems.nuggetLithium, 1), 0.2f);
+			GameRegistry.addSmelting(ModItems.dustTinyUranium, new ItemStack(ModItems.nuggetUranium, 1), 0.2f);
+			GameRegistry.addSmelting(ModItems.dustTinyPlutonium, new ItemStack(ModItems.nuggetPlutonium, 1), 0.2f);
 			
-			//if (RubyConfig.recipes.dustTinySmeltingEnabled) { 		addOreDictFurnaceRecipe(RubyConfig.oredict.dustTinyOreDict, ModItems.nuggetRuby); }
-			//if (SapphireConfig.recipes.dustTinySmeltingEnabled) { 	addOreDictFurnaceRecipe(SapphireConfig.oredict.dustTinyOreDict, ModItems.nuggetSapphire); }
-			//if (AmethystConfig.recipes.dustTinySmeltingEnabled) { 	addOreDictFurnaceRecipe(AmethystConfig.oredict.dustTinyOreDict, ModItems.nuggetAmethyst); }
-			//if (CrystalConfig.recipes.dustTinySmeltingEnabled) { 		addOreDictFurnaceRecipe(CrystalConfig.oredict.dustTinyOreDict, ModItems.nuggetCrystal); }
-			if (MagnesiumConfig.recipes.dustTinySmeltingEnabled) { 		addOreDictFurnaceRecipe(MagnesiumConfig.oredict.dustTinyOreDict, ModItems.nuggetMagnesium); }
-			//if (PhosphorusConfig.recipes.dustTinySmeltingEnabled) { 	addOreDictFurnaceRecipe(PhosphorusConfig.oredict.dustTinyOreDict, ModItems.nuggetPhosphorus); }
-			//if (SulfurConfig.recipes.dustTinySmeltingEnabled) { 		addOreDictFurnaceRecipe(SulfurConfig.oredict.dustTinyOreDict, ModItems.nuggetSulfur); }
-			if (SilvaniteConfig.recipes.dustTinySmeltingEnabled) { 		addOreDictFurnaceRecipe(SilvaniteConfig.oredict.dustTinyOreDict, ModItems.nuggetSilvanite); }
-			if (MerciliteConfig.recipes.dustTinySmeltingEnabled) { 		addOreDictFurnaceRecipe(MerciliteConfig.oredict.dustTinyOreDict, ModItems.nuggetMercilite); }
-			if (MythianConfig.recipes.dustTinySmeltingEnabled) { 		addOreDictFurnaceRecipe(MythianConfig.oredict.dustTinyOreDict, ModItems.nuggetMythian); }
-			if (DragiteConfig.recipes.dustTinySmeltingEnabled) { 		addOreDictFurnaceRecipe(DragiteConfig.oredict.dustTinyOreDict, ModItems.nuggetDragite); }
-			if (FlariteConfig.recipes.dustTinySmeltingEnabled) { 		addOreDictFurnaceRecipe(FlariteConfig.oredict.dustTinyOreDict, ModItems.nuggetFlarite); }
-			if (FureniumConfig.recipes.dustTinySmeltingEnabled) {		addOreDictFurnaceRecipe(FureniumConfig.oredict.dustTinyOreDict, ModItems.nuggetFurenium); }
-			//if (BlackstoneConfig.recipes.dustTinySmeltingEnabled) { 	addOreDictFurnaceRecipe(BlackstoneConfig.oredict.dustTinyOreDict, ModItems.nuggetBlackstone); }
-			//if (BluestoneConfig.recipes.dustTinySmeltingEnabled) { 	addOreDictFurnaceRecipe(BluestoneConfig.oredict.dustTinyOreDict, ModItems.nuggetBluestone); }
-			//if (PurplestoneConfig.recipes.dustTinySmeltingEnabled) { 	addOreDictFurnaceRecipe(PurplestoneConfig.oredict.dustTinyOreDict, ModItems.nuggetPurplestone); }
-				
-			if (AlloyBronzeConfig.recipes.dustTinySmeltingEnabled) { 			addOreDictFurnaceRecipe(AlloyBronzeConfig.oredict.dustTinyOreDict, ModItems.nuggetBronze); }
-			if (AlloyCupronickelConfig.recipes.dustTinySmeltingEnabled) { 		addOreDictFurnaceRecipe(AlloyCupronickelConfig.oredict.dustTinyOreDict, ModItems.nuggetCupronickel); }
-			if (AlloyBrassConfig.recipes.dustTinySmeltingEnabled) { 			addOreDictFurnaceRecipe(AlloyBrassConfig.oredict.dustTinyOreDict, ModItems.nuggetBrass); }
-			if (AlloyRoseGoldConfig.recipes.dustTinySmeltingEnabled) { 			addOreDictFurnaceRecipe(AlloyRoseGoldConfig.oredict.dustTinyOreDict, ModItems.nuggetRosegold); }
-			if (AlloySteelConfig.recipes.dustTinySmeltingEnabled) { 			addOreDictFurnaceRecipe(AlloySteelConfig.oredict.dustTinyOreDict, ModItems.nuggetSteel); }
-			if (AlloyStainlessSteelConfig.recipes.dustTinySmeltingEnabled) { 	addOreDictFurnaceRecipe(AlloyStainlessSteelConfig.oredict.dustTinyOreDict, ModItems.nuggetStainlesssteel); }
-			if (AlloyNichromeConfig.recipes.dustTinySmeltingEnabled) { 			addOreDictFurnaceRecipe(AlloyNichromeConfig.oredict.dustTinyOreDict, ModItems.nuggetNichrome); }
-			if (AlloyElectrumConfig.recipes.dustTinySmeltingEnabled) { 			addOreDictFurnaceRecipe(AlloyElectrumConfig.oredict.dustTinyOreDict, ModItems.nuggetElectrum); }
-			if (AlloyStelliteConfig.recipes.dustTinySmeltingEnabled) { 			addOreDictFurnaceRecipe(AlloyStelliteConfig.oredict.dustTinyOreDict, ModItems.nuggetStellite); }
-			if (AlloySilvamerConfig.recipes.dustTinySmeltingEnabled) { 			addOreDictFurnaceRecipe(AlloySilvamerConfig.oredict.dustTinyOreDict, ModItems.nuggetSilvamer); }
-			if (AlloyUniumConfig.recipes.dustTinySmeltingEnabled) { 			addOreDictFurnaceRecipe(AlloyUniumConfig.oredict.dustTinyOreDict, ModItems.nuggetUnium); }
-			if (AlloyFenikisiteConfig.recipes.dustTinySmeltingEnabled) { 		addOreDictFurnaceRecipe(AlloyFenikisiteConfig.oredict.dustTinyOreDict, ModItems.nuggetFenikisite); }
-			if (AlloyUltimiteConfig.recipes.dustTinySmeltingEnabled) { 			addOreDictFurnaceRecipe(AlloyUltimiteConfig.oredict.dustTinyOreDict, ModItems.nuggetUltimite); }
-			if (AlloyStrootiteConfig.recipes.dustTinySmeltingEnabled) { 		addOreDictFurnaceRecipe(AlloyStrootiteConfig.oredict.dustTinyOreDict, ModItems.nuggetStrootite); }
-			if (AlloySpeedoiConfig.recipes.dustTinySmeltingEnabled) { 			addOreDictFurnaceRecipe(AlloySpeedoiConfig.oredict.dustTinyOreDict, ModItems.nuggetSpeedoi); }
-			if (AlloyLegeniteConfig.recipes.dustTinySmeltingEnabled) { 			addOreDictFurnaceRecipe(AlloyLegeniteConfig.oredict.dustTinyOreDict, ModItems.nuggetLegenite); }
+			GameRegistry.addSmelting(ModItems.dustTinyMagnesium, new ItemStack(ModItems.nuggetMagnesium, 1), 0.2f);
+			GameRegistry.addSmelting(ModItems.dustTinySilvanite, new ItemStack(ModItems.nuggetSilvanite, 1), 0.2f);
+			GameRegistry.addSmelting(ModItems.dustTinyMercilite, new ItemStack(ModItems.nuggetMercilite, 1), 0.2f);
+			GameRegistry.addSmelting(ModItems.dustTinyMythian, new ItemStack(ModItems.nuggetMythian, 1), 0.2f);
+			GameRegistry.addSmelting(ModItems.dustTinyDragite, new ItemStack(ModItems.nuggetDragite, 1), 0.2f);
+			GameRegistry.addSmelting(ModItems.dustTinyFlarite, new ItemStack(ModItems.nuggetFlarite, 1), 0.2f);
+			GameRegistry.addSmelting(ModItems.dustTinyFurenium, new ItemStack(ModItems.nuggetFurenium, 1), 0.2f);
+			
+			GameRegistry.addSmelting(ModItems.dustTinyBronze, new ItemStack(ModItems.nuggetBronze, 1), 0.2f);
+			GameRegistry.addSmelting(ModItems.dustTinyCupronickel, new ItemStack(ModItems.nuggetCupronickel, 1), 0.2f);
+			GameRegistry.addSmelting(ModItems.dustTinyBrass, new ItemStack(ModItems.nuggetBrass, 1), 0.2f);
+			GameRegistry.addSmelting(ModItems.dustTinyRosegold, new ItemStack(ModItems.nuggetRosegold, 1), 0.2f);
+			GameRegistry.addSmelting(ModItems.dustTinySteel, new ItemStack(ModItems.nuggetSteel, 1), 0.2f);
+			GameRegistry.addSmelting(ModItems.dustTinyStainlesssteel, new ItemStack(ModItems.nuggetStainlesssteel, 1), 0.2f);
+			GameRegistry.addSmelting(ModItems.dustTinyNichrome, new ItemStack(ModItems.nuggetNichrome, 1), 0.2f);
+			GameRegistry.addSmelting(ModItems.dustTinyElectrum, new ItemStack(ModItems.nuggetElectrum, 1), 0.2f);
+			GameRegistry.addSmelting(ModItems.dustTinyStellite, new ItemStack(ModItems.nuggetStellite, 1), 0.2f);
+			GameRegistry.addSmelting(ModItems.dustTinySilvamer, new ItemStack(ModItems.nuggetSilvamer, 1), 0.2f);
+			GameRegistry.addSmelting(ModItems.dustTinyUnium, new ItemStack(ModItems.nuggetUnium, 1), 0.2f);
+			GameRegistry.addSmelting(ModItems.dustTinyFenikisite, new ItemStack(ModItems.nuggetFenikisite, 1), 0.2f);
+			GameRegistry.addSmelting(ModItems.dustTinyUltimite, new ItemStack(ModItems.nuggetUltimite, 1), 0.2f);
+			GameRegistry.addSmelting(ModItems.dustTinyStrootite, new ItemStack(ModItems.nuggetStrootite, 1), 0.2f);
+			GameRegistry.addSmelting(ModItems.dustTinySpeedoi, new ItemStack(ModItems.nuggetSpeedoi, 1), 0.2f);
+			GameRegistry.addSmelting(ModItems.dustTinyLegenite, new ItemStack(ModItems.nuggetLegenite, 1), 0.2f);
 		}
 	}
 	
@@ -266,175 +225,159 @@ public class RecipeRegistry {
 		
 		if (_COreConfig.cofh.pulveriserRecipes) {
 			//Ore to ingot
-			addTEPulverizerRecipe(CopperConfig.recipes.oreCrushingEnabled, CopperConfig.recipes.oreCrusherEnergyUsage, CopperConfig.oredict.oreOreDict, CopperConfig.recipes.oreCrusherPrimaryOutput, CopperConfig.recipes.oreCrusherPrimaryOutputAmount,
-					CopperConfig.recipes.oreCrusherSecondaryOutput, CopperConfig.recipes.oreCrusherSecondaryOutputAmount, CopperConfig.recipes.oreCrusherSecondaryOutputChance);
-			addTEPulverizerRecipe(TinConfig.recipes.oreCrushingEnabled, TinConfig.recipes.oreCrusherEnergyUsage, TinConfig.oredict.oreOreDict, TinConfig.recipes.oreCrusherPrimaryOutput, TinConfig.recipes.oreCrusherPrimaryOutputAmount,
-					TinConfig.recipes.oreCrusherSecondaryOutput, TinConfig.recipes.oreCrusherSecondaryOutputAmount, TinConfig.recipes.oreCrusherSecondaryOutputChance);
-			addTEPulverizerRecipe(ZincConfig.recipes.oreCrushingEnabled, ZincConfig.recipes.oreCrusherEnergyUsage, ZincConfig.oredict.oreOreDict, ZincConfig.recipes.oreCrusherPrimaryOutput, ZincConfig.recipes.oreCrusherPrimaryOutputAmount,
-					ZincConfig.recipes.oreCrusherSecondaryOutput, ZincConfig.recipes.oreCrusherSecondaryOutputAmount, ZincConfig.recipes.oreCrusherSecondaryOutputChance);
-			addTEPulverizerRecipe(NickelConfig.recipes.oreCrushingEnabled, NickelConfig.recipes.oreCrusherEnergyUsage, NickelConfig.oredict.oreOreDict, NickelConfig.recipes.oreCrusherPrimaryOutput, NickelConfig.recipes.oreCrusherPrimaryOutputAmount,
-					NickelConfig.recipes.oreCrusherSecondaryOutput, NickelConfig.recipes.oreCrusherSecondaryOutputAmount, NickelConfig.recipes.oreCrusherSecondaryOutputChance);
-			addTEPulverizerRecipe(SilverConfig.recipes.oreCrushingEnabled, SilverConfig.recipes.oreCrusherEnergyUsage, SilverConfig.oredict.oreOreDict, SilverConfig.recipes.oreCrusherPrimaryOutput, SilverConfig.recipes.oreCrusherPrimaryOutputAmount,
-					SilverConfig.recipes.oreCrusherSecondaryOutput, SilverConfig.recipes.oreCrusherSecondaryOutputAmount, SilverConfig.recipes.oreCrusherSecondaryOutputChance);
-			addTEPulverizerRecipe(AluminiumConfig.recipes.oreCrushingEnabled, AluminiumConfig.recipes.oreCrusherEnergyUsage, AluminiumConfig.oredict.oreOreDict, AluminiumConfig.recipes.oreCrusherPrimaryOutput, AluminiumConfig.recipes.oreCrusherPrimaryOutputAmount,
-					AluminiumConfig.recipes.oreCrusherSecondaryOutput, AluminiumConfig.recipes.oreCrusherSecondaryOutputAmount, AluminiumConfig.recipes.oreCrusherSecondaryOutputChance);
-			addTEPulverizerRecipe(TitaniumConfig.recipes.oreCrushingEnabled, TitaniumConfig.recipes.oreCrusherEnergyUsage, TitaniumConfig.oredict.oreOreDict, TitaniumConfig.recipes.oreCrusherPrimaryOutput, TitaniumConfig.recipes.oreCrusherPrimaryOutputAmount,
-					TitaniumConfig.recipes.oreCrusherSecondaryOutput, TitaniumConfig.recipes.oreCrusherSecondaryOutputAmount, TitaniumConfig.recipes.oreCrusherSecondaryOutputChance);
-			addTEPulverizerRecipe(ChromiumConfig.recipes.oreCrushingEnabled, ChromiumConfig.recipes.oreCrusherEnergyUsage, ChromiumConfig.oredict.oreOreDict, ChromiumConfig.recipes.oreCrusherPrimaryOutput, ChromiumConfig.recipes.oreCrusherPrimaryOutputAmount,
-					ChromiumConfig.recipes.oreCrusherSecondaryOutput, ChromiumConfig.recipes.oreCrusherSecondaryOutputAmount, ChromiumConfig.recipes.oreCrusherSecondaryOutputChance);
-			addTEPulverizerRecipe(SiliconConfig.recipes.oreCrushingEnabled, SiliconConfig.recipes.oreCrusherEnergyUsage, SiliconConfig.oredict.oreOreDict, SiliconConfig.recipes.oreCrusherPrimaryOutput, SiliconConfig.recipes.oreCrusherPrimaryOutputAmount,
-					SiliconConfig.recipes.oreCrusherSecondaryOutput, SiliconConfig.recipes.oreCrusherSecondaryOutputAmount, SiliconConfig.recipes.oreCrusherSecondaryOutputChance);
-			addTEPulverizerRecipe(CobaltConfig.recipes.oreCrushingEnabled, CobaltConfig.recipes.oreCrusherEnergyUsage, CobaltConfig.oredict.oreOreDict, CobaltConfig.recipes.oreCrusherPrimaryOutput, CobaltConfig.recipes.oreCrusherPrimaryOutputAmount,
-					CobaltConfig.recipes.oreCrusherSecondaryOutput, CobaltConfig.recipes.oreCrusherSecondaryOutputAmount, CobaltConfig.recipes.oreCrusherSecondaryOutputChance);
-			addTEPulverizerRecipe(TungstenConfig.recipes.oreCrushingEnabled, TungstenConfig.recipes.oreCrusherEnergyUsage, TungstenConfig.oredict.oreOreDict, TungstenConfig.recipes.oreCrusherPrimaryOutput, TungstenConfig.recipes.oreCrusherPrimaryOutputAmount,
-					TungstenConfig.recipes.oreCrusherSecondaryOutput, TungstenConfig.recipes.oreCrusherSecondaryOutputAmount, TungstenConfig.recipes.oreCrusherSecondaryOutputChance);
-			addTEPulverizerRecipe(LeadConfig.recipes.oreCrushingEnabled, LeadConfig.recipes.oreCrusherEnergyUsage, LeadConfig.oredict.oreOreDict, LeadConfig.recipes.oreCrusherPrimaryOutput, LeadConfig.recipes.oreCrusherPrimaryOutputAmount,
-					LeadConfig.recipes.oreCrusherSecondaryOutput, LeadConfig.recipes.oreCrusherSecondaryOutputAmount, LeadConfig.recipes.oreCrusherSecondaryOutputChance);
-			addTEPulverizerRecipe(PlatinumConfig.recipes.oreCrushingEnabled, PlatinumConfig.recipes.oreCrusherEnergyUsage, PlatinumConfig.oredict.oreOreDict, PlatinumConfig.recipes.oreCrusherPrimaryOutput, PlatinumConfig.recipes.oreCrusherPrimaryOutputAmount,
-					PlatinumConfig.recipes.oreCrusherSecondaryOutput, PlatinumConfig.recipes.oreCrusherSecondaryOutputAmount, PlatinumConfig.recipes.oreCrusherSecondaryOutputChance);
-			addTEPulverizerRecipe(LithiumConfig.recipes.oreCrushingEnabled, LithiumConfig.recipes.oreCrusherEnergyUsage, LithiumConfig.oredict.oreOreDict, LithiumConfig.recipes.oreCrusherPrimaryOutput, LithiumConfig.recipes.oreCrusherPrimaryOutputAmount,
-					LithiumConfig.recipes.oreCrusherSecondaryOutput, LithiumConfig.recipes.oreCrusherSecondaryOutputAmount, LithiumConfig.recipes.oreCrusherSecondaryOutputChance);
-			addTEPulverizerRecipe(UraniumConfig.recipes.oreCrushingEnabled, UraniumConfig.recipes.oreCrusherEnergyUsage, UraniumConfig.oredict.oreOreDict, UraniumConfig.recipes.oreCrusherPrimaryOutput, UraniumConfig.recipes.oreCrusherPrimaryOutputAmount,
-					UraniumConfig.recipes.oreCrusherSecondaryOutput, UraniumConfig.recipes.oreCrusherSecondaryOutputAmount, UraniumConfig.recipes.oreCrusherSecondaryOutputChance);
-			addTEPulverizerRecipe(PlutoniumConfig.recipes.oreCrushingEnabled, PlutoniumConfig.recipes.oreCrusherEnergyUsage, PlutoniumConfig.oredict.oreOreDict, PlutoniumConfig.recipes.oreCrusherPrimaryOutput, PlutoniumConfig.recipes.oreCrusherPrimaryOutputAmount,
-					PlutoniumConfig.recipes.oreCrusherSecondaryOutput, PlutoniumConfig.recipes.oreCrusherSecondaryOutputAmount, PlutoniumConfig.recipes.oreCrusherSecondaryOutputChance);
+			addTEPulverizerRecipe(CopperConfig.recipes.oreCrusherEnergyUsage, ModItems.oreCopper, ModItems.dustImpureCopper, CopperConfig.recipes.oreCrusherPrimaryOutputAmount,
+					ModItems.dustTinyCopper, CopperConfig.recipes.oreCrusherSecondaryOutputAmount, CopperConfig.recipes.oreCrusherSecondaryOutputChance);
+			addTEPulverizerRecipe(TinConfig.recipes.oreCrusherEnergyUsage, ModItems.oreTin, ModItems.dustImpureTin, TinConfig.recipes.oreCrusherPrimaryOutputAmount,
+					ModItems.dustTinyTin, TinConfig.recipes.oreCrusherSecondaryOutputAmount, TinConfig.recipes.oreCrusherSecondaryOutputChance);
+			addTEPulverizerRecipe(ZincConfig.recipes.oreCrusherEnergyUsage, ModItems.oreZinc, ModItems.dustImpureZinc, ZincConfig.recipes.oreCrusherPrimaryOutputAmount,
+					ModItems.dustTinyZinc, ZincConfig.recipes.oreCrusherSecondaryOutputAmount, ZincConfig.recipes.oreCrusherSecondaryOutputChance);
+			addTEPulverizerRecipe(NickelConfig.recipes.oreCrusherEnergyUsage, ModItems.oreNickel, ModItems.dustImpureNickel, NickelConfig.recipes.oreCrusherPrimaryOutputAmount,
+					ModItems.dustTinyNickel, NickelConfig.recipes.oreCrusherSecondaryOutputAmount, NickelConfig.recipes.oreCrusherSecondaryOutputChance);
+			addTEPulverizerRecipe(SilverConfig.recipes.oreCrusherEnergyUsage, ModItems.oreSilver, ModItems.dustImpureSilver, SilverConfig.recipes.oreCrusherPrimaryOutputAmount,
+					ModItems.dustTinySilver, SilverConfig.recipes.oreCrusherSecondaryOutputAmount, SilverConfig.recipes.oreCrusherSecondaryOutputChance);
+			addTEPulverizerRecipe(AluminiumConfig.recipes.oreCrusherEnergyUsage, ModItems.oreAluminium, ModItems.dustImpureAluminium, AluminiumConfig.recipes.oreCrusherPrimaryOutputAmount,
+					ModItems.dustTinyAluminium, AluminiumConfig.recipes.oreCrusherSecondaryOutputAmount, AluminiumConfig.recipes.oreCrusherSecondaryOutputChance);
+			addTEPulverizerRecipe(TitaniumConfig.recipes.oreCrusherEnergyUsage, ModItems.oreTitanium, ModItems.dustImpureTitanium, TitaniumConfig.recipes.oreCrusherPrimaryOutputAmount,
+					ModItems.dustTinyTitanium, TitaniumConfig.recipes.oreCrusherSecondaryOutputAmount, TitaniumConfig.recipes.oreCrusherSecondaryOutputChance);
+			addTEPulverizerRecipe(ChromiumConfig.recipes.oreCrusherEnergyUsage, ModItems.oreChromium, ModItems.dustImpureChromium, ChromiumConfig.recipes.oreCrusherPrimaryOutputAmount,
+					ModItems.dustTinyChromium, ChromiumConfig.recipes.oreCrusherSecondaryOutputAmount, ChromiumConfig.recipes.oreCrusherSecondaryOutputChance);
+			addTEPulverizerRecipe(SiliconConfig.recipes.oreCrusherEnergyUsage, ModItems.oreSilicon, ModItems.dustImpureSilicon, SiliconConfig.recipes.oreCrusherPrimaryOutputAmount,
+					ModItems.dustTinySilicon, SiliconConfig.recipes.oreCrusherSecondaryOutputAmount, SiliconConfig.recipes.oreCrusherSecondaryOutputChance);
+			addTEPulverizerRecipe(CobaltConfig.recipes.oreCrusherEnergyUsage, ModItems.oreCobalt, ModItems.dustImpureCobalt, CobaltConfig.recipes.oreCrusherPrimaryOutputAmount,
+					ModItems.dustTinyCobalt, CobaltConfig.recipes.oreCrusherSecondaryOutputAmount, CobaltConfig.recipes.oreCrusherSecondaryOutputChance);
+			addTEPulverizerRecipe(TungstenConfig.recipes.oreCrusherEnergyUsage, ModItems.oreTungsten, ModItems.dustImpureTungsten, TungstenConfig.recipes.oreCrusherPrimaryOutputAmount,
+					ModItems.dustTinyTungsten, TungstenConfig.recipes.oreCrusherSecondaryOutputAmount, TungstenConfig.recipes.oreCrusherSecondaryOutputChance);
+			addTEPulverizerRecipe(LeadConfig.recipes.oreCrusherEnergyUsage, ModItems.oreLead, ModItems.dustImpureLead, LeadConfig.recipes.oreCrusherPrimaryOutputAmount,
+					ModItems.dustTinyLead, LeadConfig.recipes.oreCrusherSecondaryOutputAmount, LeadConfig.recipes.oreCrusherSecondaryOutputChance);
+			addTEPulverizerRecipe(PlatinumConfig.recipes.oreCrusherEnergyUsage, ModItems.orePlatinum, ModItems.dustImpurePlatinum, PlatinumConfig.recipes.oreCrusherPrimaryOutputAmount,
+					ModItems.dustTinyPlatinum, PlatinumConfig.recipes.oreCrusherSecondaryOutputAmount, PlatinumConfig.recipes.oreCrusherSecondaryOutputChance);
+			addTEPulverizerRecipe(LithiumConfig.recipes.oreCrusherEnergyUsage, ModItems.oreLithium, ModItems.dustImpureLithium, LithiumConfig.recipes.oreCrusherPrimaryOutputAmount,
+					ModItems.dustTinyLithium, LithiumConfig.recipes.oreCrusherSecondaryOutputAmount, LithiumConfig.recipes.oreCrusherSecondaryOutputChance);
+			addTEPulverizerRecipe(UraniumConfig.recipes.oreCrusherEnergyUsage, ModItems.oreUranium, ModItems.dustImpureUranium, UraniumConfig.recipes.oreCrusherPrimaryOutputAmount,
+					ModItems.dustTinyUranium, UraniumConfig.recipes.oreCrusherSecondaryOutputAmount, UraniumConfig.recipes.oreCrusherSecondaryOutputChance);
+			addTEPulverizerRecipe(PlutoniumConfig.recipes.oreCrusherEnergyUsage, ModItems.orePlutonium, ModItems.dustImpurePlutonium, PlutoniumConfig.recipes.oreCrusherPrimaryOutputAmount,
+					ModItems.dustTinyPlutonium, PlutoniumConfig.recipes.oreCrusherSecondaryOutputAmount, PlutoniumConfig.recipes.oreCrusherSecondaryOutputChance);
 			
-			addTEPulverizerRecipe(RubyConfig.recipes.oreCrushingEnabled, RubyConfig.recipes.oreCrusherEnergyUsage, RubyConfig.oredict.oreOreDict, RubyConfig.recipes.oreCrusherPrimaryOutput, RubyConfig.recipes.oreCrusherPrimaryOutputAmount,
-					RubyConfig.recipes.oreCrusherSecondaryOutput, RubyConfig.recipes.oreCrusherSecondaryOutputAmount, RubyConfig.recipes.oreCrusherSecondaryOutputChance);
-			addTEPulverizerRecipe(SapphireConfig.recipes.oreCrushingEnabled, SapphireConfig.recipes.oreCrusherEnergyUsage, SapphireConfig.oredict.oreOreDict, SapphireConfig.recipes.oreCrusherPrimaryOutput, SapphireConfig.recipes.oreCrusherPrimaryOutputAmount,
-					SapphireConfig.recipes.oreCrusherSecondaryOutput, SapphireConfig.recipes.oreCrusherSecondaryOutputAmount, SapphireConfig.recipes.oreCrusherSecondaryOutputChance);
-			addTEPulverizerRecipe(AmethystConfig.recipes.oreCrushingEnabled, AmethystConfig.recipes.oreCrusherEnergyUsage, AmethystConfig.oredict.oreOreDict, AmethystConfig.recipes.oreCrusherPrimaryOutput, AmethystConfig.recipes.oreCrusherPrimaryOutputAmount,
-					AmethystConfig.recipes.oreCrusherSecondaryOutput, AmethystConfig.recipes.oreCrusherSecondaryOutputAmount, AmethystConfig.recipes.oreCrusherSecondaryOutputChance);
-			addTEPulverizerRecipe(CrystalConfig.recipes.oreCrushingEnabled, CrystalConfig.recipes.oreCrusherEnergyUsage, CrystalConfig.oredict.oreOreDict, CrystalConfig.recipes.oreCrusherPrimaryOutput, CrystalConfig.recipes.oreCrusherPrimaryOutputAmount,
-					CrystalConfig.recipes.oreCrusherSecondaryOutput, CrystalConfig.recipes.oreCrusherSecondaryOutputAmount, CrystalConfig.recipes.oreCrusherSecondaryOutputChance);
-			addTEPulverizerRecipe(MagnesiumConfig.recipes.oreCrushingEnabled, MagnesiumConfig.recipes.oreCrusherEnergyUsage, MagnesiumConfig.oredict.oreOreDict, MagnesiumConfig.recipes.oreCrusherPrimaryOutput, MagnesiumConfig.recipes.oreCrusherPrimaryOutputAmount,
-					MagnesiumConfig.recipes.oreCrusherSecondaryOutput, MagnesiumConfig.recipes.oreCrusherSecondaryOutputAmount, MagnesiumConfig.recipes.oreCrusherSecondaryOutputChance);
-			addTEPulverizerRecipe(PhosphorusConfig.recipes.oreCrushingEnabled, PhosphorusConfig.recipes.oreCrusherEnergyUsage, PhosphorusConfig.oredict.oreOreDict, PhosphorusConfig.recipes.oreCrusherPrimaryOutput, PhosphorusConfig.recipes.oreCrusherPrimaryOutputAmount,
-					PhosphorusConfig.recipes.oreCrusherSecondaryOutput, PhosphorusConfig.recipes.oreCrusherSecondaryOutputAmount, PhosphorusConfig.recipes.oreCrusherSecondaryOutputChance);
-			addTEPulverizerRecipe(SulfurConfig.recipes.oreCrushingEnabled, SulfurConfig.recipes.oreCrusherEnergyUsage, SulfurConfig.oredict.oreOreDict, SulfurConfig.recipes.oreCrusherPrimaryOutput, SulfurConfig.recipes.oreCrusherPrimaryOutputAmount,
-					SulfurConfig.recipes.oreCrusherSecondaryOutput, SulfurConfig.recipes.oreCrusherSecondaryOutputAmount, SulfurConfig.recipes.oreCrusherSecondaryOutputChance);
-			addTEPulverizerRecipe(SilvaniteConfig.recipes.oreCrushingEnabled, SilvaniteConfig.recipes.oreCrusherEnergyUsage, SilvaniteConfig.oredict.oreOreDict, SilvaniteConfig.recipes.oreCrusherPrimaryOutput, SilvaniteConfig.recipes.oreCrusherPrimaryOutputAmount,
-					SilvaniteConfig.recipes.oreCrusherSecondaryOutput, SilvaniteConfig.recipes.oreCrusherSecondaryOutputAmount, SilvaniteConfig.recipes.oreCrusherSecondaryOutputChance);
-			addTEPulverizerRecipe(MerciliteConfig.recipes.oreCrushingEnabled, MerciliteConfig.recipes.oreCrusherEnergyUsage, MerciliteConfig.oredict.oreOreDict, MerciliteConfig.recipes.oreCrusherPrimaryOutput, MerciliteConfig.recipes.oreCrusherPrimaryOutputAmount,
-					MerciliteConfig.recipes.oreCrusherSecondaryOutput, MerciliteConfig.recipes.oreCrusherSecondaryOutputAmount, MerciliteConfig.recipes.oreCrusherSecondaryOutputChance);
-			addTEPulverizerRecipe(MythianConfig.recipes.oreCrushingEnabled, MythianConfig.recipes.oreCrusherEnergyUsage, MythianConfig.oredict.oreOreDict, MythianConfig.recipes.oreCrusherPrimaryOutput, MythianConfig.recipes.oreCrusherPrimaryOutputAmount,
-					MythianConfig.recipes.oreCrusherSecondaryOutput, MythianConfig.recipes.oreCrusherSecondaryOutputAmount, MythianConfig.recipes.oreCrusherSecondaryOutputChance);
-			addTEPulverizerRecipe(DragiteConfig.recipes.oreCrushingEnabled, DragiteConfig.recipes.oreCrusherEnergyUsage, DragiteConfig.oredict.oreOreDict, DragiteConfig.recipes.oreCrusherPrimaryOutput, DragiteConfig.recipes.oreCrusherPrimaryOutputAmount,
-					DragiteConfig.recipes.oreCrusherSecondaryOutput, DragiteConfig.recipes.oreCrusherSecondaryOutputAmount, DragiteConfig.recipes.oreCrusherSecondaryOutputChance);
-			addTEPulverizerRecipe(FlariteConfig.recipes.oreCrushingEnabled, FlariteConfig.recipes.oreCrusherEnergyUsage, FlariteConfig.oredict.oreOreDict, FlariteConfig.recipes.oreCrusherPrimaryOutput, FlariteConfig.recipes.oreCrusherPrimaryOutputAmount,
-					FlariteConfig.recipes.oreCrusherSecondaryOutput, FlariteConfig.recipes.oreCrusherSecondaryOutputAmount, FlariteConfig.recipes.oreCrusherSecondaryOutputChance);
-			addTEPulverizerRecipe(FureniumConfig.recipes.oreCrushingEnabled, FureniumConfig.recipes.oreCrusherEnergyUsage, FureniumConfig.oredict.oreOreDict, FureniumConfig.recipes.oreCrusherPrimaryOutput, FureniumConfig.recipes.oreCrusherPrimaryOutputAmount,
-					FureniumConfig.recipes.oreCrusherSecondaryOutput, FureniumConfig.recipes.oreCrusherSecondaryOutputAmount, FureniumConfig.recipes.oreCrusherSecondaryOutputChance);
-			addTEPulverizerRecipe(BlackstoneConfig.recipes.oreCrushingEnabled, BlackstoneConfig.recipes.oreCrusherEnergyUsage, BlackstoneConfig.oredict.oreOreDict, BlackstoneConfig.recipes.oreCrusherPrimaryOutput, BlackstoneConfig.recipes.oreCrusherPrimaryOutputAmount,
-					BlackstoneConfig.recipes.oreCrusherSecondaryOutput, BlackstoneConfig.recipes.oreCrusherSecondaryOutputAmount, BlackstoneConfig.recipes.oreCrusherSecondaryOutputChance);
-			addTEPulverizerRecipe(BluestoneConfig.recipes.oreCrushingEnabled, BluestoneConfig.recipes.oreCrusherEnergyUsage, BluestoneConfig.oredict.oreOreDict, BluestoneConfig.recipes.oreCrusherPrimaryOutput, BluestoneConfig.recipes.oreCrusherPrimaryOutputAmount,
-					BluestoneConfig.recipes.oreCrusherSecondaryOutput, BluestoneConfig.recipes.oreCrusherSecondaryOutputAmount, BluestoneConfig.recipes.oreCrusherSecondaryOutputChance);
-			addTEPulverizerRecipe(PurplestoneConfig.recipes.oreCrushingEnabled, PurplestoneConfig.recipes.oreCrusherEnergyUsage, PurplestoneConfig.oredict.oreOreDict, PurplestoneConfig.recipes.oreCrusherPrimaryOutput, PurplestoneConfig.recipes.oreCrusherPrimaryOutputAmount,
-					PurplestoneConfig.recipes.oreCrusherSecondaryOutput, PurplestoneConfig.recipes.oreCrusherSecondaryOutputAmount, PurplestoneConfig.recipes.oreCrusherSecondaryOutputChance);
+			addTEPulverizerRecipe(MagnesiumConfig.recipes.oreCrusherEnergyUsage, ModItems.oreMagnesium, ModItems.dustImpureMagnesium, MagnesiumConfig.recipes.oreCrusherPrimaryOutputAmount,
+					ModItems.dustTinyMagnesium, MagnesiumConfig.recipes.oreCrusherSecondaryOutputAmount, MagnesiumConfig.recipes.oreCrusherSecondaryOutputChance);
+			addTEPulverizerRecipe(PhosphorusConfig.recipes.oreCrusherEnergyUsage, ModItems.orePhosphorus, ModItems.dustImpurePhosphorus, PhosphorusConfig.recipes.oreCrusherPrimaryOutputAmount,
+					ModItems.dustTinyPhosphorus, PhosphorusConfig.recipes.oreCrusherSecondaryOutputAmount, PhosphorusConfig.recipes.oreCrusherSecondaryOutputChance);
+			addTEPulverizerRecipe(SilvaniteConfig.recipes.oreCrusherEnergyUsage, ModItems.oreSilvanite, ModItems.dustImpureSilvanite, SilvaniteConfig.recipes.oreCrusherPrimaryOutputAmount,
+					ModItems.dustTinySilvanite, SilvaniteConfig.recipes.oreCrusherSecondaryOutputAmount, SilvaniteConfig.recipes.oreCrusherSecondaryOutputChance);
+			addTEPulverizerRecipe(MerciliteConfig.recipes.oreCrusherEnergyUsage, ModItems.oreMercilite, ModItems.dustImpureMercilite, MerciliteConfig.recipes.oreCrusherPrimaryOutputAmount,
+					ModItems.dustTinyMercilite, MerciliteConfig.recipes.oreCrusherSecondaryOutputAmount, MerciliteConfig.recipes.oreCrusherSecondaryOutputChance);
+			addTEPulverizerRecipe(MythianConfig.recipes.oreCrusherEnergyUsage, ModItems.oreMythian, ModItems.dustImpureMythian, MythianConfig.recipes.oreCrusherPrimaryOutputAmount,
+					ModItems.dustTinyMythian, MythianConfig.recipes.oreCrusherSecondaryOutputAmount, MythianConfig.recipes.oreCrusherSecondaryOutputChance);
+			addTEPulverizerRecipe(DragiteConfig.recipes.oreCrusherEnergyUsage, ModItems.oreDragite, ModItems.dustImpureDragite, DragiteConfig.recipes.oreCrusherPrimaryOutputAmount,
+					ModItems.dustTinyDragite, DragiteConfig.recipes.oreCrusherSecondaryOutputAmount, DragiteConfig.recipes.oreCrusherSecondaryOutputChance);
+			addTEPulverizerRecipe(FlariteConfig.recipes.oreCrusherEnergyUsage, ModItems.oreFlarite, ModItems.dustImpureFlarite, FlariteConfig.recipes.oreCrusherPrimaryOutputAmount,
+					ModItems.dustTinyFlarite, FlariteConfig.recipes.oreCrusherSecondaryOutputAmount, FlariteConfig.recipes.oreCrusherSecondaryOutputChance);
+			addTEPulverizerRecipe(FureniumConfig.recipes.oreCrusherEnergyUsage, ModItems.oreFurenium, ModItems.dustImpureFurenium, FureniumConfig.recipes.oreCrusherPrimaryOutputAmount,
+					ModItems.dustTinyFurenium, FureniumConfig.recipes.oreCrusherSecondaryOutputAmount, FureniumConfig.recipes.oreCrusherSecondaryOutputChance);
 			
 			//Ingot to dust
-			addTEPulverizerRecipe(CopperConfig.recipes.ingotCrushingEnabled, CopperConfig.recipes.ingotCrusherEnergyUsage, CopperConfig.oredict.ingotOreDict, CopperConfig.recipes.ingotCrusherOutput, CopperConfig.recipes.ingotCrusherOutputAmount);
-			addTEPulverizerRecipe(TinConfig.recipes.ingotCrushingEnabled, TinConfig.recipes.ingotCrusherEnergyUsage, TinConfig.oredict.ingotOreDict, TinConfig.recipes.ingotCrusherOutput, TinConfig.recipes.ingotCrusherOutputAmount);
-			addTEPulverizerRecipe(ZincConfig.recipes.ingotCrushingEnabled, ZincConfig.recipes.ingotCrusherEnergyUsage, ZincConfig.oredict.ingotOreDict, ZincConfig.recipes.ingotCrusherOutput, ZincConfig.recipes.ingotCrusherOutputAmount);
-			addTEPulverizerRecipe(NickelConfig.recipes.ingotCrushingEnabled, NickelConfig.recipes.ingotCrusherEnergyUsage, NickelConfig.oredict.ingotOreDict, NickelConfig.recipes.ingotCrusherOutput, NickelConfig.recipes.ingotCrusherOutputAmount);
-			addTEPulverizerRecipe(SilverConfig.recipes.ingotCrushingEnabled, SilverConfig.recipes.ingotCrusherEnergyUsage, SilverConfig.oredict.ingotOreDict, SilverConfig.recipes.ingotCrusherOutput, SilverConfig.recipes.ingotCrusherOutputAmount);
-			addTEPulverizerRecipe(AluminiumConfig.recipes.ingotCrushingEnabled, AluminiumConfig.recipes.ingotCrusherEnergyUsage, AluminiumConfig.oredict.ingotOreDict, AluminiumConfig.recipes.ingotCrusherOutput, AluminiumConfig.recipes.ingotCrusherOutputAmount);
-			addTEPulverizerRecipe(TitaniumConfig.recipes.ingotCrushingEnabled, TitaniumConfig.recipes.ingotCrusherEnergyUsage, TitaniumConfig.oredict.ingotOreDict, TitaniumConfig.recipes.ingotCrusherOutput, TitaniumConfig.recipes.ingotCrusherOutputAmount);
-			addTEPulverizerRecipe(ChromiumConfig.recipes.ingotCrushingEnabled, ChromiumConfig.recipes.ingotCrusherEnergyUsage, ChromiumConfig.oredict.ingotOreDict, ChromiumConfig.recipes.ingotCrusherOutput, ChromiumConfig.recipes.ingotCrusherOutputAmount);
-			addTEPulverizerRecipe(SiliconConfig.recipes.ingotCrushingEnabled, SiliconConfig.recipes.ingotCrusherEnergyUsage, SiliconConfig.oredict.ingotOreDict, SiliconConfig.recipes.ingotCrusherOutput, SiliconConfig.recipes.ingotCrusherOutputAmount);
-			addTEPulverizerRecipe(CobaltConfig.recipes.ingotCrushingEnabled, CobaltConfig.recipes.ingotCrusherEnergyUsage, CobaltConfig.oredict.ingotOreDict, CobaltConfig.recipes.ingotCrusherOutput, CobaltConfig.recipes.ingotCrusherOutputAmount);
-			addTEPulverizerRecipe(TungstenConfig.recipes.ingotCrushingEnabled, TungstenConfig.recipes.ingotCrusherEnergyUsage, TungstenConfig.oredict.ingotOreDict, TungstenConfig.recipes.ingotCrusherOutput, TungstenConfig.recipes.ingotCrusherOutputAmount);
-			addTEPulverizerRecipe(LeadConfig.recipes.ingotCrushingEnabled, LeadConfig.recipes.ingotCrusherEnergyUsage, LeadConfig.oredict.ingotOreDict, LeadConfig.recipes.ingotCrusherOutput, LeadConfig.recipes.ingotCrusherOutputAmount);
-			addTEPulverizerRecipe(PlatinumConfig.recipes.ingotCrushingEnabled, PlatinumConfig.recipes.ingotCrusherEnergyUsage, PlatinumConfig.oredict.ingotOreDict, PlatinumConfig.recipes.ingotCrusherOutput, PlatinumConfig.recipes.ingotCrusherOutputAmount);
-			addTEPulverizerRecipe(LithiumConfig.recipes.ingotCrushingEnabled, LithiumConfig.recipes.ingotCrusherEnergyUsage, LithiumConfig.oredict.ingotOreDict, LithiumConfig.recipes.ingotCrusherOutput, LithiumConfig.recipes.ingotCrusherOutputAmount);
-			addTEPulverizerRecipe(UraniumConfig.recipes.ingotCrushingEnabled, UraniumConfig.recipes.ingotCrusherEnergyUsage, UraniumConfig.oredict.ingotOreDict, UraniumConfig.recipes.ingotCrusherOutput, UraniumConfig.recipes.ingotCrusherOutputAmount);
-			addTEPulverizerRecipe(PlutoniumConfig.recipes.ingotCrushingEnabled, PlutoniumConfig.recipes.ingotCrusherEnergyUsage, PlutoniumConfig.oredict.ingotOreDict, PlutoniumConfig.recipes.ingotCrusherOutput, PlutoniumConfig.recipes.ingotCrusherOutputAmount);
+			addTEPulverizerRecipe(CopperConfig.recipes.ingotCrusherEnergyUsage, ModItems.ingotCopper, ModItems.dustCopper, 1);
+			addTEPulverizerRecipe(TinConfig.recipes.ingotCrusherEnergyUsage, ModItems.ingotTin, ModItems.dustTin, 1);
+			addTEPulverizerRecipe(ZincConfig.recipes.ingotCrusherEnergyUsage, ModItems.ingotZinc, ModItems.dustZinc, 1);
+			addTEPulverizerRecipe(NickelConfig.recipes.ingotCrusherEnergyUsage, ModItems.ingotNickel, ModItems.dustNickel, 1);
+			addTEPulverizerRecipe(SilverConfig.recipes.ingotCrusherEnergyUsage, ModItems.ingotSilver, ModItems.dustSilver, 1);
+			addTEPulverizerRecipe(AluminiumConfig.recipes.ingotCrusherEnergyUsage, ModItems.ingotAluminium, ModItems.dustAluminium, 1);
+			addTEPulverizerRecipe(TitaniumConfig.recipes.ingotCrusherEnergyUsage, ModItems.ingotTitanium, ModItems.dustTitanium, 1);
+			addTEPulverizerRecipe(ChromiumConfig.recipes.ingotCrusherEnergyUsage, ModItems.ingotChromium, ModItems.dustChromium, 1);
+			addTEPulverizerRecipe(SiliconConfig.recipes.ingotCrusherEnergyUsage, ModItems.ingotSilicon, ModItems.dustSilicon, 1);
+			addTEPulverizerRecipe(CobaltConfig.recipes.ingotCrusherEnergyUsage, ModItems.ingotCobalt, ModItems.dustCobalt, 1);
+			addTEPulverizerRecipe(TungstenConfig.recipes.ingotCrusherEnergyUsage, ModItems.ingotTungsten, ModItems.dustTungsten, 1);
+			addTEPulverizerRecipe(LeadConfig.recipes.ingotCrusherEnergyUsage, ModItems.ingotLead, ModItems.dustLead, 1);
+			addTEPulverizerRecipe(PlatinumConfig.recipes.ingotCrusherEnergyUsage, ModItems.ingotPlatinum, ModItems.dustPlatinum, 1);
+			addTEPulverizerRecipe(LithiumConfig.recipes.ingotCrusherEnergyUsage, ModItems.ingotLithium, ModItems.dustLithium, 1);
+			addTEPulverizerRecipe(UraniumConfig.recipes.ingotCrusherEnergyUsage, ModItems.ingotUranium, ModItems.dustUranium, 1);
+			addTEPulverizerRecipe(PlutoniumConfig.recipes.ingotCrusherEnergyUsage, ModItems.ingotPlutonium, ModItems.dustPlutonium, 1);
 			
-			addTEPulverizerRecipe(RubyConfig.recipes.gemCrushingEnabled, RubyConfig.recipes.gemCrusherEnergyUsage, RubyConfig.oredict.gemOreDict, RubyConfig.recipes.gemCrusherOutput, RubyConfig.recipes.gemCrusherOutputAmount);
-			addTEPulverizerRecipe(SapphireConfig.recipes.gemCrushingEnabled, SapphireConfig.recipes.gemCrusherEnergyUsage, SapphireConfig.oredict.gemOreDict, SapphireConfig.recipes.gemCrusherOutput, SapphireConfig.recipes.gemCrusherOutputAmount);
-			addTEPulverizerRecipe(AmethystConfig.recipes.gemCrushingEnabled, AmethystConfig.recipes.gemCrusherEnergyUsage, AmethystConfig.oredict.gemOreDict, AmethystConfig.recipes.gemCrusherOutput, AmethystConfig.recipes.gemCrusherOutputAmount);
-			addTEPulverizerRecipe(CrystalConfig.recipes.gemCrushingEnabled, CrystalConfig.recipes.gemCrusherEnergyUsage, CrystalConfig.oredict.gemOreDict, CrystalConfig.recipes.gemCrusherOutput, CrystalConfig.recipes.gemCrusherOutputAmount);
-			addTEPulverizerRecipe(MagnesiumConfig.recipes.ingotCrushingEnabled, MagnesiumConfig.recipes.ingotCrusherEnergyUsage, MagnesiumConfig.oredict.ingotOreDict, MagnesiumConfig.recipes.ingotCrusherOutput, MagnesiumConfig.recipes.ingotCrusherOutputAmount);
-			//addTEPulverizerRecipe(PhosphorusConfig.recipes.ingotCrushingEnabled, PhosphorusConfig.recipes.ingotCrusherEnergyUsage, PhosphorusConfig.oredict.ingotOreDict, PhosphorusConfig.recipes.ingotCrusherOutput, PhosphorusConfig.recipes.ingotCrusherOutputAmount);
-			addTEPulverizerRecipe(SulfurConfig.recipes.ingotCrushingEnabled, SulfurConfig.recipes.ingotCrusherEnergyUsage, SulfurConfig.oredict.ingotOreDict, SulfurConfig.recipes.ingotCrusherOutput, SulfurConfig.recipes.ingotCrusherOutputAmount);
-			addTEPulverizerRecipe(SilvaniteConfig.recipes.ingotCrushingEnabled, SilvaniteConfig.recipes.ingotCrusherEnergyUsage, SilvaniteConfig.oredict.ingotOreDict, SilvaniteConfig.recipes.ingotCrusherOutput, SilvaniteConfig.recipes.ingotCrusherOutputAmount);
-			addTEPulverizerRecipe(MerciliteConfig.recipes.ingotCrushingEnabled, MerciliteConfig.recipes.ingotCrusherEnergyUsage, MerciliteConfig.oredict.ingotOreDict, MerciliteConfig.recipes.ingotCrusherOutput, MerciliteConfig.recipes.ingotCrusherOutputAmount);
-			addTEPulverizerRecipe(MythianConfig.recipes.ingotCrushingEnabled, MythianConfig.recipes.ingotCrusherEnergyUsage, MythianConfig.oredict.ingotOreDict, MythianConfig.recipes.ingotCrusherOutput, MythianConfig.recipes.ingotCrusherOutputAmount);
-			addTEPulverizerRecipe(DragiteConfig.recipes.ingotCrushingEnabled, DragiteConfig.recipes.ingotCrusherEnergyUsage, DragiteConfig.oredict.ingotOreDict, DragiteConfig.recipes.ingotCrusherOutput, DragiteConfig.recipes.ingotCrusherOutputAmount);
-			addTEPulverizerRecipe(FlariteConfig.recipes.ingotCrushingEnabled, FlariteConfig.recipes.ingotCrusherEnergyUsage, FlariteConfig.oredict.ingotOreDict, FlariteConfig.recipes.ingotCrusherOutput, FlariteConfig.recipes.ingotCrusherOutputAmount);
-			addTEPulverizerRecipe(FureniumConfig.recipes.ingotCrushingEnabled, FureniumConfig.recipes.ingotCrusherEnergyUsage, FureniumConfig.oredict.ingotOreDict, FureniumConfig.recipes.ingotCrusherOutput, FureniumConfig.recipes.ingotCrusherOutputAmount);
-			addTEPulverizerRecipe(BlackstoneConfig.recipes.ingotCrushingEnabled, BlackstoneConfig.recipes.ingotCrusherEnergyUsage, BlackstoneConfig.oredict.ingotOreDict, BlackstoneConfig.recipes.ingotCrusherOutput, BlackstoneConfig.recipes.ingotCrusherOutputAmount);
-			addTEPulverizerRecipe(BluestoneConfig.recipes.ingotCrushingEnabled, BluestoneConfig.recipes.ingotCrusherEnergyUsage, BluestoneConfig.oredict.ingotOreDict, BluestoneConfig.recipes.ingotCrusherOutput, BluestoneConfig.recipes.ingotCrusherOutputAmount);
-			addTEPulverizerRecipe(PurplestoneConfig.recipes.ingotCrushingEnabled, PurplestoneConfig.recipes.ingotCrusherEnergyUsage, PurplestoneConfig.oredict.ingotOreDict, PurplestoneConfig.recipes.ingotCrusherOutput, PurplestoneConfig.recipes.ingotCrusherOutputAmount);
+			addTEPulverizerRecipe(RubyConfig.recipes.gemCrusherEnergyUsage, ModItems.gemRuby, ModItems.dustRuby, 1);
+			addTEPulverizerRecipe(SapphireConfig.recipes.gemCrusherEnergyUsage, ModItems.gemSapphire, ModItems.dustSapphire, 1);
+			addTEPulverizerRecipe(AmethystConfig.recipes.gemCrusherEnergyUsage, ModItems.gemAmethyst, ModItems.dustAmethyst, 1);
+			addTEPulverizerRecipe(CrystalConfig.recipes.gemCrusherEnergyUsage, ModItems.gemCrystal, ModItems.dustCrystal, 1);
+			addTEPulverizerRecipe(MagnesiumConfig.recipes.ingotCrusherEnergyUsage, ModItems.ingotMagnesium, ModItems.dustMagnesium, 1);
+			//addTEPulverizerRecipe(PhosphorusConfig.recipes.ingotCrusherEnergyUsage, ModItems.ingotPhosphorus, ModItems.dustPhosphorus, 1);
+			addTEPulverizerRecipe(SulfurConfig.recipes.ingotCrusherEnergyUsage, ModItems.ingotSulfur, ModItems.dustSulfur, 1);
+			addTEPulverizerRecipe(SilvaniteConfig.recipes.ingotCrusherEnergyUsage, ModItems.ingotSilvanite, ModItems.dustSilvanite, 1);
+			addTEPulverizerRecipe(MerciliteConfig.recipes.ingotCrusherEnergyUsage, ModItems.ingotMercilite, ModItems.dustMercilite, 1);
+			addTEPulverizerRecipe(MythianConfig.recipes.ingotCrusherEnergyUsage, ModItems.ingotMythian, ModItems.dustMythian, 1);
+			addTEPulverizerRecipe(DragiteConfig.recipes.ingotCrusherEnergyUsage, ModItems.ingotDragite, ModItems.dustDragite, 1);
+			addTEPulverizerRecipe(FlariteConfig.recipes.ingotCrusherEnergyUsage, ModItems.ingotFlarite, ModItems.dustFlarite, 1);
+			addTEPulverizerRecipe(FureniumConfig.recipes.ingotCrusherEnergyUsage, ModItems.ingotFurenium, ModItems.dustFurenium, 1);
+			addTEPulverizerRecipe(BlackstoneConfig.recipes.ingotCrusherEnergyUsage, ModItems.ingotBlackstone, ModItems.dustBlackstone, 1);
+			addTEPulverizerRecipe(BluestoneConfig.recipes.ingotCrusherEnergyUsage, ModItems.ingotBluestone, ModItems.dustBluestone, 1);
+			addTEPulverizerRecipe(PurplestoneConfig.recipes.ingotCrusherEnergyUsage, ModItems.ingotPurplestone, ModItems.dustPurplestone, 1);
 			
-			addTEPulverizerRecipe(AlloyBronzeConfig.recipes.ingotCrushingEnabled, AlloyBronzeConfig.recipes.ingotCrusherEnergyUsage, AlloyBronzeConfig.oredict.ingotOreDict, AlloyBronzeConfig.recipes.ingotCrusherOutput, AlloyBronzeConfig.recipes.ingotCrusherOutputAmount);
-			addTEPulverizerRecipe(AlloyCupronickelConfig.recipes.ingotCrushingEnabled, AlloyCupronickelConfig.recipes.ingotCrusherEnergyUsage, AlloyCupronickelConfig.oredict.ingotOreDict, AlloyCupronickelConfig.recipes.ingotCrusherOutput, AlloyCupronickelConfig.recipes.ingotCrusherOutputAmount);
-			addTEPulverizerRecipe(AlloyBrassConfig.recipes.ingotCrushingEnabled, AlloyBrassConfig.recipes.ingotCrusherEnergyUsage, AlloyBrassConfig.oredict.ingotOreDict, AlloyBrassConfig.recipes.ingotCrusherOutput, AlloyBrassConfig.recipes.ingotCrusherOutputAmount);
-			addTEPulverizerRecipe(AlloyRoseGoldConfig.recipes.ingotCrushingEnabled, AlloyRoseGoldConfig.recipes.ingotCrusherEnergyUsage, AlloyRoseGoldConfig.oredict.ingotOreDict, AlloyRoseGoldConfig.recipes.ingotCrusherOutput, AlloyRoseGoldConfig.recipes.ingotCrusherOutputAmount);
-			addTEPulverizerRecipe(AlloySteelConfig.recipes.ingotCrushingEnabled, AlloySteelConfig.recipes.ingotCrusherEnergyUsage, AlloySteelConfig.oredict.ingotOreDict, AlloySteelConfig.recipes.ingotCrusherOutput, AlloySteelConfig.recipes.ingotCrusherOutputAmount);
-			addTEPulverizerRecipe(AlloyStainlessSteelConfig.recipes.ingotCrushingEnabled, AlloyStainlessSteelConfig.recipes.ingotCrusherEnergyUsage, AlloyStainlessSteelConfig.oredict.ingotOreDict, AlloyStainlessSteelConfig.recipes.ingotCrusherOutput, AlloyStainlessSteelConfig.recipes.ingotCrusherOutputAmount);
-			addTEPulverizerRecipe(AlloyNichromeConfig.recipes.ingotCrushingEnabled, AlloyNichromeConfig.recipes.ingotCrusherEnergyUsage, AlloyNichromeConfig.oredict.ingotOreDict, AlloyNichromeConfig.recipes.ingotCrusherOutput, AlloyNichromeConfig.recipes.ingotCrusherOutputAmount);
-			addTEPulverizerRecipe(AlloyElectrumConfig.recipes.ingotCrushingEnabled, AlloyElectrumConfig.recipes.ingotCrusherEnergyUsage, AlloyElectrumConfig.oredict.ingotOreDict, AlloyElectrumConfig.recipes.ingotCrusherOutput, AlloyElectrumConfig.recipes.ingotCrusherOutputAmount);
-			addTEPulverizerRecipe(AlloyStelliteConfig.recipes.ingotCrushingEnabled, AlloyStelliteConfig.recipes.ingotCrusherEnergyUsage, AlloyStelliteConfig.oredict.ingotOreDict, AlloyStelliteConfig.recipes.ingotCrusherOutput, AlloyStelliteConfig.recipes.ingotCrusherOutputAmount);
-			addTEPulverizerRecipe(AlloySilvamerConfig.recipes.ingotCrushingEnabled, AlloySilvamerConfig.recipes.ingotCrusherEnergyUsage, AlloySilvamerConfig.oredict.ingotOreDict, AlloySilvamerConfig.recipes.ingotCrusherOutput, AlloySilvamerConfig.recipes.ingotCrusherOutputAmount);
-			addTEPulverizerRecipe(AlloyUniumConfig.recipes.ingotCrushingEnabled, AlloyUniumConfig.recipes.ingotCrusherEnergyUsage, AlloyUniumConfig.oredict.ingotOreDict, AlloyUniumConfig.recipes.ingotCrusherOutput, AlloyUniumConfig.recipes.ingotCrusherOutputAmount);
-			addTEPulverizerRecipe(AlloyFenikisiteConfig.recipes.ingotCrushingEnabled, AlloyFenikisiteConfig.recipes.ingotCrusherEnergyUsage, AlloyFenikisiteConfig.oredict.ingotOreDict, AlloyFenikisiteConfig.recipes.ingotCrusherOutput, AlloyFenikisiteConfig.recipes.ingotCrusherOutputAmount);
-			addTEPulverizerRecipe(AlloyUltimiteConfig.recipes.ingotCrushingEnabled, AlloyUltimiteConfig.recipes.ingotCrusherEnergyUsage, AlloyUltimiteConfig.oredict.ingotOreDict, AlloyUltimiteConfig.recipes.ingotCrusherOutput, AlloyUltimiteConfig.recipes.ingotCrusherOutputAmount);
-			addTEPulverizerRecipe(AlloyStrootiteConfig.recipes.ingotCrushingEnabled, AlloyStrootiteConfig.recipes.ingotCrusherEnergyUsage, AlloyStrootiteConfig.oredict.ingotOreDict, AlloyStrootiteConfig.recipes.ingotCrusherOutput, AlloyStrootiteConfig.recipes.ingotCrusherOutputAmount);
-			addTEPulverizerRecipe(AlloySpeedoiConfig.recipes.ingotCrushingEnabled, AlloySpeedoiConfig.recipes.ingotCrusherEnergyUsage, AlloySpeedoiConfig.oredict.ingotOreDict, AlloySpeedoiConfig.recipes.ingotCrusherOutput, AlloySpeedoiConfig.recipes.ingotCrusherOutputAmount);
-			addTEPulverizerRecipe(AlloyLegeniteConfig.recipes.ingotCrushingEnabled, AlloyLegeniteConfig.recipes.ingotCrusherEnergyUsage, AlloyLegeniteConfig.oredict.ingotOreDict, AlloyLegeniteConfig.recipes.ingotCrusherOutput, AlloyLegeniteConfig.recipes.ingotCrusherOutputAmount);
+			addTEPulverizerRecipe(AlloyBronzeConfig.recipes.ingotCrusherEnergyUsage, ModItems.ingotBronze, ModItems.dustBronze, 1);
+			addTEPulverizerRecipe(AlloyCupronickelConfig.recipes.ingotCrusherEnergyUsage, ModItems.ingotCupronickel, ModItems.dustCupronickel, 1);
+			addTEPulverizerRecipe(AlloyBrassConfig.recipes.ingotCrusherEnergyUsage, ModItems.ingotBrass, ModItems.dustBrass, 1);
+			addTEPulverizerRecipe(AlloyRoseGoldConfig.recipes.ingotCrusherEnergyUsage, ModItems.ingotRosegold, ModItems.dustRosegold, 1);
+			addTEPulverizerRecipe(AlloySteelConfig.recipes.ingotCrusherEnergyUsage, ModItems.ingotSteel, ModItems.dustSteel, 1);
+			addTEPulverizerRecipe(AlloyStainlessSteelConfig.recipes.ingotCrusherEnergyUsage, ModItems.ingotStainlesssteel, ModItems.dustStainlesssteel, 1);
+			addTEPulverizerRecipe(AlloyNichromeConfig.recipes.ingotCrusherEnergyUsage, ModItems.ingotNichrome, ModItems.dustNichrome, 1);
+			addTEPulverizerRecipe(AlloyElectrumConfig.recipes.ingotCrusherEnergyUsage, ModItems.ingotElectrum, ModItems.dustElectrum, 1);
+			addTEPulverizerRecipe(AlloyStelliteConfig.recipes.ingotCrusherEnergyUsage, ModItems.ingotStellite, ModItems.dustStellite, 1);
+			addTEPulverizerRecipe(AlloySilvamerConfig.recipes.ingotCrusherEnergyUsage, ModItems.ingotSilvamer, ModItems.dustSilvamer, 1);
+			addTEPulverizerRecipe(AlloyUniumConfig.recipes.ingotCrusherEnergyUsage, ModItems.ingotUnium, ModItems.dustUnium, 1);
+			addTEPulverizerRecipe(AlloyFenikisiteConfig.recipes.ingotCrusherEnergyUsage, ModItems.ingotFenikisite, ModItems.dustFenikisite, 1);
+			addTEPulverizerRecipe(AlloyUltimiteConfig.recipes.ingotCrusherEnergyUsage, ModItems.ingotUltimite, ModItems.dustUltimite, 1);
+			addTEPulverizerRecipe(AlloyStrootiteConfig.recipes.ingotCrusherEnergyUsage, ModItems.ingotStrootite, ModItems.dustStrootite, 1);
+			addTEPulverizerRecipe(AlloySpeedoiConfig.recipes.ingotCrusherEnergyUsage, ModItems.ingotSpeedoi, ModItems.dustSpeedoi, 1);
+			addTEPulverizerRecipe(AlloyLegeniteConfig.recipes.ingotCrusherEnergyUsage, ModItems.ingotLegenite, ModItems.dustLegenite, 1);
 			
 			//Nugget to tiny dust
-			addTEPulverizerRecipe(CopperConfig.recipes.nuggetCrushingEnabled, CopperConfig.recipes.nuggetCrusherEnergyUsage, CopperConfig.oredict.nuggetOreDict, CopperConfig.recipes.nuggetCrusherOutput, CopperConfig.recipes.nuggetCrusherOutputAmount);
-			addTEPulverizerRecipe(TinConfig.recipes.nuggetCrushingEnabled, TinConfig.recipes.nuggetCrusherEnergyUsage, TinConfig.oredict.nuggetOreDict, TinConfig.recipes.nuggetCrusherOutput, TinConfig.recipes.nuggetCrusherOutputAmount);
-			addTEPulverizerRecipe(ZincConfig.recipes.nuggetCrushingEnabled, ZincConfig.recipes.nuggetCrusherEnergyUsage, ZincConfig.oredict.nuggetOreDict, ZincConfig.recipes.nuggetCrusherOutput, ZincConfig.recipes.nuggetCrusherOutputAmount);
-			addTEPulverizerRecipe(NickelConfig.recipes.nuggetCrushingEnabled, NickelConfig.recipes.nuggetCrusherEnergyUsage, NickelConfig.oredict.nuggetOreDict, NickelConfig.recipes.nuggetCrusherOutput, NickelConfig.recipes.nuggetCrusherOutputAmount);
-			addTEPulverizerRecipe(SilverConfig.recipes.nuggetCrushingEnabled, SilverConfig.recipes.nuggetCrusherEnergyUsage, SilverConfig.oredict.nuggetOreDict, SilverConfig.recipes.nuggetCrusherOutput, SilverConfig.recipes.nuggetCrusherOutputAmount);
-			addTEPulverizerRecipe(AluminiumConfig.recipes.nuggetCrushingEnabled, AluminiumConfig.recipes.nuggetCrusherEnergyUsage, AluminiumConfig.oredict.nuggetOreDict, AluminiumConfig.recipes.nuggetCrusherOutput, AluminiumConfig.recipes.nuggetCrusherOutputAmount);
-			addTEPulverizerRecipe(TitaniumConfig.recipes.nuggetCrushingEnabled, TitaniumConfig.recipes.nuggetCrusherEnergyUsage, TitaniumConfig.oredict.nuggetOreDict, TitaniumConfig.recipes.nuggetCrusherOutput, TitaniumConfig.recipes.nuggetCrusherOutputAmount);
-			addTEPulverizerRecipe(ChromiumConfig.recipes.nuggetCrushingEnabled, ChromiumConfig.recipes.nuggetCrusherEnergyUsage, ChromiumConfig.oredict.nuggetOreDict, ChromiumConfig.recipes.nuggetCrusherOutput, ChromiumConfig.recipes.nuggetCrusherOutputAmount);
-			//addTEPulverizerRecipe(SiliconConfig.recipes.nuggetCrushingEnabled, SiliconConfig.recipes.nuggetCrusherEnergyUsage, SiliconConfig.oredict.nuggetOreDict, SiliconConfig.recipes.nuggetCrusherOutput, SiliconConfig.recipes.nuggetCrusherOutputAmount);
-			addTEPulverizerRecipe(CobaltConfig.recipes.nuggetCrushingEnabled, CobaltConfig.recipes.nuggetCrusherEnergyUsage, CobaltConfig.oredict.nuggetOreDict, CobaltConfig.recipes.nuggetCrusherOutput, CobaltConfig.recipes.nuggetCrusherOutputAmount);
-			addTEPulverizerRecipe(TungstenConfig.recipes.nuggetCrushingEnabled, TungstenConfig.recipes.nuggetCrusherEnergyUsage, TungstenConfig.oredict.nuggetOreDict, TungstenConfig.recipes.nuggetCrusherOutput, TungstenConfig.recipes.nuggetCrusherOutputAmount);
-			addTEPulverizerRecipe(LeadConfig.recipes.nuggetCrushingEnabled, LeadConfig.recipes.nuggetCrusherEnergyUsage, LeadConfig.oredict.nuggetOreDict, LeadConfig.recipes.nuggetCrusherOutput, LeadConfig.recipes.nuggetCrusherOutputAmount);
-			addTEPulverizerRecipe(PlatinumConfig.recipes.nuggetCrushingEnabled, PlatinumConfig.recipes.nuggetCrusherEnergyUsage, PlatinumConfig.oredict.nuggetOreDict, PlatinumConfig.recipes.nuggetCrusherOutput, PlatinumConfig.recipes.nuggetCrusherOutputAmount);
-			addTEPulverizerRecipe(LithiumConfig.recipes.nuggetCrushingEnabled, LithiumConfig.recipes.nuggetCrusherEnergyUsage, LithiumConfig.oredict.nuggetOreDict, LithiumConfig.recipes.nuggetCrusherOutput, LithiumConfig.recipes.nuggetCrusherOutputAmount);
-			addTEPulverizerRecipe(UraniumConfig.recipes.nuggetCrushingEnabled, UraniumConfig.recipes.nuggetCrusherEnergyUsage, UraniumConfig.oredict.nuggetOreDict, UraniumConfig.recipes.nuggetCrusherOutput, UraniumConfig.recipes.nuggetCrusherOutputAmount);
-			addTEPulverizerRecipe(PlutoniumConfig.recipes.nuggetCrushingEnabled, PlutoniumConfig.recipes.nuggetCrusherEnergyUsage, PlutoniumConfig.oredict.nuggetOreDict, PlutoniumConfig.recipes.nuggetCrusherOutput, PlutoniumConfig.recipes.nuggetCrusherOutputAmount);
+			addTEPulverizerRecipe(CopperConfig.recipes.nuggetCrusherEnergyUsage, ModItems.nuggetCopper, ModItems.dustTinyCopper, 1);
+			addTEPulverizerRecipe(TinConfig.recipes.nuggetCrusherEnergyUsage, ModItems.nuggetTin, ModItems.dustTinyTin, 1);
+			addTEPulverizerRecipe(ZincConfig.recipes.nuggetCrusherEnergyUsage, ModItems.nuggetZinc, ModItems.dustTinyZinc, 1);
+			addTEPulverizerRecipe(NickelConfig.recipes.nuggetCrusherEnergyUsage, ModItems.nuggetNickel, ModItems.dustTinyNickel, 1);
+			addTEPulverizerRecipe(SilverConfig.recipes.nuggetCrusherEnergyUsage, ModItems.nuggetSilver, ModItems.dustTinySilver, 1);
+			addTEPulverizerRecipe(AluminiumConfig.recipes.nuggetCrusherEnergyUsage, ModItems.nuggetAluminium, ModItems.dustTinyAluminium, 1);
+			addTEPulverizerRecipe(TitaniumConfig.recipes.nuggetCrusherEnergyUsage, ModItems.nuggetTitanium, ModItems.dustTinyTitanium, 1);
+			addTEPulverizerRecipe(ChromiumConfig.recipes.nuggetCrusherEnergyUsage, ModItems.nuggetChromium, ModItems.dustTinyChromium, 1);
+			//addTEPulverizerRecipe(SiliconConfig.recipes.nuggetCrusherEnergyUsage, ModItems.nugget, ModItems.dustTinySilicon, 1);
+			addTEPulverizerRecipe(CobaltConfig.recipes.nuggetCrusherEnergyUsage, ModItems.nuggetCobalt, ModItems.dustTinyCobalt, 1);
+			addTEPulverizerRecipe(TungstenConfig.recipes.nuggetCrusherEnergyUsage, ModItems.nuggetTungsten, ModItems.dustTinyTungsten, 1);
+			addTEPulverizerRecipe(LeadConfig.recipes.nuggetCrusherEnergyUsage, ModItems.nuggetLead, ModItems.dustTinyLead, 1);
+			addTEPulverizerRecipe(PlatinumConfig.recipes.nuggetCrusherEnergyUsage, ModItems.nuggetPlatinum, ModItems.dustTinyPlatinum, 1);
+			addTEPulverizerRecipe(LithiumConfig.recipes.nuggetCrusherEnergyUsage, ModItems.nuggetLithium, ModItems.dustTinyLithium, 1);
+			addTEPulverizerRecipe(UraniumConfig.recipes.nuggetCrusherEnergyUsage, ModItems.nuggetUranium, ModItems.dustTinyUranium, 1);
+			addTEPulverizerRecipe(PlutoniumConfig.recipes.nuggetCrusherEnergyUsage, ModItems.nuggetPlutonium, ModItems.dustTinyPlutonium, 1);
 			
-			addTEPulverizerRecipe(RubyConfig.recipes.nuggetCrushingEnabled, RubyConfig.recipes.nuggetCrusherEnergyUsage, RubyConfig.oredict.nuggetOreDict, RubyConfig.recipes.nuggetCrusherOutput, RubyConfig.recipes.nuggetCrusherOutputAmount);
-			addTEPulverizerRecipe(SapphireConfig.recipes.nuggetCrushingEnabled, SapphireConfig.recipes.nuggetCrusherEnergyUsage, SapphireConfig.oredict.nuggetOreDict, SapphireConfig.recipes.nuggetCrusherOutput, SapphireConfig.recipes.nuggetCrusherOutputAmount);
-			addTEPulverizerRecipe(AmethystConfig.recipes.nuggetCrushingEnabled, AmethystConfig.recipes.nuggetCrusherEnergyUsage, AmethystConfig.oredict.nuggetOreDict, AmethystConfig.recipes.nuggetCrusherOutput, AmethystConfig.recipes.nuggetCrusherOutputAmount);
-			addTEPulverizerRecipe(CrystalConfig.recipes.nuggetCrushingEnabled, CrystalConfig.recipes.nuggetCrusherEnergyUsage, CrystalConfig.oredict.nuggetOreDict, CrystalConfig.recipes.nuggetCrusherOutput, CrystalConfig.recipes.nuggetCrusherOutputAmount);
-			addTEPulverizerRecipe(MagnesiumConfig.recipes.nuggetCrushingEnabled, MagnesiumConfig.recipes.nuggetCrusherEnergyUsage, MagnesiumConfig.oredict.nuggetOreDict, MagnesiumConfig.recipes.nuggetCrusherOutput, MagnesiumConfig.recipes.nuggetCrusherOutputAmount);
-			//addTEPulverizerRecipe(PhosphorusConfig.recipes.nuggetCrushingEnabled, PhosphorusConfig.recipes.nuggetCrusherEnergyUsage, PhosphorusConfig.oredict.nuggetOreDict, PhosphorusConfig.recipes.nuggetCrusherOutput, PhosphorusConfig.recipes.nuggetCrusherOutputAmount);
-			//addTEPulverizerRecipe(SulfurConfig.recipes.nuggetCrushingEnabled, SulfurConfig.recipes.nuggetCrusherEnergyUsage, SulfurConfig.oredict.nuggetOreDict, SulfurConfig.recipes.nuggetCrusherOutput, SulfurConfig.recipes.nuggetCrusherOutputAmount);
-			addTEPulverizerRecipe(SilvaniteConfig.recipes.nuggetCrushingEnabled, SilvaniteConfig.recipes.nuggetCrusherEnergyUsage, SilvaniteConfig.oredict.nuggetOreDict, SilvaniteConfig.recipes.nuggetCrusherOutput, SilvaniteConfig.recipes.nuggetCrusherOutputAmount);
-			addTEPulverizerRecipe(MerciliteConfig.recipes.nuggetCrushingEnabled, MerciliteConfig.recipes.nuggetCrusherEnergyUsage, MerciliteConfig.oredict.nuggetOreDict, MerciliteConfig.recipes.nuggetCrusherOutput, MerciliteConfig.recipes.nuggetCrusherOutputAmount);
-			addTEPulverizerRecipe(MythianConfig.recipes.nuggetCrushingEnabled, MythianConfig.recipes.nuggetCrusherEnergyUsage, MythianConfig.oredict.nuggetOreDict, MythianConfig.recipes.nuggetCrusherOutput, MythianConfig.recipes.nuggetCrusherOutputAmount);
-			addTEPulverizerRecipe(DragiteConfig.recipes.nuggetCrushingEnabled, DragiteConfig.recipes.nuggetCrusherEnergyUsage, DragiteConfig.oredict.nuggetOreDict, DragiteConfig.recipes.nuggetCrusherOutput, DragiteConfig.recipes.nuggetCrusherOutputAmount);
-			addTEPulverizerRecipe(FlariteConfig.recipes.nuggetCrushingEnabled, FlariteConfig.recipes.nuggetCrusherEnergyUsage, FlariteConfig.oredict.nuggetOreDict, FlariteConfig.recipes.nuggetCrusherOutput, FlariteConfig.recipes.nuggetCrusherOutputAmount);
-			addTEPulverizerRecipe(FureniumConfig.recipes.nuggetCrushingEnabled, FureniumConfig.recipes.nuggetCrusherEnergyUsage, FureniumConfig.oredict.nuggetOreDict, FureniumConfig.recipes.nuggetCrusherOutput, FureniumConfig.recipes.nuggetCrusherOutputAmount);
-			//addTEPulverizerRecipe(BlackstoneConfig.recipes.nuggetCrushingEnabled, BlackstoneConfig.recipes.nuggetCrusherEnergyUsage, BlackstoneConfig.oredict.nuggetOreDict, BlackstoneConfig.recipes.nuggetCrusherOutput, BlackstoneConfig.recipes.nuggetCrusherOutputAmount);
-			//addTEPulverizerRecipe(BluestoneConfig.recipes.nuggetCrushingEnabled, BluestoneConfig.recipes.nuggetCrusherEnergyUsage, BluestoneConfig.oredict.nuggetOreDict, BluestoneConfig.recipes.nuggetCrusherOutput, BluestoneConfig.recipes.nuggetCrusherOutputAmount);
-			//addTEPulverizerRecipe(PurplestoneConfig.recipes.nuggetCrushingEnabled, PurplestoneConfig.recipes.nuggetCrusherEnergyUsage, PurplestoneConfig.oredict.nuggetOreDict, PurplestoneConfig.recipes.nuggetCrusherOutput, PurplestoneConfig.recipes.nuggetCrusherOutputAmount);
+			addTEPulverizerRecipe(RubyConfig.recipes.nuggetCrusherEnergyUsage, ModItems.nuggetRuby, ModItems.dustTinyRuby, 1);
+			addTEPulverizerRecipe(SapphireConfig.recipes.nuggetCrusherEnergyUsage, ModItems.nuggetSapphire, ModItems.dustTinySapphire, 1);
+			addTEPulverizerRecipe(AmethystConfig.recipes.nuggetCrusherEnergyUsage, ModItems.nuggetAmethyst, ModItems.dustTinyAmethyst, 1);
+			addTEPulverizerRecipe(CrystalConfig.recipes.nuggetCrusherEnergyUsage, ModItems.nuggetCrystal, ModItems.dustTinyCrystal, 1);
+			addTEPulverizerRecipe(MagnesiumConfig.recipes.nuggetCrusherEnergyUsage, ModItems.nuggetMagnesium, ModItems.dustTinyMagnesium, 1);
+			//addTEPulverizerRecipe(PhosphorusConfig.recipes.nuggetCrusherEnergyUsage, ModItems.nugget, ModItems.dustTinyPhosphorus, 1);
+			//addTEPulverizerRecipe(SulfurConfig.recipes.nuggetCrusherEnergyUsage, ModItems.nugget, ModItems.dustTinySulfur, 1);
+			addTEPulverizerRecipe(SilvaniteConfig.recipes.nuggetCrusherEnergyUsage, ModItems.nuggetSilvanite, ModItems.dustTinySilvanite, 1);
+			addTEPulverizerRecipe(MerciliteConfig.recipes.nuggetCrusherEnergyUsage, ModItems.nuggetMercilite, ModItems.dustTinyMercilite, 1);
+			addTEPulverizerRecipe(MythianConfig.recipes.nuggetCrusherEnergyUsage, ModItems.nuggetMythian, ModItems.dustTinyMythian, 1);
+			addTEPulverizerRecipe(DragiteConfig.recipes.nuggetCrusherEnergyUsage, ModItems.nuggetDragite, ModItems.dustTinyDragite, 1);
+			addTEPulverizerRecipe(FlariteConfig.recipes.nuggetCrusherEnergyUsage, ModItems.nuggetFlarite, ModItems.dustTinyFlarite, 1);
+			addTEPulverizerRecipe(FureniumConfig.recipes.nuggetCrusherEnergyUsage, ModItems.nuggetFurenium, ModItems.dustTinyFurenium, 1);
+			//addTEPulverizerRecipe(BlackstoneConfig.recipes.nuggetCrusherEnergyUsage, ModItems.nugget, ModItems.dustTinyBlackstone, 1);
+			//addTEPulverizerRecipe(BluestoneConfig.recipes.nuggetCrusherEnergyUsage, ModItems.nugget, ModItems.dustTinyBluestone, 1);
+			//addTEPulverizerRecipe(PurplestoneConfig.recipes.nuggetCrusherEnergyUsage, ModItems.nugget, ModItems.dustTinyPurplestone, 1);
 			
-			addTEPulverizerRecipe(AlloyBronzeConfig.recipes.nuggetCrushingEnabled, AlloyBronzeConfig.recipes.nuggetCrusherEnergyUsage, AlloyBronzeConfig.oredict.nuggetOreDict, AlloyBronzeConfig.recipes.nuggetCrusherOutput, AlloyBronzeConfig.recipes.nuggetCrusherOutputAmount);
-			addTEPulverizerRecipe(AlloyCupronickelConfig.recipes.nuggetCrushingEnabled, AlloyCupronickelConfig.recipes.nuggetCrusherEnergyUsage, AlloyCupronickelConfig.oredict.nuggetOreDict, AlloyCupronickelConfig.recipes.nuggetCrusherOutput, AlloyCupronickelConfig.recipes.nuggetCrusherOutputAmount);
-			addTEPulverizerRecipe(AlloyBrassConfig.recipes.nuggetCrushingEnabled, AlloyBrassConfig.recipes.nuggetCrusherEnergyUsage, AlloyBrassConfig.oredict.nuggetOreDict, AlloyBrassConfig.recipes.nuggetCrusherOutput, AlloyBrassConfig.recipes.nuggetCrusherOutputAmount);
-			addTEPulverizerRecipe(AlloyRoseGoldConfig.recipes.nuggetCrushingEnabled, AlloyRoseGoldConfig.recipes.nuggetCrusherEnergyUsage, AlloyRoseGoldConfig.oredict.nuggetOreDict, AlloyRoseGoldConfig.recipes.nuggetCrusherOutput, AlloyRoseGoldConfig.recipes.nuggetCrusherOutputAmount);
-			addTEPulverizerRecipe(AlloySteelConfig.recipes.nuggetCrushingEnabled, AlloySteelConfig.recipes.nuggetCrusherEnergyUsage, AlloySteelConfig.oredict.nuggetOreDict, AlloySteelConfig.recipes.nuggetCrusherOutput, AlloySteelConfig.recipes.nuggetCrusherOutputAmount);
-			addTEPulverizerRecipe(AlloyStainlessSteelConfig.recipes.nuggetCrushingEnabled, AlloyStainlessSteelConfig.recipes.nuggetCrusherEnergyUsage, AlloyStainlessSteelConfig.oredict.nuggetOreDict, AlloyStainlessSteelConfig.recipes.nuggetCrusherOutput, AlloyStainlessSteelConfig.recipes.nuggetCrusherOutputAmount);
-			addTEPulverizerRecipe(AlloyNichromeConfig.recipes.nuggetCrushingEnabled, AlloyNichromeConfig.recipes.nuggetCrusherEnergyUsage, AlloyNichromeConfig.oredict.nuggetOreDict, AlloyNichromeConfig.recipes.nuggetCrusherOutput, AlloyNichromeConfig.recipes.nuggetCrusherOutputAmount);
-			addTEPulverizerRecipe(AlloyElectrumConfig.recipes.nuggetCrushingEnabled, AlloyElectrumConfig.recipes.nuggetCrusherEnergyUsage, AlloyElectrumConfig.oredict.nuggetOreDict, AlloyElectrumConfig.recipes.nuggetCrusherOutput, AlloyElectrumConfig.recipes.nuggetCrusherOutputAmount);
-			addTEPulverizerRecipe(AlloyStelliteConfig.recipes.nuggetCrushingEnabled, AlloyStelliteConfig.recipes.nuggetCrusherEnergyUsage, AlloyStelliteConfig.oredict.nuggetOreDict, AlloyStelliteConfig.recipes.nuggetCrusherOutput, AlloyStelliteConfig.recipes.nuggetCrusherOutputAmount);
-			addTEPulverizerRecipe(AlloySilvamerConfig.recipes.nuggetCrushingEnabled, AlloySilvamerConfig.recipes.nuggetCrusherEnergyUsage, AlloySilvamerConfig.oredict.nuggetOreDict, AlloySilvamerConfig.recipes.nuggetCrusherOutput, AlloySilvamerConfig.recipes.nuggetCrusherOutputAmount);
-			addTEPulverizerRecipe(AlloyUniumConfig.recipes.nuggetCrushingEnabled, AlloyUniumConfig.recipes.nuggetCrusherEnergyUsage, AlloyUniumConfig.oredict.nuggetOreDict, AlloyUniumConfig.recipes.nuggetCrusherOutput, AlloyUniumConfig.recipes.nuggetCrusherOutputAmount);
-			addTEPulverizerRecipe(AlloyFenikisiteConfig.recipes.nuggetCrushingEnabled, AlloyFenikisiteConfig.recipes.nuggetCrusherEnergyUsage, AlloyFenikisiteConfig.oredict.nuggetOreDict, AlloyFenikisiteConfig.recipes.nuggetCrusherOutput, AlloyFenikisiteConfig.recipes.nuggetCrusherOutputAmount);
-			addTEPulverizerRecipe(AlloyUltimiteConfig.recipes.nuggetCrushingEnabled, AlloyUltimiteConfig.recipes.nuggetCrusherEnergyUsage, AlloyUltimiteConfig.oredict.nuggetOreDict, AlloyUltimiteConfig.recipes.nuggetCrusherOutput, AlloyUltimiteConfig.recipes.nuggetCrusherOutputAmount);
-			addTEPulverizerRecipe(AlloyStrootiteConfig.recipes.nuggetCrushingEnabled, AlloyStrootiteConfig.recipes.nuggetCrusherEnergyUsage, AlloyStrootiteConfig.oredict.nuggetOreDict, AlloyStrootiteConfig.recipes.nuggetCrusherOutput, AlloyStrootiteConfig.recipes.nuggetCrusherOutputAmount);
-			addTEPulverizerRecipe(AlloySpeedoiConfig.recipes.nuggetCrushingEnabled, AlloySpeedoiConfig.recipes.nuggetCrusherEnergyUsage, AlloySpeedoiConfig.oredict.nuggetOreDict, AlloySpeedoiConfig.recipes.nuggetCrusherOutput, AlloySpeedoiConfig.recipes.nuggetCrusherOutputAmount);
-			addTEPulverizerRecipe(AlloyLegeniteConfig.recipes.nuggetCrushingEnabled, AlloyLegeniteConfig.recipes.nuggetCrusherEnergyUsage, AlloyLegeniteConfig.oredict.nuggetOreDict, AlloyLegeniteConfig.recipes.nuggetCrusherOutput, AlloyLegeniteConfig.recipes.nuggetCrusherOutputAmount);
+			addTEPulverizerRecipe(AlloyBronzeConfig.recipes.nuggetCrusherEnergyUsage, ModItems.nuggetBronze, ModItems.dustTinyBronze, 1);
+			addTEPulverizerRecipe(AlloyCupronickelConfig.recipes.nuggetCrusherEnergyUsage, ModItems.nuggetCupronickel, ModItems.dustTinyCupronickel, 1);
+			addTEPulverizerRecipe(AlloyBrassConfig.recipes.nuggetCrusherEnergyUsage, ModItems.nuggetBrass, ModItems.dustTinyBrass, 1);
+			addTEPulverizerRecipe(AlloyRoseGoldConfig.recipes.nuggetCrusherEnergyUsage, ModItems.nuggetRosegold, ModItems.dustTinyRosegold, 1);
+			addTEPulverizerRecipe(AlloySteelConfig.recipes.nuggetCrusherEnergyUsage, ModItems.nuggetSteel, ModItems.dustTinySteel, 1);
+			addTEPulverizerRecipe(AlloyStainlessSteelConfig.recipes.nuggetCrusherEnergyUsage, ModItems.nuggetStainlesssteel, ModItems.dustTinyStainlesssteel, 1);
+			addTEPulverizerRecipe(AlloyNichromeConfig.recipes.nuggetCrusherEnergyUsage, ModItems.nuggetNichrome, ModItems.dustTinyNichrome, 1);
+			addTEPulverizerRecipe(AlloyElectrumConfig.recipes.nuggetCrusherEnergyUsage, ModItems.nuggetElectrum, ModItems.dustTinyElectrum, 1);
+			addTEPulverizerRecipe(AlloyStelliteConfig.recipes.nuggetCrusherEnergyUsage, ModItems.nuggetStellite, ModItems.dustTinyStellite, 1);
+			addTEPulverizerRecipe(AlloySilvamerConfig.recipes.nuggetCrusherEnergyUsage, ModItems.nuggetSilvamer, ModItems.dustTinySilvamer, 1);
+			addTEPulverizerRecipe(AlloyUniumConfig.recipes.nuggetCrusherEnergyUsage, ModItems.nuggetUnium, ModItems.dustTinyUnium, 1);
+			addTEPulverizerRecipe(AlloyFenikisiteConfig.recipes.nuggetCrusherEnergyUsage, ModItems.nuggetFenikisite, ModItems.dustTinyFenikisite, 1);
+			addTEPulverizerRecipe(AlloyUltimiteConfig.recipes.nuggetCrusherEnergyUsage, ModItems.nuggetUltimite, ModItems.dustTinyUltimite, 1);
+			addTEPulverizerRecipe(AlloyStrootiteConfig.recipes.nuggetCrusherEnergyUsage, ModItems.nuggetStrootite, ModItems.dustTinyStrootite, 1);
+			addTEPulverizerRecipe(AlloySpeedoiConfig.recipes.nuggetCrusherEnergyUsage, ModItems.nuggetSpeedoi, ModItems.dustTinySpeedoi, 1);
+			addTEPulverizerRecipe(AlloyLegeniteConfig.recipes.nuggetCrusherEnergyUsage, ModItems.nuggetLegenite, ModItems.dustTinyLegenite, 1);
 		}
 		
 		if (_COreConfig.cofh.compressorRecipes) {
@@ -459,38 +402,27 @@ public class RecipeRegistry {
 		NonNullList<ItemStack> stackList = OreDictionary.getOres(input);
 		for (int i = 0; i < stackList.size(); i++) {
 			ItemStack inputItem = stackList.get(i);
-			GameRegistry.addSmelting(inputItem, new ItemStack(output, 1), 0f);
+			GameRegistry.addSmelting(inputItem, new ItemStack(output, 1), 0.1f);
 			if (_COreConfig.cofh.furnaceRecipes) {
 				//TODO
 			}
 		}
 	}
 	
-	public static void addTEPulverizerRecipe(boolean enabled, int energy, String input, String primaryOutput, int primaryAmt, String secondaryOutput, int secondaryAmt, int chance) {
-		if (!enabled) { return; }
-		Item p = Item.getByNameOrId(primaryOutput);
-		
-		if (p != null) {
-			ItemStack primary = new ItemStack(p, primaryAmt);
-			NonNullList<ItemStack> stackList = OreDictionary.getOres(input);
-			
-			for (int i = 0; i < stackList.size(); i++) {
-				ItemStack inputItem = stackList.get(i);
-				if (secondaryOutput != null) {
-					Item s = Item.getByNameOrId(secondaryOutput);
-					ItemStack secondary = new ItemStack(s, secondaryAmt);
-					ThermalExpansionHelper.addPulverizerRecipe(energy, inputItem, primary, secondary, chance);
-				} else {
-					ThermalExpansionHelper.addPulverizerRecipe(energy, inputItem, primary);
-				}
-			}
+	public static void addTEPulverizerRecipe(int energy, Item input, Item primaryOutput, int primaryAmt, Item secondaryOutput, int secondaryAmt, int chance) {
+		ItemStack inputStack = new ItemStack(input, 1);
+		ItemStack primary = new ItemStack(primaryOutput, primaryAmt);
+		if (secondaryOutput != null) {
+			ItemStack secondary = new ItemStack(secondaryOutput, secondaryAmt);
+			ThermalExpansionHelper.addPulverizerRecipe(energy, inputStack, primary, secondary, chance);
+		} else {
+			ThermalExpansionHelper.addPulverizerRecipe(energy, inputStack, primary);
 		}
 	}
 	
 	//For when there's no secondary output - IE already purified things such as dust.
-	public static void addTEPulverizerRecipe(boolean enabled, int energy, String input, String primaryOutput, int primaryAmt) {
-		if (!enabled) { return; }
-		addTEPulverizerRecipe(enabled, energy, input, primaryOutput, primaryAmt, null, 0, 0);
+	public static void addTEPulverizerRecipe(int energy, Item input, Item output, int amt) {
+		addTEPulverizerRecipe(energy, input, output, amt, null, 0, 0);
 	}
 	
 	//TODO TE furnace

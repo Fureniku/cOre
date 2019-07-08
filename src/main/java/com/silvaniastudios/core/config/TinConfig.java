@@ -190,8 +190,6 @@ public class TinConfig {
 		@Config.Comment(_ConfigValues.oreSmeltingOutputAmount)
 		public int oreSmeltingOutputAmount = 1;
 		
-		@Config.Comment(_ConfigValues.dustSmeltingEnabled)
-		public boolean dustSmeltingEnabled = true;
 		@Config.Comment(_ConfigValues.dustSmeltingEnergyUsage)
 		public int dustSmeltingEnergyUsage = 4000;
 		@Config.Comment(_ConfigValues.dustSmeltingOutput)
