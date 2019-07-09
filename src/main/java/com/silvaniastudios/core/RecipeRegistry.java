@@ -65,8 +65,13 @@ import net.minecraftforge.fml.common.event.FMLInterModComms;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 import net.minecraftforge.oredict.OreDictionary;
 import slimeknights.tconstruct.library.TinkerRegistry;
+import slimeknights.tconstruct.library.materials.BowMaterialStats;
+import slimeknights.tconstruct.library.materials.ExtraMaterialStats;
+import slimeknights.tconstruct.library.materials.HandleMaterialStats;
+import slimeknights.tconstruct.library.materials.HeadMaterialStats;
 import slimeknights.tconstruct.library.materials.Material;
 import slimeknights.tconstruct.smeltery.TinkerSmeltery;
+import slimeknights.tconstruct.tools.TinkerMaterials;
 
 public class RecipeRegistry {
 	
@@ -643,13 +648,50 @@ public class RecipeRegistry {
 	}
 	
 	public static void addToTConSmeltery(Fluid fluid, String oreDictName) {
-		
-		
 		NBTTagCompound tag = new NBTTagCompound();
 		tag.setString("fluid", fluid.getName());
 		tag.setString("ore", oreDictName);
 		tag.setBoolean("toolforge", true);
 		
 		FMLInterModComms.sendMessage("tconstruct", "integrateSmeltery", tag);
+	}
+	
+	public static void partRegistry() {
+		//Chromium
+		//Silicon //Low head dura, high rest dura
+		//Tungsten //Heavy AF, durable AF, slow AF
+		
+		//Silvanite
+		//Mercilite
+		//Mythian
+		//Dragite
+		//Flarite
+		//Furenium
+		
+		//AlloyCupronickel
+		//AlloyRoseGold
+		//(AlloyStainlessSteel
+		//AlloyNichrome
+		//AlloyStellite
+		//AlloySilvamer
+		//AlloyUnium
+		//AlloyFenikisite
+		//AlloyUltimite
+		//AlloyStrootite
+		//AlloySpeedoi
+		//AlloyLegenite
+	}
+	
+	public static void registerTinkersPartMaterial(Item ingot, String name, int col, String oreDict, int durability, float miningSpeed, float attack, int hLevel) {
+		Material mat = new Material(name, col);//0xffddff);
+	    TinkerMaterials.materials.add(mat);
+	    mat.setCraftable(true);
+	    mat.addItemIngot(oreDict);
+	    mat.setRepresentativeItem(new ItemStack(ingot));
+	    TinkerRegistry.addMaterialStats(mat,
+	                new HeadMaterialStats(durability, miningSpeed, attack, hLevel),
+	                new HandleMaterialStats(0.50f, 350),
+	                new ExtraMaterialStats(150),
+	                new BowMaterialStats(0.5f, 1.5f, 7f));
 	}
 }
