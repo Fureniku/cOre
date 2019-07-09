@@ -95,13 +95,27 @@ public class BlockCore extends Block implements IMetaBlockName {
 		if (!canFortune) { fortune = 0; }
 		
         for (int i = 0; i < quantityDropped(state, fortune, rand); i++) {
-            Item primaryItem = Item.getByNameOrId(priItem);
-            Item secondaryItem = Item.getByNameOrId(secItem);
+        	int priMeta = 0;
+        	String primaryName = priItem;
+        	if (priItem.matches("^.*\\d$")) {
+        		priMeta = Integer.parseInt(priItem.substring(priItem.lastIndexOf(":") + 1));
+	        	primaryName = priItem.substring(0, priItem.lastIndexOf(":"));
+        	}
+        	
+        	int secMeta = 0;
+        	String secondaryName = priItem;
+        	if (secItem.matches("^.*\\d$")) {
+        		secMeta = Integer.parseInt(secItem.substring(secItem.lastIndexOf(":") + 1));
+	        	secondaryName = priItem.substring(0, secItem.lastIndexOf(":"));
+        	}
+        	
+            Item primaryItem = Item.getByNameOrId(primaryName);
+            Item secondaryItem = Item.getByNameOrId(secondaryName);
             if (rand.nextInt(100) < priChance) {
             	int amt = rand.nextInt(priMax + 1);
             	if (amt < priMin) { amt = priMin; }
             	if (amt > priMax) { amt = priMax; }
-            	if (primaryItem != null) { drops.add(new ItemStack(primaryItem, amt)); System.out.println("Dropping " + primaryItem);} else { System.out.println("primaryItem for " + state.toString() + " (" + priItem + ") is NULL! Please check your configs and make sure this item really exists."); }
+            	if (primaryItem != null) { drops.add(new ItemStack(primaryItem, amt, priMeta)); System.out.println("Dropping " + primaryItem);} else { System.out.println("primaryItem for " + state.toString() + " (" + priItem + ") is NULL! Please check your configs and make sure this item really exists."); }
             }
             int rng = rand.nextInt(100);
             System.out.println("secondary chance: " + secChance + ", chance rolled: " + rng);
@@ -109,7 +123,7 @@ public class BlockCore extends Block implements IMetaBlockName {
             	int amt = rand.nextInt(secMax + 1);
             	if (amt < secMin) { amt = secMin; }
             	if (amt > secMax) { amt = secMax; }
-            	if (secondaryItem != null) { drops.add(new ItemStack(secondaryItem, amt)); System.out.println("Dropping " + secondaryItem); } else { System.out.println("secondaryItem for " + state.toString() + " (" + secItem + ") is NULL! Please check your configs and make sure this item really exists."); }
+            	if (secondaryItem != null) { drops.add(new ItemStack(secondaryItem, amt, secMeta)); System.out.println("Dropping " + secondaryItem); } else { System.out.println("secondaryItem for " + state.toString() + " (" + secItem + ") is NULL! Please check your configs and make sure this item really exists."); }
             }
         }
 	}

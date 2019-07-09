@@ -56,7 +56,7 @@ public class VanillaLapisLazuliConfig {
 		@Config.Comment(_ConfigValues.primaryDroppedItem)
 		public String primaryDroppedItem = "minecraft:dye:4";
 		@Config.Comment(_ConfigValues.secondaryDroppedItem)
-		public String secondaryDroppedItem = "core:nugget_lapis_lazuli";
+		public String secondaryDroppedItem = "core:dust_tiny_lapislazuli";
 		@Config.Comment(_ConfigValues.primaryDropQtyMin)
 		public int primaryDropQtyMin = 4;
 		@Config.Comment(_ConfigValues.primaryDropQtyMax)

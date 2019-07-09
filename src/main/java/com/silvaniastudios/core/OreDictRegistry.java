@@ -89,7 +89,17 @@ public class OreDictRegistry {
 		OreDictionary.registerOre(BluestoneConfig.oredict.oreOreDict, new ItemStack(ModBlocks.blockOre2, 1, 14));
 		OreDictionary.registerOre(PurplestoneConfig.oredict.oreOreDict, new ItemStack(ModBlocks.blockOre2, 1, 15));
 		
+		OreDictionary.registerOre("graphite", new ItemStack(ModBlocks.blockGraphite, 1, 1));
+		OreDictionary.registerOre("calcile", new ItemStack(ModBlocks.blockCalcite, 1, 1));
+		OreDictionary.registerOre("limestone", new ItemStack(ModBlocks.blockLimestone, 1, 1));
+		
 		//Item ores
+		OreDictionary.registerOre("oreIron", ModItems.oreIron);
+		OreDictionary.registerOre("oreGold", ModItems.oreGold);
+		OreDictionary.registerOre("dustIron", ModItems.dustIron);
+		OreDictionary.registerOre("dustGold", ModItems.dustGold);
+		OreDictionary.registerOre("nuggetIron", ModItems.nuggetIron);
+		
 		OreDictionary.registerOre(CopperConfig.oredict.oreOreDict, ModItems.oreCopper);
 		OreDictionary.registerOre(TinConfig.oredict.oreOreDict, ModItems.oreTin);
 		OreDictionary.registerOre(ZincConfig.oredict.oreOreDict, ModItems.oreZinc);
@@ -400,6 +410,7 @@ public class OreDictRegistry {
 		if (AluminiumConfig.oredict.americanSupport) {
 			//You're WRONG. WRONG I TELL THEE! Might as well spell it "aloominum"
 			OreDictionary.registerOre("oreAluminum", new ItemStack(ModBlocks.blockOre1, 1, 5));
+			OreDictionary.registerOre("oreAluminum", ModItems.oreAluminium);
 			OreDictionary.registerOre("ingotAluminum", ModItems.ingotAluminium);
 			OreDictionary.registerOre("dustAluminum", ModItems.dustAluminium);
 			OreDictionary.registerOre("dustImpureAluminum", ModItems.dustImpureAluminium);

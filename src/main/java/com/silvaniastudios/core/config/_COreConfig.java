@@ -68,7 +68,7 @@ public class _COreConfig {
 		public boolean smeltTinyDustToNugget = true;
 		
 		@Config.Comment("Whether you can smelt impure dusts directly into ingots (will NOT give byproducts)")
-		public boolean smeltImpureToIngot = false;
+		public boolean smeltImpureToIngot = true;
 		
 		@Config.Comment("Whether you can smelt the dropped ore directly into one single ingot (Vanilla-style)")
 		public boolean smeltOreToIngot = true;

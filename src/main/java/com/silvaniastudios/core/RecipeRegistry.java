@@ -152,7 +152,7 @@ public class RecipeRegistry {
 			GameRegistry.addSmelting(ModItems.oreFurenium, new ItemStack(ModItems.ingotFurenium, 1), 0.2f);
 		}
 		
-		if (_COreConfig.general.smeltImpureToIngot) {
+		//if (_COreConfig.general.smeltImpureToIngot) {
 			GameRegistry.addSmelting(ModItems.dustImpureCopper, new ItemStack(ModItems.ingotCopper, 1), 0.2f);
 			GameRegistry.addSmelting(ModItems.dustImpureTin, new ItemStack(ModItems.ingotTin, 1), 0.2f);
 			GameRegistry.addSmelting(ModItems.dustImpureZinc, new ItemStack(ModItems.ingotZinc, 1), 0.2f);
@@ -177,7 +177,7 @@ public class RecipeRegistry {
 			GameRegistry.addSmelting(ModItems.dustImpureDragite, new ItemStack(ModItems.ingotDragite, 1), 0.2f);
 			GameRegistry.addSmelting(ModItems.dustImpureFlarite, new ItemStack(ModItems.ingotFlarite, 1), 0.2f);
 			GameRegistry.addSmelting(ModItems.dustImpureFurenium, new ItemStack(ModItems.ingotFurenium, 1), 0.2f);
-		}
+		//}
 		
 		if (_COreConfig.general.smeltTinyDustToNugget) {
 			GameRegistry.addSmelting(ModItems.dustTinyCopper, new ItemStack(ModItems.nuggetCopper, 1), 0.2f);
