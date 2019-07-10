@@ -4,8 +4,11 @@ import java.util.List;
 
 import javax.annotation.Nullable;
 
+import com.silvaniastudios.core.config.CopperConfig;
+
 import net.minecraft.block.Block;
 import net.minecraft.client.util.ITooltipFlag;
+import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
 import net.minecraft.item.ItemStack;
 import net.minecraft.world.World;
@@ -32,12 +35,23 @@ public class ItemBlockOre extends ItemBlock {
 	@Override
 	@SideOnly(Side.CLIENT)
     public void addInformation(ItemStack stack, @Nullable World worldIn, List<String> tooltip, ITooltipFlag flagIn) {
+		int meta = stack.getMetadata();
 		if (this.getBlock() == ModBlocks.blockOre1) { 
-			
+			if (meta == 0) { 
+				tooltip.add("Drops " + CopperConfig.drops.primaryDropQtyMin + "-" + CopperConfig.drops.primaryDropQtyMax + " " + Item.getByNameOrId(CopperConfig.drops.primaryDroppedItem));
+				
+			}
 		}
 		
 		if (this.getBlock() == ModBlocks.blockOre2) {
 			
 		}
+	}
+	
+	private List<String> createTooltip(Object o, List<String> tooltip) {
+		if (o instanceof CopperConfig) {
+			CopperConfig cfg = (CopperConfig) o;
+		}
+		return tooltip;
 	}
 }
