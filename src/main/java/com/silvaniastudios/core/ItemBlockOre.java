@@ -38,7 +38,8 @@ public class ItemBlockOre extends ItemBlock {
 		int meta = stack.getMetadata();
 		if (this.getBlock() == ModBlocks.blockOre1) { 
 			if (meta == 0) { 
-				tooltip.add("Drops " + CopperConfig.drops.primaryDropQtyMin + "-" + CopperConfig.drops.primaryDropQtyMax + " " + Item.getByNameOrId(CopperConfig.drops.primaryDroppedItem));
+				tooltip.add("Drops " + CopperConfig.drops.primaryDropQtyMin + "-" + CopperConfig.drops.primaryDropQtyMax + " " 
+						+ Item.getByNameOrId(CopperConfig.drops.primaryDroppedItem));
 				
 			}
 		}
