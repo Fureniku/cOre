@@ -1,7 +1,7 @@
 /cpw/*
 /ibxm/*
 /net/*
-/run/*
+/run/
 /paulscode/*
 /fml_at.cfg
 /fml_marker.cfg
@@ -13,6 +13,9 @@
 /Start.java
 
 /.gradle/*
+/gradle/wrapper/*
+gradlew
+/libs/*.jar
 /.settings
 /bin/
 /build/
