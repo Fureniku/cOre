@@ -19,7 +19,7 @@ public class _ConfigValues {
 	public static final String overrideVanillaDrop = "Whether cOre should override the vanilla drops. Set to false to leave normal vanilla mode when mining vanilla ores.";
 	public static final String primaryDroppedItem = "The unlocalized name of the item which should be dropped (for example, core:ore_copper or minecraft:dye:4 for Lapis Lazuli)";
 	public static final String secondaryDroppedItem = "The unlocalized name of a secondary item which can be dropped (leave blank to disable)";
-	public static final String primaryDropQtyMin = "The minimum amount that will drop (Must be 1 or higher;";
+	public static final String primaryDropQtyMin = "The minimum amount that will drop (Must be 1 or higher)";
 	public static final String primaryDropQtyMax = "The maximum amount that will drop (cannot be higher than the items maximum stack size - usualy 64)";
 	public static final String secondaryDropQtyMin = "The minimum amount of the secondary item that will drop";
 	public static final String secondaryDropQtyMax = "The maximum amount of the secondary item that will drop";
