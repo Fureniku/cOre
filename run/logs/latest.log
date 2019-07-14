@@ -1,61 +1,179 @@
-[17:11:58] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, C:/Users/Fureniku/.gradle/caches/minecraft/assets, --assetIndex, 1.12, --accessToken{REDACTED}, --version, 1.12.2, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
-[17:11:58] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
-[17:11:58] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
-[17:11:58] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
-[17:11:58] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
-[17:11:58] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2768 for Minecraft 1.12.2 loading
-[17:11:58] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_201, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jre1.8.0_201
-[17:11:58] [main/ERROR] [FML]: Apache Maven library folder was not in the format expected. Using default libraries directory.
-[17:11:58] [main/ERROR] [FML]: Full: C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.5.3\7dc72b6d6d8a6dced3d294ed54c2cc3515ade9f4\maven-artifact-3.5.3.jar
-[17:11:58] [main/ERROR] [FML]: Trimmed: c:/users/fureniku/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.5.3/
-[17:11:58] [main/INFO] [FML]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
-[17:11:58] [main/INFO] [FML]: Detected deobfuscated environment, loading log configs for colored console logs.
-[17:11:59] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin), we are in deobf and it's a forge core plugin
-[17:11:59] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin), we are in deobf and it's a forge core plugin
-[17:11:59] [main/INFO] [FML]: Searching L:\Minecraft\1.12\cOre\run\.\mods for mods
-[17:11:59] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
-[17:11:59] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
-[17:11:59] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
-[17:11:59] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[17:11:59] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[17:11:59] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
-[17:11:59] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[17:11:59] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[17:11:59] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[17:12:00] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
-[17:12:00] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[17:12:00] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[17:12:00] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
-[17:12:01] [main/INFO] [GradleStart]: Remapping AccessTransformer rules...
-[17:12:01] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
-[17:12:01] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
-[17:12:01] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
-[17:12:01] [main/INFO] [net.minecraft.client.Minecraft]: Setting user: Player48
-[17:12:04] [main/INFO] [net.minecraft.client.Minecraft]: LWJGL Version: 2.9.4
-[17:12:05] [main/INFO] [FML]: -- System Details --
+[13:12:03] [main/INFO] [GradleStart]: Extra: []
+[13:12:03] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, C:/Users/Fureniku/.gradle/caches/minecraft/assets, --assetIndex, 1.12, --accessToken{REDACTED}, --version, 1.12.2, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[13:12:03] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[13:12:03] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[13:12:03] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[13:12:03] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[13:12:03] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2768 for Minecraft 1.12.2 loading
+[13:12:03] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_201, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jre1.8.0_201
+[13:12:03] [main/ERROR] [FML]: Apache Maven library folder was not in the format expected. Using default libraries directory.
+[13:12:03] [main/ERROR] [FML]: Full: C:\Users\Fureniku\.gradle\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.5.3\7dc72b6d6d8a6dced3d294ed54c2cc3515ade9f4\maven-artifact-3.5.3.jar
+[13:12:03] [main/ERROR] [FML]: Trimmed: c:/users/fureniku/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.5.3/
+[13:12:03] [main/INFO] [FML]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[13:12:03] [main/INFO] [FML]: Detected deobfuscated environment, loading log configs for colored console logs.
+[13:12:04] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin), we are in deobf and it's a forge core plugin
+[13:12:04] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin), we are in deobf and it's a forge core plugin
+[13:12:04] [main/INFO] [FML]: Searching L:\Minecraft\1.12\cOre\run\.\mods for mods
+[13:12:04] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
+[13:12:04] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
+[13:12:04] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
+[13:12:04] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[13:12:04] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[13:12:04] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[13:12:04] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[13:12:04] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[13:12:04] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[13:12:05] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
+[13:12:05] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[13:12:05] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[13:12:05] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[13:12:05] [main/INFO] [GradleStart]: Remapping AccessTransformer rules...
+[13:12:05] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[13:12:05] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[13:12:05] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[13:12:06] [main/INFO] [net.minecraft.client.Minecraft]: Setting user: Player677
+[13:12:08] [main/INFO] [net.minecraft.client.Minecraft]: LWJGL Version: 2.9.4
+[13:12:09] [main/INFO] [FML]: -- System Details --
 Details:
 	Minecraft Version: 1.12.2
 	Operating System: Windows 10 (amd64) version 10.0
 	Java Version: 1.8.0_201, Oracle Corporation
 	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
-	Memory: 601695648 bytes (573 MB) / 773324800 bytes (737 MB) up to 7613186048 bytes (7260 MB)
+	Memory: 623606880 bytes (594 MB) / 764411904 bytes (729 MB) up to 7613186048 bytes (7260 MB)
 	JVM Flags: 0 total; 
 	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
 	FML: 
 	Loaded coremods (and transformers): 
 	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 418.81' Renderer: 'GeForce GTX 1080/PCIe/SSE2'
-[17:12:05] [main/INFO] [FML]: MinecraftForge v14.23.5.2768 Initialized
-[17:12:05] [main/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
-[17:12:05] [main/INFO] [FML]: Replaced 1036 ore ingredients
-[17:12:05] [main/INFO] [FML]: Searching L:\Minecraft\1.12\cOre\run\.\mods for mods
-[17:12:07] [main/INFO] [FML]: Forge Mod Loader has identified 9 mods to load
-[17:12:07] [main/FATAL] [FML]: net.minecraftforge.fml.common.MissingModsException: Mod tconstruct (Tinkers' Construct) requires [mantle@[1.12-1.3.1,)]
-[17:12:07] [main/ERROR] [FML]: An exception was thrown, the game will display an error screen and halt.
-net.minecraftforge.fml.common.MissingModsException: Mod tconstruct (Tinkers' Construct) requires [mantle@[1.12-1.3.1,)]
-	at net.minecraftforge.fml.common.Loader.sortModList(Loader.java:264) ~[Loader.class:?]
-	at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:570) ~[Loader.class:?]
-	at net.minecraftforge.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:232) [FMLClientHandler.class:?]
-	at net.minecraft.client.Minecraft.init(Minecraft.java:513) [Minecraft.class:?]
+[13:12:09] [main/INFO] [FML]: MinecraftForge v14.23.5.2768 Initialized
+[13:12:09] [main/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[13:12:09] [main/INFO] [FML]: Replaced 1036 ore ingredients
+[13:12:10] [main/INFO] [FML]: Searching L:\Minecraft\1.12\cOre\run\.\mods for mods
+[13:12:12] [Thread-3/INFO] [FML]: Using sync timing. 200 frames of Display.update took 173053500 nanos
+[13:12:12] [main/INFO] [FML]: Forge Mod Loader has identified 9 mods to load
+[13:12:12] [main/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, core, tconstruct, cofhcore, redstoneflux, mantle] at CLIENT
+[13:12:12] [main/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, core, tconstruct, cofhcore, redstoneflux, mantle] at SERVER
+[13:12:14] [main/INFO] [Pulsar-tconstruct]: Skipping Pulse chiselIntegration; missing dependency: chisel
+[13:12:14] [main/INFO] [Pulsar-tconstruct]: Skipping Pulse chiselsandbitsIntegration; missing dependency: chiselsandbits
+[13:12:14] [main/INFO] [Pulsar-tconstruct]: Skipping Pulse craftingtweaksIntegration; missing dependency: craftingtweaks
+[13:12:14] [main/INFO] [Pulsar-tconstruct]: Skipping Pulse wailaIntegration; missing dependency: waila
+[13:12:14] [main/INFO] [Pulsar-tconstruct]: Skipping Pulse theoneprobeIntegration; missing dependency: theoneprobe
+[13:12:14] [main/INFO] [tconstruct]: Preparing to take over the world
+[13:12:14] [main/ERROR] [FML]: The mod redstoneflux is expecting signature 8a6abf2cb9e141b866580d369ba6548732eff25f for source RedstoneFlux-1.12-2.1.0.6.jar, however there is no signature matching that description
+[13:12:16] [main/INFO] [net.minecraft.client.resources.SimpleReloadableResourceManager]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:cOre, FMLFileResourcePack:Tinkers' Construct, FMLFileResourcePack:CoFH Core, FMLFileResourcePack:Redstone Flux, FMLFileResourcePack:Mantle
+[13:12:16] [main/INFO] [FML]: Processing ObjectHolder annotations
+[13:12:16] [main/INFO] [FML]: Found 1168 ObjectHolder annotations
+[13:12:16] [main/INFO] [FML]: Identifying ItemStackHolder annotations
+[13:12:16] [main/INFO] [FML]: Found 0 ItemStackHolder annotations
+[13:12:16] [main/INFO] [FML]: Configured a dormant chunk cache size of 0
+[13:12:16] [Forge Version Check/INFO] [forge.VersionCheck]: [core] Starting version check at http://www.silvaniastudios.com/mods/update/cOre.json
+[13:12:16] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[13:12:16] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: UP_TO_DATE Target: null
+[13:12:16] [Forge Version Check/INFO] [forge.VersionCheck]: [cofhcore] Starting version check at https://raw.github.com/cofh/version/master/cofhcore_update.json
+[13:12:17] [main/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.table`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[13:12:17] [main/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.craftingstation`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[13:12:17] [main/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.stenciltable`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[13:12:17] [main/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.partbuilder`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[13:12:17] [main/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.patternchest`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[13:12:17] [main/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.partchest`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[13:12:17] [main/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.toolstation`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[13:12:17] [main/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.toolforge`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[13:12:17] [Forge Version Check/INFO] [forge.VersionCheck]: [cofhcore] Found status: OUTDATED Target: 4.6.3
+[13:12:17] [main/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.smeltery_controller`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[13:12:17] [main/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.smeltery_component`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[13:12:17] [main/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.tank`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[13:12:17] [main/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.faucet`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[13:12:17] [main/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.channel`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[13:12:17] [main/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.casting_table`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[13:12:17] [main/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.casting_basin`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[13:12:17] [main/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.smeltery_drain`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[13:12:17] [main/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.seared_furnace`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[13:12:17] [main/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.tinker_tank`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[13:12:17] [main/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.item_rack`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[13:12:17] [main/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.drying_rack`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[13:12:17] [main/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.wooden_hopper`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[13:12:17] [main/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.slime_channel`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[13:12:17] [main/INFO] [FML]: Applying holder lookups
+[13:12:17] [main/INFO] [FML]: Holder lookups applied
+[13:12:17] [main/INFO] [FML]: Applying holder lookups
+[13:12:17] [main/INFO] [FML]: Holder lookups applied
+[13:12:17] [main/INFO] [FML]: Applying holder lookups
+[13:12:17] [main/INFO] [FML]: Holder lookups applied
+[13:12:17] [main/INFO] [FML]: Applying holder lookups
+[13:12:17] [main/INFO] [FML]: Holder lookups applied
+[13:12:17] [main/INFO] [FML]: Injecting itemstacks
+[13:12:17] [main/INFO] [FML]: Itemstack injection complete
+[13:12:24] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Starting up SoundSystem...
+[13:12:24] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: Initializing LWJGL OpenAL
+[13:12:24] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[13:12:24] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: OpenAL initialized.
+[13:12:24] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Sound engine started
+[13:12:29] [main/ERROR] [tconstruct-API]: Could not load multimodel tconstruct:tools/arrow.tcon#inventory
+[13:12:29] [main/ERROR] [tconstruct-API]: Could not load material model tconstruct:parts/arrow_head.tmat#inventory
+[13:12:29] [main/ERROR] [tconstruct-API]: Could not load material model tconstruct:parts/arrow_shaft.tmat#inventory
+[13:12:29] [main/ERROR] [tconstruct-API]: Could not load material model tconstruct:parts/axe_head.tmat#inventory
+[13:12:29] [main/ERROR] [tconstruct-API]: Could not load multimodel tconstruct:tools/battlesign.tcon#inventory
+[13:12:29] [main/ERROR] [tconstruct-API]: Could not load material model tconstruct:parts/binding.tmat#inventory
+[13:12:29] [main/ERROR] [tconstruct-API]: Could not load multimodel tconstruct:tools/bolt.tcon#inventory
+[13:12:29] [main/ERROR] [tconstruct-API]: Could not load multimodel tconstruct:parts/bolt_core.tcon#inventory
+[13:12:29] [main/ERROR] [tconstruct-API]: Could not load material model tconstruct:parts/bow_limb.tmat#inventory
+[13:12:29] [main/ERROR] [tconstruct-API]: Could not load material model tconstruct:parts/bow_string.tmat#inventory
+[13:12:29] [main/ERROR] [tconstruct-API]: Could not load material model tconstruct:parts/broad_axe_head.tmat#inventory
+[13:12:29] [main/ERROR] [tconstruct-API]: Could not load multimodel tconstruct:tools/broadsword.tcon#inventory
+[13:12:29] [main/ERROR] [tconstruct-API]: Could not load multimodel tconstruct:tools/cleaver.tcon#inventory
+[13:12:29] [main/ERROR] [tconstruct-API]: Could not load material model tconstruct:parts/cross_guard.tmat#inventory
+[13:12:29] [main/ERROR] [tconstruct-API]: Could not load multimodel tconstruct:tools/crossbow.tcon#inventory
+[13:12:29] [main/ERROR] [tconstruct-API]: Could not load multimodel tconstruct:tools/excavator.tcon#inventory
+[13:12:29] [main/ERROR] [tconstruct-API]: Could not load material model tconstruct:parts/excavator_head.tmat#inventory
+[13:12:29] [main/ERROR] [tconstruct-API]: Could not load material model tconstruct:parts/fletching.tmat#inventory
+[13:12:29] [main/ERROR] [tconstruct-API]: Could not load multimodel tconstruct:tools/frypan.tcon#inventory
+[13:12:29] [main/ERROR] [tconstruct-API]: Could not load multimodel tconstruct:tools/hammer.tcon#inventory
+[13:12:29] [main/ERROR] [tconstruct-API]: Could not load material model tconstruct:parts/hammer_head.tmat#inventory
+[13:12:29] [main/ERROR] [tconstruct-API]: Could not load material model tconstruct:parts/hand_guard.tmat#inventory
+[13:12:29] [main/ERROR] [tconstruct-API]: Could not load multimodel tconstruct:tools/hatchet.tcon#inventory
+[13:12:29] [main/ERROR] [tconstruct-API]: Could not load multimodel tconstruct:tools/kama.tcon#inventory
+[13:12:29] [main/ERROR] [tconstruct-API]: Could not load material model tconstruct:parts/kama_head.tmat#inventory
+[13:12:29] [main/ERROR] [tconstruct-API]: Could not load material model tconstruct:parts/knife_blade.tmat#inventory
+[13:12:29] [main/ERROR] [tconstruct-API]: Could not load material model tconstruct:parts/large_plate.tmat#inventory
+[13:12:29] [main/ERROR] [tconstruct-API]: Could not load material model tconstruct:parts/large_sword_blade.tmat#inventory
+[13:12:29] [main/ERROR] [tconstruct-API]: Could not load multimodel tconstruct:tools/longbow.tcon#inventory
+[13:12:29] [main/ERROR] [tconstruct-API]: Could not load multimodel tconstruct:tools/longsword.tcon#inventory
+[13:12:29] [main/ERROR] [tconstruct-API]: Could not load multimodel tconstruct:tools/lumberaxe.tcon#inventory
+[13:12:29] [main/ERROR] [tconstruct-API]: Could not load multimodel tconstruct:tools/mattock.tcon#inventory
+[13:12:29] [main/ERROR] [tconstruct-API]: Could not load multimodel tconstruct:moms_spaghetti.tcon#inventory
+[13:12:29] [main/ERROR] [tconstruct-API]: Could not load material model tconstruct:parts/pan_head.tmat#inventory
+[13:12:29] [main/ERROR] [tconstruct-API]: Could not load material model tconstruct:parts/pick_head.tmat#inventory
+[13:12:29] [main/ERROR] [tconstruct-API]: Could not load multimodel tconstruct:tools/pickaxe.tcon#inventory
+[13:12:29] [main/ERROR] [tconstruct-API]: Could not load multimodel tconstruct:tools/rapier.tcon#inventory
+[13:12:29] [main/ERROR] [tconstruct-API]: Could not load multimodel tconstruct:tools/scythe.tcon#inventory
+[13:12:29] [main/ERROR] [tconstruct-API]: Could not load material model tconstruct:parts/scythe_head.tmat#inventory
+[13:12:29] [main/ERROR] [tconstruct-API]: Could not load material model tconstruct:parts/shard.tmat#inventory
+[13:12:29] [main/ERROR] [tconstruct-API]: Could not load material model tconstruct:parts/sharpening_kit.tmat#inventory
+[13:12:29] [main/ERROR] [tconstruct-API]: Could not load multimodel tconstruct:tools/shortbow.tcon#inventory
+[13:12:29] [main/ERROR] [tconstruct-API]: Could not load multimodel tconstruct:tools/shovel.tcon#inventory
+[13:12:29] [main/ERROR] [tconstruct-API]: Could not load material model tconstruct:parts/shovel_head.tmat#inventory
+[13:12:29] [main/ERROR] [tconstruct-API]: Could not load multimodel tconstruct:tools/shuriken.tcon#inventory
+[13:12:29] [main/ERROR] [tconstruct-API]: Could not load material model tconstruct:parts/sign_head.tmat#inventory
+[13:12:29] [main/ERROR] [tconstruct-API]: Could not load material model tconstruct:parts/sword_blade.tmat#inventory
+[13:12:29] [main/ERROR] [tconstruct-API]: Could not load material model tconstruct:parts/tool_rod.tmat#inventory
+[13:12:29] [main/ERROR] [tconstruct-API]: Could not load material model tconstruct:parts/tough_binding.tmat#inventory
+[13:12:29] [main/ERROR] [tconstruct-API]: Could not load material model tconstruct:parts/tough_tool_rod.tmat#inventory
+[13:12:29] [main/ERROR] [tconstruct-API]: Could not load material model tconstruct:parts/wide_guard.tmat#inventory
+[13:12:29] [main/INFO] [FML]: Max texture size: 16384
+[13:12:31] [main/INFO] [net.minecraft.client.renderer.texture.TextureMap]: Created: 2048x1024 textures-atlas
+[13:12:33] [main/ERROR] [FML]: Parsing error loading recipe core:ingot_copper_recipe
+com.google.gson.JsonSyntaxException: Expected a com.google.gson.JsonObject but was com.google.gson.JsonPrimitive
+	at com.google.gson.internal.bind.TypeAdapters$35$1.read(TypeAdapters.java:913) ~[TypeAdapters$35$1.class:?]
+	at net.minecraft.util.JsonUtils.gsonDeserialize(JsonUtils.java:435) ~[JsonUtils.class:?]
+	at net.minecraft.util.JsonUtils.fromJson(JsonUtils.java:485) ~[JsonUtils.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.lambda$loadRecipes$22(CraftingHelper.java:708) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.findFiles(CraftingHelper.java:822) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:668) ~[CraftingHelper.class:?]
+	at java.util.ArrayList.forEach(Unknown Source) [?:1.8.0_201]
+	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:620) [CraftingHelper.class:?]
+	at net.minecraftforge.fml.common.Loader.initializeMods(Loader.java:742) [Loader.class:?]
+	at net.minecraftforge.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:336) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:581) [Minecraft.class:?]
 	at net.minecraft.client.Minecraft.run(Minecraft.java:421) [Minecraft.class:?]
 	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_201]
@@ -70,17 +188,99 @@ net.minecraftforge.fml.common.MissingModsException: Mod tconstruct (Tinkers' Con
 	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_201]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
 	at GradleStart.main(GradleStart.java:25) [start/:?]
-[17:12:07] [main/WARN] [FML]: EventBus 0 shutting down - future events will not be posted.
-[17:12:07] [main/INFO] [net.minecraft.client.resources.SimpleReloadableResourceManager]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:cOre, FMLFileResourcePack:Tinkers' Construct, FMLFileResourcePack:CoFH Core, FMLFileResourcePack:CoFH World, FMLFileResourcePack:Redstone Flux
-[17:12:07] [main/WARN] [FML]: There were errors previously. Not beginning mod initialization phase
-[17:12:07] [Thread-3/INFO] [FML]: Using sync timing. 200 frames of Display.update took 121262800 nanos
-[17:12:14] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Starting up SoundSystem...
-[17:12:14] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: Initializing LWJGL OpenAL
-[17:12:14] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[17:12:15] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: OpenAL initialized.
-[17:12:15] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Sound engine started
-[17:12:15] [main/INFO] [com.mojang.text2speech.NarratorWindows]: Narrator library for x64 successfully loaded
-[17:12:16] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient]: Could not authorize you against Realms server: Invalid session id
-[17:12:20] [main/INFO] [net.minecraft.client.Minecraft]: Stopping!
-[17:12:20] [main/INFO] [net.minecraft.client.audio.SoundManager]: SoundSystem shutting down...
-[17:12:20] [main/WARN] [net.minecraft.client.audio.SoundManager]: Author: Paul Lamb, www.paulscode.com
+[13:12:33] [main/INFO] [FML]: Applying holder lookups
+[13:12:33] [main/INFO] [FML]: Holder lookups applied
+[13:12:33] [main/WARN] [FML]: ****************************************
+[13:12:33] [main/WARN] [FML]: * Invalid registration attempt for an Ore Dictionary item with name graphite has occurred. The registration has been denied to prevent crashes. The mod responsible for the registration needs to correct this.
+[13:12:33] [main/WARN] [FML]: *  at net.minecraftforge.oredict.OreDictionary.registerOreImpl(OreDictionary.java:660)
+[13:12:33] [main/WARN] [FML]: *  at net.minecraftforge.oredict.OreDictionary.registerOre(OreDictionary.java:646)
+[13:12:33] [main/WARN] [FML]: *  at com.silvaniastudios.core.OreDictRegistry.oreDict(OreDictRegistry.java:92)
+[13:12:33] [main/WARN] [FML]: *  at com.silvaniastudios.core.CommonProxy.init(CommonProxy.java:29)
+[13:12:33] [main/WARN] [FML]: *  at com.silvaniastudios.core.COre.init(COre.java:50)
+[13:12:33] [main/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)...
+[13:12:33] [main/WARN] [FML]: ****************************************
+[13:12:33] [main/WARN] [FML]: ****************************************
+[13:12:33] [main/WARN] [FML]: * Invalid registration attempt for an Ore Dictionary item with name calcile has occurred. The registration has been denied to prevent crashes. The mod responsible for the registration needs to correct this.
+[13:12:33] [main/WARN] [FML]: *  at net.minecraftforge.oredict.OreDictionary.registerOreImpl(OreDictionary.java:660)
+[13:12:33] [main/WARN] [FML]: *  at net.minecraftforge.oredict.OreDictionary.registerOre(OreDictionary.java:646)
+[13:12:33] [main/WARN] [FML]: *  at com.silvaniastudios.core.OreDictRegistry.oreDict(OreDictRegistry.java:93)
+[13:12:33] [main/WARN] [FML]: *  at com.silvaniastudios.core.CommonProxy.init(CommonProxy.java:29)
+[13:12:33] [main/WARN] [FML]: *  at com.silvaniastudios.core.COre.init(COre.java:50)
+[13:12:33] [main/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)...
+[13:12:33] [main/WARN] [FML]: ****************************************
+[13:12:33] [main/WARN] [FML]: ****************************************
+[13:12:33] [main/WARN] [FML]: * Invalid registration attempt for an Ore Dictionary item with name limestone has occurred. The registration has been denied to prevent crashes. The mod responsible for the registration needs to correct this.
+[13:12:33] [main/WARN] [FML]: *  at net.minecraftforge.oredict.OreDictionary.registerOreImpl(OreDictionary.java:660)
+[13:12:33] [main/WARN] [FML]: *  at net.minecraftforge.oredict.OreDictionary.registerOre(OreDictionary.java:646)
+[13:12:33] [main/WARN] [FML]: *  at com.silvaniastudios.core.OreDictRegistry.oreDict(OreDictRegistry.java:94)
+[13:12:33] [main/WARN] [FML]: *  at com.silvaniastudios.core.CommonProxy.init(CommonProxy.java:29)
+[13:12:33] [main/WARN] [FML]: *  at com.silvaniastudios.core.COre.init(COre.java:50)
+[13:12:33] [main/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)...
+[13:12:33] [main/WARN] [FML]: ****************************************
+[13:12:33] [main/INFO] [STDOUT]: [com.silvaniastudios.core.CommonProxy:init:33]: [cOre] CoFH detected! Enabling recipes...
+[13:12:33] [main/INFO] [STDOUT]: [com.silvaniastudios.core.RecipeRegistry:disableCoFHRecipes:439]: [cOre] Disabling CoFH/Thermal Expansion recipes in favour of cOre ones!
+[13:12:33] [main/INFO] [STDOUT]: [com.silvaniastudios.core.CommonProxy:init:44]: [cOre] Tinkers Construct detected! Enabling recipes...
+[13:12:33] [main/INFO] [FML]: Injecting itemstacks
+[13:12:33] [main/INFO] [FML]: Itemstack injection complete
+[13:12:34] [main/INFO] [tconstruct-TinkerSmeltery]: Started adding oredict melting recipes
+[13:12:34] [main/INFO] [tconstruct-TinkerSmeltery]: Oredict melting recipes finished in 742.9 ms
+[13:12:34] [main/INFO] [cofhcore]: CoFH Core: Load Complete.
+[13:12:35] [main/INFO] [FML]: Forge Mod Loader has successfully loaded 9 mods
+[13:12:35] [main/INFO] [com.mojang.text2speech.NarratorWindows]: Narrator library for x64 successfully loaded
+[13:12:35] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient]: Could not authorize you against Realms server: Invalid session id
+[13:12:40] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Starting integrated minecraft server version 1.12.2
+[13:12:40] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Generating keypair
+[13:12:40] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
+[13:12:41] [Server thread/INFO] [FML]: Applying holder lookups
+[13:12:41] [Server thread/INFO] [FML]: Holder lookups applied
+[13:12:41] [Server thread/INFO] [FML]: Loading dimension 0 (New World) (net.minecraft.server.integrated.IntegratedServer@4b0bdb94)
+[13:12:41] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 488 advancements
+[13:12:41] [Server thread/INFO] [FML]: Loading dimension -1 (New World) (net.minecraft.server.integrated.IntegratedServer@4b0bdb94)
+[13:12:41] [Server thread/INFO] [FML]: Loading dimension 1 (New World) (net.minecraft.server.integrated.IntegratedServer@4b0bdb94)
+[13:12:41] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
+[13:12:42] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 80%
+[13:12:43] [Server thread/INFO] [FML]: Unloading dimension -1
+[13:12:43] [Server thread/INFO] [FML]: Unloading dimension 1
+[13:12:43] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Changing view distance to 12, from 10
+[13:12:44] [Netty Local Client IO #0/INFO] [FML]: Server protocol version 2
+[13:12:44] [Netty Server IO #1/INFO] [FML]: Client protocol version 2
+[13:12:44] [Netty Server IO #1/INFO] [FML]: Client attempting to join with 9 mods : minecraft@1.12.2,tconstruct@1.12.2-2.12.0.156,core@1.0.8,cofhcore@4.6.0,FML@8.0.99.99,forge@14.23.5.2768,mantle@1.12-1.3.3.49,redstoneflux@2.1.0,mcp@9.42
+[13:12:44] [Netty Local Client IO #0/INFO] [FML]: [Netty Local Client IO #0] Client side modded connection established
+[13:12:44] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[13:12:44] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Player677[local:E:dea4284b] logged in with entity id 370 at (131.6113949635958, 64.0, 258.7730816916941)
+[13:12:44] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player677 joined the game
+[13:12:46] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
+[13:12:46] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
+[13:12:46] [pool-2-thread-1/WARN] [com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@4f15ee91[id=752a0b44-017a-3fb3-b7fd-a355ab650513,name=Player677,properties={},legacy=false]
+com.mojang.authlib.exceptions.AuthenticationException: The client has sent too many requests within a certain amount of time
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:79) ~[YggdrasilAuthenticationService.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillGameProfile(YggdrasilMinecraftSessionService.java:180) [YggdrasilMinecraftSessionService.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:60) [YggdrasilMinecraftSessionService$1.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:57) [YggdrasilMinecraftSessionService$1.class:?]
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3716) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2424) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2298) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2211) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache.get(LocalCache.java:4154) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:4158) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:5147) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:5153) [guava-21.0.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillProfileProperties(YggdrasilMinecraftSessionService.java:170) [YggdrasilMinecraftSessionService.class:?]
+	at net.minecraft.client.Minecraft.getProfileProperties(Minecraft.java:3181) [Minecraft.class:?]
+	at net.minecraft.client.resources.SkinManager$3.run(SkinManager.java:138) [SkinManager$3.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_201]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_201]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_201]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_201]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_201]
+[13:12:46] [main/WARN] [net.minecraft.client.network.NetHandlerPlayClient]: Received passengers for unknown entity
+[13:30:20] [main/INFO] [net.minecraft.client.Minecraft]: Stopping!
+[13:30:20] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[13:30:20] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[13:30:20] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[13:30:20] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
+[13:30:21] [Server thread/INFO] [FML]: Unloading dimension 0
+[13:30:21] [Server thread/INFO] [FML]: Applying holder lookups
+[13:30:21] [Server thread/INFO] [FML]: Holder lookups applied
+[13:30:21] [main/INFO] [net.minecraft.client.audio.SoundManager]: SoundSystem shutting down...
+[13:30:21] [main/WARN] [net.minecraft.client.audio.SoundManager]: Author: Paul Lamb, www.paulscode.com

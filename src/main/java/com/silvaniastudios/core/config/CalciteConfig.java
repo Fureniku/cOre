@@ -107,14 +107,10 @@ public class CalciteConfig {
 	}
 	
 	public static class Recipes {
-		@Config.Comment(_ConfigValues.oreCrushingEnabled)
-		public boolean oreCrushingEnabled = true;
-		@Config.Comment(_ConfigValues.oreCrusherEnergyUsage)
-		public int oreCrusherEnergyUsage = 4000;
-		@Config.Comment(_ConfigValues.oreCrusherPrimaryOutput)
-		public String oreCrusherPrimaryOutput = "core:dust_calcite";
 		@Config.Comment(_ConfigValues.oreCrusherPrimaryOutputAmount)
 		public int oreCrusherPrimaryOutputAmount = 4;
+		@Config.Comment(_ConfigValues.energyBaseline)
+		public int energyBaseline = 250;
 	}
 	
 	@Mod.EventBusSubscriber

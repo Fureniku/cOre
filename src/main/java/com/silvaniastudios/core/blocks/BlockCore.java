@@ -115,15 +115,22 @@ public class BlockCore extends Block implements IMetaBlockName {
             	int amt = rand.nextInt(priMax + 1);
             	if (amt < priMin) { amt = priMin; }
             	if (amt > priMax) { amt = priMax; }
-            	if (primaryItem != null) { drops.add(new ItemStack(primaryItem, amt, priMeta)); System.out.println("Dropping " + primaryItem);} else { System.out.println("primaryItem for " + state.toString() + " (" + priItem + ") is NULL! Please check your configs and make sure this item really exists."); }
+            	if (primaryItem != null) {
+            		drops.add(new ItemStack(primaryItem, amt, priMeta));
+            	} else {
+            		System.out.println("primaryItem for " + state.toString() + " (" + priItem + ") is NULL! Please check your configs and make sure this item really exists.");
+            	}
             }
             int rng = rand.nextInt(100);
-            System.out.println("secondary chance: " + secChance + ", chance rolled: " + rng);
             if (rng < secChance) {
             	int amt = rand.nextInt(secMax + 1);
             	if (amt < secMin) { amt = secMin; }
             	if (amt > secMax) { amt = secMax; }
-            	if (secondaryItem != null) { drops.add(new ItemStack(secondaryItem, amt, secMeta)); System.out.println("Dropping " + secondaryItem); } else { System.out.println("secondaryItem for " + state.toString() + " (" + secItem + ") is NULL! Please check your configs and make sure this item really exists."); }
+            	if (secondaryItem != null) {
+            		drops.add(new ItemStack(secondaryItem, amt, secMeta));
+            	} else {
+            		System.out.println("secondaryItem for " + state.toString() + " (" + secItem + ") is NULL! Please check your configs and make sure this item really exists.");
+            	}
             }
         }
 	}

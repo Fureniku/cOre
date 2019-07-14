@@ -147,62 +147,14 @@ public class AmethystConfig {
 	}
 	
 	public static class Recipes {
-		@Config.Comment(_ConfigValues.oreCrushingEnabled)
-		public boolean oreCrushingEnabled = true;
-		@Config.Comment(_ConfigValues.oreCrusherEnergyUsage)
-		public int oreCrusherEnergyUsage = 4000;
-		@Config.Comment(_ConfigValues.oreCrusherPrimaryOutput)
-		public String oreCrusherPrimaryOutput = "core:dust_impure_amethyst";
 		@Config.Comment(_ConfigValues.oreCrusherPrimaryOutputAmount)
 		public int oreCrusherPrimaryOutputAmount = 2;
-		
-		@Config.Comment(_ConfigValues.oreCrusherSecondaryOutput)
-		public String oreCrusherSecondaryOutput = "core:dust_tiny_amethyst";
 		@Config.Comment(_ConfigValues.oreCrusherSecondaryOutputAmount)
 		public int oreCrusherSecondaryOutputAmount = 1;
 		@Config.Comment(_ConfigValues.oreCrusherSecondaryOutputChance)
 		public int oreCrusherSecondaryOutputChance = 15;
-		
-		@Config.Comment(_ConfigValues.gemCrushingEnabled)
-		public boolean gemCrushingEnabled = true;
-		@Config.Comment(_ConfigValues.gemCrusherEnergyUsage)
-		public int gemCrusherEnergyUsage = 2000;
-		@Config.Comment(_ConfigValues.gemCrusherOutput)
-		public String gemCrusherOutput = "core:dust_amethyst";
-		@Config.Comment(_ConfigValues.gemCrusherOutputAmount)
-		public int gemCrusherOutputAmount = 1;
-		
-		@Config.Comment(_ConfigValues.nuggetCrushingEnabled)
-		public boolean nuggetCrushingEnabled = true;
-		@Config.Comment(_ConfigValues.nuggetCrusherEnergyUsage)
-		public int nuggetCrusherEnergyUsage = 250;
-		@Config.Comment(_ConfigValues.nuggetCrusherOutput)
-		public String nuggetCrusherOutput = "core:dust_tiny_amethyst";
-		@Config.Comment(_ConfigValues.nuggetCrusherOutputAmount)
-		public int nuggetCrusherOutputAmount = 1;
-	
-		@Config.Comment(_ConfigValues.dustCompressingEnabled)
-		public boolean dustCompressingEnabled = true;
-		@Config.Comment(_ConfigValues.dustCompressingEnergyUsage)
-		public int dustCompressingEnergyUsage = 4000;
-		@Config.Comment(_ConfigValues.dustCompressingOutput)
-		public String dustCompressingOutput = "core:gem_amethyst";
-		@Config.Comment(_ConfigValues.dustCompressingOutputAmount)
-		public int dustCompressingOutputAmount = 1;
-		
-		@Config.Comment(_ConfigValues.dustTinyCompressingEnabled)
-		public boolean dustTinyCompressingEnabled = true;
-		@Config.Comment(_ConfigValues.dustTinyCompressingEnergyUsage)
-		public int dustTinyCompressingEnergyUsage = 4000;
-		@Config.Comment(_ConfigValues.dustTinyCompressingOutput)
-		public String dustTinyCompressingOutput = "core:nugget_amethyst";
-		@Config.Comment(_ConfigValues.dustTinyCompressingOutputAmount)
-		public int dustTinyCompressingOutputAmount = 1;
-		
-		@Config.Comment(_ConfigValues.compressShardToGem)
-		public boolean compressShardToGem = true;
-		@Config.Comment(_ConfigValues.compressShardToGemPowerUsage)
-		public int compressShardToGemPowerUsage = 3000;
+		@Config.Comment(_ConfigValues.energyBaseline)
+		public int energyBaseline = 250;
 	}
 	
 	@Mod.EventBusSubscriber

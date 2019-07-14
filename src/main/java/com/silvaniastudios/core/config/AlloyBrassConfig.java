@@ -85,49 +85,8 @@ public class AlloyBrassConfig {
 	}
 	
 	public static class Recipes {
-		@Config.Comment(_ConfigValues.ingotCrushingEnabled)
-		public boolean ingotCrushingEnabled = true;
-		@Config.Comment(_ConfigValues.ingotCrusherEnergyUsage)
-		public int ingotCrusherEnergyUsage = 2000;
-		@Config.Comment(_ConfigValues.ingotCrusherOutput)
-		public String ingotCrusherOutput = "core:dust_brass";
-		@Config.Comment(_ConfigValues.ingotCrusherOutputAmount)
-		public int ingotCrusherOutputAmount = 1;
-		
-		@Config.Comment(_ConfigValues.nuggetCrushingEnabled)
-		public boolean nuggetCrushingEnabled = true;
-		@Config.Comment(_ConfigValues.nuggetCrusherEnergyUsage)
-		public int nuggetCrusherEnergyUsage = 250;
-		@Config.Comment(_ConfigValues.nuggetCrusherOutput)
-		public String nuggetCrusherOutput = "core:dust_tiny_brass";
-		@Config.Comment(_ConfigValues.nuggetCrusherOutputAmount)
-		public int nuggetCrusherOutputAmount = 1;
-		
-		@Config.Comment(_ConfigValues.dustSmeltingEnabled)
-		public boolean dustSmeltingEnabled = true;
-		@Config.Comment(_ConfigValues.dustSmeltingEnergyUsage)
-		public int dustSmeltingEnergyUsage = 4000;
-		@Config.Comment(_ConfigValues.dustSmeltingOutput)
-		public String dustSmeltingOutput = "core:ingot_brass";
-		@Config.Comment(_ConfigValues.dustSmeltingOutputAmount)
-		public int dustSmeltingOutputAmount = 1;
-		
-		@Config.Comment(_ConfigValues.dustTinySmeltingEnabled)
-		public boolean dustTinySmeltingEnabled = true;
-		@Config.Comment(_ConfigValues.dustTinySmeltingEnergyUsage)
-		public int dustTinySmeltingEnergyUsage = 500;
-		@Config.Comment(_ConfigValues.dustTinySmeltingOutput)
-		public String dustTinySmeltingOutput = "core:nugget_brass";
-		@Config.Comment(_ConfigValues.dustTinySmeltingOutputAmount)
-		public int dustTinySmeltingOutputAmount = 1;
-		
-		@Config.Comment(_ConfigValues.alloyEnergyUsage)
-		public int alloyEnergyUsage = 3000;
-
-		@Config.Comment(_ConfigValues.compressNuggetToIngot)
-		public boolean compressNuggetToIngot = true;
-		@Config.Comment(_ConfigValues.compressNuggetToIngotPowerUsage)
-		public int compressNuggetToIngotPowerUsage = 3000;
+		@Config.Comment(_ConfigValues.energyBaseline)
+		public int energyBaseline = 250;
 	}
 	
 	@Mod.EventBusSubscriber

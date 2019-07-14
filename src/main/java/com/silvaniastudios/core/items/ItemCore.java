@@ -66,7 +66,7 @@ public class ItemCore extends Item {
 				tooltip.add(" ");
 				tooltip.add("Alloy composition:");
 				for (int i = 0; i < alloyComponent.length; i++) {
-					tooltip.add(alloyComponentAmount[i] + "% " + alloyComponent[i]);
+					tooltip.add(alloyComponentAmount[i] + " parts " + alloyComponent[i]);
 				}
 			} else {
 				System.out.println("ERROR! " + name + " ALLOY INFORMATION IS INCORRECT! Please revise configs. The total values in both arrays must be equally matched!");

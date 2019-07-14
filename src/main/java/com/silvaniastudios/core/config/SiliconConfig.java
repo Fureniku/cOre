@@ -145,57 +145,14 @@ public class SiliconConfig {
 	}
 	
 	public static class Recipes {
-		@Config.Comment(_ConfigValues.oreCrushingEnabled)
-		public boolean oreCrushingEnabled = true;
-		@Config.Comment(_ConfigValues.oreCrusherEnergyUsage)
-		public int oreCrusherEnergyUsage = 4000;
-		@Config.Comment(_ConfigValues.oreCrusherPrimaryOutput)
-		public String oreCrusherPrimaryOutput = "core:dust_impure_silicon";
 		@Config.Comment(_ConfigValues.oreCrusherPrimaryOutputAmount)
 		public int oreCrusherPrimaryOutputAmount = 2;
-		
-		@Config.Comment(_ConfigValues.oreCrusherSecondaryOutput)
-		public String oreCrusherSecondaryOutput = "core:dust_tiny_silicon";
 		@Config.Comment(_ConfigValues.oreCrusherSecondaryOutputAmount)
 		public int oreCrusherSecondaryOutputAmount = 1;
 		@Config.Comment(_ConfigValues.oreCrusherSecondaryOutputChance)
 		public int oreCrusherSecondaryOutputChance = 15;
-		
-		@Config.Comment(_ConfigValues.ingotCrushingEnabled)
-		public boolean ingotCrushingEnabled = true;
-		@Config.Comment(_ConfigValues.ingotCrusherEnergyUsage)
-		public int ingotCrusherEnergyUsage = 2000;
-		@Config.Comment(_ConfigValues.ingotCrusherOutput)
-		public String ingotCrusherOutput = "core:dust_silicon";
-		@Config.Comment(_ConfigValues.ingotCrusherOutputAmount)
-		public int ingotCrusherOutputAmount = 1;
-		
-		@Config.Comment(_ConfigValues.oreSmeltingEnabled)
-		public boolean oreSmeltingEnabled = true;
-		@Config.Comment(_ConfigValues.oreSmeltingEnergyUsage)
-		public int oreSmeltingEnergyUsage = 4000;
-		@Config.Comment(_ConfigValues.oreSmeltingOutput)
-		public String oreSmeltingOutput = "core:ingot_silicon";
-		@Config.Comment(_ConfigValues.oreSmeltingOutputAmount)
-		public int oreSmeltingOutputAmount = 1;
-		
-		@Config.Comment(_ConfigValues.dustSmeltingEnabled)
-		public boolean dustSmeltingEnabled = true;
-		@Config.Comment(_ConfigValues.dustSmeltingEnergyUsage)
-		public int dustSmeltingEnergyUsage = 4000;
-		@Config.Comment(_ConfigValues.dustSmeltingOutput)
-		public String dustSmeltingOutput = "core:ingot_silicon";
-		@Config.Comment(_ConfigValues.dustSmeltingOutputAmount)
-		public int dustSmeltingOutputAmount = 1;
-		
-		@Config.Comment(_ConfigValues.dustImpureSmeltingEnabled)
-		public boolean dustImpureSmeltingEnabled = true;
-		@Config.Comment(_ConfigValues.dustImpureSmeltingEnergyUsage)
-		public int dustImpureSmeltingEnergyUsage = 5000;
-		@Config.Comment(_ConfigValues.dustImpureSmeltingOutput)
-		public String dustImpureSmeltingOutput = "core:ingot_silicon";
-		@Config.Comment(_ConfigValues.dustImpureSmeltingOutputAmount)
-		public int dustImpureSmeltingOutputAmount = 1;
+		@Config.Comment(_ConfigValues.energyBaseline)
+		public int energyBaseline = 250;
 	}
 
 	@Mod.EventBusSubscriber

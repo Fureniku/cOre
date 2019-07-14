@@ -106,89 +106,14 @@ public class VanillaNetherQuartzConfig {
 	}
 	
 	public static class Recipes {
-		@Config.Comment(_ConfigValues.oreCrushingEnabled)
-		public boolean oreCrushingEnabled = true;
-		@Config.Comment(_ConfigValues.oreCrusherEnergyUsage)
-		public int oreCrusherEnergyUsage = 4000;
-		@Config.Comment(_ConfigValues.oreCrusherPrimaryOutput)
-		public String oreCrusherPrimaryOutput = "core:dust_impure_netherquartz";
 		@Config.Comment(_ConfigValues.oreCrusherPrimaryOutputAmount)
 		public int oreCrusherPrimaryOutputAmount = 2;
-		
-		@Config.Comment(_ConfigValues.oreCrusherSecondaryOutput)
-		public String oreCrusherSecondaryOutput = "core:dust_tiny_netherquartz";
 		@Config.Comment(_ConfigValues.oreCrusherSecondaryOutputAmount)
 		public int oreCrusherSecondaryOutputAmount = 1;
 		@Config.Comment(_ConfigValues.oreCrusherSecondaryOutputChance)
 		public int oreCrusherSecondaryOutputChance = 15;
-		
-		@Config.Comment(_ConfigValues.nuggetCrushingEnabled)
-		public boolean nuggetCrushingEnabled = true;
-		@Config.Comment(_ConfigValues.nuggetCrusherEnergyUsage)
-		public int nuggetCrusherEnergyUsage = 250;
-		@Config.Comment(_ConfigValues.nuggetCrusherOutput)
-		public String nuggetCrusherOutput = "core:dust_tiny_netherquartz";
-		@Config.Comment(_ConfigValues.nuggetCrusherOutputAmount)
-		public int nuggetCrusherOutputAmount = 1;
-		
-		@Config.Comment(_ConfigValues.oreSmeltingEnabled)
-		public boolean oreSmeltingEnabled = true;
-		@Config.Comment(_ConfigValues.oreSmeltingEnergyUsage)
-		public int oreSmeltingEnergyUsage = 4000;
-		@Config.Comment(_ConfigValues.oreSmeltingOutput)
-		public String oreSmeltingOutput = "minecraft:quartz";
-		@Config.Comment(_ConfigValues.oreSmeltingOutputAmount)
-		public int oreSmeltingOutputAmount = 2;
-		
-		@Config.Comment(_ConfigValues.dustSmeltingEnabled)
-		public boolean dustSmeltingEnabled = true;
-		@Config.Comment(_ConfigValues.dustSmeltingEnergyUsage)
-		public int dustSmeltingEnergyUsage = 4000;
-		@Config.Comment(_ConfigValues.dustSmeltingOutput)
-		public String dustSmeltingOutput = "minecraft:quartz";
-		@Config.Comment(_ConfigValues.dustSmeltingOutputAmount)
-		public int dustSmeltingOutputAmount = 1;
-		
-		@Config.Comment(_ConfigValues.dustImpureSmeltingEnabled)
-		public boolean dustImpureSmeltingEnabled = true;
-		@Config.Comment(_ConfigValues.dustImpureSmeltingEnergyUsage)
-		public int dustImpureSmeltingEnergyUsage = 5000;
-		@Config.Comment(_ConfigValues.dustImpureSmeltingOutput)
-		public String dustImpureSmeltingOutput = "minecraft:quartz";
-		@Config.Comment(_ConfigValues.dustImpureSmeltingOutputAmount)
-		public int dustImpureSmeltingOutputAmount = 1;
-		
-		@Config.Comment(_ConfigValues.dustTinySmeltingEnabled)
-		public boolean dustTinySmeltingEnabled = true;
-		@Config.Comment(_ConfigValues.dustTinySmeltingEnergyUsage)
-		public int dustTinySmeltingEnergyUsage = 500;
-		@Config.Comment(_ConfigValues.dustTinySmeltingOutput)
-		public String dustTinySmeltingOutput = "core:nugget_netherquartz";
-		@Config.Comment(_ConfigValues.dustTinySmeltingOutputAmount)
-		public int dustTinySmeltingOutputAmount = 1;
-
-		@Config.Comment(_ConfigValues.dustCompressingEnabled)
-		public boolean dustCompressingEnabled = true;
-		@Config.Comment(_ConfigValues.dustCompressingEnergyUsage)
-		public int dustCompressingEnergyUsage = 4000;
-		@Config.Comment(_ConfigValues.dustCompressingOutput)
-		public String dustCompressingOutput = "minecraft:quartz";
-		@Config.Comment(_ConfigValues.dustCompressingOutputAmount)
-		public int dustCompressingOutputAmount = 1;
-		
-		@Config.Comment(_ConfigValues.dustTinyCompressingEnabled)
-		public boolean dustTinyCompressingEnabled = true;
-		@Config.Comment(_ConfigValues.dustTinyCompressingEnergyUsage)
-		public int dustTinyCompressingEnergyUsage = 4000;
-		@Config.Comment(_ConfigValues.dustTinyCompressingOutput)
-		public String dustTinyCompressingOutput = "core:nugget_netherquartz";
-		@Config.Comment(_ConfigValues.dustTinyCompressingOutputAmount)
-		public int dustTinyCompressingOutputAmount = 1;
-
-		@Config.Comment(_ConfigValues.compressNuggetToIngot)
-		public boolean compressNuggetToIngot = true;
-		@Config.Comment(_ConfigValues.compressNuggetToIngotPowerUsage)
-		public int compressNuggetToIngotPowerUsage = 3000;
+		@Config.Comment(_ConfigValues.energyBaseline)
+		public int energyBaseline = 250;
 	}
 	
 	@Mod.EventBusSubscriber

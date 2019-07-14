@@ -1,7 +1,45 @@
 package com.silvaniastudios.core.enums;
 
-import com.silvaniastudios.core.ModItems;
-import com.silvaniastudios.core.config.*;
+import com.silvaniastudios.core.config.AluminiumConfig;
+import com.silvaniastudios.core.config.AmethystConfig;
+import com.silvaniastudios.core.config.BlackstoneConfig;
+import com.silvaniastudios.core.config.BluestoneConfig;
+import com.silvaniastudios.core.config.ChromiumConfig;
+import com.silvaniastudios.core.config.CobaltConfig;
+import com.silvaniastudios.core.config.CopperConfig;
+import com.silvaniastudios.core.config.CrystalConfig;
+import com.silvaniastudios.core.config.DragiteConfig;
+import com.silvaniastudios.core.config.FlariteConfig;
+import com.silvaniastudios.core.config.FureniumConfig;
+import com.silvaniastudios.core.config.LeadConfig;
+import com.silvaniastudios.core.config.LithiumConfig;
+import com.silvaniastudios.core.config.MagnesiumConfig;
+import com.silvaniastudios.core.config.MerciliteConfig;
+import com.silvaniastudios.core.config.MythianConfig;
+import com.silvaniastudios.core.config.NickelConfig;
+import com.silvaniastudios.core.config.PhosphorusConfig;
+import com.silvaniastudios.core.config.PlatinumConfig;
+import com.silvaniastudios.core.config.PlutoniumConfig;
+import com.silvaniastudios.core.config.PurplestoneConfig;
+import com.silvaniastudios.core.config.RubyConfig;
+import com.silvaniastudios.core.config.SapphireConfig;
+import com.silvaniastudios.core.config.SiliconConfig;
+import com.silvaniastudios.core.config.SilvaniteConfig;
+import com.silvaniastudios.core.config.SilverConfig;
+import com.silvaniastudios.core.config.SulfurConfig;
+import com.silvaniastudios.core.config.TinConfig;
+import com.silvaniastudios.core.config.TitaniumConfig;
+import com.silvaniastudios.core.config.TungstenConfig;
+import com.silvaniastudios.core.config.UraniumConfig;
+import com.silvaniastudios.core.config.VanillaCoalConfig;
+import com.silvaniastudios.core.config.VanillaDiamondConfig;
+import com.silvaniastudios.core.config.VanillaEmeraldConfig;
+import com.silvaniastudios.core.config.VanillaGoldConfig;
+import com.silvaniastudios.core.config.VanillaIronConfig;
+import com.silvaniastudios.core.config.VanillaLapisLazuliConfig;
+import com.silvaniastudios.core.config.VanillaNetherQuartzConfig;
+import com.silvaniastudios.core.config.VanillaRedstoneConfig;
+import com.silvaniastudios.core.config.ZincConfig;
 
 public enum EnumMaterialGen {
 	copper("copper", CopperConfig.worldgen.worldGenEnabled, CopperConfig.worldgen.minVeinSize, CopperConfig.worldgen.maxVeinSize, CopperConfig.worldgen.minWorldHeight,
@@ -68,7 +106,24 @@ public enum EnumMaterialGen {
 	bluestone("bluestone", BluestoneConfig.worldgen.worldGenEnabled, BluestoneConfig.worldgen.minVeinSize, BluestoneConfig.worldgen.maxVeinSize, BluestoneConfig.worldgen.minWorldHeight,
 			BluestoneConfig.worldgen.maxWorldHeight, BluestoneConfig.worldgen.veinsPerChunk, BluestoneConfig.worldgen.veinSpawnChance),
 	purplestone("purplestone", PurplestoneConfig.worldgen.worldGenEnabled, PurplestoneConfig.worldgen.minVeinSize, PurplestoneConfig.worldgen.maxVeinSize, PurplestoneConfig.worldgen.minWorldHeight,
-			PurplestoneConfig.worldgen.maxWorldHeight, PurplestoneConfig.worldgen.veinsPerChunk, PurplestoneConfig.worldgen.veinSpawnChance);
+			PurplestoneConfig.worldgen.maxWorldHeight, PurplestoneConfig.worldgen.veinsPerChunk, PurplestoneConfig.worldgen.veinSpawnChance),
+	
+	coal("coal", VanillaCoalConfig.worldgen.worldGenEnabled, VanillaCoalConfig.worldgen.minVeinSize, VanillaCoalConfig.worldgen.maxVeinSize, VanillaCoalConfig.worldgen.minWorldHeight,
+			VanillaCoalConfig.worldgen.maxWorldHeight, VanillaCoalConfig.worldgen.veinsPerChunk, VanillaCoalConfig.worldgen.veinSpawnChance),
+	iron("iron", VanillaIronConfig.worldgen.worldGenEnabled, VanillaIronConfig.worldgen.minVeinSize, VanillaIronConfig.worldgen.maxVeinSize, VanillaIronConfig.worldgen.minWorldHeight,
+			VanillaIronConfig.worldgen.maxWorldHeight, VanillaIronConfig.worldgen.veinsPerChunk, VanillaIronConfig.worldgen.veinSpawnChance),
+	gold("gold", VanillaGoldConfig.worldgen.worldGenEnabled, VanillaGoldConfig.worldgen.minVeinSize, VanillaGoldConfig.worldgen.maxVeinSize, VanillaGoldConfig.worldgen.minWorldHeight,
+			VanillaGoldConfig.worldgen.maxWorldHeight, VanillaGoldConfig.worldgen.veinsPerChunk, VanillaGoldConfig.worldgen.veinSpawnChance),
+	diamond("diamond", VanillaDiamondConfig.worldgen.worldGenEnabled, VanillaDiamondConfig.worldgen.minVeinSize, VanillaDiamondConfig.worldgen.maxVeinSize, VanillaDiamondConfig.worldgen.minWorldHeight,
+			VanillaDiamondConfig.worldgen.maxWorldHeight, VanillaDiamondConfig.worldgen.veinsPerChunk, VanillaDiamondConfig.worldgen.veinSpawnChance),
+	redstone("redstone", VanillaRedstoneConfig.worldgen.worldGenEnabled, VanillaRedstoneConfig.worldgen.minVeinSize, VanillaRedstoneConfig.worldgen.maxVeinSize, VanillaRedstoneConfig.worldgen.minWorldHeight,
+			VanillaRedstoneConfig.worldgen.maxWorldHeight, VanillaRedstoneConfig.worldgen.veinsPerChunk, VanillaRedstoneConfig.worldgen.veinSpawnChance),
+	lapis("lapis", VanillaLapisLazuliConfig.worldgen.worldGenEnabled, VanillaLapisLazuliConfig.worldgen.minVeinSize, VanillaLapisLazuliConfig.worldgen.maxVeinSize, VanillaLapisLazuliConfig.worldgen.minWorldHeight,
+			VanillaLapisLazuliConfig.worldgen.maxWorldHeight, VanillaLapisLazuliConfig.worldgen.veinsPerChunk, VanillaLapisLazuliConfig.worldgen.veinSpawnChance),
+	emerald("emerald", VanillaEmeraldConfig.worldgen.worldGenEnabled, VanillaEmeraldConfig.worldgen.minVeinSize, VanillaEmeraldConfig.worldgen.maxVeinSize, VanillaEmeraldConfig.worldgen.minWorldHeight,
+			VanillaEmeraldConfig.worldgen.maxWorldHeight, VanillaEmeraldConfig.worldgen.veinsPerChunk, VanillaEmeraldConfig.worldgen.veinSpawnChance),
+	quartz("quartz", VanillaNetherQuartzConfig.worldgen.worldGenEnabled, VanillaNetherQuartzConfig.worldgen.minVeinSize, VanillaNetherQuartzConfig.worldgen.maxVeinSize, VanillaNetherQuartzConfig.worldgen.minWorldHeight,
+			VanillaNetherQuartzConfig.worldgen.maxWorldHeight, VanillaNetherQuartzConfig.worldgen.veinsPerChunk, VanillaNetherQuartzConfig.worldgen.veinSpawnChance);
 	
 	private final String name;
 	private final boolean enabled;

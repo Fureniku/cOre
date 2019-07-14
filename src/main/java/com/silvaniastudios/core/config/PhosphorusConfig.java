@@ -143,21 +143,14 @@ public class PhosphorusConfig {
 	}
 	
 	public static class Recipes {
-		@Config.Comment(_ConfigValues.oreCrushingEnabled)
-		public boolean oreCrushingEnabled = true;
-		@Config.Comment(_ConfigValues.oreCrusherEnergyUsage)
-		public int oreCrusherEnergyUsage = 4000;
-		@Config.Comment(_ConfigValues.oreCrusherPrimaryOutput)
-		public String oreCrusherPrimaryOutput = "core:dust_impure_phosphorus";
 		@Config.Comment(_ConfigValues.oreCrusherPrimaryOutputAmount)
 		public int oreCrusherPrimaryOutputAmount = 2;
-		
-		@Config.Comment(_ConfigValues.oreCrusherSecondaryOutput)
-		public String oreCrusherSecondaryOutput = "core:dust_tiny_phosphorus";
 		@Config.Comment(_ConfigValues.oreCrusherSecondaryOutputAmount)
 		public int oreCrusherSecondaryOutputAmount = 1;
 		@Config.Comment(_ConfigValues.oreCrusherSecondaryOutputChance)
 		public int oreCrusherSecondaryOutputChance = 15;
+		@Config.Comment(_ConfigValues.energyBaseline)
+		public int energyBaseline = 250;
 	}
 
 	@Mod.EventBusSubscriber
