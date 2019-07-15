@@ -28,3 +28,6 @@ gradlew
 *.sh
 *.lzma
 *.launch
+run/logs/latest.log
+run/config/TinkerModules.cfg
+run/config/splash.properties
