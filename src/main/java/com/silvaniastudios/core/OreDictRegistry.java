@@ -261,6 +261,39 @@ public class OreDictRegistry {
 		OreDictionary.registerOre(BlackstoneConfig.oredict.dustImpureOreDict, ModItems.dustImpureBlackstone);
 		OreDictionary.registerOre(BluestoneConfig.oredict.dustImpureOreDict, ModItems.dustImpureBluestone);
 		OreDictionary.registerOre(PurplestoneConfig.oredict.dustImpureOreDict, ModItems.dustImpurePurplestone);
+		//They also work as a normal dust, because not many mods handle impure dusts
+		OreDictionary.registerOre(CopperConfig.oredict.dustOreDict, ModItems.dustImpureCopper);
+		OreDictionary.registerOre(TinConfig.oredict.dustOreDict, ModItems.dustImpureTin);
+		OreDictionary.registerOre(ZincConfig.oredict.dustOreDict, ModItems.dustImpureZinc);
+		OreDictionary.registerOre(NickelConfig.oredict.dustOreDict, ModItems.dustImpureNickel);
+		OreDictionary.registerOre(SilverConfig.oredict.dustOreDict, ModItems.dustImpureSilver);
+		OreDictionary.registerOre(AluminiumConfig.oredict.dustOreDict, ModItems.dustImpureAluminium);
+		OreDictionary.registerOre(TitaniumConfig.oredict.dustOreDict, ModItems.dustImpureTitanium);
+		OreDictionary.registerOre(ChromiumConfig.oredict.dustOreDict, ModItems.dustImpureChromium);
+		OreDictionary.registerOre(SiliconConfig.oredict.dustOreDict, ModItems.dustImpureSilicon);
+		OreDictionary.registerOre(CobaltConfig.oredict.dustOreDict, ModItems.dustImpureCobalt);
+		OreDictionary.registerOre(TungstenConfig.oredict.dustOreDict, ModItems.dustImpureTungsten);
+		OreDictionary.registerOre(LeadConfig.oredict.dustOreDict, ModItems.dustImpureLead);
+		OreDictionary.registerOre(PlatinumConfig.oredict.dustOreDict, ModItems.dustImpurePlatinum);
+		OreDictionary.registerOre(LithiumConfig.oredict.dustOreDict, ModItems.dustImpureLithium);
+		OreDictionary.registerOre(UraniumConfig.oredict.dustOreDict, ModItems.dustImpureUranium);
+		OreDictionary.registerOre(PlutoniumConfig.oredict.dustOreDict, ModItems.dustImpurePlutonium);
+		OreDictionary.registerOre(RubyConfig.oredict.dustOreDict, ModItems.dustImpureRuby);
+		OreDictionary.registerOre(SapphireConfig.oredict.dustOreDict, ModItems.dustImpureSapphire);
+		OreDictionary.registerOre(AmethystConfig.oredict.dustOreDict, ModItems.dustImpureAmethyst);
+		OreDictionary.registerOre(CrystalConfig.oredict.dustOreDict, ModItems.dustImpureCrystal);
+		OreDictionary.registerOre(MagnesiumConfig.oredict.dustOreDict, ModItems.dustImpureMagnesium);
+		OreDictionary.registerOre(PhosphorusConfig.oredict.dustOreDict, ModItems.dustImpurePhosphorus);
+		OreDictionary.registerOre(SulfurConfig.oredict.dustOreDict, ModItems.dustImpureSulfur);
+		OreDictionary.registerOre(SilvaniteConfig.oredict.dustOreDict, ModItems.dustImpureSilvanite);
+		OreDictionary.registerOre(MerciliteConfig.oredict.dustOreDict, ModItems.dustImpureMercilite);
+		OreDictionary.registerOre(MythianConfig.oredict.dustOreDict, ModItems.dustImpureMythian);
+		OreDictionary.registerOre(DragiteConfig.oredict.dustOreDict, ModItems.dustImpureDragite);
+		OreDictionary.registerOre(FlariteConfig.oredict.dustOreDict, ModItems.dustImpureFlarite);
+		OreDictionary.registerOre(FureniumConfig.oredict.dustOreDict, ModItems.dustImpureFurenium);
+		OreDictionary.registerOre(BlackstoneConfig.oredict.dustOreDict, ModItems.dustImpureBlackstone);
+		OreDictionary.registerOre(BluestoneConfig.oredict.dustOreDict, ModItems.dustImpureBluestone);
+		OreDictionary.registerOre(PurplestoneConfig.oredict.dustOreDict, ModItems.dustImpurePurplestone);
 		
 		//Tiny Dusts
 		OreDictionary.registerOre(CopperConfig.oredict.dustTinyOreDict, ModItems.dustTinyCopper);

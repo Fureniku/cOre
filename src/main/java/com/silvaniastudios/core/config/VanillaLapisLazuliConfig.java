@@ -106,30 +106,14 @@ public class VanillaLapisLazuliConfig {
 	}
 	
 	public static class Recipes {
-		@Config.Comment(_ConfigValues.oreCrushingEnabled)
-		public boolean oreCrushingEnabled = true;
-		@Config.Comment(_ConfigValues.oreCrusherEnergyUsage)
-		public int oreCrusherEnergyUsage = 4000;
-		@Config.Comment(_ConfigValues.oreCrusherPrimaryOutput)
-		public String oreCrusherPrimaryOutput = "core:dust_impure_lapislazuli";
 		@Config.Comment(_ConfigValues.oreCrusherPrimaryOutputAmount)
 		public int oreCrusherPrimaryOutputAmount = 2;
-		
-		@Config.Comment(_ConfigValues.oreCrusherSecondaryOutput)
-		public String oreCrusherSecondaryOutput = "core:dust_tiny_lapislazuli";
 		@Config.Comment(_ConfigValues.oreCrusherSecondaryOutputAmount)
 		public int oreCrusherSecondaryOutputAmount = 1;
 		@Config.Comment(_ConfigValues.oreCrusherSecondaryOutputChance)
 		public int oreCrusherSecondaryOutputChance = 15;
-
-		@Config.Comment(_ConfigValues.dustCompressingEnabled)
-		public boolean dustCompressingEnabled = true;
-		@Config.Comment(_ConfigValues.dustCompressingEnergyUsage)
-		public int dustCompressingEnergyUsage = 4000;
-		@Config.Comment(_ConfigValues.dustCompressingOutput)
-		public String dustCompressingOutput = "minecraft:dye:4";
-		@Config.Comment(_ConfigValues.dustCompressingOutputAmount)
-		public int dustCompressingOutputAmount = 1;
+		@Config.Comment(_ConfigValues.energyBaseline)
+		public int energyBaseline = 250;
 	}
 	
 	@Mod.EventBusSubscriber

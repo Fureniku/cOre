@@ -53,66 +53,11 @@ public class _ConfigValues {
 	public static final String componentAmount = "The makeup of each component listed in Component Name. \nThis list will align with that, so entry one of the component name list will have entry one from here. \nThe numbers are a ratio; so 75/25 and 3/1 will produce the same result - but 75/25 will require those as minimums for creating an alloy (anything less won't work). \nI recommend using the lowest possible values.";
 	public static final String symbol = "The chemical symbol for this material. Not always used.";
 	public static final String notes = "Any additional notes to be displayed in tooltip. Not used by default.\nEach entry will be displayed on its own line.";
-	
-	public static final String oreCrushingEnabled = "Whether this can be crushed in some sort of crushing machine, to produce (by default) impure dust.";
-	public static final String oreCrusherEnergyUsage = "How much energy should the process consume";
-	public static final String oreCrusherPrimaryOutput = "The unlocalized name of the primary output (for example, core:dust_impure_copper)";
+
 	public static final String oreCrusherPrimaryOutputAmount = "The amount of items that should be produced (Modded Minecraft standard is 2 dust for one ore)";
-	
-	public static final String oreCrusherSecondaryOutput = "The unlocalized name of the primary output (for example, core:dust_copper) \nWill only be produced if the machine used supports secondary outputs with chance!!";
 	public static final String oreCrusherSecondaryOutputAmount = "The amount of the secondary output to be produced on successful chance roll";
 	public static final String oreCrusherSecondaryOutputChance = "The chance of producing secondary ore, as a percentage (0-100)";
-	
-	public static final String ingotCrushingEnabled = "Whether this can be crushed in some sort of crushing machine, to produce (by default) dust.";
-	public static final String ingotCrusherEnergyUsage = "How much energy should the process consume";
-	public static final String ingotCrusherOutput = "The unlocalized name of the primary output (for example, core:dust_copper)";
-	public static final String ingotCrusherOutputAmount = "The amount of items that should be produced (For ingots you almost always want 1:1)";
-	
-	public static final String gemCrushingEnabled = "Whether this can be crushed in some sort of crushing machine, to produce (by default) dust.";
-	public static final String gemCrusherEnergyUsage = "How much energy should the process consume";
-	public static final String gemCrusherOutput = "The unlocalized name of the primary output (for example, core:dust_ruby)";
-	public static final String gemCrusherOutputAmount = "The amount of items that should be produced (For gems you almost always want 1:1)";
-	
-	public static final String nuggetCrushingEnabled = "Whether this can be crushed in some sort of crushing machine, to produce (by default) tiny dust.";
-	public static final String nuggetCrusherEnergyUsage = "How much energy should the process consume";
-	public static final String nuggetCrusherOutput = "The unlocalized name of the primary output (for example, core:dust_tiny_copper)";
-	public static final String nuggetCrusherOutputAmount = "The amount of items that should be produced (For nuggets you almost always want 1:1)";
-	
-	public static final String oreSmeltingEnabled = "Whether the ore can be smelted into the configured item (usually ingot)";
-	public static final String oreSmeltingEnergyUsage = "How much energy should the process consume";
-	public static final String oreSmeltingOutput = "The unlocalized name of the output (for example, core:ingot_copper)";
-	public static final String oreSmeltingOutputAmount = "The amount of items that should be produced";
-	
-	public static final String dustSmeltingEnabled = "Whether the dust can be smelted into the configured item (usually ingot)";
-	public static final String dustSmeltingEnergyUsage = "How much energy should the process consume";
-	public static final String dustSmeltingOutput = "The unlocalized name of the output (for example, core:ingot_copper)";
-	public static final String dustSmeltingOutputAmount = "The amount of items that should be produced";
-	
-	public static final String dustImpureSmeltingEnabled = "Whether the impure dust can be smelted into the configured item (usually ingot)";
-	public static final String dustImpureSmeltingEnergyUsage = "How much energy should the process consume";
-	public static final String dustImpureSmeltingOutput = "The unlocalized name of the output (for example, core:ingot_copper)";
-	public static final String dustImpureSmeltingOutputAmount = "The amount of items that should be produced";
-	
-	public static final String dustTinySmeltingEnabled = "Whether the tiny dust can be smelted into the configured item (usually nugget)";
-	public static final String dustTinySmeltingEnergyUsage = "How much energy should the process consume";
-	public static final String dustTinySmeltingOutput = "The unlocalized name of the output (for example, core:nugget_copper)";
-	public static final String dustTinySmeltingOutputAmount = "The amount of items that should be produced";
-	
-	public static final String dustCompressingEnabled = "Whether gem dust can be compressed to form a gem";
-	public static final String dustCompressingEnergyUsage = "How much energy should the process consume";
-	public static final String dustCompressingOutput = "The unlocalized name of the output (for example, core:gem_ruby)";
-	public static final String dustCompressingOutputAmount = "The amount of items that should be produced";
-	
-	public static final String dustTinyCompressingEnabled = "Whether tiny gem dust can be compressed to form a gem shard";
-	public static final String dustTinyCompressingEnergyUsage = "How much energy should the process consume";
-	public static final String dustTinyCompressingOutput = "The unlocalized name of the output (for example, core:nugget_ruby) \nNB: Despite being shards, gem shards are still internally called nuggets.";
-	public static final String dustTinyCompressingOutputAmount = "The amount of items that should be produced";
-	
-	public static final String compressShardToGem = "If true, you must use a compressor to turn Shards into Gems. \nIf false, you can simply craft with a crafting table.";
-	public static final String compressShardToGemPowerUsage = "How much energy should the process consume";
-	
-	public static final String compressNuggetToIngot = "If true, you must use a compressor to turn Nuggets into Ingots. \nIf false, you can simply craft with a crafting table.";
-	public static final String compressNuggetToIngotPowerUsage = "How much energy should the process consume";
+	public static final String energyBaseline = "The amount of energy used at a base level to process this material. \n This will be modified depending on what is being processed, so this number is how much to crush/pulverise a nugget.";
 	
 	public static final String alloyEnergyUsage = "How much energy should the alloying process consume";
 	

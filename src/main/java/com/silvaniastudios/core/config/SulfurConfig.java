@@ -162,53 +162,14 @@ public class SulfurConfig {
 	}
 	
 	public static class Recipes {
-		@Config.Comment(_ConfigValues.oreCrushingEnabled)
-		public boolean oreCrushingEnabled = true;
-		@Config.Comment(_ConfigValues.oreCrusherEnergyUsage)
-		public int oreCrusherEnergyUsage = 4000;
-		@Config.Comment(_ConfigValues.oreCrusherPrimaryOutput)
-		public String oreCrusherPrimaryOutput = "core:dust_impure_sulfur";
 		@Config.Comment(_ConfigValues.oreCrusherPrimaryOutputAmount)
 		public int oreCrusherPrimaryOutputAmount = 2;
-		
-		@Config.Comment(_ConfigValues.oreCrusherSecondaryOutput)
-		public String oreCrusherSecondaryOutput = "core:dust_tiny_sulfur";
 		@Config.Comment(_ConfigValues.oreCrusherSecondaryOutputAmount)
 		public int oreCrusherSecondaryOutputAmount = 1;
 		@Config.Comment(_ConfigValues.oreCrusherSecondaryOutputChance)
 		public int oreCrusherSecondaryOutputChance = 15;
-		
-		@Config.Comment(_ConfigValues.ingotCrushingEnabled)
-		public boolean ingotCrushingEnabled = true;
-		@Config.Comment(_ConfigValues.ingotCrusherEnergyUsage)
-		public int ingotCrusherEnergyUsage = 2000;
-		@Config.Comment(_ConfigValues.ingotCrusherOutput)
-		public String ingotCrusherOutput = "core:dust_sulfur";
-		@Config.Comment(_ConfigValues.ingotCrusherOutputAmount)
-		public int ingotCrusherOutputAmount = 1;
-		
-		@Config.Comment(_ConfigValues.dustCompressingEnabled)
-		public boolean dustCompressingEnabled = true;
-		@Config.Comment(_ConfigValues.dustCompressingEnergyUsage)
-		public int dustCompressingEnergyUsage = 4000;
-		@Config.Comment(_ConfigValues.dustCompressingOutput)
-		public String dustCompressingOutput = "core:ingot_sulfur";
-		@Config.Comment(_ConfigValues.dustCompressingOutputAmount)
-		public int dustCompressingOutputAmount = 1;
-		
-		@Config.Comment(_ConfigValues.dustTinyCompressingEnabled)
-		public boolean dustTinyCompressingEnabled = true;
-		@Config.Comment(_ConfigValues.dustTinyCompressingEnergyUsage)
-		public int dustTinyCompressingEnergyUsage = 4000;
-		@Config.Comment(_ConfigValues.dustTinyCompressingOutput)
-		public String dustTinyCompressingOutput = "core:nugget_sulfur";
-		@Config.Comment(_ConfigValues.dustTinyCompressingOutputAmount)
-		public int dustTinyCompressingOutputAmount = 1;
-		
-		@Config.Comment(_ConfigValues.compressNuggetToIngot)
-		public boolean compressNuggetToIngot = true;
-		@Config.Comment(_ConfigValues.compressNuggetToIngotPowerUsage)
-		public int compressNuggetToIngotPowerUsage = 3000;
+		@Config.Comment(_ConfigValues.energyBaseline)
+		public int energyBaseline = 250;
 	}
 
 	

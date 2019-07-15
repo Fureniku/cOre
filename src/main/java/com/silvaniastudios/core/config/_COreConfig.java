@@ -72,6 +72,9 @@ public class _COreConfig {
 		
 		@Config.Comment("Whether you can smelt the dropped ore directly into one single ingot (Vanilla-style)")
 		public boolean smeltOreToIngot = true;
+		
+		@Config.Comment("Should Silk Touch work? Enabled: all ores can be silk touched, disabled: no ores (even vanilla) can be silk touched.")
+		public boolean silkTouchOres = true;
 	}
 	
 	public static class TinkersConstruct {
@@ -128,6 +131,10 @@ public class _COreConfig {
 		public boolean inductionFurnaceRecipes = true;
 		@Config.Comment("Enable or disable recipes specific to the compressor (for compressed dust \"ingots\").")
 		public boolean compressorRecipes = true;
+		
+		public int oreCrusherEnergyUsageModifier = 16;
+		public int ingotCrusherEnergyUsageModifier = 8;
+		public int nuggetCrusherEnergyUsageModifier = 1;
 	}
 	
 	public static class Dev {

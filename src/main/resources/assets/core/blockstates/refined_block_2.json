@@ -23,9 +23,9 @@
 			"10": { "textures": { "all": "core:blocks/block_dragite" }},
 			"11": { "textures": { "all": "core:blocks/block_flarite" }},
 			"12": { "textures": { "all": "core:blocks/block_furenium" }},
-			"13": { "textures": { "all": "core:blocks/block_calcite" }},
-			"14": { "textures": { "all": "core:blocks/block_graphite" }},
-			"15": { "textures": { "all": "core:blocks/block_limestone" }}
+			"13": { "textures": { "all": "core:blocks/block_blackstone" }},
+			"14": { "textures": { "all": "core:blocks/block_bluestone" }},
+			"15": { "textures": { "all": "core:blocks/block_purplestone" }}
 		}
 	}
 }
