@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+        "type": "forge:ore_dict",
+        "ore": "ingotUltimite"
+        }
+    ],
+    "result": {
+        "item": "core:nugget_ultimite",
+        "count": 9
+    }
+}

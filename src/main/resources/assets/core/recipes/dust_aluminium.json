@@ -1,0 +1,21 @@
+"type": "minecraft:crafting_shaped",
+    "pattern":
+    [
+        "xxx",
+        "xxx",
+        "xxx"
+    ],
+    "key":
+    {
+        "x":
+        {
+            "type": "forge:ore_dict",
+            "ore": "dustAluminium"
+        }
+    },
+    "result":
+    {
+        "item": "core:dust_tiny_aluminium",
+        "count": 9
+    }
+}

@@ -1,0 +1,21 @@
+"type": "minecraft:crafting_shaped",
+    "pattern":
+    [
+        "xxx",
+        "xxx",
+        "xxx"
+    ],
+    "key":
+    {
+        "x":
+        {
+            "type": "forge:ore_dict",
+            "ore": "nuggetFurenium"
+        }
+    },
+    "result":
+    {
+        "item": "core:ingot_furenium",
+        "count": 1
+    }
+}

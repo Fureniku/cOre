@@ -1,0 +1,21 @@
+"type": "minecraft:crafting_shaped",
+    "pattern":
+    [
+        "xxx",
+        "xxx",
+        "xxx"
+    ],
+    "key":
+    {
+        "x":
+        {
+            "type": "forge:ore_dict",
+            "ore": "nuggetUltimite"
+        }
+    },
+    "result":
+    {
+        "item": "core:ingot_ultimite",
+        "count": 1
+    }
+}

@@ -29,9 +29,9 @@ public class ModBlocks {
 	public static BlockRefined2 blockRefined2 = new BlockRefined2("refined_block_2");
 	public static BlockRefined3 blockRefined3 = new BlockRefined3("refined_block_3");
 		
-	public static Block blockGraphite = new BlockBasic("block_graphite", GraphiteConfig.drops.primaryDroppedItem, GraphiteConfig.drops.secondaryDroppedItem, GraphiteConfig.drops.primaryDropQtyMin, GraphiteConfig.drops.primaryDropQtyMax, GraphiteConfig.drops.secondaryDropQtyMin, GraphiteConfig.drops.secondaryDropQtyMax, GraphiteConfig.drops.primaryDropChance, GraphiteConfig.drops.secondaryDropChance, GraphiteConfig.drops.canFortune).setHardness(GraphiteConfig.properties.hardnessBlock);
-	public static Block blockCalcite = new BlockBasic("block_calcite", CalciteConfig.drops.primaryDroppedItem, CalciteConfig.drops.secondaryDroppedItem, CalciteConfig.drops.primaryDropQtyMin, CalciteConfig.drops.primaryDropQtyMax, CalciteConfig.drops.secondaryDropQtyMin, CalciteConfig.drops.secondaryDropQtyMax, CalciteConfig.drops.primaryDropChance, CalciteConfig.drops.secondaryDropChance, CalciteConfig.drops.canFortune).setHardness(CalciteConfig.properties.hardnessBlock);
-	public static Block blockLimestone = new BlockBasic("block_limestone", LimestoneConfig.drops.primaryDroppedItem, LimestoneConfig.drops.secondaryDroppedItem, LimestoneConfig.drops.primaryDropQtyMin, LimestoneConfig.drops.primaryDropQtyMax, LimestoneConfig.drops.secondaryDropQtyMin, LimestoneConfig.drops.secondaryDropQtyMax, LimestoneConfig.drops.primaryDropChance, LimestoneConfig.drops.secondaryDropChance, LimestoneConfig.drops.canFortune).setHardness(LimestoneConfig.properties.hardnessBlock);
+	public static BlockBasic blockGraphite = new BlockBasic("block_graphite", GraphiteConfig.drops.primaryDroppedItem, GraphiteConfig.drops.secondaryDroppedItem, GraphiteConfig.drops.primaryDropQtyMin, GraphiteConfig.drops.primaryDropQtyMax, GraphiteConfig.drops.secondaryDropQtyMin, GraphiteConfig.drops.secondaryDropQtyMax, GraphiteConfig.drops.primaryDropChance, GraphiteConfig.drops.secondaryDropChance, GraphiteConfig.drops.canFortune, GraphiteConfig.properties.hardnessBlock);
+	public static BlockBasic blockCalcite = new BlockBasic("block_calcite", CalciteConfig.drops.primaryDroppedItem, CalciteConfig.drops.secondaryDroppedItem, CalciteConfig.drops.primaryDropQtyMin, CalciteConfig.drops.primaryDropQtyMax, CalciteConfig.drops.secondaryDropQtyMin, CalciteConfig.drops.secondaryDropQtyMax, CalciteConfig.drops.primaryDropChance, CalciteConfig.drops.secondaryDropChance, CalciteConfig.drops.canFortune, CalciteConfig.properties.hardnessBlock);
+	public static BlockBasic blockLimestone = new BlockBasic("block_limestone", LimestoneConfig.drops.primaryDroppedItem, LimestoneConfig.drops.secondaryDroppedItem, LimestoneConfig.drops.primaryDropQtyMin, LimestoneConfig.drops.primaryDropQtyMax, LimestoneConfig.drops.secondaryDropQtyMin, LimestoneConfig.drops.secondaryDropQtyMax, LimestoneConfig.drops.primaryDropChance, LimestoneConfig.drops.secondaryDropChance, LimestoneConfig.drops.canFortune, LimestoneConfig.properties.hardnessBlock);
 
 	public static Block blockFluidSolarium = new BlockFluidFinite(ModFluids.fluidSolarium, Material.LAVA).setRegistryName("block_fluid_solarium").setUnlocalizedName("block_fluid_solarium");
 	
@@ -110,7 +110,10 @@ public class ModBlocks {
 				blockOre2,
 				blockRefined1,
 				blockRefined2,
-				blockRefined3//,
+				blockRefined3,
+				blockGraphite,
+				blockCalcite,
+				blockLimestone
 		);
 		
 		for (int i = 0; i < fluidBlockArray.length; i++) {
@@ -127,6 +130,10 @@ public class ModBlocks {
 		registry.register(new ItemBlockOre(blockRefined2).setRegistryName(blockRefined2.getRegistryName()));
 		registry.register(new ItemBlockOre(blockRefined3).setRegistryName(blockRefined3.getRegistryName()));
 		
+		registry.register(new ItemBlockOre(blockGraphite).setRegistryName(blockGraphite.getRegistryName()));
+		registry.register(new ItemBlockOre(blockCalcite).setRegistryName(blockCalcite.getRegistryName()));
+		registry.register(new ItemBlockOre(blockLimestone).setRegistryName(blockLimestone.getRegistryName()));
+		
 		for (int i = 0; i < fluidBlockArray.length; i++) {
 			registry.register(new ItemBlock(fluidBlockArray[i]).setRegistryName(fluidBlockArray[i].getRegistryName()));
 		}
@@ -138,6 +145,9 @@ public class ModBlocks {
 		blockRefined1.initModel();
 		blockRefined2.initModel();
 		blockRefined3.initModel();
+		blockGraphite.initModel();
+		blockCalcite.initModel();
+		blockLimestone.initModel();
 		
 		for (int i = 0; i < fluidBlockArray.length; i++) {
 			initModel(fluidBlockArray[i]);

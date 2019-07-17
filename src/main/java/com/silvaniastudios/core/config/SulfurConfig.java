@@ -88,8 +88,6 @@ public class SulfurConfig {
 		public boolean dropPrimaryForFakePlayer = true;
 		@Config.Comment(_ConfigValues.dropSecondaryForFakePlayer)
 		public boolean dropSecondaryForFakePlayer = false;
-		@Config.Comment(_ConfigValues.canSilkTouch)
-		public boolean canSilkTouch = false;
 		@Config.Comment(_ConfigValues.canFortune)
 		public boolean canFortune = false;
 	}

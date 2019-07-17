@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+        "type": "forge:ore_dict",
+        "ore": "ingotCupronickel"
+        }
+    ],
+    "result": {
+        "item": "core:nugget_cupronickel",
+        "count": 9
+    }
+}

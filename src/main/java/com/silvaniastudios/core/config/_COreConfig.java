@@ -24,13 +24,6 @@ public class _COreConfig {
 	public static Dev dev = new Dev();
 	
 	public static class General {
-		@Config.Comment("Whether to show detailed information on the Ore block tooltip. \n"
-				+ "As you never get the ore itself in-game, this is only visible in creative OR NEI/JEI. \n"
-				+ "It gives various information on the block relating to mining, such as mining level, drops etc. \n"
-				+ "This is a CLIENT-SIDE setting. Currently, it cannot be forced - if that is in-demand I may add it.\n"
-				+ "Alternatively, you can hide the ores from JEI/NEI using something like MineTweaker.\n"
-				+ "But remember; at the end of the day this just shows config values in-game. Players can always access this data anyway.")
-		public boolean showDetailsOnOre = true;
 		
 		@Config.Comment("What level of console output should you get from the mod. \n"
 				+ "0: Nothing except absolute major errors. \n"
@@ -39,21 +32,8 @@ public class _COreConfig {
 		public int debugLevel = 0;
 		
 		@Config.Comment("Whether the vanilla-style tools (pickaxe, shovel, axe and hoe) are enabled. \n"
-				+ "If using Tinkers you might want to disab"
-				+ "le this, but its your call.")
+				+ "If using Tinkers you might want to disable this.")
 		public boolean vanillaStyleTools = true;
-		
-		@Config.Comment("Whether you can craft 9 tiny dust into 1 standard dust on a standard crafting bench")
-		public boolean craftTinyToDust = true;
-		
-		@Config.Comment("Whether one normal dust can craft to 9 tiny dust in any standard crafting inventory")
-		public boolean craftDustToTiny = true;
-		
-		@Config.Comment("Whether you can craft 9 nuggets into one ingot on a standard crafting bench")
-		public boolean craftNuggetToIngot = true;
-		
-		@Config.Comment("Whether one ingot can craft to 9 nuggets in any standard crafting inventory")
-		public boolean craftIngotToNugget = true;
 		
 		@Config.Comment("Whether crushing ore will give Impure dust. If false, you'll just get normal dust straight away.")
 		public boolean crushOreToImpure = true;
@@ -73,7 +53,7 @@ public class _COreConfig {
 		@Config.Comment("Whether you can smelt the dropped ore directly into one single ingot (Vanilla-style)")
 		public boolean smeltOreToIngot = true;
 		
-		@Config.Comment("Should Silk Touch work? Enabled: all ores can be silk touched, disabled: no ores (even vanilla) can be silk touched.")
+		@Config.Comment("Should Silk Touch work? Enabled: all cOre ores can be silk touched, disabled: no cOre ores can be silk touched.")
 		public boolean silkTouchOres = true;
 	}
 	

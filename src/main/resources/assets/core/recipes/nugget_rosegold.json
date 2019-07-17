@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+        "type": "forge:ore_dict",
+        "ore": "ingotRosegold"
+        }
+    ],
+    "result": {
+        "item": "core:nugget_rosegold",
+        "count": 9
+    }
+}

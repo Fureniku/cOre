@@ -1,0 +1,21 @@
+"type": "minecraft:crafting_shaped",
+    "pattern":
+    [
+        "xxx",
+        "xxx",
+        "xxx"
+    ],
+    "key":
+    {
+        "x":
+        {
+            "type": "forge:ore_dict",
+            "ore": "nuggetLithium"
+        }
+    },
+    "result":
+    {
+        "item": "core:ingot_lithium",
+        "count": 1
+    }
+}

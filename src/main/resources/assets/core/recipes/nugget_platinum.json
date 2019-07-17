@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+        "type": "forge:ore_dict",
+        "ore": "ingotPlatinum"
+        }
+    ],
+    "result": {
+        "item": "core:nugget_platinum",
+        "count": 9
+    }
+}

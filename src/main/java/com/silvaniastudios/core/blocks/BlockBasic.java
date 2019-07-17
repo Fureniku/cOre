@@ -2,17 +2,25 @@ package com.silvaniastudios.core.blocks;
 
 import java.util.Random;
 
+import com.google.common.collect.ImmutableList;
 import com.silvaniastudios.core.COre;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
+import net.minecraft.block.state.BlockStateContainer;
 import net.minecraft.block.state.IBlockState;
+import net.minecraft.client.renderer.block.model.ModelResourceLocation;
+import net.minecraft.client.renderer.block.statemap.DefaultStateMapper;
+import net.minecraft.client.renderer.block.statemap.StateMapperBase;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.NonNullList;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
+import net.minecraftforge.client.model.ModelLoader;
+import net.minecraftforge.fml.relauncher.Side;
+import net.minecraftforge.fml.relauncher.SideOnly;
 
 public class BlockBasic extends Block {
 	
@@ -28,7 +36,7 @@ public class BlockBasic extends Block {
 	protected boolean canFortune;
 
 	
-	public BlockBasic(String name, String pDrop, String sDrop, int pMin, int pMax, int sMin, int sMax, int pChance, int sChance, boolean ftn) {
+	public BlockBasic(String name, String pDrop, String sDrop, int pMin, int pMax, int sMin, int sMax, int pChance, int sChance, boolean ftn, float hardness) {
 		super(Material.ROCK);
 		this.setCreativeTab(COre.tabCOre);
 		this.setHarvestLevel("pickaxe", 0);
@@ -41,6 +49,7 @@ public class BlockBasic extends Block {
 		this.priChance = pChance;
 		this.secChance = sChance;
 		this.canFortune = ftn;
+		this.setHardness(hardness);
 	}
 	
 	public void registerItemModel(Item itemBlock) {
@@ -71,5 +80,17 @@ public class BlockBasic extends Block {
             }
         }
 	}
-
+	
+	@SideOnly(Side.CLIENT)
+	public void initModel() {
+		StateMapperBase b = new DefaultStateMapper();
+		BlockStateContainer bsc = this.getBlockState();
+		ImmutableList<IBlockState> values = bsc.getValidStates();
+		
+		for(IBlockState state : values) {
+			ModelResourceLocation mrl = new ModelResourceLocation(state.getBlock().getRegistryName(), b.getPropertyString(state.getProperties()));
+			
+			ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(state.getBlock()), this.getMetaFromState(state), mrl);
+		}
+	}
 }

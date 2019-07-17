@@ -18,6 +18,7 @@ import com.silvaniastudios.core.config.RubyConfig;
 import com.silvaniastudios.core.config.SapphireConfig;
 import com.silvaniastudios.core.config.SilvaniteConfig;
 import com.silvaniastudios.core.config.SulfurConfig;
+import com.silvaniastudios.core.config._COreConfig;
 
 import net.minecraft.block.properties.IProperty;
 import net.minecraft.block.properties.PropertyEnum;
@@ -120,24 +121,6 @@ public class BlockOre2 extends BlockCore {
 	
 	@Override
     public boolean canSilkHarvest(World world, BlockPos pos, IBlockState state, EntityPlayer player) {
-        int meta = this.getMetaFromState(state);
-        
-        if (meta == 0) {  return RubyConfig.drops.canSilkTouch; }
-		if (meta == 1) {  return SapphireConfig.drops.canSilkTouch; }
-		if (meta == 2) {  return AmethystConfig.drops.canSilkTouch; }
-		if (meta == 3) {  return CrystalConfig.drops.canSilkTouch; }
-		if (meta == 4) {  return MagnesiumConfig.drops.canSilkTouch; }
-		if (meta == 5) {  return PhosphorusConfig.drops.canSilkTouch; }
-		if (meta == 6) {  return SulfurConfig.drops.canSilkTouch; }
-		if (meta == 7) {  return SilvaniteConfig.drops.canSilkTouch; }
-		if (meta == 8) {  return MerciliteConfig.drops.canSilkTouch; }
-		if (meta == 9) {  return MythianConfig.drops.canSilkTouch; }
-		if (meta == 10) { return DragiteConfig.drops.canSilkTouch; }
-		if (meta == 11) { return FlariteConfig.drops.canSilkTouch; }
-		if (meta == 12) { return FureniumConfig.drops.canSilkTouch; }
-		if (meta == 13) { return BlackstoneConfig.drops.canSilkTouch; }
-		if (meta == 14) { return BluestoneConfig.drops.canSilkTouch; }
-		if (meta == 15) { return PurplestoneConfig.drops.canSilkTouch; }
-		return false;
+		return _COreConfig.general.silkTouchOres;
     }
 }

@@ -27,8 +27,7 @@ public class _ConfigValues {
 	public static final String secondaryDropChance = "The odds that the secondary drop will occur. As a percentage, so 0-100.";
 	public static final String dropPrimaryForFakePlayer = "Whether the primary drop can drop when mined by a fake player (E.G. a quarry)";
 	public static final String dropSecondaryForFakePlayer = "Whether the secondary drop can drop when mined by a fake player";
-	public static final String canSilkTouch = "Whether Silk Touch enchantments works on this block \n(Dropping the block itself, instead of any drops listed above)";
-	public static final String canFortune = "Whether Fortune enchantments work on this block \n(Increasing the total amounts dropped - does not increase drop chance for secondary.)";
+	public static final String canFortune = "Whether Fortune enchantments work on this block \n. If you have any mods which can convert between ore dictionaries, DO NOT ALLOW THIS! \nBoth item and block ores use the same ore dictionary, so that would allow a dupe by mining, converting, and replacing the ore.";
 
 	public static final String ingotOreDict = "The Ore Dictionary name used for ingots (typically ingotOrename)";
 	public static final String oreOreDict = "The Ore Dictionary name used for the in-world ore block (typically oreOrename;. \nLeave blank to disable (in case you want to make block forms useless)";

@@ -1,0 +1,21 @@
+"type": "minecraft:crafting_shaped",
+    "pattern":
+    [
+        "xxx",
+        "xxx",
+        "xxx"
+    ],
+    "key":
+    {
+        "x":
+        {
+            "type": "forge:ore_dict",
+            "ore": "nuggetTitanium"
+        }
+    },
+    "result":
+    {
+        "item": "core:ingot_titanium",
+        "count": 1
+    }
+}

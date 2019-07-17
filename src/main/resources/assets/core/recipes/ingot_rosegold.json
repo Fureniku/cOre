@@ -1,0 +1,21 @@
+"type": "minecraft:crafting_shaped",
+    "pattern":
+    [
+        "xxx",
+        "xxx",
+        "xxx"
+    ],
+    "key":
+    {
+        "x":
+        {
+            "type": "forge:ore_dict",
+            "ore": "nuggetRosegold"
+        }
+    },
+    "result":
+    {
+        "item": "core:ingot_rosegold",
+        "count": 1
+    }
+}

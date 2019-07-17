@@ -10,13 +10,12 @@
         "x":
         {
             "type": "forge:ore_dict",
-            "ore": "nuggetCopper"
+            "ore": "nuggetFenikisite"
         }
     },
     "result":
     {
-        "item": "core:copper_ingot",
-        "count": 9,
-        "data": 2
+        "item": "core:ingot_fenikisite",
+        "count": 1
     }
 }

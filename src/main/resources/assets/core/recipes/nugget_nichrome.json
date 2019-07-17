@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+        "type": "forge:ore_dict",
+        "ore": "ingotNichrome"
+        }
+    ],
+    "result": {
+        "item": "core:nugget_nichrome",
+        "count": 9
+    }
+}

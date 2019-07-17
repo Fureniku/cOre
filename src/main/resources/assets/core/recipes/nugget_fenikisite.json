@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+        "type": "forge:ore_dict",
+        "ore": "ingotFenikisite"
+        }
+    ],
+    "result": {
+        "item": "core:nugget_fenikisite",
+        "count": 9
+    }
+}

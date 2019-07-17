@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+        "type": "forge:ore_dict",
+        "ore": "ingotPlutonium"
+        }
+    ],
+    "result": {
+        "item": "core:nugget_plutonium",
+        "count": 9
+    }
+}
