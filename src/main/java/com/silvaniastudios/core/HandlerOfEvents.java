@@ -36,7 +36,7 @@ public class HandlerOfEvents {
 	public void onOreGeneration(OreGenEvent.GenerateMinable event) {
 		//Disable ores relative to whether cOre will handle their generation.
 		if (event.getType().equals(OreGenEvent.GenerateMinable.EventType.COAL)) { 		if (VanillaCoalConfig.worldgen.worldGenEnabled) { event.setResult(Result.DENY); }}
-		if (event.getType().equals(OreGenEvent.GenerateMinable.EventType.IRON)) { 		if (VanillaIronConfig.worldgen.worldGenEnabled) { event.setResult(Result.DENY); COre.debug("Denying iron spawn"); }}
+		if (event.getType().equals(OreGenEvent.GenerateMinable.EventType.IRON)) { 		if (VanillaIronConfig.worldgen.worldGenEnabled) { event.setResult(Result.DENY); COre.debug(3, "Denying iron spawn"); }}
 		if (event.getType().equals(OreGenEvent.GenerateMinable.EventType.GOLD)) { 		if (VanillaGoldConfig.worldgen.worldGenEnabled) { event.setResult(Result.DENY); }}
 		if (event.getType().equals(OreGenEvent.GenerateMinable.EventType.DIAMOND)) { 	if (VanillaDiamondConfig.worldgen.worldGenEnabled) { event.setResult(Result.DENY); }}
 		if (event.getType().equals(OreGenEvent.GenerateMinable.EventType.LAPIS)) { 		if (VanillaLapisLazuliConfig.worldgen.worldGenEnabled) { event.setResult(Result.DENY); }}
@@ -56,37 +56,37 @@ public class HandlerOfEvents {
 			VanillaCoalConfig.Drops cfg = new VanillaCoalConfig.Drops();
 			bc.processDrops((NonNullList<ItemStack>) event.getDrops(), rand, event.getState(), event.getFortuneLevel(), cfg.canFortune, cfg.primaryDropQtyMax, cfg.primaryDropQtyMin, cfg.secondaryDropQtyMax, cfg.secondaryDropQtyMin, cfg.primaryDroppedItem, cfg.secondaryDroppedItem, cfg.primaryDropChance, cfg.secondaryDropChance);
 		}
-		if (block.getUnlocalizedName().equalsIgnoreCase("tile.oreIron")) {
+		if (block.getUnlocalizedName().equalsIgnoreCase("tile.oreIron") && VanillaIronConfig.drops.overrideVanillaDrop) {
 			event.getDrops().clear();
 			VanillaIronConfig.Drops cfg = new VanillaIronConfig.Drops();
 			bc.processDrops((NonNullList<ItemStack>) event.getDrops(), rand, event.getState(), event.getFortuneLevel(), cfg.canFortune, cfg.primaryDropQtyMax, cfg.primaryDropQtyMin, cfg.secondaryDropQtyMax, cfg.secondaryDropQtyMin, cfg.primaryDroppedItem, cfg.secondaryDroppedItem, cfg.primaryDropChance, cfg.secondaryDropChance);
 		}
-		if (block.getUnlocalizedName().equalsIgnoreCase("tile.oreGold")) {
+		if (block.getUnlocalizedName().equalsIgnoreCase("tile.oreGold") && VanillaGoldConfig.drops.overrideVanillaDrop) {
 			event.getDrops().clear();
 			VanillaGoldConfig.Drops cfg = new VanillaGoldConfig.Drops();
 			bc.processDrops((NonNullList<ItemStack>) event.getDrops(), rand, event.getState(), event.getFortuneLevel(), cfg.canFortune, cfg.primaryDropQtyMax, cfg.primaryDropQtyMin, cfg.secondaryDropQtyMax, cfg.secondaryDropQtyMin, cfg.primaryDroppedItem, cfg.secondaryDroppedItem, cfg.primaryDropChance, cfg.secondaryDropChance);
 		}
-		if (block.getUnlocalizedName().equalsIgnoreCase("tile.oreLapis")) {
+		if (block.getUnlocalizedName().equalsIgnoreCase("tile.oreLapis") && VanillaLapisLazuliConfig.drops.overrideVanillaDrop) {
 			event.getDrops().clear();
 			VanillaLapisLazuliConfig.Drops cfg = new VanillaLapisLazuliConfig.Drops();
 			bc.processDrops((NonNullList<ItemStack>) event.getDrops(), rand, event.getState(), event.getFortuneLevel(), cfg.canFortune, cfg.primaryDropQtyMax, cfg.primaryDropQtyMin, cfg.secondaryDropQtyMax, cfg.secondaryDropQtyMin, cfg.primaryDroppedItem, cfg.secondaryDroppedItem, cfg.primaryDropChance, cfg.secondaryDropChance);
 		}
-		if (block.getUnlocalizedName().equalsIgnoreCase("tile.oreDiamond")) {
+		if (block.getUnlocalizedName().equalsIgnoreCase("tile.oreDiamond") && VanillaDiamondConfig.drops.overrideVanillaDrop) {
 			event.getDrops().clear();
 			VanillaDiamondConfig.Drops cfg = new VanillaDiamondConfig.Drops();
 			bc.processDrops((NonNullList<ItemStack>) event.getDrops(), rand, event.getState(), event.getFortuneLevel(), cfg.canFortune, cfg.primaryDropQtyMax, cfg.primaryDropQtyMin, cfg.secondaryDropQtyMax, cfg.secondaryDropQtyMin, cfg.primaryDroppedItem, cfg.secondaryDroppedItem, cfg.primaryDropChance, cfg.secondaryDropChance);
 		}
-		if (block.getUnlocalizedName().equalsIgnoreCase("tile.oreRedstone")) {
+		if (block.getUnlocalizedName().equalsIgnoreCase("tile.oreRedstone") && VanillaRedstoneConfig.drops.overrideVanillaDrop) {
 			event.getDrops().clear();
 			VanillaRedstoneConfig.Drops cfg = new VanillaRedstoneConfig.Drops();
 			bc.processDrops((NonNullList<ItemStack>) event.getDrops(), rand, event.getState(), event.getFortuneLevel(), cfg.canFortune, cfg.primaryDropQtyMax, cfg.primaryDropQtyMin, cfg.secondaryDropQtyMax, cfg.secondaryDropQtyMin, cfg.primaryDroppedItem, cfg.secondaryDroppedItem, cfg.primaryDropChance, cfg.secondaryDropChance);
 		}
-		if (block.getUnlocalizedName().equalsIgnoreCase("tile.oreEmerald")) {
+		if (block.getUnlocalizedName().equalsIgnoreCase("tile.oreEmerald") && VanillaEmeraldConfig.drops.overrideVanillaDrop) {
 			event.getDrops().clear();
 			VanillaEmeraldConfig.Drops cfg = new VanillaEmeraldConfig.Drops();
 			bc.processDrops((NonNullList<ItemStack>) event.getDrops(), rand, event.getState(), event.getFortuneLevel(), cfg.canFortune, cfg.primaryDropQtyMax, cfg.primaryDropQtyMin, cfg.secondaryDropQtyMax, cfg.secondaryDropQtyMin, cfg.primaryDroppedItem, cfg.secondaryDroppedItem, cfg.primaryDropChance, cfg.secondaryDropChance);
 		}
-		if (block.getUnlocalizedName().equalsIgnoreCase("tile.netherquartz")) {
+		if (block.getUnlocalizedName().equalsIgnoreCase("tile.netherquartz") && VanillaNetherQuartzConfig.drops.overrideVanillaDrop) {
 			event.getDrops().clear();
 			VanillaNetherQuartzConfig.Drops cfg = new VanillaNetherQuartzConfig.Drops();
 			bc.processDrops((NonNullList<ItemStack>) event.getDrops(), rand, event.getState(), event.getFortuneLevel(), cfg.canFortune, cfg.primaryDropQtyMax, cfg.primaryDropQtyMin, cfg.secondaryDropQtyMax, cfg.secondaryDropQtyMin, cfg.primaryDroppedItem, cfg.secondaryDroppedItem, cfg.primaryDropChance, cfg.secondaryDropChance);

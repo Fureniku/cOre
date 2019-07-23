@@ -46,6 +46,7 @@ import com.silvaniastudios.core.config.VanillaLapisLazuliConfig;
 import com.silvaniastudios.core.config.VanillaNetherQuartzConfig;
 import com.silvaniastudios.core.config.VanillaRedstoneConfig;
 import com.silvaniastudios.core.config.ZincConfig;
+import com.silvaniastudios.core.config._COreConfig;
 import com.silvaniastudios.core.enums.EnumMaterialGen;
 
 import net.minecraft.init.Blocks;
@@ -55,6 +56,7 @@ import net.minecraft.world.chunk.IChunkProvider;
 import net.minecraft.world.gen.IChunkGenerator;
 import net.minecraft.world.gen.feature.WorldGenMinable;
 import net.minecraftforge.fml.common.IWorldGenerator;
+import scala.actors.threadpool.Arrays;
 
 public class WorldGen implements IWorldGenerator {
 
@@ -242,20 +244,27 @@ public class WorldGen implements IWorldGenerator {
 		if (!ArrayUtils.contains(VanillaEmeraldConfig.worldgen.blacklistedDimensions, dim) && VanillaEmeraldConfig.worldgen.worldGenEnabled) { addOreSpawn(EnumMaterialGen.emerald, emerald, world, random, chunkX * 16, chunkZ * 16, VanillaEmeraldConfig.worldgen.restrictBiomes, VanillaEmeraldConfig.worldgen.allowedBiomes); }
 		if (!ArrayUtils.contains(VanillaNetherQuartzConfig.worldgen.blacklistedDimensions, dim) && VanillaNetherQuartzConfig.worldgen.worldGenEnabled) { addOreSpawn(EnumMaterialGen.quartz, quartz, world, random, chunkX * 16, chunkZ * 16, VanillaNetherQuartzConfig.worldgen.restrictBiomes, VanillaNetherQuartzConfig.worldgen.allowedBiomes); }
 	}
-	
-	private int orePerChunk(EnumMaterialGen ore) {
-		int avgVein = ore.maxVein() - ore.minVein();
-		double result = ((double)(avgVein * ore.vpc())/100.0) * ore.veinChance();
-		return (int) Math.round(result);
-	}
 		
 	private void addOreSpawn(EnumMaterialGen ore, WorldGenMinable wgm, World world, Random random, int x, int z, boolean biomeRestrict, String[] allowedBiomes) {
+		double modifier = 1.0;
+		int dim = world.provider.getDimension();
+		
 		int vpc = ore.vpc();
 		int minY = ore.minHeight();
 		int maxY = ore.maxHeight();
 		int chance = ore.veinChance();
 		
-		COre.debug("adding Copper spawns.VPC: " + vpc + ", min height: " + minY + ", max height: " + maxY + ", chance: " + chance); 
+		if (Arrays.asList(_COreConfig.genModifiers.dimension_list).contains(dim)) {
+			int index = Arrays.asList(_COreConfig.genModifiers.dimension_list).indexOf(dim);
+			modifier = _COreConfig.genModifiers.dimension_modifier[index];
+			vpc = (int) Math.round(vpc*modifier);
+			if (_COreConfig.genModifiers.dimension_fullheight[index]) {
+				minY = 0;
+				maxY = 255;
+			}
+		}
+		
+		COre.debug(3, "adding " + ore.name() + " spawns. VPC: " + vpc + ", min height: " + minY + ", max height: " + maxY + ", chance: " + chance); 
 		
 		int rangeY = maxY - minY;
 		for (int i = 0; i < vpc; i++) {

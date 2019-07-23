@@ -1,8 +1,5 @@
 package com.silvaniastudios.core;
 
-import java.util.logging.LogManager;
-import java.util.logging.Logger;
-
 import com.silvaniastudios.core.config._COreConfig;
 
 import net.minecraft.block.Block;

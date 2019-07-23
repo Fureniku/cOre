@@ -11,6 +11,9 @@ public class _COreConfig {
 	@Config.Name("General Settings")
 	public static General general = new General();
 	
+	@Config.Name("Generation Modifiers")
+	public static GenModifiers genModifiers = new GenModifiers();
+	
 	@Config.Name("Tinkers Construct")
 	public static TinkersConstruct tcon = new TinkersConstruct();
 	
@@ -19,9 +22,6 @@ public class _COreConfig {
 	
 	@Config.Name("CoFHCore / Thermal Expansion")
 	public static CoFHCore cofh = new CoFHCore();
-	
-	@Config.Name("Developer Things")
-	public static Dev dev = new Dev();
 	
 	public static class General {
 		
@@ -62,26 +62,18 @@ public class _COreConfig {
 		@Config.Comment("This section allows you to set a modifier for the spawnrates in other dimensions. \n"
 				+ "I thought about having actual config files for all dimensions but that'd get way too complicated! \n"
 				+ "The number is a percentage of the overworlds number of veins to spawn per chunk. If you want a world to have twice as many veins, use 2. \n"
-				+ "For numbers below one, it switches to altering the percentage instead. So if you have an 80% chance for a vein to spawn by default, and \n"
-				+ "you set 0.1 here for another dimension, then that vein has 8% chance to spawn in that dimension. \n"
+				+ "Numbers below 1, or rare ores with low vein rates will work a bit odd. 0 will disable ores entirely, 0.1 will keep at least one vein (ignoring chance). \n"
 				+ "Remember, this is applied GLOBALLY. By default, nether quartz ores are set 10x what they should be because of this. \n"
 				+ "Next, the full-height option. If true, the height values are ignored for this dimension, and if false, they are used as normal. \n"
 				+ "Note that the Nether is only 128 high, so any ores that uniquely spawn above that would not spawn if this is false. \n\n"
 				+ "For mod-added dimensions, add them to the dimension list, making sure that the modifier and full-height are on matching points of the list. \n"
-				+ "Extra Utilities' Deep Dark (default ID) is included as an example, spawning double ores anywhere.")
+				+ "Extra Utilities' Deep Dark and Quarry dimensions (default IDs) is included as an example, spawning double ores anywhere. \n"
+				+ "Any dimensions not listed will generate at scale of 1, unless disabled in a mods unique config.")
 		public boolean aaaexplination = true;
-		@Config.Comment("Modifier for spawning nether ores. Defaults to 10% of overworld.")
-		public double aaz_nether_multiplier = 0.1;
-		@Config.Comment("Should ores spawn anywhere, or at config values? defaults to can spawn anywhere.")
-		public boolean aaz_nether_full_height = true;
-		@Config.Comment("Modifier for spawning nether ores. Defaults to 10% of overworld.")
-		public double aaz_end_multiplier = 1;
-		@Config.Comment("Should ores spawn anywhere, or at config values? defaults to can spawn anywhere.")
-		public boolean aaz_end_full_height = true;
 		
-		public int[] dimension_list = new int[] {};
-		public double[] dimension_modifier = new double[] {};
-		public boolean[] dimension_fullheight = new boolean[] {};
+		public Integer[] dimension_list = new Integer[] {-1, 0, 1, -11325, -9999};
+		public double[] dimension_modifier = new double[] {0.1, 1, 1, 2, 1};
+		public boolean[] dimension_fullheight = new boolean[] {true, false, true, true, false};
 	}
 	
 	public static class TinkersConstruct {
