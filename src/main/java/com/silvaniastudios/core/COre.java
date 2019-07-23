@@ -1,5 +1,8 @@
 package com.silvaniastudios.core;
 
+import java.util.logging.LogManager;
+import java.util.logging.Logger;
+
 import com.silvaniastudios.core.config._COreConfig;
 
 import net.minecraft.block.Block;
@@ -78,9 +81,9 @@ public class COre {
 		}
 	}
 	
-	public static void debug(String str) {
-		if (_COreConfig.dev.debug) {
-			System.out.println(str);
+	public static void debug(int level, String str) {
+		if (_COreConfig.general.debugLevel >= level) {
+			System.out.println("[cOre]" + str);
 		}
 	}
 

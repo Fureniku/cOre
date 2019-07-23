@@ -42,12 +42,12 @@ public class VanillaGoldConfig {
 		public int veinsPerChunk = 2;
 		@Config.Comment(_ConfigValues.veinSpawnChance)
 		public int veinSpawnChance = 68;
-		@Config.Comment(_ConfigValues.allowedDimensions)
-		public int[] allowedDimensions = new int[]{0};
+		@Config.Comment(_ConfigValues.blacklistedDimensions)
+		public int[] blacklistedDimensions = new int[]{1, -1};
 		@Config.Comment(_ConfigValues.restrictBiomes)
 		public boolean restrictBiomes = false;
 		@Config.Comment(_ConfigValues.allowedBiomes)
-		public String[] allowedBiomes = new String[]{"ocean","desert","forest"};
+		public String[] allowedBiomes = new String[]{};
 	}
 
 	public static class Drops {

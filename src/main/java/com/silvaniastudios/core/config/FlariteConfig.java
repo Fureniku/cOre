@@ -42,8 +42,8 @@ public class FlariteConfig {
 		public int veinsPerChunk = 8;
 		@Config.Comment(_ConfigValues.veinSpawnChance)
 		public int veinSpawnChance = 90;
-		@Config.Comment(_ConfigValues.allowedDimensions)
-		public int[] allowedDimensions = new int[]{0};
+		@Config.Comment(_ConfigValues.blacklistedDimensions)
+		public int[] blacklistedDimensions = new int[]{};
 		@Config.Comment(_ConfigValues.restrictBiomes)
 		public boolean restrictBiomes = true;
 		@Config.Comment(_ConfigValues.allowedBiomes)

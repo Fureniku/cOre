@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+        "type": "forge:ore_dict",
+        "ore": "dustPlutonium"
+        }
+    ],
+    "result": {
+        "item": "core:dust_tiny_plutonium",
+        "count": 9
+    }
+}

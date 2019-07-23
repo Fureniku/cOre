@@ -28,7 +28,8 @@ public class _COreConfig {
 		@Config.Comment("What level of console output should you get from the mod. \n"
 				+ "0: Nothing except absolute major errors. \n"
 				+ "1: Config errors etc (for example, when an ore drop fails)\n"
-				+ "2: Full logging. Logs every ore mined, who mined it, what it dropped. Very spammy and probably never needed for users.")
+				+ "2: Full mining logging. Logs every ore mined, who mined it, what it dropped. Very spammy and probably never needed for users."
+				+ "3: True full logging. Logs all of the above, plus any ore that is attempting to generate in the world.")
 		public int debugLevel = 0;
 		
 		@Config.Comment("Whether the vanilla-style tools (pickaxe, shovel, axe and hoe) are enabled. \n"
@@ -55,6 +56,32 @@ public class _COreConfig {
 		
 		@Config.Comment("Should Silk Touch work? Enabled: all cOre ores can be silk touched, disabled: no cOre ores can be silk touched.")
 		public boolean silkTouchOres = true;
+	}
+	
+	public static class GenModifiers {
+		@Config.Comment("This section allows you to set a modifier for the spawnrates in other dimensions. \n"
+				+ "I thought about having actual config files for all dimensions but that'd get way too complicated! \n"
+				+ "The number is a percentage of the overworlds number of veins to spawn per chunk. If you want a world to have twice as many veins, use 2. \n"
+				+ "For numbers below one, it switches to altering the percentage instead. So if you have an 80% chance for a vein to spawn by default, and \n"
+				+ "you set 0.1 here for another dimension, then that vein has 8% chance to spawn in that dimension. \n"
+				+ "Remember, this is applied GLOBALLY. By default, nether quartz ores are set 10x what they should be because of this. \n"
+				+ "Next, the full-height option. If true, the height values are ignored for this dimension, and if false, they are used as normal. \n"
+				+ "Note that the Nether is only 128 high, so any ores that uniquely spawn above that would not spawn if this is false. \n\n"
+				+ "For mod-added dimensions, add them to the dimension list, making sure that the modifier and full-height are on matching points of the list. \n"
+				+ "Extra Utilities' Deep Dark (default ID) is included as an example, spawning double ores anywhere.")
+		public boolean aaaexplination = true;
+		@Config.Comment("Modifier for spawning nether ores. Defaults to 10% of overworld.")
+		public double aaz_nether_multiplier = 0.1;
+		@Config.Comment("Should ores spawn anywhere, or at config values? defaults to can spawn anywhere.")
+		public boolean aaz_nether_full_height = true;
+		@Config.Comment("Modifier for spawning nether ores. Defaults to 10% of overworld.")
+		public double aaz_end_multiplier = 1;
+		@Config.Comment("Should ores spawn anywhere, or at config values? defaults to can spawn anywhere.")
+		public boolean aaz_end_full_height = true;
+		
+		public int[] dimension_list = new int[] {};
+		public double[] dimension_modifier = new double[] {};
+		public boolean[] dimension_fullheight = new boolean[] {};
 	}
 	
 	public static class TinkersConstruct {
@@ -115,10 +142,5 @@ public class _COreConfig {
 		public int oreCrusherEnergyUsageModifier = 16;
 		public int ingotCrusherEnergyUsageModifier = 8;
 		public int nuggetCrusherEnergyUsageModifier = 1;
-	}
-	
-	public static class Dev {
-		@Config.Comment("Spits loads of debug info onto the console. For ores, this will only use COPPER, so use copper for testing.")
-		public boolean debug = false;
 	}
 }

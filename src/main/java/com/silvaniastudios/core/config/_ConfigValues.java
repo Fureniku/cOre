@@ -12,7 +12,7 @@ public class _ConfigValues {
 	public static final String maxWorldHeight = "The highest point of the world an ore can spawn at. Must be below 255.";
 	public static final String veinsPerChunk = "How many veins of ore will spawn within a 16x16 area.";
 	public static final String veinSpawnChance = "The chance each vein has to actually be generated. As a percentage, so 0-100. \nUsed for rare ores that should be less than one per chunk.";
-	public static final String allowedDimensions = "A list of dimension IDs which this ore can spawn in. 0 is overworld, -1 is Nether and 1 is The End. \nCheck relevant mod configs for any other IDs.";
+	public static final String blacklistedDimensions = "A list of dimension IDs which this ore CANNOT spawn in. 0 is overworld, -1 is Nether and 1 is The End. \nCheck relevant mod configs for any other IDs. See overview config for modifiers per dimension.";
 	public static final String restrictBiomes = "Whether to use the allowed biomes whitelist or just generate in all biomes.";
 	public static final String allowedBiomes = "if restrictBiomes is true, the ore will only spawn in biomes listed here. A list can be found in the /assets/core/ folder of this mod. \nCurrent setting is just an example as restrictBiomes is off by default. \nYou can also use numerical biome IDs (which may be more reliable for mods!) \nNOTE! Biomes o' Plenty biomes are included but only work with the DEFAULT CONFIG. If you changed their config, use the ID numbers.";
 

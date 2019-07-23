@@ -10,12 +10,12 @@
         "x":
         {
             "type": "forge:ore_dict",
-            "ore": "dust"
+            "ore": "dustUnium"
         }
     },
     "result":
     {
-        "item": "core:dust_tiny_",
+        "item": "core:dust_tiny_unium",
         "count": 9
     }
 }

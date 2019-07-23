@@ -42,12 +42,12 @@ public class PurplestoneConfig {
 		public int veinsPerChunk = 6;
 		@Config.Comment(_ConfigValues.veinSpawnChance)
 		public int veinSpawnChance = 100;
-		@Config.Comment(_ConfigValues.allowedDimensions)
-		public int[] allowedDimensions = new int[]{-1};
+		@Config.Comment(_ConfigValues.blacklistedDimensions)
+		public int[] blacklistedDimensions = new int[]{};
 		@Config.Comment(_ConfigValues.restrictBiomes)
 		public boolean restrictBiomes = false;
 		@Config.Comment(_ConfigValues.allowedBiomes)
-		public String[] allowedBiomes = new String[]{"ocean","desert","forest"};
+		public String[] allowedBiomes = new String[]{};
 	}
 	
 	public static class Drops {

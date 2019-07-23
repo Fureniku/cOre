@@ -679,7 +679,7 @@ public class RecipeRegistry {
 		
 		//AlloyCupronickel
 		//AlloyRoseGold
-		//(AlloyStainlessSteel
+		//AlloyStainlessSteel
 		//AlloyNichrome
 		//AlloyStellite
 		//AlloySilvamer
