@@ -13,6 +13,7 @@ import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.client.renderer.block.statemap.DefaultStateMapper;
 import net.minecraft.client.renderer.block.statemap.StateMapperBase;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemBlock;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.NonNullList;
 import net.minecraft.util.math.BlockPos;
@@ -40,6 +41,8 @@ public class BlockBasic extends Block {
 		super(Material.ROCK);
 		this.setCreativeTab(COre.tabCOre);
 		this.setHarvestLevel("pickaxe", 0);
+		setUnlocalizedName(COre.MODID + "." + name);
+		setRegistryName(name);
 		this.primaryDrop = pDrop;
 		this.secondaryDrop = sDrop;
 		this.priMin = pMin;
@@ -54,6 +57,23 @@ public class BlockBasic extends Block {
 	
 	public void registerItemModel(Item itemBlock) {
 		COre.proxy.registerItemRenderer(itemBlock, 0, name);
+	}
+	
+	public Item createItemBlock() {
+		return new ItemBlock(this).setRegistryName(getRegistryName());
+	}
+	
+	@SideOnly(Side.CLIENT)
+	public void initModel() {
+		StateMapperBase b = new DefaultStateMapper();
+		BlockStateContainer bsc = this.getBlockState();
+		ImmutableList<IBlockState> values = bsc.getValidStates();
+		
+		for(IBlockState state : values) {
+			ModelResourceLocation mrl = new ModelResourceLocation(state.getBlock().getRegistryName(), b.getPropertyString(state.getProperties()));
+			
+			ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(state.getBlock()), this.getMetaFromState(state), mrl);
+		}
 	}
 	
 	@Override
@@ -79,18 +99,5 @@ public class BlockBasic extends Block {
             	if (secondaryItem != null) { drops.add(new ItemStack(secondaryItem, amt)); System.out.println("Dropping " + secondaryItem); } else { System.out.println("secondaryItem for " + state.toString() + " (" + secondaryDrop + ") is NULL! Please check your configs and make sure this item really exists."); }
             }
         }
-	}
-	
-	@SideOnly(Side.CLIENT)
-	public void initModel() {
-		StateMapperBase b = new DefaultStateMapper();
-		BlockStateContainer bsc = this.getBlockState();
-		ImmutableList<IBlockState> values = bsc.getValidStates();
-		
-		for(IBlockState state : values) {
-			ModelResourceLocation mrl = new ModelResourceLocation(state.getBlock().getRegistryName(), b.getPropertyString(state.getProperties()));
-			
-			ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(state.getBlock()), this.getMetaFromState(state), mrl);
-		}
 	}
 }

@@ -31,9 +31,9 @@ public class VanillaDiamondConfig {
 		@Config.Comment(_ConfigValues.worldGenEnabledVanilla)
 		public boolean worldGenEnabled = true;
 		@Config.Comment(_ConfigValues.minVeinSize)
-		public int minVeinSize = 2;
+		public int minVeinSize = 4;
 		@Config.Comment(_ConfigValues.maxVeinSize)
-		public int maxVeinSize = 5;
+		public int maxVeinSize = 8;
 		@Config.Comment(_ConfigValues.minWorldHeight)
 		public int minWorldHeight = 1;
 		@Config.Comment(_ConfigValues.maxWorldHeight)
@@ -74,7 +74,7 @@ public class VanillaDiamondConfig {
 		@Config.Comment(_ConfigValues.dropSecondaryForFakePlayer)
 		public boolean dropSecondaryForFakePlayer = false;
 		@Config.Comment(_ConfigValues.canFortune)
-		public boolean canFortune = false;
+		public boolean canFortune = true;
 	}
 	
 	public static class OreDictionary {

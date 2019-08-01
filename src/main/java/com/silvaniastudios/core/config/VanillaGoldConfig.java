@@ -33,7 +33,7 @@ public class VanillaGoldConfig {
 		@Config.Comment(_ConfigValues.minVeinSize)
 		public int minVeinSize = 4;
 		@Config.Comment(_ConfigValues.maxVeinSize)
-		public int maxVeinSize = 8;
+		public int maxVeinSize = 9;
 		@Config.Comment(_ConfigValues.minWorldHeight)
 		public int minWorldHeight = 1;
 		@Config.Comment(_ConfigValues.maxWorldHeight)

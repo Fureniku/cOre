@@ -28,7 +28,7 @@ public class _COreConfig {
 		@Config.Comment("What level of console output should you get from the mod. \n"
 				+ "0: Nothing except absolute major errors. \n"
 				+ "1: Config errors etc (for example, when an ore drop fails)\n"
-				+ "2: Full mining logging. Logs every ore mined, who mined it, what it dropped. Very spammy and probably never needed for users."
+				+ "2: Full mining logging. Logs every ore mined, who mined it, what it dropped. Very spammy and probably never needed for users.\n"
 				+ "3: True full logging. Logs all of the above, plus any ore that is attempting to generate in the world.")
 		public int debugLevel = 0;
 		

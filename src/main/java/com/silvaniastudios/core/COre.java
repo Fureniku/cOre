@@ -18,12 +18,13 @@ import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.common.registry.GameRegistry;
+import net.minecraftforge.fml.relauncher.Side;
 
 @Mod(modid = COre.MODID, version = COre.VERSION, updateJSON = "http://www.silvaniastudios.com/mods/update/cOre.json", dependencies = "after:cofhcore;after:cofhworld;after:tconstruct")
 public class COre {
 	
 	public static final String MODID = "core";
-	public static final String VERSION = "1.0.8";
+	public static final String VERSION = "1.0.10";
 	
 	@SidedProxy(clientSide = "com.silvaniastudios.core.client.ClientProxy", serverSide = "com.silvaniastudios.core.CommonProxy")
 	public static CommonProxy proxy;
@@ -41,7 +42,7 @@ public class COre {
 	
 	@EventHandler
 	public void preInit(FMLPreInitializationEvent event) {
-		GameRegistry.registerWorldGenerator(new WorldGen(), 3);
+		GameRegistry.registerWorldGenerator(new WorldGen(), 500);
 		ModFluids.registerFluids();
 	}
 	    
@@ -50,6 +51,10 @@ public class COre {
 		proxy.init(event);
 		MinecraftForge.ORE_GEN_BUS.register(new HandlerOfEvents());
 		MinecraftForge.EVENT_BUS.register(new HandlerOfEvents());
+		
+		if (event.getSide() == Side.CLIENT) {
+			MinecraftForge.EVENT_BUS.register(new ClientEvents());
+		}
 	}
 	
 	@EventHandler

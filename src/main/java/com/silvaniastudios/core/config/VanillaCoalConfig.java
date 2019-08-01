@@ -33,13 +33,13 @@ public class VanillaCoalConfig {
 		@Config.Comment(_ConfigValues.minVeinSize)
 		public int minVeinSize = 10;
 		@Config.Comment(_ConfigValues.maxVeinSize)
-		public int maxVeinSize = 61;
+		public int maxVeinSize = 17;
 		@Config.Comment(_ConfigValues.minWorldHeight)
 		public int minWorldHeight = 1;
 		@Config.Comment(_ConfigValues.maxWorldHeight)
 		public int maxWorldHeight = 256;
 		@Config.Comment(_ConfigValues.veinsPerChunk)
-		public int veinsPerChunk = 4;
+		public int veinsPerChunk = 20;
 		@Config.Comment(_ConfigValues.veinSpawnChance)
 		public int veinSpawnChance = 100;
 		@Config.Comment(_ConfigValues.blacklistedDimensions)

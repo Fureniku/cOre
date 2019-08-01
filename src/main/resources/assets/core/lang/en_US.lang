@@ -62,9 +62,9 @@ tile.core.refined_block_2.mythian_block.name=Block of Mythian
 tile.core.refined_block_2.dragite_block.name=Block of Dragite
 tile.core.refined_block_2.flarite_block.name=Block of Flarite
 tile.core.refined_block_2.furenium_block.name=Block of Furenium
-tile.core.refined_block_2.calcite_block.name=Block of Blackstone
-tile.core.refined_block_2.graphite_block.name=Block of Bluestone
-tile.core.refined_block_2.limestone_block.name=Block of Purplestone
+tile.core.refined_block_2.blackstone_block.name=Block of Blackstone
+tile.core.refined_block_2.bluestone_block.name=Block of Bluestone
+tile.core.refined_block_2.purplestone_block.name=Block of Purplestone
 
 tile.core.refined_block_3.bronze_block.name=Block of Bronze
 tile.core.refined_block_3.cupronickel_block.name=Block of Cupronickel
@@ -79,9 +79,13 @@ tile.core.refined_block_3.silvamer_block.name=Block of Silvamer
 tile.core.refined_block_3.unium_block.name=Block of Unium
 tile.core.refined_block_3.fenikisite_block.name=Block of Fenikisite
 tile.core.refined_block_3.ultimite_block.name=Block of Ultimite
-tile.core.refined_block_3.Adamantite_block.name=Block of Adamantite
-tile.core.refined_block_3.Speedoi_block.name=Block of Speedoi
+tile.core.refined_block_3.strootite_block.name=Block of Strootite
+tile.core.refined_block_3.speedoi_block.name=Block of Speedoi
 tile.core.refined_block_3.legenite_block.name=Block of Legenite
+
+tile.core.block_graphite.name=Graphite
+tile.core.block_calcite.name=Calcite
+tile.core.block_limestone.name=Limestone
 
 item.dust_copper.name=Copper Dust
 item.dust_tin.name=Tin Dust
@@ -192,6 +196,12 @@ item.dust_impure_speedoi.name=Impure Speedoi Dust
 item.dust_impure_legenite.name=Impure Legenite Dust
 item.dust_impure_iron.name=Impure Iron Dust
 item.dust_impure_gold.name=Impure Gold Dust
+item.dust_impure_coal.name=Impure Coal Dust
+item.dust_impure_diamond.name=Impure Diamond Dust
+item.dust_impure_lapislazuli.name=Impure Lapis Lazuli Dust
+item.dust_impure_redstone.name=Impure Redstone Dust
+item.dust_impure_emerald.name=Impure Emerald Dust
+item.dust_impure_netherquartz.name=Impure Nether Quartz Dust
 
 item.dust_tiny_copper.name=Tiny Copper Dust
 item.dust_tiny_tin.name=Tiny Tin Dust
@@ -304,6 +314,7 @@ item.nugget_legenite.name=Legenite Nugget
 item.nugget_iron.name=Iron Nugget
 item.nugget_diamond.name=Diamond Shard
 item.nugget_emerald.name=Emerald Shard
+item.nugget_netherquartz.name=Nether Quartz Fragment
 
 item.ore_copper.name=Copper Ore
 item.ore_tin.name=Tin Ore

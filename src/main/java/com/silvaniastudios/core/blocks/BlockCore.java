@@ -92,46 +92,65 @@ public class BlockCore extends Block implements IMetaBlockName {
 	}
 		
 	public void processDrops(NonNullList<ItemStack> drops, Random rand, IBlockState state, int fortune, boolean canFortune, int priMax, int priMin, int secMax, int secMin, String priItem, String secItem, int priChance, int secChance) {
-		if (!canFortune) { fortune = 0; }
+		int fortuneBonus = getFortuneBonus(canFortune, fortune, rand);
 		
-        for (int i = 0; i < quantityDropped(state, fortune, rand); i++) {
-        	int priMeta = 0;
-        	String primaryName = priItem;
-        	if (priItem.matches("^.*\\d$")) {
-        		priMeta = Integer.parseInt(priItem.substring(priItem.lastIndexOf(":") + 1));
-	        	primaryName = priItem.substring(0, priItem.lastIndexOf(":"));
+    	int priMeta = 0;
+    	String primaryName = priItem;
+    	if (priItem.matches("^.*\\d$")) {
+    		priMeta = Integer.parseInt(priItem.substring(priItem.lastIndexOf(":") + 1));
+        	primaryName = priItem.substring(0, priItem.lastIndexOf(":"));
+    	}
+    	
+    	int secMeta = 0;
+    	String secondaryName = secItem;
+    	if (secItem.matches("^.*\\d$")) {
+    		secMeta = Integer.parseInt(secItem.substring(secItem.lastIndexOf(":") + 1));
+        	secondaryName = secItem.substring(0, secItem.lastIndexOf(":"));
+    	}
+    	
+        Item primaryItem = Item.getByNameOrId(primaryName);
+        Item secondaryItem = Item.getByNameOrId(secondaryName);
+        
+        COre.debug(2, "Starting drops for " + priItem + " (with chance of " + secItem + "). Primary chance: " + priChance + ", secondary chance: " + secChance);
+        
+        int priRng = rand.nextInt(100);
+        if (priRng < priChance) {
+        	int amt = rand.nextInt(priMax + 1);
+        	if (amt < priMin) { amt = priMin; }
+        	if (amt > priMax) { amt = priMax; }
+        	if (primaryItem != null) {
+        		drops.add(new ItemStack(primaryItem, amt+fortuneBonus, priMeta));
+        	} else {
+        		System.out.println("primaryItem for " + state.toString() + " (" + priItem + ") is NULL! Please check your configs and make sure this item really exists.");
         	}
-        	
-        	int secMeta = 0;
-        	String secondaryName = priItem;
-        	if (secItem.matches("^.*\\d$")) {
-        		secMeta = Integer.parseInt(secItem.substring(secItem.lastIndexOf(":") + 1));
-	        	secondaryName = priItem.substring(0, secItem.lastIndexOf(":"));
-        	}
-        	
-            Item primaryItem = Item.getByNameOrId(primaryName);
-            Item secondaryItem = Item.getByNameOrId(secondaryName);
-            if (rand.nextInt(100) < priChance) {
-            	int amt = rand.nextInt(priMax + 1);
-            	if (amt < priMin) { amt = priMin; }
-            	if (amt > priMax) { amt = priMax; }
-            	if (primaryItem != null) {
-            		drops.add(new ItemStack(primaryItem, amt, priMeta));
-            	} else {
-            		System.out.println("primaryItem for " + state.toString() + " (" + priItem + ") is NULL! Please check your configs and make sure this item really exists.");
-            	}
-            }
-            int rng = rand.nextInt(100);
-            if (rng < secChance) {
-            	int amt = rand.nextInt(secMax + 1);
-            	if (amt < secMin) { amt = secMin; }
-            	if (amt > secMax) { amt = secMax; }
-            	if (secondaryItem != null) {
-            		drops.add(new ItemStack(secondaryItem, amt, secMeta));
-            	} else {
-            		System.out.println("secondaryItem for " + state.toString() + " (" + secItem + ") is NULL! Please check your configs and make sure this item really exists.");
-            	}
-            }
+        	COre.debug(2, "Primary drop: " + primaryItem.getItemStackDisplayName(new ItemStack(primaryItem)) + " x " + (amt+fortuneBonus));
+        } else {
+        	COre.debug(2, "Primary drop chance not reached (" + priRng + " is greater than " + priChance + ")");
         }
+        int secRng = rand.nextInt(100);
+        if (secRng < secChance) {
+        	int amt = rand.nextInt(secMax + 1);
+        	if (amt < secMin) { amt = secMin; }
+        	if (amt > secMax) { amt = secMax; }
+        	if (secondaryItem != null) {
+        		drops.add(new ItemStack(secondaryItem, amt+fortuneBonus, secMeta));
+        	} else {
+        		System.out.println("secondaryItem for " + state.toString() + " (" + secItem + ") is NULL! Please check your configs and make sure this item really exists.");
+        	}
+        	COre.debug(2, "Secondary drop: " + secondaryItem.getItemStackDisplayName(new ItemStack(secondaryItem)) + " x " + (amt+fortuneBonus));
+        } else {
+        	COre.debug(2, "Secondary drop chance not reached (" + secRng + " is greater than " + secChance + ")");
+        }
+	}
+	
+	public int getFortuneBonus(boolean canFortune, int fortuneLevel, Random rand) {
+		if (!canFortune || fortuneLevel <= 0) {
+			return 0;
+		}
+		int bonus = rand.nextInt(fortuneLevel + 2) - 1;
+		if (bonus <= 0) {
+			return 1;
+		}
+		return bonus;
 	}
 }

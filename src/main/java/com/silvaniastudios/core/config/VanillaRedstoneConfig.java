@@ -39,7 +39,7 @@ public class VanillaRedstoneConfig {
 		@Config.Comment(_ConfigValues.maxWorldHeight)
 		public int maxWorldHeight = 16;
 		@Config.Comment(_ConfigValues.veinsPerChunk)
-		public int veinsPerChunk = 5;
+		public int veinsPerChunk = 8;
 		@Config.Comment(_ConfigValues.veinSpawnChance)
 		public int veinSpawnChance = 83;
 		@Config.Comment(_ConfigValues.blacklistedDimensions)
@@ -74,7 +74,7 @@ public class VanillaRedstoneConfig {
 		@Config.Comment(_ConfigValues.dropSecondaryForFakePlayer)
 		public boolean dropSecondaryForFakePlayer = false;
 		@Config.Comment(_ConfigValues.canFortune)
-		public boolean canFortune = false;
+		public boolean canFortune = true;
 	}
 	
 	public static class OreDictionary {

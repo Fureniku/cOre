@@ -33,7 +33,7 @@ public class VanillaLapisLazuliConfig {
 		@Config.Comment(_ConfigValues.minVeinSize)
 		public int minVeinSize = 3;
 		@Config.Comment(_ConfigValues.maxVeinSize)
-		public int maxVeinSize = 4;
+		public int maxVeinSize = 7;
 		@Config.Comment(_ConfigValues.minWorldHeight)
 		public int minWorldHeight = 1;
 		@Config.Comment(_ConfigValues.maxWorldHeight)
@@ -58,7 +58,7 @@ public class VanillaLapisLazuliConfig {
 		@Config.Comment(_ConfigValues.secondaryDroppedItem)
 		public String secondaryDroppedItem = "core:dust_tiny_lapislazuli";
 		@Config.Comment(_ConfigValues.primaryDropQtyMin)
-		public int primaryDropQtyMin = 4;
+		public int primaryDropQtyMin = 6;
 		@Config.Comment(_ConfigValues.primaryDropQtyMax)
 		public int primaryDropQtyMax = 8;
 		@Config.Comment(_ConfigValues.secondaryDropQtyMin)
@@ -74,7 +74,7 @@ public class VanillaLapisLazuliConfig {
 		@Config.Comment(_ConfigValues.dropSecondaryForFakePlayer)
 		public boolean dropSecondaryForFakePlayer = false;
 		@Config.Comment(_ConfigValues.canFortune)
-		public boolean canFortune = false;
+		public boolean canFortune = true;
 	}
 	
 	public static class OreDictionary {

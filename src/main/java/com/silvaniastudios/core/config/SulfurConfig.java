@@ -89,7 +89,7 @@ public class SulfurConfig {
 		@Config.Comment(_ConfigValues.dropSecondaryForFakePlayer)
 		public boolean dropSecondaryForFakePlayer = false;
 		@Config.Comment(_ConfigValues.canFortune)
-		public boolean canFortune = false;
+		public boolean canFortune = true;
 	}
 	
 	public static class OreDictionary {
