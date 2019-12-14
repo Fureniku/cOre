@@ -1,0 +1,21 @@
+{
+"type": "minecraft:crafting_shaped",
+    "pattern":
+    [
+        "xxx",
+        "xxx",
+        "xxx"
+    ],
+    "key":
+    {
+        "x":
+        {
+            "item": "core:nugget_sapphire"
+        }
+    },
+    "result":
+    {
+        "item": "core:gem_sapphire",
+        "count": 1
+    }
+}

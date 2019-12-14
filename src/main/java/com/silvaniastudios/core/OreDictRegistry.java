@@ -47,6 +47,7 @@ import com.silvaniastudios.core.config.TinConfig;
 import com.silvaniastudios.core.config.TitaniumConfig;
 import com.silvaniastudios.core.config.TungstenConfig;
 import com.silvaniastudios.core.config.UraniumConfig;
+import com.silvaniastudios.core.config.VanillaRedstoneConfig;
 import com.silvaniastudios.core.config.ZincConfig;
 
 import net.minecraft.item.ItemStack;
@@ -99,6 +100,7 @@ public class OreDictRegistry {
 		OreDictionary.registerOre("dustIron", ModItems.dustIron);
 		OreDictionary.registerOre("dustGold", ModItems.dustGold);
 		OreDictionary.registerOre("nuggetIron", ModItems.nuggetIron);
+		OreDictionary.registerOre("nuggetDiamond", ModItems.nuggetDiamond);
 		
 		OreDictionary.registerOre(CopperConfig.oredict.oreOreDict, ModItems.oreCopper);
 		OreDictionary.registerOre(TinConfig.oredict.oreOreDict, ModItems.oreTin);
@@ -150,6 +152,10 @@ public class OreDictRegistry {
 		OreDictionary.registerOre(LithiumConfig.oredict.ingotOreDict, ModItems.ingotLithium);
 		OreDictionary.registerOre(UraniumConfig.oredict.ingotOreDict, ModItems.ingotUranium);
 		OreDictionary.registerOre(PlutoniumConfig.oredict.ingotOreDict, ModItems.ingotPlutonium);
+		OreDictionary.registerOre(RubyConfig.oredict.gemOreDict, ModItems.gemRuby);
+		OreDictionary.registerOre(SapphireConfig.oredict.gemOreDict, ModItems.gemSapphire);
+		OreDictionary.registerOre(AmethystConfig.oredict.gemOreDict, ModItems.gemAmethyst);
+		OreDictionary.registerOre(CrystalConfig.oredict.gemOreDict, ModItems.gemCrystal);
 		OreDictionary.registerOre(MagnesiumConfig.oredict.ingotOreDict, ModItems.ingotMagnesium);
 		OreDictionary.registerOre(SulfurConfig.oredict.ingotOreDict, ModItems.ingotSulfur);
 		OreDictionary.registerOre(SilvaniteConfig.oredict.ingotOreDict, ModItems.ingotSilvanite);
@@ -177,6 +183,7 @@ public class OreDictRegistry {
 		OreDictionary.registerOre(AlloyStrootiteConfig.oredict.ingotOreDict, ModItems.ingotStrootite);
 		OreDictionary.registerOre(AlloySpeedoiConfig.oredict.ingotOreDict, ModItems.ingotSpeedoi);
 		OreDictionary.registerOre(AlloyLegeniteConfig.oredict.ingotOreDict, ModItems.ingotLegenite);
+		OreDictionary.registerOre(VanillaRedstoneConfig.oredict.ingotOreDict, ModItems.ingotRedstone);
 		
 		//Dusts
 		OreDictionary.registerOre(CopperConfig.oredict.dustOreDict, ModItems.dustCopper);

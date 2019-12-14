@@ -50,6 +50,9 @@ import com.silvaniastudios.core.config.TinConfig;
 import com.silvaniastudios.core.config.TitaniumConfig;
 import com.silvaniastudios.core.config.TungstenConfig;
 import com.silvaniastudios.core.config.UraniumConfig;
+import com.silvaniastudios.core.config.VanillaDiamondConfig;
+import com.silvaniastudios.core.config.VanillaEmeraldConfig;
+import com.silvaniastudios.core.config.VanillaRedstoneConfig;
 import com.silvaniastudios.core.config.ZincConfig;
 import com.silvaniastudios.core.config._COreConfig;
 import com.silvaniastudios.core.config._ConfigValues;
@@ -62,6 +65,7 @@ import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.util.NonNullList;
 import net.minecraftforge.fluids.Fluid;
 import net.minecraftforge.fluids.FluidStack;
+import net.minecraftforge.fml.common.Loader;
 import net.minecraftforge.fml.common.event.FMLInterModComms;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 import net.minecraftforge.oredict.OreDictionary;
@@ -151,6 +155,31 @@ public class RecipeRegistry {
 		GameRegistry.addSmelting(ModItems.oreFlarite, new ItemStack(ModItems.ingotFlarite, 1), 1f);
 		GameRegistry.addSmelting(ModItems.oreFurenium, new ItemStack(ModItems.ingotFurenium, 1), 1f);
 		
+		GameRegistry.addSmelting(new ItemStack(ModBlocks.blockOre1, 1, 0), new ItemStack(ModItems.ingotCopper, 1), 1f);
+		GameRegistry.addSmelting(new ItemStack(ModBlocks.blockOre1, 1, 1), new ItemStack(ModItems.ingotTin, 1), 1f);
+		GameRegistry.addSmelting(new ItemStack(ModBlocks.blockOre1, 1, 2), new ItemStack(ModItems.ingotZinc, 1), 1f);
+		GameRegistry.addSmelting(new ItemStack(ModBlocks.blockOre1, 1, 3), new ItemStack(ModItems.ingotNickel, 1), 1f);
+		GameRegistry.addSmelting(new ItemStack(ModBlocks.blockOre1, 1, 4), new ItemStack(ModItems.ingotSilver, 1), 1f);
+		GameRegistry.addSmelting(new ItemStack(ModBlocks.blockOre1, 1, 5), new ItemStack(ModItems.ingotAluminium, 1), 1f);
+		GameRegistry.addSmelting(new ItemStack(ModBlocks.blockOre1, 1, 6), new ItemStack(ModItems.ingotTitanium, 1), 1f);
+		GameRegistry.addSmelting(new ItemStack(ModBlocks.blockOre1, 1, 7), new ItemStack(ModItems.ingotChromium, 1), 1f);
+		GameRegistry.addSmelting(new ItemStack(ModBlocks.blockOre1, 1, 8), new ItemStack(ModItems.ingotSilicon, 1), 1f);
+		GameRegistry.addSmelting(new ItemStack(ModBlocks.blockOre1, 1, 9), new ItemStack(ModItems.ingotCobalt, 1), 1f);
+		GameRegistry.addSmelting(new ItemStack(ModBlocks.blockOre1, 1, 10), new ItemStack(ModItems.ingotTungsten, 1), 1f);
+		GameRegistry.addSmelting(new ItemStack(ModBlocks.blockOre1, 1, 11), new ItemStack(ModItems.ingotLead, 1), 1f);
+		GameRegistry.addSmelting(new ItemStack(ModBlocks.blockOre1, 1, 12), new ItemStack(ModItems.ingotPlatinum, 1), 1f);
+		GameRegistry.addSmelting(new ItemStack(ModBlocks.blockOre1, 1, 13), new ItemStack(ModItems.ingotLithium, 1), 1f);
+		GameRegistry.addSmelting(new ItemStack(ModBlocks.blockOre1, 1, 14), new ItemStack(ModItems.ingotUranium, 1), 1f);
+		GameRegistry.addSmelting(new ItemStack(ModBlocks.blockOre1, 1, 15), new ItemStack(ModItems.ingotPlutonium, 1), 1f);
+		
+		GameRegistry.addSmelting(new ItemStack(ModBlocks.blockOre1, 1, 4), new ItemStack(ModItems.ingotMagnesium, 1), 1f);
+		GameRegistry.addSmelting(new ItemStack(ModBlocks.blockOre1, 1, 7), new ItemStack(ModItems.ingotSilvanite, 1), 1f);
+		GameRegistry.addSmelting(new ItemStack(ModBlocks.blockOre1, 1, 8), new ItemStack(ModItems.ingotMercilite, 1), 1f);
+		GameRegistry.addSmelting(new ItemStack(ModBlocks.blockOre1, 1, 9), new ItemStack(ModItems.ingotMythian, 1), 1f);
+		GameRegistry.addSmelting(new ItemStack(ModBlocks.blockOre1, 1, 10), new ItemStack(ModItems.ingotDragite, 1), 1f);
+		GameRegistry.addSmelting(new ItemStack(ModBlocks.blockOre1, 1, 11), new ItemStack(ModItems.ingotFlarite, 1), 1f);
+		GameRegistry.addSmelting(new ItemStack(ModBlocks.blockOre1, 1, 12), new ItemStack(ModItems.ingotFurenium, 1), 1f);
+		
 		GameRegistry.addSmelting(ModItems.oreCoal, new ItemStack(Items.COAL), 1f);
 		GameRegistry.addSmelting(ModItems.oreIron, new ItemStack(Items.IRON_INGOT), 1f);
 		GameRegistry.addSmelting(ModItems.oreGold, new ItemStack(Items.GOLD_INGOT), 1f);
@@ -227,11 +256,19 @@ public class RecipeRegistry {
 		GameRegistry.addSmelting(ModItems.dustTinyStrootite, new ItemStack(ModItems.nuggetStrootite, 1), 0.2f);
 		GameRegistry.addSmelting(ModItems.dustTinySpeedoi, new ItemStack(ModItems.nuggetSpeedoi, 1), 0.2f);
 		GameRegistry.addSmelting(ModItems.dustTinyLegenite, new ItemStack(ModItems.nuggetLegenite, 1), 0.2f);
+		
+		if (!Loader.isModLoaded("thermalexpansion") && _COreConfig.general.glowstoneRecipe) {
+			GameRegistry.addSmelting(ModItems.dustGlowstoneBlend, new ItemStack(Items.GLOWSTONE_DUST, 1), 0.2f);
+		}
 	}
 	
 	public static void thermalExpansionRecipes() {
 		if (_COreConfig.cofh.aaa_disableCoFHRecipes) {
 			disableCoFHRecipes();
+		}
+		
+		if (_COreConfig.general.glowstoneRecipe) {
+			ThermalExpansionHelper.addChargerRecipe(8000, new ItemStack(ModItems.dustGlowstoneBlend), new ItemStack(Items.GLOWSTONE_DUST));
 		}
 		
 		if (_COreConfig.cofh.pulveriserRecipes) {
@@ -394,21 +431,20 @@ public class RecipeRegistry {
 			addTEPulverizerRecipe(AlloyLegeniteConfig.recipes.energyBaseline * nuggetCrusherEnergyModifier, ModItems.nuggetLegenite, ModItems.dustTinyLegenite, 1);
 		}
 		
+		int compactorEnergyModifier = _COreConfig.cofh.compactorEnergyUsageModifier;
 		if (_COreConfig.cofh.compressorRecipes) {
-			//Sulfur
-			//Blackstone
-			//Bluestone
-			//Purplestone
-			//Redstone
-			
-			//Ruby
-			//Sapphire
-			//Amethyst
-			//Crystal
-			//Diamond
-			//Emerald
-			
-			//Nuggets
+			addTECompactorRecipe(SulfurConfig.recipes.energyBaseline * compactorEnergyModifier, new ItemStack(ModItems.dustSulfur), new ItemStack(ModItems.ingotSulfur));
+			addTECompactorRecipe(BlackstoneConfig.recipes.energyBaseline * compactorEnergyModifier, new ItemStack(ModItems.dustBlackstone), new ItemStack(ModItems.ingotBlackstone));
+			addTECompactorRecipe(BluestoneConfig.recipes.energyBaseline * compactorEnergyModifier, new ItemStack(ModItems.dustBluestone), new ItemStack(ModItems.ingotBluestone));
+			addTECompactorRecipe(PurplestoneConfig.recipes.energyBaseline * compactorEnergyModifier, new ItemStack(ModItems.dustPurplestone), new ItemStack(ModItems.ingotPurplestone));
+			addTECompactorRecipe(VanillaRedstoneConfig.recipes.energyBaseline * compactorEnergyModifier, new ItemStack(Items.REDSTONE), new ItemStack(ModItems.ingotRedstone));
+
+			addTECompactorRecipe(RubyConfig.recipes.energyBaseline * compactorEnergyModifier, new ItemStack(ModItems.dustRuby), new ItemStack(ModItems.gemRuby));
+			addTECompactorRecipe(SapphireConfig.recipes.energyBaseline * compactorEnergyModifier, new ItemStack(ModItems.dustSapphire), new ItemStack(ModItems.gemSapphire));
+			addTECompactorRecipe(AmethystConfig.recipes.energyBaseline * compactorEnergyModifier, new ItemStack(ModItems.dustAmethyst), new ItemStack(ModItems.gemAmethyst));
+			addTECompactorRecipe(CrystalConfig.recipes.energyBaseline * compactorEnergyModifier, new ItemStack(ModItems.dustCrystal), new ItemStack(ModItems.gemCrystal));
+			addTECompactorRecipe(VanillaDiamondConfig.recipes.energyBaseline * compactorEnergyModifier, new ItemStack(ModItems.dustDiamond), new ItemStack(Items.DIAMOND));
+			addTECompactorRecipe(VanillaEmeraldConfig.recipes.energyBaseline * compactorEnergyModifier, new ItemStack(ModItems.dustEmerald), new ItemStack(Items.EMERALD));
 		}
 	}
 	
@@ -439,8 +475,10 @@ public class RecipeRegistry {
 		addTEPulverizerRecipe(energy, input, output, amt, null, 0, 0);
 	}
 	
-	//TODO TE furnace
-	//TODO induction furnace (alloys)
+	public static void addTECompactorRecipe(int energy, ItemStack input, ItemStack output) {
+		ThermalExpansionHelper.addCompactorRecipe(energy, input, output);
+	}
+	
 	//TODO Compactor (dust ingots)
 	
 

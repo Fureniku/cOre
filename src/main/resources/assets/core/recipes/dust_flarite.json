@@ -11,12 +11,11 @@
         "x":
         {
             "type": "forge:ore_dict",
-            "ore": "dustFlarite"
+            "ore": "dustTinyFlarite"
         }
     },
     "result":
     {
-        "item": "core:dust_tiny_flarite",
-        "count": 9
+        "item": "core:dust_flarite"
     }
 }

@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+        "type": "forge:ore_dict",
+        "ore": "dustBluestone"
+        }
+    ],
+    "result": {
+        "item": "core:dust_tiny_bluestone",
+        "count": 9
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "core:dust_emerald"
+        }
+    ],
+    "result": {
+        "item": "core:dust_tiny_emerald",
+        "count": 9
+    }
+}

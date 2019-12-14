@@ -11,12 +11,11 @@
         "x":
         {
             "type": "forge:ore_dict",
-            "ore": "dustFenikisite"
+            "ore": "dustTinyFenikisite"
         }
     },
     "result":
     {
-        "item": "core:dust_tiny_fenikisite",
-        "count": 9
+        "item": "core:dust_fenikisite"
     }
 }

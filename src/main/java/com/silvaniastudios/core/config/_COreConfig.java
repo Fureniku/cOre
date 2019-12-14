@@ -56,6 +56,9 @@ public class _COreConfig {
 		
 		@Config.Comment("Should Silk Touch work? Enabled: all cOre ores can be silk touched, disabled: no cOre ores can be silk touched.")
 		public boolean silkTouchOres = true;
+		
+		@Config.Comment("Should the recipe for glowstone (1 gold dust + 1 redstone dust = 2 glowstone dust) be enabled? \n(Requires TE Energetic Infuser if TE is installed, else defaults to smelting in a furnace)")
+		public boolean glowstoneRecipe = true;
 	}
 	
 	public static class GenModifiers {
@@ -134,5 +137,6 @@ public class _COreConfig {
 		public int oreCrusherEnergyUsageModifier = 16;
 		public int ingotCrusherEnergyUsageModifier = 8;
 		public int nuggetCrusherEnergyUsageModifier = 1;
+		public int compactorEnergyUsageModifier = 8;
 	}
 }

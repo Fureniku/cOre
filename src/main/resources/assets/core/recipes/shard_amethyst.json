@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "core:gem_amethyst"
+        }
+    ],
+    "result": {
+        "item": "core:nugget_amethyst",
+        "count": 9
+    }
+}

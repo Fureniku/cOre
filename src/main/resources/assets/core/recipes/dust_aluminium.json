@@ -11,12 +11,11 @@
         "x":
         {
             "type": "forge:ore_dict",
-            "ore": "dustAluminium"
+            "ore": "dustTinyAluminium"
         }
     },
     "result":
     {
-        "item": "core:dust_tiny_aluminium",
-        "count": 9
+        "item": "core:dust_aluminium"
     }
 }

@@ -11,12 +11,11 @@
         "x":
         {
             "type": "forge:ore_dict",
-            "ore": "dustMythian"
+            "ore": "dustTinyMythian"
         }
     },
     "result":
     {
-        "item": "core:dust_tiny_mythian",
-        "count": 9
+        "item": "core:dust_mythian"
     }
 }

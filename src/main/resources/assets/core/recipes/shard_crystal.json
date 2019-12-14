@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "core:gem_crystal"
+        }
+    ],
+    "result": {
+        "item": "core:nugget_crystal",
+        "count": 9
+    }
+}

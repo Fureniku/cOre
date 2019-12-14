@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "core:gem_sapphire"
+        }
+    ],
+    "result": {
+        "item": "core:nugget_sapphire",
+        "count": 9
+    }
+}

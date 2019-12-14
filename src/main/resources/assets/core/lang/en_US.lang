@@ -145,6 +145,7 @@ item.dust_netherquartz.name=Nether Quartz Dust
 item.dust_limestone.name=Limestone Dust
 item.dust_graphite.name=Graphite Dust
 item.dust_calcite.name=Calcite Dust
+item.dust_glowstone_blend.name=Glowstone Blend
 
 item.dust_impure_copper.name=Impure Copper Dust
 item.dust_impure_tin.name=Impure Tin Dust

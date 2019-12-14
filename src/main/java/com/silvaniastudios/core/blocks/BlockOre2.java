@@ -26,6 +26,7 @@ import net.minecraft.block.state.BlockStateContainer;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemStack;
+import net.minecraft.util.BlockRenderLayer;
 import net.minecraft.util.NonNullList;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.IBlockAccess;
@@ -95,8 +96,6 @@ public class BlockOre2 extends BlockCore {
 	
 	@Override
 	public void getDrops(NonNullList<ItemStack> drops, IBlockAccess world, BlockPos pos, IBlockState state, int fortune) {
-		System.out.println("Calling getDrops");
-	
 		Random rand = world instanceof World ? ((World)world).rand : RANDOM;
 		int meta = state.getValue(META_ID).getMetadata();
 		
@@ -122,5 +121,10 @@ public class BlockOre2 extends BlockCore {
 	@Override
     public boolean canSilkHarvest(World world, BlockPos pos, IBlockState state, EntityPlayer player) {
 		return _COreConfig.general.silkTouchOres;
+    }
+	
+	@Override
+   	public BlockRenderLayer getBlockLayer() {
+        return BlockRenderLayer.CUTOUT;
     }
 }

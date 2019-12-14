@@ -1,0 +1,21 @@
+{
+"type": "minecraft:crafting_shaped",
+    "pattern":
+    [
+        "xxx",
+        "xxx",
+        "xxx"
+    ],
+    "key":
+    {
+        "x":
+        {
+            "item": "core:nugget_crystal"
+        }
+    },
+    "result":
+    {
+        "item": "core:gem_crystal",
+        "count": 1
+    }
+}

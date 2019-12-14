@@ -3,7 +3,7 @@
 	"defaults": {
 		"transform": "forge:default-block",
 		"textures": { "all": "core:blocks/ore_block" },
-		"model": "cube_all"
+		"model": "core:block_ore"
 	},
 	"variants": {
 		"inventory": [{
@@ -11,22 +11,22 @@
 		}],
 		"ore_block_2":
 		{
-			"0": { "textures": { "all": "core:blocks/ore_ruby" }},
-			"1": { "textures": { "all": "core:blocks/ore_sapphire" }},
-			"2": { "textures": { "all": "core:blocks/ore_amethyst" }},
-			"3": { "textures": { "all": "core:blocks/ore_crystal" }},
-			"4": { "textures": { "all": "core:blocks/ore_magnesium" }},
-			"5": { "textures": { "all": "core:blocks/ore_phosphorus" }},
-			"6": { "textures": { "all": "core:blocks/ore_sulfur" }},
-			"7": { "textures": { "all": "core:blocks/ore_silvanite" }},
-			"8": { "textures": { "all": "core:blocks/ore_mercilite" }},
-			"9": { "textures": { "all": "core:blocks/ore_mythian" }},
-			"10": { "textures": { "all": "core:blocks/ore_dragite" }},
-			"11": { "textures": { "all": "core:blocks/ore_flarite" }},
-			"12": { "textures": { "all": "core:blocks/ore_furenium" }},
-			"13": { "textures": { "all": "core:blocks/ore_blackstone" }},
-			"14": { "textures": { "all": "core:blocks/ore_bluestone" }},
-			"15": { "textures": { "all": "core:blocks/ore_purplestone" }}
+			"0": { "textures": { "ore": "core:blocks/ore_ruby" }},
+			"1": { "textures": { "ore": "core:blocks/ore_sapphire" }},
+			"2": { "textures": { "ore": "core:blocks/ore_amethyst" }},
+			"3": { "textures": { "ore": "core:blocks/ore_crystal" }},
+			"4": { "textures": { "ore": "core:blocks/ore_magnesium" }},
+			"5": { "textures": { "ore": "core:blocks/ore_phosphorus" }},
+			"6": { "textures": { "ore": "core:blocks/ore_sulfur" }},
+			"7": { "textures": { "ore": "core:blocks/ore_silvanite" }},
+			"8": { "textures": { "ore": "core:blocks/ore_mercilite" }},
+			"9": { "textures": { "ore": "core:blocks/ore_mythian" }},
+			"10": { "textures": { "ore": "core:blocks/ore_dragite" }},
+			"11": { "textures": { "ore": "core:blocks/ore_flarite" }},
+			"12": { "textures": { "ore": "core:blocks/ore_furenium" }},
+			"13": { "textures": { "ore": "core:blocks/ore_blackstone" }},
+			"14": { "textures": { "ore": "core:blocks/ore_bluestone" }},
+			"15": { "textures": { "ore": "core:blocks/ore_purplestone" }}
 		}
 	}
 }

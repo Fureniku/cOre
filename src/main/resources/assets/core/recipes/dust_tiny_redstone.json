@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:redstone"
+        }
+    ],
+    "result": {
+        "item": "core:dust_tiny_redstone",
+        "count": 9
+    }
+}

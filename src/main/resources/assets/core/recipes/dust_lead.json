@@ -11,12 +11,11 @@
         "x":
         {
             "type": "forge:ore_dict",
-            "ore": "dustLead"
+            "ore": "dustTinyLead"
         }
     },
     "result":
     {
-        "item": "core:dust_tiny_lead",
-        "count": 9
+        "item": "core:dust_lead"
     }
 }

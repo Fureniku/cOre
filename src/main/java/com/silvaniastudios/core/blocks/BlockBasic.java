@@ -91,7 +91,6 @@ public class BlockBasic extends Block {
             	if (primaryItem != null) { drops.add(new ItemStack(primaryItem, amt)); System.out.println("Dropping " + primaryItem);} else { System.out.println("primaryItem for " + state.toString() + " (" + primaryDrop + ") is NULL! Please check your configs and make sure this item really exists."); }
             }
             int rng = rand.nextInt(100);
-            System.out.println("secondary chance: " + secChance + ", chance rolled: " + rng);
             if (rng < secChance) {
             	int amt = rand.nextInt(secMax + 1);
             	if (amt < secMin) { amt = secMin; }

@@ -11,12 +11,11 @@
         "x":
         {
             "type": "forge:ore_dict",
-            "ore": "dustNichrome"
+            "ore": "dustTinyNichrome"
         }
     },
     "result":
     {
-        "item": "core:dust_tiny_nichrome",
-        "count": 9
+        "item": "core:dust_nichrome"
     }
 }

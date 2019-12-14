@@ -11,12 +11,11 @@
         "x":
         {
             "type": "forge:ore_dict",
-            "ore": "dustCobalt"
+            "ore": "dustTinyCobalt"
         }
     },
     "result":
     {
-        "item": "core:dust_tiny_cobalt",
-        "count": 9
+        "item": "core:dust_cobalt"
     }
 }

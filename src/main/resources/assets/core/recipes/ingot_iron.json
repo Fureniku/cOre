@@ -1,0 +1,22 @@
+{
+"type": "minecraft:crafting_shaped",
+    "pattern":
+    [
+        "xxx",
+        "xxx",
+        "xxx"
+    ],
+    "key":
+    {
+        "x":
+        {
+            "type": "forge:ore_dict",
+            "ore": "nuggetIron"
+        }
+    },
+    "result":
+    {
+        "item": "minecraft:iron_ingot",
+        "count": 1
+    }
+}

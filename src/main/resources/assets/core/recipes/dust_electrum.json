@@ -11,12 +11,11 @@
         "x":
         {
             "type": "forge:ore_dict",
-            "ore": "dustElectrum"
+            "ore": "dustTinyElectrum"
         }
     },
     "result":
     {
-        "item": "core:dust_tiny_electrum",
-        "count": 9
+        "item": "core:dust_electrum"
     }
 }

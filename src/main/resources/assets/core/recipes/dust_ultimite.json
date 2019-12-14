@@ -11,12 +11,11 @@
         "x":
         {
             "type": "forge:ore_dict",
-            "ore": "dustUltimite"
+            "ore": "dustTinyUltimite"
         }
     },
     "result":
     {
-        "item": "core:dust_tiny_ultimite",
-        "count": 9
+        "item": "core:dust_ultimite"
     }
 }

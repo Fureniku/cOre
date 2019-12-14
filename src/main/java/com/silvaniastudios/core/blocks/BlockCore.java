@@ -134,10 +134,11 @@ public class BlockCore extends Block implements IMetaBlockName {
         	if (amt > secMax) { amt = secMax; }
         	if (secondaryItem != null) {
         		drops.add(new ItemStack(secondaryItem, amt+fortuneBonus, secMeta));
+        		COre.debug(2, "Secondary drop: " + secondaryItem.getItemStackDisplayName(new ItemStack(secondaryItem)) + " x " + (amt+fortuneBonus));
         	} else {
         		System.out.println("secondaryItem for " + state.toString() + " (" + secItem + ") is NULL! Please check your configs and make sure this item really exists.");
         	}
-        	COre.debug(2, "Secondary drop: " + secondaryItem.getItemStackDisplayName(new ItemStack(secondaryItem)) + " x " + (amt+fortuneBonus));
+        	
         } else {
         	COre.debug(2, "Secondary drop chance not reached (" + secRng + " is greater than " + secChance + ")");
         }

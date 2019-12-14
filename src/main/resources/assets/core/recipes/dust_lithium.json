@@ -11,12 +11,11 @@
         "x":
         {
             "type": "forge:ore_dict",
-            "ore": "dustLithium"
+            "ore": "dustTinyLithium"
         }
     },
     "result":
     {
-        "item": "core:dust_tiny_lithium",
-        "count": 9
+        "item": "core:dust_lithium"
     }
 }

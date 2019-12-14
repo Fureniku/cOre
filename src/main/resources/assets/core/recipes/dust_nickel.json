@@ -11,12 +11,11 @@
         "x":
         {
             "type": "forge:ore_dict",
-            "ore": "dustNickel"
+            "ore": "dustTinyNickel"
         }
     },
     "result":
     {
-        "item": "core:dust_tiny_nickel",
-        "count": 9
+        "item": "core:dust_nickel"
     }
 }

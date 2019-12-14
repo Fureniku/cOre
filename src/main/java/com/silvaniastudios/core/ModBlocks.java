@@ -1,6 +1,7 @@
 package com.silvaniastudios.core;
 
 import com.silvaniastudios.core.blocks.BlockBasic;
+import com.silvaniastudios.core.blocks.BlockCompressed;
 import com.silvaniastudios.core.blocks.BlockOre1;
 import com.silvaniastudios.core.blocks.BlockOre2;
 import com.silvaniastudios.core.blocks.BlockRefined1;
@@ -13,10 +14,13 @@ import com.silvaniastudios.core.config.LimestoneConfig;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
+import net.minecraft.init.Blocks;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
+import net.minecraft.item.ItemStack;
 import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.fluids.BlockFluidFinite;
+import net.minecraftforge.fml.common.Loader;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 import net.minecraftforge.registries.IForgeRegistry;
@@ -28,6 +32,24 @@ public class ModBlocks {
 	public static BlockRefined1 blockRefined1 = new BlockRefined1("refined_block_1");
 	public static BlockRefined2 blockRefined2 = new BlockRefined2("refined_block_2");
 	public static BlockRefined3 blockRefined3 = new BlockRefined3("refined_block_3");
+	
+	public static BlockCompressed compressed_stone = new BlockCompressed("compressed_stone", new ItemStack(Blocks.STONE, 1, 0));
+	public static BlockCompressed compressed_granite = new BlockCompressed("compressed_granite", new ItemStack(Blocks.STONE, 1, 1));
+	public static BlockCompressed compressed_diorite = new BlockCompressed("compressed_diorite", new ItemStack(Blocks.STONE, 1, 3));
+	public static BlockCompressed compressed_andesite = new BlockCompressed("compressed_andesite", new ItemStack(Blocks.STONE, 1, 5));
+	public static BlockCompressed compressed_dirt = new BlockCompressed("compressed_dirt", new ItemStack(Blocks.DIRT));
+	public static BlockCompressed compressed_cobblestone = new BlockCompressed("compressed_cobblestone", new ItemStack(Blocks.COBBLESTONE));
+	public static BlockCompressed compressed_sand = new BlockCompressed("compressed_sand", new ItemStack(Blocks.SAND));
+	public static BlockCompressed compressed_gravel = new BlockCompressed("compressed_gravel", new ItemStack(Blocks.GRAVEL));
+	public static BlockCompressed compressed_netherrack = new BlockCompressed("compressed_netherrack", new ItemStack(Blocks.NETHERRACK));
+	public static BlockCompressed compressed_soulsand = new BlockCompressed("compressed_soulsand", new ItemStack(Blocks.SOUL_SAND));
+	public static BlockCompressed compressed_endstone = new BlockCompressed("compressed_endstone", new ItemStack(Blocks.END_STONE));
+	
+	//Mod-added mass blocks
+	//Chisel
+	public static BlockCompressed compressed_marble = new BlockCompressed("compressed_ch_marble", new ItemStack(Block.getBlockFromName("chisel:marble")));
+	public static BlockCompressed compressed_limestone = new BlockCompressed("compressed_ch_limestone", new ItemStack(Block.getBlockFromName("chisel:limestone")));
+	public static BlockCompressed compressed_basalt = new BlockCompressed("compressed_ch_basalt", new ItemStack(Block.getBlockFromName("chisel:basalt")));
 		
 	public static BlockBasic blockGraphite = new BlockBasic("block_graphite", GraphiteConfig.drops.primaryDroppedItem, GraphiteConfig.drops.secondaryDroppedItem, GraphiteConfig.drops.primaryDropQtyMin, GraphiteConfig.drops.primaryDropQtyMax, GraphiteConfig.drops.secondaryDropQtyMin, GraphiteConfig.drops.secondaryDropQtyMax, GraphiteConfig.drops.primaryDropChance, GraphiteConfig.drops.secondaryDropChance, GraphiteConfig.drops.canFortune, GraphiteConfig.properties.hardnessBlock);
 	public static BlockBasic blockCalcite = new BlockBasic("block_calcite", CalciteConfig.drops.primaryDroppedItem, CalciteConfig.drops.secondaryDroppedItem, CalciteConfig.drops.primaryDropQtyMin, CalciteConfig.drops.primaryDropQtyMax, CalciteConfig.drops.secondaryDropQtyMin, CalciteConfig.drops.secondaryDropQtyMax, CalciteConfig.drops.primaryDropChance, CalciteConfig.drops.secondaryDropChance, CalciteConfig.drops.canFortune, CalciteConfig.properties.hardnessBlock);
@@ -113,7 +135,22 @@ public class ModBlocks {
 				blockRefined3,
 				blockGraphite,
 				blockCalcite,
-				blockLimestone
+				blockLimestone,
+				
+				compressed_stone,
+				compressed_granite,
+				compressed_diorite,
+				compressed_andesite,
+				compressed_dirt,
+				compressed_cobblestone,
+				compressed_sand,
+				compressed_gravel,
+				compressed_netherrack,
+				compressed_soulsand,
+				compressed_endstone,
+				compressed_marble,
+				compressed_limestone,
+				compressed_basalt
 		);
 		
 		for (int i = 0; i < fluidBlockArray.length; i++) {
@@ -134,6 +171,25 @@ public class ModBlocks {
 		registry.register(new ItemBlock(blockCalcite).setRegistryName(blockCalcite.getRegistryName()));
 		registry.register(new ItemBlock(blockLimestone).setRegistryName(blockLimestone.getRegistryName()));
 		
+		
+		registry.register(new ItemBlockCompressed(compressed_stone).setRegistryName(compressed_stone.getRegistryName()));
+		registry.register(new ItemBlockCompressed(compressed_granite).setRegistryName(compressed_granite.getRegistryName()));
+		registry.register(new ItemBlockCompressed(compressed_diorite).setRegistryName(compressed_diorite.getRegistryName()));
+		registry.register(new ItemBlockCompressed(compressed_andesite).setRegistryName(compressed_andesite.getRegistryName()));
+		registry.register(new ItemBlockCompressed(compressed_dirt).setRegistryName(compressed_dirt.getRegistryName()));
+		registry.register(new ItemBlockCompressed(compressed_cobblestone).setRegistryName(compressed_cobblestone.getRegistryName()));
+		registry.register(new ItemBlockCompressed(compressed_sand).setRegistryName(compressed_sand.getRegistryName()));
+		registry.register(new ItemBlockCompressed(compressed_gravel).setRegistryName(compressed_gravel.getRegistryName()));
+		registry.register(new ItemBlockCompressed(compressed_netherrack).setRegistryName(compressed_netherrack.getRegistryName()));
+		registry.register(new ItemBlockCompressed(compressed_soulsand).setRegistryName(compressed_soulsand.getRegistryName()));
+		registry.register(new ItemBlockCompressed(compressed_endstone).setRegistryName(compressed_endstone.getRegistryName()));
+		
+		if (Loader.isModLoaded("chisel")) {
+			registry.register(new ItemBlockCompressed(compressed_marble).setRegistryName(compressed_marble.getRegistryName()));
+			registry.register(new ItemBlockCompressed(compressed_limestone).setRegistryName(compressed_limestone.getRegistryName()));
+			registry.register(new ItemBlockCompressed(compressed_basalt).setRegistryName(compressed_basalt.getRegistryName()));
+		}
+		
 		for (int i = 0; i < fluidBlockArray.length; i++) {
 			registry.register(new ItemBlock(fluidBlockArray[i]).setRegistryName(fluidBlockArray[i].getRegistryName()));
 		}
@@ -148,6 +204,24 @@ public class ModBlocks {
 		blockGraphite.initModel();
 		blockCalcite.initModel();
 		blockLimestone.initModel();
+		
+		compressed_stone.initModel();
+		compressed_granite.initModel();
+		compressed_diorite.initModel();
+		compressed_andesite.initModel();
+		compressed_dirt.initModel();
+		compressed_cobblestone.initModel();
+		compressed_sand.initModel();
+		compressed_gravel.initModel();
+		compressed_netherrack.initModel();
+		compressed_soulsand.initModel();
+		compressed_endstone.initModel();
+		
+		if (Loader.isModLoaded("chisel")) {
+			compressed_marble.initModel();
+			compressed_limestone.initModel();
+			compressed_basalt.initModel();
+		}
 		
 		for (int i = 0; i < fluidBlockArray.length; i++) {
 			initModel(fluidBlockArray[i]);

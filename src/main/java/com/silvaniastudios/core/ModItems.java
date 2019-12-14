@@ -18,6 +18,7 @@ import com.silvaniastudios.core.config.AlloyUltimiteConfig;
 import com.silvaniastudios.core.config.AlloyUniumConfig;
 import com.silvaniastudios.core.config._ConfigValues;
 import com.silvaniastudios.core.items.ItemCore;
+import com.silvaniastudios.core.items.ItemGeneric;
 
 import net.minecraft.item.Item;
 import net.minecraftforge.registries.IForgeRegistry;
@@ -124,6 +125,8 @@ public class ModItems {
 	public static ItemCore dustImpureEmerald = (ItemCore) new ItemCore("dust_impure_emerald", _ConfigValues.emeraldValues, "dustImpure", false, null, null);
 	public static ItemCore dustImpureNetherQuartz = (ItemCore) new ItemCore("dust_impure_netherquartz", _ConfigValues.netherQuartzValues, "dustImpure", false, null, null);
 	
+	public static ItemGeneric dustGlowstoneBlend = (ItemGeneric) new ItemGeneric("dust_glowstone_blend");
+	
 	public static ItemCore dustTinyCopper = (ItemCore) new ItemCore("dust_tiny_copper", _ConfigValues.copperValues, "dustTiny", false, null, null);
 	public static ItemCore dustTinyTin = (ItemCore) new ItemCore("dust_tiny_tin", _ConfigValues.tinValues, "dustTiny", false, null, null);
 	public static ItemCore dustTinyZinc = (ItemCore) new ItemCore("dust_tiny_zinc", _ConfigValues.zincValues, "dustTiny", false, null, null);
@@ -183,6 +186,7 @@ public class ModItems {
 	public static ItemCore dustTinyLimestone = (ItemCore) new ItemCore("dust_tiny_limestone", _ConfigValues.limestoneValues, "dustTiny", false, null, null);
 	public static ItemCore dustTinyGraphite = (ItemCore) new ItemCore("dust_tiny_graphite", _ConfigValues.graphiteValues, "dustTiny", false, null, null);
 	public static ItemCore dustTinyCalcite = (ItemCore) new ItemCore("dust_tiny_calcite", _ConfigValues.calciteValues, "dustTiny", false, null, null);
+	
 	
 	public static ItemCore nuggetCopper = (ItemCore) new ItemCore("nugget_copper", _ConfigValues.copperValues, "nugget", false, null, null);
 	public static ItemCore nuggetTin = (ItemCore) new ItemCore("nugget_tin", _ConfigValues.tinValues, "nugget", false, null, null);
@@ -387,6 +391,7 @@ public class ModItems {
 			ItemCore item = itemArray[i];
 			registry.register(item);
 		}
+		registry.register(dustGlowstoneBlend);
 	}
 	
 	public static void registerModels() {
@@ -394,6 +399,7 @@ public class ModItems {
 			ItemCore item = itemArray[i];
 			item.registerItemModel();
 		}
+		dustGlowstoneBlend.registerItemModel();
 	}
 
 }

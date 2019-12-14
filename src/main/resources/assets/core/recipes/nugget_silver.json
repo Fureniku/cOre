@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+        "type": "forge:ore_dict",
+        "ore": "ingotSilver"
+        }
+    ],
+    "result": {
+        "item": "core:nugget_silver",
+        "count": 9
+    }
+}

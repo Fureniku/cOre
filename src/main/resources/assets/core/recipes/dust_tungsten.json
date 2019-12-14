@@ -11,12 +11,11 @@
         "x":
         {
             "type": "forge:ore_dict",
-            "ore": "dustTungsten"
+            "ore": "dustTinyTungsten"
         }
     },
     "result":
     {
-        "item": "core:dust_tiny_tungsten",
-        "count": 9
+        "item": "core:dust_tungsten"
     }
 }

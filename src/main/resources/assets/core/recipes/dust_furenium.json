@@ -11,12 +11,11 @@
         "x":
         {
             "type": "forge:ore_dict",
-            "ore": "dustFurenium"
+            "ore": "dustTinyFurenium"
         }
     },
     "result":
     {
-        "item": "core:dust_tiny_furenium",
-        "count": 9
+        "item": "core:dust_furenium"
     }
 }

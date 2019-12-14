@@ -1,0 +1,36 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "blocks/stone",
+		"ore": "core:blocks/ore_copper",
+		"particle": "blocks/stone"
+	},
+	"elements": [
+		{
+			"name": "Base",
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Frame",
+			"from": [-0.1, -0.1, -0.1],
+			"to": [16.1, 16.1, 16.1],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#ore"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#ore"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#ore"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#ore"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#ore"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#ore"}
+			}
+		}
+	]
+}

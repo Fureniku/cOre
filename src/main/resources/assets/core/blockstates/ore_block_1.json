@@ -3,7 +3,7 @@
 	"defaults": {
 		"transform": "forge:default-block",
 		"textures": { "all": "core:blocks/ore_block" },
-		"model": "cube_all"
+		"model": "core:block_ore"
 	},
 	"variants": {
 		"inventory": [{
@@ -11,22 +11,22 @@
 		}],
 		"ore_block_1":
 		{
-			"0": { "textures": { "all": "core:blocks/ore_copper" }},
-			"1": { "textures": { "all": "core:blocks/ore_tin" }},
-			"2": { "textures": { "all": "core:blocks/ore_zinc" }},
-			"3": { "textures": { "all": "core:blocks/ore_nickel" }},
-			"4": { "textures": { "all": "core:blocks/ore_silver" }},
-			"5": { "textures": { "all": "core:blocks/ore_aluminium" }},
-			"6": { "textures": { "all": "core:blocks/ore_titanium" }},
-			"7": { "textures": { "all": "core:blocks/ore_chromium" }},
-			"8": { "textures": { "all": "core:blocks/ore_silicon" }},
-			"9": { "textures": { "all": "core:blocks/ore_cobalt" }},
-			"10": { "textures": { "all": "core:blocks/ore_tungsten" }},
-			"11": { "textures": { "all": "core:blocks/ore_lead" }},
-			"12": { "textures": { "all": "core:blocks/ore_platinum" }},
-			"13": { "textures": { "all": "core:blocks/ore_lithium" }},
-			"14": { "textures": { "all": "core:blocks/ore_uranium" }},
-			"15": { "textures": { "all": "core:blocks/ore_plutonium" }}
+			"0": { "textures": { "ore": "core:blocks/ore_copper" }},
+			"1": { "textures": { "ore": "core:blocks/ore_tin" }},
+			"2": { "textures": { "ore": "core:blocks/ore_zinc" }},
+			"3": { "textures": { "ore": "core:blocks/ore_nickel" }},
+			"4": { "textures": { "ore": "core:blocks/ore_silver" }},
+			"5": { "textures": { "ore": "core:blocks/ore_aluminium" }},
+			"6": { "textures": { "ore": "core:blocks/ore_titanium" }},
+			"7": { "textures": { "ore": "core:blocks/ore_chromium" }},
+			"8": { "textures": { "ore": "core:blocks/ore_silicon" }},
+			"9": { "textures": { "ore": "core:blocks/ore_cobalt" }},
+			"10": { "textures": { "ore": "core:blocks/ore_tungsten" }},
+			"11": { "textures": { "ore": "core:blocks/ore_lead" }},
+			"12": { "textures": { "ore": "core:blocks/ore_platinum" }},
+			"13": { "textures": { "ore": "core:blocks/ore_lithium" }},
+			"14": { "textures": { "ore": "core:blocks/ore_uranium" }},
+			"15": { "textures": { "ore": "core:blocks/ore_plutonium" }}
 		}
 	}
 }

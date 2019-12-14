@@ -1,0 +1,32 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"transform": "forge:default-block",
+		"textures": { "0": "blocks/soul_sand" },
+		"model": "core:block_ore"
+	},
+	"variants": {
+		"inventory": [{
+			"transform": "forge:default-block"
+		}],
+		"compressed_block":
+		{
+			"0": { "textures": { "ore": "core:blocks/compressed_1" }},
+			"1": { "textures": { "ore": "core:blocks/compressed_2" }},
+			"2": { "textures": { "ore": "core:blocks/compressed_3" }},
+			"3": { "textures": { "ore": "core:blocks/compressed_4" }},
+			"4": { "textures": { "ore": "core:blocks/compressed_5" }},
+			"5": { "textures": { "ore": "core:blocks/compressed_6" }},
+			"6": { "textures": { "ore": "core:blocks/compressed_7" }},
+			"7": { "textures": { "ore": "core:blocks/compressed_8" }},
+			"8": { "textures": { "ore": "core:blocks/compressed_9" }},
+			"9": { "textures": { "ore": "core:blocks/compressed_10" }},
+			"10": { "textures": { "ore": "core:blocks/compressed_11" }},
+			"11": { "textures": { "ore": "core:blocks/compressed_12" }},
+			"12": { "textures": { "ore": "core:blocks/compressed_13" }},
+			"13": { "textures": { "ore": "core:blocks/compressed_14" }},
+			"14": { "textures": { "ore": "core:blocks/compressed_15" }},
+			"15": { "textures": { "ore": "core:blocks/compressed_16" }}
+		}
+	}
+}

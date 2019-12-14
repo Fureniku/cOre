@@ -11,12 +11,11 @@
         "x":
         {
             "type": "forge:ore_dict",
-            "ore": "dustSpeedoi"
+            "ore": "dustTinySpeedoi"
         }
     },
     "result":
     {
-        "item": "core:dust_tiny_speedoi",
-        "count": 9
+        "item": "core:dust_speedoi"
     }
 }

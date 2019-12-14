@@ -11,12 +11,11 @@
         "x":
         {
             "type": "forge:ore_dict",
-            "ore": "dustMercilite"
+            "ore": "dustTinyMercilite"
         }
     },
     "result":
     {
-        "item": "core:dust_tiny_mercilite",
-        "count": 9
+        "item": "core:dust_mercilite"
     }
 }
